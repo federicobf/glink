@@ -1,0 +1,34 @@
+[
+  {
+    "Comida":"Manteca",
+    "Porcion":"10g = 1 cda sopera)",
+    "Calorias":89,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manteca de cerdo",
+    "Porcion":"10g = 1 cda sopera)",
+    "Calorias":90,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manteca light untable",
+    "Porcion":"10g = 1 cda sopera)",
+    "Calorias":99,
+    "CH":"1",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manteca untable",
+    "Porcion":"10g = 1 cda sopera)",
+    "Calorias":89,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

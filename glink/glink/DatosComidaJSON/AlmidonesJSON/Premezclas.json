@@ -1,0 +1,82 @@
+[
+  {
+    "Comida":"Buñuelos de espinaca ",
+    "Porcion":"11g (40g 1/2 taza)",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Buñuelos y panqueques banana/manzana/vainilla",
+    "Porcion":"11g (40g 1/2 taza)",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chipá listo",
+    "Porcion":"50g (3u)",
+    "Calorias":149,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Milanesa de soja lista",
+    "Porcion":"73g (80g (1u))",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ñoquis caseros listo",
+    "Porcion":"70g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ñoquis de espinaca ",
+    "Porcion":"11g (40g 1/2 taza)",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ñoquis de papa ",
+    "Porcion":"11g (40g 1/2 taza)",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pizza premezcla",
+    "Porcion":"30g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pizza lista",
+    "Porcion":"35g (40g (1 porción))",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortas fritas listas",
+    "Porcion":"48g (40g (1u))",
+    "Calorias":192,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  }
+]

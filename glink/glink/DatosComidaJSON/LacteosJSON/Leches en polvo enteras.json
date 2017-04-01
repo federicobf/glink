@@ -1,0 +1,74 @@
+[
+  {
+    "Comida":"La Lechera",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":161,
+    "CH":"13",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":127,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":120,
+    "CH":"9",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo ",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":120,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo  instantanea",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":120,
+    "CH":"9",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo con sulfato ferroso",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":127,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo deslactosada",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":127,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera en polvo instantanea",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":128,
+    "CH":"10",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nido",
+    "Porcion":"1 vaso=26 g polvo",
+    "Calorias":130,
+    "CH":"9",
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

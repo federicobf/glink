@@ -1,0 +1,274 @@
+[
+  {
+    "Comida":"Clight kiwi melón ",
+    "Porcion":"1.6g polvo 200cc",
+    "Calorias":5,
+    "CH":0,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight lima limón",
+    "Porcion":" 1.4g polvo 200cc",
+    "Calorias":4,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight mango ",
+    "Porcion":"1.3g polvo 200cc",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight mango y pera",
+    "Porcion":"1.3g polvo 200cc",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight manzana deliciosa / clight stick",
+    "Porcion":" 1.5g polvo 200cc",
+    "Calorias":4,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight manzana verde",
+    "Porcion":" 1.6g polvo 200cc",
+    "Calorias":4,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight naranja / clight stick ",
+    "Porcion":"1.9g polvo 200cc",
+    "Calorias":6,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight naranja dulce ",
+    "Porcion":"1.7g polvo 200cc",
+    "Calorias":5,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight pera",
+    "Porcion":" 1.6g polvo 200cc",
+    "Calorias":4,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight pomelo rosado / clight stick ",
+    "Porcion":"2.1g polvo 200cc",
+    "Calorias":6,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight pomelo y limón ",
+    "Porcion":"1.9g polvo 200cc",
+    "Calorias":5,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight spa relax / clight spa stick ",
+    "Porcion":"2g polvo 200cc",
+    "Calorias":6,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clight spa vital / clight spa stick ",
+    "Porcion":"2g polvo 200cc",
+    "Calorias":6,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang ananá ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang durazno ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang limonada ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang mandarina",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":25,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang manzana / tang stick manzana ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":27,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang naranja dulce ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":25,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang naranja y mango ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang naranja, banana y frutilla",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang naranja, pomelo y limón",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":25,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang naranja/ tang stick naranja",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":27,
+    "CH":7,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang pomelo rosado ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tang stick uva ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao ananá ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao durazno ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":27,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao limonada ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao mandarina ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao manzana ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":27,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao naranja ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao naranja-banana ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao naranja-frutilla ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":6,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verao pomelo rosado ",
+    "Porcion":"7g polvo 200cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

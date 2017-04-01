@@ -1,0 +1,778 @@
+[
+  {
+    "Comida":"Arrocitas 3 cereales (arroz, trigo y avena)",
+    "Porcion":"25 g = 4 unidades",
+    "Calorias":97,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arrocitas con sal y sésamo",
+    "Porcion":"25g = 3 unidades",
+    "Calorias":97,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arrocitas de trigo",
+    "Porcion":"25 g = 4 unidades",
+    "Calorias":97,
+    "CH":19,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arrocitas Miel",
+    "Porcion":"25 g = 4 unidades",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochitos con semillas de lino",
+    "Porcion":"45g",
+    "Calorias":180,
+    "CH":20,
+    "Fibras":"3,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochitos con semillas de sésamo",
+    "Porcion":"45g",
+    "Calorias":185,
+    "CH":20,
+    "Fibras":"2,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochitos tradicionales",
+    "Porcion":"40g",
+    "Calorias":169,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochos de grasa",
+    "Porcion":"35g",
+    "Calorias":175,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas Arroz",
+    "Porcion":"25g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas clásicas",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas Copos",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas Integral",
+    "Porcion":"30g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas Salvado",
+    "Porcion":"30g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"2,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Club Social",
+    "Porcion":"30g",
+    "Calorias":140,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas",
+    "Porcion":"8 unidades = 30g",
+    "Calorias":149,
+    "CH":19,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas 3 Cereales",
+    "Porcion":"11 unidades = 30g",
+    "Calorias":140,
+    "CH":21,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas bizcochos",
+    "Porcion":"7 unidades = 30g",
+    "Calorias":131,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas lacteadas",
+    "Porcion":" 6 unidades  = 30g ",
+    "Calorias":124,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas más grandes",
+    "Porcion":"3 1/2  unidades = 30g",
+    "Calorias":142,
+    "CH":22,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas sin sal",
+    "Porcion":"3 1/2  unidades = 30g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas Tostadas",
+    "Porcion":"10 unidades = 53 g ",
+    "Calorias":285,
+    "CH":20,
+    "Fibras":"3,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Criollitas tostadas de arroz",
+    "Porcion":"4 1/2 unidades = 25g ",
+    "Calorias":89,
+    "CH":20,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Desayuno",
+    "Porcion":"30g",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Express",
+    "Porcion":"30g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fajitas cebolla",
+    "Porcion":"30g",
+    "Calorias":144,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fajitas clásicas",
+    "Porcion":"35g",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fajitas pizza",
+    "Porcion":"35g",
+    "Calorias":148,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fajitas queso",
+    "Porcion":"35g",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galleta de arroz con endulzante",
+    "Porcion":"2 1/2 unidades =25g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galleta de Arroz con sal",
+    "Porcion":"3 1/4 unidades =25g ",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galleta de Arroz Dulce / sin sal",
+    "Porcion":"3 1/4 unidades =25g ",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galleta de arroz integral con sal",
+    "Porcion":"2 1/2 unidades =25g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galleta de arroz integral sin sal",
+    "Porcion":"2 1/2 unidades =25g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletas de arroz integral sabor  Naranja y limón",
+    "Porcion":"2 1/2 unidades =25g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletas de trigo integral con sal",
+    "Porcion":"2 1/2 unidades =25g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletas light sin colesterol",
+    "Porcion":"30g",
+    "Calorias":122,
+    "CH":19,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas con salvado",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas con salvado light",
+    "Porcion":"30g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"3,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas con salvado sin sal adicionada",
+    "Porcion":"30g",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas con semillas de  sésamo",
+    "Porcion":"30g",
+    "Calorias":126,
+    "CH":19,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas con semillas de lino",
+    "Porcion":"35g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas crackers con salvado",
+    "Porcion":"30g",
+    "Calorias":130,
+    "CH":20,
+    "Fibras":"2,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas crackers con salvado sin sal",
+    "Porcion":"35g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"3,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas crackers sin sal",
+    "Porcion":"30g",
+    "Calorias":126,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas crackers sin sal",
+    "Porcion":"30g",
+    "Calorias":137,
+    "CH":21,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas crackers soja",
+    "Porcion":"35g",
+    "Calorias":139,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de agua",
+    "Porcion":"30g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de agua light",
+    "Porcion":"25g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de agua sin sal adicionada",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":21,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de trigo, comunes",
+    "Porcion":"30g",
+    "Calorias":142,
+    "CH":19,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de trigo, integral",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":21,
+    "Fibras":"3,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas Ritz, (Nabisco)",
+    "Porcion":"30g",
+    "Calorias":148,
+    "CH":19,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas sándwich",
+    "Porcion":"30g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas Ser Agua",
+    "Porcion":"7 unidades = 30 g",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas Ser salvado",
+    "Porcion":"7 unidades = 30 g",
+    "Calorias":114,
+    "CH":21,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletititas con semillas de sésamo sin sal",
+    "Porcion":"30g",
+    "Calorias":126,
+    "CH":19,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines",
+    "Porcion":"30g",
+    "Calorias":102,
+    "CH":19,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines clásicos con gluten integrales",
+    "Porcion":"30g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines clásicos con gluten maltedos",
+    "Porcion":"25g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines clásicos con gluten sin sal",
+    "Porcion":"25g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines con finas hierbas",
+    "Porcion":"30g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines Bammi",
+    "Porcion":"7 unidades = 20g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines con Sésamo ",
+    "Porcion":"30g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines light Equilibrio",
+    "Porcion":"30g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Grisines trisalvado ",
+    "Porcion":"25g (30g = 19 unidades)",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hogareñas 7 Semillas",
+    "Porcion":"7 unidades = 31g",
+    "Calorias":131,
+    "CH":19,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hogareñas Mix De Cereal",
+    "Porcion":"7 unidades = 31g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hogareñas Salvado",
+    "Porcion":"32g (6 unidades = 29g)",
+    "Calorias":141,
+    "CH":19,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hogareñas Sésamo",
+    "Porcion":"7 unidades = 31g",
+    "Calorias":152,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Light sin sal",
+    "Porcion":"30g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Light sin sal con salvado",
+    "Porcion":"30g",
+    "Calorias":130,
+    "CH":20,
+    "Fibras":"2,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Marineras Salvado",
+    "Porcion":"30g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Marineras Salvado sin sal",
+    "Porcion":"30g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Marineras Sandwich",
+    "Porcion":"30g",
+    "Calorias":130,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Marineras Sandwich sin sal",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Salvado",
+    "Porcion":"30g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Sandwich",
+    "Porcion":"30g",
+    "Calorias":130,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco sin sal",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayco Soja",
+    "Porcion":"30g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Media Tarde",
+    "Porcion":"8 unidades = 32g",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Media Tarde Cereales",
+    "Porcion":"30g",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Media Tarde Sandwich",
+    "Porcion":"26g (5 unidades = 30g)",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mini Cake (gall de arroz con azúcar negra)",
+    "Porcion":"23,5g  = 11 unidades",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mini sandwich",
+    "Porcion":"30g",
+    "Calorias":135,
+    "CH":21,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado Bagley Fibra sin sal",
+    "Porcion":"6 unidades = 32g",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado Bagley original",
+    "Porcion":"6 unidades = 32g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado Bagley sin sal",
+    "Porcion":"6 unidades = 32g",
+    "Calorias":122,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Semoladas",
+    "Porcion":"30g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serranas Sandwich",
+    "Porcion":"30g",
+    "Calorias":132,
+    "CH":21,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serranitas",
+    "Porcion":"30g",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serranitas Agua",
+    "Porcion":"30g",
+    "Calorias":138,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serranitas Sin Sal",
+    "Porcion":"",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Traviata",
+    "Porcion":"5 unidades = 30g",
+    "Calorias":219,
+    "CH":21,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trigalitas cereal",
+    "Porcion":"30g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"3,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trigalitas sándwich",
+    "Porcion":"30g",
+    "Calorias":129,
+    "CH":21,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tubo con salvado",
+    "Porcion":"35g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tubo de gluten",
+    "Porcion":"30g",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  }
+]

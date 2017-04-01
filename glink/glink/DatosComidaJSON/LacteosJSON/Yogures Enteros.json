@@ -1,0 +1,322 @@
+[
+  {
+    "Comida":"Activia Balance Plus",
+    "Porcion":"145 g = 1 pote",
+    "Calorias":158,
+    "CH":25,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido  durazno",
+    "Porcion":"125g = 1 pote",
+    "Calorias":134,
+    "CH":21,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido ciruela",
+    "Porcion":"125g = 1 pote",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido con pulpa de pera",
+    "Porcion":"125g = 1 pote",
+    "Calorias":136,
+    "CH":22,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido fibrabalance Mueslix",
+    "Porcion":"125g = 1 pote",
+    "Calorias":143,
+    "CH":23,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido frutilla",
+    "Porcion":"125g = 1 pote",
+    "Calorias":136,
+    "CH":19,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia batido natural",
+    "Porcion":"125g = 1 pote",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia bebible fibrabalance frutilla ",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":152,
+    "CH":43,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia bebible pulpa de fruta",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":150,
+    "CH":27,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia bebible saborizado",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":144,
+    "CH":25,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia firme",
+    "Porcion":"125g = 1 pote",
+    "Calorias":133,
+    "CH":19,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebible vainilla/frutilla ",
+    "Porcion":"200cc",
+    "Calorias":182,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Con frutas frutilla/durazno ",
+    "Porcion":"1 pote de 160g",
+    "Calorias":159,
+    "CH":25,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cremoso vainilla/frutilla/dulce de leche ",
+    "Porcion":"pote de 125g",
+    "Calorias":128,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs cremoso con frutas en el fondo duraznos/frutilla",
+    "Porcion":"190g = 1 pote",
+    "Calorias":194,
+    "CH":32,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs cremoso con pulpa de durazno/frutilla",
+    "Porcion":"190g = 1 pote",
+    "Calorias":200,
+    "CH":30,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs entero con copos de maiz azucarados",
+    "Porcion":"175g = 1 pote",
+    "Calorias":219,
+    "CH":37,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs entero natural sin adicion de azucar",
+    "Porcion":"200g = 1 vaso",
+    "Calorias":134,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur bebible entero, saborizado",
+    "Porcion":"200 cc= 1 vaso",
+    "Calorias":178,
+    "CH":26,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero batido saborizado",
+    "Porcion":"125 g = 1 pote",
+    "Calorias":124,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero batido saborizado",
+    "Porcion":"200 g = 1 vaso",
+    "Calorias":184,
+    "CH":26,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero bebible endulzado saborizado",
+    "Porcion":"200 g = 1 vaso",
+    "Calorias":158,
+    "CH":23,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero Bioarmonis",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":120,
+    "CH":18,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con aritos frutados para mezclar",
+    "Porcion":"150 g de yogur + 10 g de aritos",
+    "Calorias":192,
+    "CH":31,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con frutas en el fondo - Durazno",
+    "Porcion":"160 g = 1 pote",
+    "Calorias":172,
+    "CH":30,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con frutas en el fondo - Frutilla",
+    "Porcion":"160 g = 1 pote",
+    "Calorias":168,
+    "CH":29,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con top para mezclar (copos azucarados)",
+    "Porcion":"150 g yogur + 15  g cereal",
+    "Calorias":207,
+    "CH":35,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con top para mezclar (durazno)",
+    "Porcion":"150 g yogur + 50  g fruta",
+    "Calorias":197,
+    "CH":33,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con top para mezclar (frutilla)",
+    "Porcion":"150 g yogur + 50  g fruta",
+    "Calorias":197,
+    "CH":33,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero con top para mezclar (granola)",
+    "Porcion":"150 g yogur + 15  g cereal",
+    "Calorias":210,
+    "CH":32,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero firme endulzado sabor dulce de leche",
+    "Porcion":"200 g = 1 pote",
+    "Calorias":210,
+    "CH":30,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur entero firme saborizado",
+    "Porcion":"200 g = 1 pote",
+    "Calorias":203,
+    "CH":29,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo aireado limon",
+    "Porcion":"70g = 1 pote",
+    "Calorias":106,
+    "CH":12,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo batido con cereales, fibras y miel",
+    "Porcion":"125g = 1 pote",
+    "Calorias":154,
+    "CH":27,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo bebible licuado de banana",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":182,
+    "CH":35,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo bebible saborizado",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":168,
+    "CH":30,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo cremix frutilla / vainilla",
+    "Porcion":"125g = 1 pote",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo firme Hierro frutilla / dulce de leche",
+    "Porcion":"125g = 1 pote",
+    "Calorias":125,
+    "CH":18,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo firme saborizado",
+    "Porcion":"125g = 1 pote",
+    "Calorias":126,
+    "CH":18,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogurisimo licuado bebible frutilla",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":163,
+    "CH":30,
+    "Fibras":"*",
+    "FIELD6":""
+  }
+]

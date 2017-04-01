@@ -1,0 +1,242 @@
+[
+  {
+    "Comida":"Café descafeinado ",
+    "Porcion":"1,5g 1 cuch té)",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café expresso",
+    "Porcion":"80cc",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café filtrado",
+    "Porcion":"20cc",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café filtrado, descafeinado",
+    "Porcion":"200cc",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café instantáneo",
+    "Porcion":"3g",
+    "Calorias":11,
+    "CH":2,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café intenso ",
+    "Porcion":"1,5g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café sin procesar",
+    "Porcion":"3g",
+    "Calorias":6,
+    "CH":0,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café suave ",
+    "Porcion":"1,5g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café torrado",
+    "Porcion":"3g",
+    "Calorias":5,
+    "CH":0,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café, instantáneo, descafeinado, polvo",
+    "Porcion":"3g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café, instantáneo, descafeinado, preparado",
+    "Porcion":"200cc",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café, instantáneo, polvo",
+    "Porcion":"3g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Café, instantáneo, preparado",
+    "Porcion":"200cc",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cappuccino cremoso ",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":43,
+    "CH":6,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cappuccino italiano ",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":49,
+    "CH":9,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Malta",
+    "Porcion":"200cc",
+    "Calorias":74,
+    "CH":16,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nescafé café capuccino",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":54,
+    "CH":6,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nescafé café capuccino light",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":33,
+    "CH":4,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nescafé café con leche",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":89,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nescafé café Mokaccino",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":54,
+    "CH":6,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nescafé expreso",
+    "Porcion":"1,8 g = 1 cucharada de té",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sustituto de café Amanecer",
+    "Porcion":"12,5g =2 cdas",
+    "Calorias":15,
+    "CH":4,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Te de hierbas",
+    "Porcion":"3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Te de manzanilla",
+    "Porcion":"3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Té negro",
+    "Porcion":"3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Té negro",
+    "Porcion":"3g",
+    "Calorias":4,
+    "CH":0,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yerba mate CBSÉ Silueta Dr. Cormillot ",
+    "Porcion":"30 g",
+    "Calorias":11,
+    "CH":2,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yerba mate CBSÉ Silueta Naranja Dr. Cormillot ",
+    "Porcion":"30 g",
+    "Calorias":11,
+    "CH":2,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yerba mate endulzada Dr. Cormillot ",
+    "Porcion":"30 g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yerba mate regulasé  Dr. Cormillot ",
+    "Porcion":"30 g",
+    "Calorias":18,
+    "CH":4,
+    "Fibras":0,
+    "FIELD6":""
+  }
+]

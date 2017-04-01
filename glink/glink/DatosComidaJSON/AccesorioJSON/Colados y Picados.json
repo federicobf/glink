@@ -1,0 +1,65 @@
+[
+  {
+    "Comida":"Colado de Banana, etapa 1",
+    "Porcion":"71 g = 1 frasco",
+    "Calorias":60,
+    "CH":13,
+    "Fibras":2
+  },
+  {
+    "Comida":"Colado de Ciruela, etapa 1",
+    "Porcion":"71 g = 1 frasco",
+    "Calorias":64,
+    "CH":16,
+    "Fibras":2
+  },
+  {
+    "Comida":"Colado de Frutas Mixtas, etapa 2",
+    "Porcion":"113 g = 1 frasco",
+    "Calorias":68,
+    "CH":17,
+    "Fibras":1
+  },
+  {
+    "Comida":"Colado de Manzana, etapa 1",
+    "Porcion":"71 g = 1 frasco",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0
+  },
+  {
+    "Comida":"Colado de Verduras con Pollo, etapa 2",
+    "Porcion":"113 g = 1 frasco",
+    "Calorias":70,
+    "CH":9,
+    "Fibras":2
+  },
+  {
+    "Comida":"Colado de Verduras Mixtas, etapa 2",
+    "Porcion":"113 g = 1 frasco",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":1
+  },
+  {
+    "Comida":"Colado de Zapallo, etapa 1",
+    "Porcion":"71 g = 1 frasco",
+    "Calorias":37,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Puré de Banana y Frutas Mixtas, etapa 3",
+    "Porcion":"170 g = 1 frasco",
+    "Calorias":170,
+    "CH":41,
+    "Fibras":2
+  },
+  {
+    "Comida":"Puré y Trocitos de Verdura y Carne, etapa 3",
+    "Porcion":"170 g = 1 frasco",
+    "Calorias":85,
+    "CH":17,
+    "Fibras":2
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "Comida":"Banana ",
+    "Porcion":"12g",
+    "Calorias":42,
+    "CH":11,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ciruela",
+    "Porcion":"15g",
+    "Calorias":36,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ciruela, hervida, sin azucar",
+    "Porcion":"35g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Damasco",
+    "Porcion":"15g",
+    "Calorias":36,
+    "CH":9,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Damasco, hervido, sin azucar ",
+    "Porcion":"45g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Datil",
+    "Porcion":"15g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Durazno, hervido, sin azucar ",
+    "Porcion":"50g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Higo",
+    "Porcion":"15g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Higo, hervido",
+    "Porcion":"35g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manzana",
+    "Porcion":"15g",
+    "Calorias":36,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manzana, hervida, sin azucar",
+    "Porcion":"65g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pasas de uva, con semilla",
+    "Porcion":"13g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pasas de uva, sin semillas",
+    "Porcion":"13g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pera, desecada",
+    "Porcion":"15g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pera, hervida, sin azucar ",
+    "Porcion":"30g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  }
+]

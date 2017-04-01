@@ -1,0 +1,436 @@
+[
+  {
+    "Comida":"All bran",
+    "Porcion":"6 cucharadas soperas = 44g",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":"13,2"
+  },
+  {
+    "Comida":"Almohaditas 2 salvados",
+    "Porcion":"48 unidades = 27g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"3,5"
+  },
+  {
+    "Comida":"Almohaditas rellenas sabor chocolate",
+    "Porcion":"29g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"1,9"
+  },
+  {
+    "Comida":"Amaranto, copos",
+    "Porcion":"28g",
+    "Calorias":106,
+    "CH":21,
+    "Fibras":"2,9"
+  },
+  {
+    "Comida":"Aritos con miel",
+    "Porcion":"29g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"4,2"
+  },
+  {
+    "Comida":"Aritos de avena y miel",
+    "Porcion":"1 taza =30g",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"1,8"
+  },
+  {
+    "Comida":"Aritos frutados",
+    "Porcion":"23g",
+    "Calorias":89,
+    "CH":20,
+    "Fibras":"0,6"
+  },
+  {
+    "Comida":"Aritos frutales",
+    "Porcion":"29g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"4,1"
+  },
+  {
+    "Comida":"Avena flakes",
+    "Porcion":"30g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"3,0"
+  },
+  {
+    "Comida":"Bacaditos sabor avellaneda",
+    "Porcion":"_ taza =30g",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Baloncitos chocolatados",
+    "Porcion":"30g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"4,8"
+  },
+  {
+    "Comida":"Best Bran",
+    "Porcion":"34g",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":"9,1"
+  },
+  {
+    "Comida":"Bocaditos de avena",
+    "Porcion":"25g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,0"
+  },
+  {
+    "Comida":"Bocaditos dos salvados",
+    "Porcion":"26g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"1,3"
+  },
+  {
+    "Comida":"Bocaditos sabor Frutilla",
+    "Porcion":"30g",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Cereal Mix",
+    "Porcion":"1/2 taza tipo té = 30g",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"1,9"
+  },
+  {
+    "Comida":"Cheerios",
+    "Porcion":"2/3 taza tipo té = 25g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"1,2"
+  },
+  {
+    "Comida":"Chocapic",
+    "Porcion":"25g",
+    "Calorias":97,
+    "CH":20,
+    "Fibras":"1,5"
+  },
+  {
+    "Comida":"Choco krispis",
+    "Porcion":"5 cucaharadasa tipo postre = 25g",
+    "Calorias":96,
+    "CH":21,
+    "Fibras":"0,0"
+  },
+  {
+    "Comida":"Choco pops",
+    "Porcion":"24g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Choco zucaritas",
+    "Porcion":"24g",
+    "Calorias":94,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Chocoflakes",
+    "Porcion":"23g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Chocoforty's",
+    "Porcion":"22g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"0,2"
+  },
+  {
+    "Comida":"Cocoa blasts",
+    "Porcion":"30g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"2,7"
+  },
+  {
+    "Comida":"Cookie crisp",
+    "Porcion":"24g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Copos de arroz",
+    "Porcion":"23g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,3"
+  },
+  {
+    "Comida":"Copos de maíz",
+    "Porcion":"5 cucharadas soperas = 25g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Copos de maíz azucarados ",
+    "Porcion":"22g",
+    "Calorias":82,
+    "CH":20,
+    "Fibras":"0,4"
+  },
+  {
+    "Comida":"Copos de maíz con miel ",
+    "Porcion":"22g",
+    "Calorias":84,
+    "CH":20,
+    "Fibras":"0,4"
+  },
+  {
+    "Comida":"Copos de maíz sin azúcar",
+    "Porcion":"25g",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"1,0"
+  },
+  {
+    "Comida":"Corn Flakes",
+    "Porcion":"2/3 taza tipo té = 25g",
+    "Calorias":88,
+    "CH":21,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Fibra Max",
+    "Porcion":"52 g",
+    "Calorias":112,
+    "CH":20,
+    "Fibras":"22,1"
+  },
+  {
+    "Comida":"Fibra total 4",
+    "Porcion":"29g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"6,7"
+  },
+  {
+    "Comida":"Fitness",
+    "Porcion":"5 cucharadas tipo postre = 30g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"2,3"
+  },
+  {
+    "Comida":"Fitness & Fruits",
+    "Porcion":"30g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"2,0"
+  },
+  {
+    "Comida":"Frootloops",
+    "Porcion":"25g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Gold",
+    "Porcion":"25g",
+    "Calorias":90,
+    "CH":21,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Granola Crujiente Frutas y fibras",
+    "Porcion":"30g",
+    "Calorias":97,
+    "CH":20,
+    "Fibras":"2,8"
+  },
+  {
+    "Comida":"Granola avena, miel y almendras",
+    "Porcion":"20g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"2,1"
+  },
+  {
+    "Comida":"Granola avena, miel y pasas",
+    "Porcion":"20g",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"1,9"
+  },
+  {
+    "Comida":"Granola Crujiente",
+    "Porcion":"27g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"0,7"
+  },
+  {
+    "Comida":"Granola Crujiente del Bosque",
+    "Porcion":"27g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"0,7"
+  },
+  {
+    "Comida":"Granola Low Fat",
+    "Porcion":"27g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"3,5"
+  },
+  {
+    "Comida":"Granola, casera",
+    "Porcion":"40g",
+    "Calorias":196,
+    "CH":21,
+    "Fibras":"3,4"
+  },
+  {
+    "Comida":"Honey nuts",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Kellness Granola",
+    "Porcion":"29g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"2,2"
+  },
+  {
+    "Comida":"Kellness Granola almendras y canela",
+    "Porcion":"28g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"2,2"
+  },
+  {
+    "Comida":"Kellness Muslix tradicional",
+    "Porcion":"27g",
+    "Calorias":94,
+    "CH":20,
+    "Fibras":"1,8"
+  },
+  {
+    "Comida":"Mix Tropical",
+    "Porcion":"27g",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"1,5"
+  },
+  {
+    "Comida":"Nesquik",
+    "Porcion":"25g    (30 g = 3/4 taza)",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Quadritos de avena",
+    "Porcion":"22 unidades = 30g   (1 taza de té = 37g)",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"2,7"
+  },
+  {
+    "Comida":"Redonditos Chocolate",
+    "Porcion":"25g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"0,7"
+  },
+  {
+    "Comida":"Skarchitos azucarados",
+    "Porcion":"25g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Skarchitos con miel",
+    "Porcion":"20g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"0,4"
+  },
+  {
+    "Comida":"Skarchitos con yogur",
+    "Porcion":"25g",
+    "Calorias":85,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Special K",
+    "Porcion":"30g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Trigo inflado",
+    "Porcion":"6 cucharadas soperas = 30g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"3,4"
+  },
+  {
+    "Comida":"Trigo inflado con miel",
+    "Porcion":"25g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,9"
+  },
+  {
+    "Comida":"Trix",
+    "Porcion":"25g (30 g = 3/4 taza)",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"1,2"
+  },
+  {
+    "Comida":"Zucaritas",
+    "Porcion":"23g",
+    "Calorias":87,
+    "CH":20,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Zucaritas frutilla",
+    "Porcion":"24g",
+    "Calorias":85,
+    "CH":20,
+    "Fibras":"0,2"
+  },
+  {
+    "Comida":"Zucosos",
+    "Porcion":"22g (30 g = _ taza)",
+    "Calorias":83,
+    "CH":20,
+    "Fibras":"0,3"
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "Comida":"Baggio light Durazno ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":9,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio light Manzana roja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":38,
+    "CH":9,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio light Naranja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":34,
+    "CH":8,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Durazno  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":106,
+    "CH":26,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Durazno y Naranja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":90,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Manzana roja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":88,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Manzana verde ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":106,
+    "CH":26,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Multifruta ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":107,
+    "CH":26,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Naranja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":91,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Pera ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":106,
+    "CH":26,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Baggio Pronto Pomelo rosado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":90,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita 100%",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":97,
+    "CH":21,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita calcio+D",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":108,
+    "CH":25,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita light",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":45,
+    "CH":11,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":101,
+    "CH":25,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita multifruta",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":88,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita naranja",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":111,
+    "CH":27,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita pomelo rosado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":100,
+    "CH":24,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita saborizada limonada",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita saborizada pomelo",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":56,
+    "CH":14,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cepita saborizada pomelo rosado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":57,
+    "CH":14,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hi-C naranja/manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":100,
+    "CH":23,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc citrus",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc manzana pera",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc multifruta",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc naranja",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":29,
+    "CH":6,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo Bc naranja durazno",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de ananá enlatado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":86,
+    "CH":19,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de arándano, envasado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":114,
+    "CH":29,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de bayas del sauco",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":76,
+    "CH":14,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de cereza natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":110,
+    "CH":24,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de frambuesa natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":56,
+    "CH":11,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de fruto de la pasión (maracujá), natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":120,
+    "CH":29,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de granadilla natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de limón, envasado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":42,
+    "CH":13,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de limón, natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":50,
+    "CH":17,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de mandarina, natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de manzana comercial",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":96,
+    "CH":22,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de naranja, envasado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":106,
+    "CH":27,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de naranja, natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":90,
+    "CH":21,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de pomelo blanco, natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":78,
+    "CH":18,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de pomelo rosado, natural",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":78,
+    "CH":18,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de tomate, enlatado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":34,
+    "CH":8,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Jugo de uva comercial",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":140,
+    "CH":33,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de coco",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":20,
+    "CH":3,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Malta",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":100,
+    "CH":23,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nectar de grosellas negras comercial",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":112,
+    "CH":25,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nectar de grosellas rojas comercial",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":110,
+    "CH":25,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo ananá",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo duo ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo durazno ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo limonada ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo mandarina Gool",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo manzana  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo manzana ananá",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo naranja  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo naranja frutilla",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo Sport Manzana ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":128,
+    "CH":32,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo Sport Naranja/Manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":130,
+    "CH":32,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo Sport Tropical Mix ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":130,
+    "CH":32,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yahoo uva ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":160,
+    "CH":40,
+    "Fibras":0,
+    "FIELD6":""
+  }
+]

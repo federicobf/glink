@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Grupo Almidones</key>
+	<array>
+		<string>Amasados Industriales</string>
+		<string>Barras de cereal por unidad</string>
+		<string>Cereales para el desayuno</string>
+		<string>Cereales</string>
+		<string>Comidas elaboradas a base de almidones</string>
+		<string>Galletitas Dulces</string>
+		<string>Galletitas y Tostaditas</string>
+		<string>Harinas de legumbres</string>
+		<string>Harinas</string>
+		<string>Legumbres congeladas</string>
+		<string>Legumbres en conserva</string>
+		<string>Legumbres</string>
+		<string>Panes blancos</string>
+		<string>Panes integrales</string>
+		<string>Pastas Congeladas</string>
+		<string>Pastas Frescas Rellenas</string>
+		<string>Pastas Frescas Simples</string>
+		<string>Pastas secas</string>
+		<string>Polvo para preparar tortas</string>
+		<string>Premezclas</string>
+		<string>Productos de Confiteria</string>
+		<string>Productos Prelistos</string>
+		<string>Productos usados en panificación</string>
+		<string>Rebozadores y Pan Rallado</string>
+		<string>Soja y derivados</string>
+		<string>Tapas y Masas</string>
+		<string>Tostadas</string>
+		<string>Verduras Feculentas Congeladas</string>
+		<string>Verduras Feculentas en Conserva</string>
+		<string>Verduras Feculentas</string>
+	</array>
+	<key>Grupo Accesorio</key>
+	<array>
+		<string>Aderezos</string>
+		<string>Aguas Saborizadas</string>
+		<string>Aguas</string>
+		<string>Alfajores</string>
+		<string>Amargos</string>
+		<string>Bebidas a base de soja</string>
+		<string>Bebidas Alcohólicas</string>
+		<string>Caldos y Sopas</string>
+		<string>Cereales Infantiles</string>
+		<string>Chocolates</string>
+		<string>Colados y Picados</string>
+		<string>Comidas instantáneas deshidratadas</string>
+		<string>Condimentos</string>
+		<string>Copetín</string>
+		<string>Dulces Mermeladas Jaleas y Miel</string>
+		<string>Fórmulas infantiles</string>
+		<string>Gaseosas Light</string>
+		<string>Gaseosas</string>
+		<string>Golosinas</string>
+		<string>Helado dietético</string>
+		<string>Helado estandar</string>
+		<string>Hierbas</string>
+		<string>Infusiones</string>
+		<string>Jugos en polvo</string>
+		<string>Jugos</string>
+		<string>Leches Infantiles</string>
+		<string>Mermeladas Bajas Calorias</string>
+		<string>Polvo para postre dietético</string>
+		<string>Polvo para postre estandar</string>
+		<string>Polvo para saborizar leches</string>
+		<string>Repostería</string>
+		<string>Salsas</string>
+	</array>
+	<key>Grupo Sustancias Grasas</key>
+	<array>
+		<string>Aceites Animales</string>
+		<string>Aceites Vegetales</string>
+		<string>Cremas</string>
+		<string>Frutas Secas</string>
+		<string>Frutos</string>
+		<string>Grasas</string>
+		<string>Manteca</string>
+		<string>Margarinas y Mantecas</string>
+		<string>Mayonesas y Derivados</string>
+		<string>Semillas</string>
+		<string>Sustitutos</string>
+	</array>
+	<key>Grupo Vegetales</key>
+	<array>
+		<string>Alimentos Condimento</string>
+		<string>Comidas preparadas a base de verduras</string>
+		<string>Frutas Congeladas</string>
+		<string>Frutas disecadas</string>
+		<string>Frutas en conserva dietéticas</string>
+		<string>Frutas en conserva estandar</string>
+		<string>Frutas</string>
+		<string>Hongos y Brotes</string>
+		<string>Verduras Congeladas</string>
+		<string>Verduras Enlatadas</string>
+		<string>Verduras</string>
+	</array>
+	<key>Grupo Lacteos</key>
+	<array>
+		<string>Leches en polvo descremadas</string>
+		<string>Leches en polvo enteras</string>
+		<string>Leches fluidas descremadas</string>
+		<string>Leches fluidas enteras</string>
+		<string>Leches fluidas saborizadas</string>
+		<string>Leches Modificadas</string>
+		<string>Leches Otro</string>
+		<string>Postres</string>
+		<string>Yogures Descremados</string>
+		<string>Yogures Enteros</string>
+	</array>
+	<key>types</key>
+	<array>
+		<string>Grupo Almidones</string>
+		<string>Grupo Accesorio</string>
+		<string>Grupo Sustancias Grasas</string>
+		<string>Grupo Vegetales</string>
+		<string>Grupo Lacteos</string>
+	</array>
+</dict>
+</plist>

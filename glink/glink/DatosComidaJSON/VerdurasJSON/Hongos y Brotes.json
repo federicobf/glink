@@ -1,0 +1,178 @@
+[
+  {
+    "Comida":"Brotes de alubia",
+    "Porcion":"75g",
+    "Calorias":50,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de arvejas",
+    "Porcion":"540g",
+    "Calorias":167,
+    "CH":"10",
+    "Fibras":"12",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de lentejas",
+    "Porcion":"45g",
+    "Calorias":48,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de poroto arrinonado, crudos",
+    "Porcion":"245g",
+    "Calorias":71,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de poroto mung, crudos",
+    "Porcion":"170g",
+    "Calorias":51,
+    "CH":"10",
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de poroto pinto, crudos",
+    "Porcion":"85g",
+    "Calorias":53,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de soja",
+    "Porcion":"215g",
+    "Calorias":108,
+    "CH":"10",
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brotes de taro, crudos",
+    "Porcion":"430g",
+    "Calorias":47,
+    "CH":"10",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crimini o marron italiano",
+    "Porcion":"245g",
+    "Calorias":54,
+    "CH":"10",
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Enoki, crudo",
+    "Porcion":"140g",
+    "Calorias":48,
+    "CH":"10",
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girgolas",
+    "Porcion":"210g",
+    "Calorias":23,
+    "CH":"0",
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girgolas, secos",
+    "Porcion":"20g",
+    "Calorias":19,
+    "CH":"0",
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hongo, crudo",
+    "Porcion":"245g",
+    "Calorias":61,
+    "CH":"10",
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hongo, envasado, al natural",
+    "Porcion":"200g",
+    "Calorias":48,
+    "CH":"10",
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Morilla",
+    "Porcion":"200g",
+    "Calorias":20,
+    "CH":"*",
+    "Fibras":"14",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ostra, crudo",
+    "Porcion":"160g",
+    "Calorias":59,
+    "CH":"10",
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Portabello, crudo",
+    "Porcion":"195g",
+    "Calorias":51,
+    "CH":"10",
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Setas",
+    "Porcion":"140g",
+    "Calorias":15,
+    "CH":"*",
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Setas, seca",
+    "Porcion":"17g",
+    "Calorias":21,
+    "CH":"1",
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Shitake, cocido",
+    "Porcion":"70g",
+    "Calorias":39,
+    "CH":"10",
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Shitake, seco",
+    "Porcion":"15g",
+    "Calorias":44,
+    "CH":"11",
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trufa",
+    "Porcion":"60g",
+    "Calorias":16,
+    "CH":"*",
+    "Fibras":"10",
+    "FIELD6":""
+  }
+]

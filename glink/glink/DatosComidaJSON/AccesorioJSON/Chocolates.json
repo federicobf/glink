@@ -1,0 +1,471 @@
+[
+  {
+    "Comida":"Baño de repostería blanco",
+    "Porcion":"2 cdas de sopa = 25g",
+    "Calorias":145,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Baño de repostería leche",
+    "Porcion":"2 cdas de sopa = 25g",
+    "Calorias":143,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Baño de reposteria para tortas sabor chocolate",
+    "Porcion":"2 cdas de sopa = 25g",
+    "Calorias":129,
+    "CH":13,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Baño de repostería semiamargo",
+    "Porcion":"2 cdas de sopa = 25g",
+    "Calorias":134,
+    "CH":11,
+    "Fibras":"3"
+  },
+  {
+    "Comida":"Barra Bon o Bon",
+    "Porcion":"1 unidad = 30g",
+    "Calorias":155,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Barra Bon o Bon Chocolate",
+    "Porcion":"1 unidad = 30g",
+    "Calorias":161,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Baton chocolate blanco",
+    "Porcion":"16 g = 1 unidad",
+    "Calorias":89,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Baton chocolate con leche",
+    "Porcion":"16 g = 1 unidad",
+    "Calorias":86,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bon o Bon Blanco",
+    "Porcion":"1 unidad = 17g",
+    "Calorias":95,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bon o Bon Chocolate",
+    "Porcion":"1 unidad = 17g",
+    "Calorias":94,
+    "CH":8,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Bon o Bon Leche",
+    "Porcion":"1 unidad = 17g",
+    "Calorias":94,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bon o Bon Suave",
+    "Porcion":"1 unidad = 17g",
+    "Calorias":95,
+    "CH":8,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cappucino  Águila D'or",
+    "Porcion":"1 tableta = 75g",
+    "Calorias":431,
+    "CH":37,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Classic Ao Leite",
+    "Porcion":"30 g = 4 cuadraditos",
+    "Calorias":160,
+    "CH":18,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Classic Caju",
+    "Porcion":"30 g = 4 cuadraditos",
+    "Calorias":160,
+    "CH":17,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Classic con Almndras",
+    "Porcion":"31 g = 2 cuadraditos",
+    "Calorias":174,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Classic con Almndras Aireado",
+    "Porcion":"26 g = 2 cuadraditos",
+    "Calorias":144,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Classic con Almndras y pasas al Ron",
+    "Porcion":"26 g = 2 cuadraditos",
+    "Calorias":157,
+    "CH":16,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Classic Duo",
+    "Porcion":"25 g = 4 cuadraditos",
+    "Calorias":134,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Classic Meio Amargo",
+    "Porcion":"25 g = 4 cuadraditos",
+    "Calorias":126,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Cœur Truffé",
+    "Porcion":"21 g = 2 cuadraditos",
+    "Calorias":115,
+    "CH":10,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Cœur Truffé à l´Orange",
+    "Porcion":"21 g = 2 cuadraditos",
+    "Calorias":117,
+    "CH":11,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cofler Leche",
+    "Porcion":"28g = 1/2 tableta de 55g",
+    "Calorias":300,
+    "CH":30,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cookie ",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":119,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Crunch",
+    "Porcion":"30 g = 4 cuadraditos",
+    "Calorias":150,
+    "CH":19,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate Águila Semiamargo",
+    "Porcion":"1 barrita = 25g",
+    "Calorias":134,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate blanco",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":140,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate blanco aireado cubierto con chocolate Milka Leger",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":137,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate blanco aireado Milka Leger",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":139,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate blanco Arcor ",
+    "Porcion":"1 _ barrita = 25g",
+    "Calorias":130,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate blanco Milka M-Joy",
+    "Porcion":"25g = 1/3 de unidad",
+    "Calorias":139,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con arroz crujiente",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":130,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con castañas de cajú",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":130,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con leche",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":133,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con leche aireado Milka Leger",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":130,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate con leche con almendras  Milka",
+    "Porcion":"25g",
+    "Calorias":136,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate con leche con almendras  M-Joy",
+    "Porcion":"25g = 1/3 de unidad",
+    "Calorias":135,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate con leche con castañas y almendras Milka",
+    "Porcion":"25g",
+    "Calorias":131,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con leche con castañas y caramelo ",
+    "Porcion":"25g = 1/3 de unidad",
+    "Calorias":133,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate con leche con crispines de arroz ",
+    "Porcion":"25g = 1/3 de unidad",
+    "Calorias":128,
+    "CH":16,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate con leche Milka",
+    "Porcion":" 25g",
+    "Calorias":131,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate con leche Milka M-Joy",
+    "Porcion":"25g = 1/3 de unidad",
+    "Calorias":131,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate con leche y almendras partidas aire",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":133,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate con leche y maní Shot",
+    "Porcion":"25g",
+    "Calorias":136,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate con leche y nougat con miel y almendras Toblerone",
+    "Porcion":"25g = 1/2 unidad",
+    "Calorias":132,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate de Taza",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":133,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate semiamargo",
+    "Porcion":"25 g = 1/7 de tableta",
+    "Calorias":130,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chocolate semiamargo con nougat Toblerone",
+    "Porcion":"25g = 1/2 unidad",
+    "Calorias":126,
+    "CH":13,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Chocolate Suchard",
+    "Porcion":"25g = 1/4 de tableta",
+    "Calorias":122,
+    "CH":15,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Chocolitos Blanco",
+    "Porcion":"3 cucharadas de sopa = 25g",
+    "Calorias":122,
+    "CH":13,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Chocolitos Semiamargo",
+    "Porcion":"3 cucharadas de sopa = 25g",
+    "Calorias":105,
+    "CH":22,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Diplomata",
+    "Porcion":"30 g = 4 cuadraditos",
+    "Calorias":160,
+    "CH":18,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"D'Or Mousse Águila",
+    "Porcion":"1 tableta = 75g",
+    "Calorias":404,
+    "CH":35,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Ecuador Águila",
+    "Porcion":"1/4 tableta=25g",
+    "Calorias":130,
+    "CH":9,
+    "Fibras":"3"
+  },
+  {
+    "Comida":"Galak",
+    "Porcion":"25 g = 4 cuadraditos",
+    "Calorias":132,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Lait Caramel Amandes Nougat",
+    "Porcion":"33 g = 2 cuadraditos",
+    "Calorias":177,
+    "CH":17,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Lait Noisettes Entières",
+    "Porcion":"33 g = 2 cuadraditos",
+    "Calorias":188,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Maní con chocolate Cofler Block",
+    "Porcion":"38g = 1 tableta",
+    "Calorias":204,
+    "CH":22,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Max amendoim",
+    "Porcion":"36 g = 1/5  de tableta",
+    "Calorias":195,
+    "CH":18,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Mundy Avelá",
+    "Porcion":"12,5 g = 1 unidad",
+    "Calorias":68,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mundy Coco",
+    "Porcion":"12,5 g = 1 unidad",
+    "Calorias":71,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mundy Cream",
+    "Porcion":"12,5 g = 1 unidad",
+    "Calorias":68,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mundy Mousse",
+    "Porcion":"12,5 g = 1 unidad",
+    "Calorias":67,
+    "CH":7,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Noir Eclats de Cacao Merinque",
+    "Porcion":"33 g = 2 cuadraditos",
+    "Calorias":163,
+    "CH":17,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Noir Intense",
+    "Porcion":"25 g = 2 cuadraditos",
+    "Calorias":140,
+    "CH":8,
+    "Fibras":"37"
+  },
+  {
+    "Comida":"Noir Noisettes Entières",
+    "Porcion":"33 g = 2 cuadraditos",
+    "Calorias":183,
+    "CH":12,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Noir Raisins Noisettes Amandes",
+    "Porcion":"33 g = 2 cuadraditos",
+    "Calorias":172,
+    "CH":13,
+    "Fibras":"4"
+  }
+]

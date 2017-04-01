@@ -1,0 +1,122 @@
+[
+  {
+    "Comida":"Batata, con cáscara, asada",
+    "Porcion":"80g",
+    "Calorias":82,
+    "CH":19,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Batata, pelada, hervida",
+    "Porcion":"80g",
+    "Calorias":84,
+    "CH":19,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo, amarillo, dulce, hervido",
+    "Porcion":"80g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"2,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo, blanco, dulce, hervido",
+    "Porcion":"80g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"2,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mandioca",
+    "Porcion":"60g",
+    "Calorias":80,
+    "CH":19,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ñame o yam, hervido o asado",
+    "Porcion":"70g",
+    "Calorias":81,
+    "CH":19,
+    "Fibras":"2,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papa, blanca, con cáscara, asada",
+    "Porcion":"95g",
+    "Calorias":89,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papa, cocida con cáscara",
+    "Porcion":"135g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papa, con cáscara, al microondas",
+    "Porcion":"85g",
+    "Calorias":84,
+    "CH":19,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papa, pelada, asada",
+    "Porcion":"95g",
+    "Calorias":84,
+    "CH":19,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papa, pelada, hervida",
+    "Porcion":"100g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salsifi blanco u ostra vegetal, hervido",
+    "Porcion":"130g",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"4,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Taro o papa china, cocido, sin sal",
+    "Porcion":"60g",
+    "Calorias":85,
+    "CH":21,
+    "Fibras":"3,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Topinambur o Alcaucil de Jerusalén, crudo",
+    "Porcion":"115g",
+    "Calorias":84,
+    "CH":19,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Wasabi, raiz cruda",
+    "Porcion":"85g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"6,5",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Comida":"Arvejas secas remojadas ",
+    "Porcion":"1 taza de té = 130g (escurrido)",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"8,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arvejas verdes medianas ",
+    "Porcion":"143g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"9,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Garbanzos secos remojados",
+    "Porcion":"105g",
+    "Calorias":115,
+    "CH":19,
+    "Fibras":"5,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lentejas remojadas",
+    "Porcion":"90g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"6,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto Alubia seco remojado",
+    "Porcion":"130g",
+    "Calorias":118,
+    "CH":19,
+    "Fibras":"7,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto blanco, enlatado",
+    "Porcion":"90g",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"4,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto lima, grande, enlatado",
+    "Porcion":"135g",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"6,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto Manteca",
+    "Porcion":"132g",
+    "Calorias":126,
+    "CH":20,
+    "Fibras":"6,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto Pallares",
+    "Porcion":"132g",
+    "Calorias":126,
+    "CH":20,
+    "Fibras":"6,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto seco remojado",
+    "Porcion":"95g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"10,5",
+    "FIELD6":""
+  }
+]

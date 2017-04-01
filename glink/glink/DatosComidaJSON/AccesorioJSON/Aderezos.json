@@ -1,0 +1,156 @@
+[
+  {
+    "Comida":"Aceto balsámico cocinero",
+    "Porcion":"13g",
+    "Calorias":17,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Aceto balsámico Lira",
+    "Porcion":"13g",
+    "Calorias":17,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Aderezo a base de mostaza Danifiesta",
+    "Porcion":"12g",
+    "Calorias":9,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ají Picante Hellmann´s",
+    "Porcion":"1 cucharada sopera = 12 g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caesar",
+    "Porcion":"10g",
+    "Calorias":53,
+    "CH":0,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cocinero light, aderezo para ensaladas ",
+    "Porcion":"13g",
+    "Calorias":2,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chimichurri Hellmann´s",
+    "Porcion":"1 cucharada sopera = 12 g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Francés",
+    "Porcion":"20g",
+    "Calorias":101,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Italiano",
+    "Porcion":"35g",
+    "Calorias":102,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jugo de limón Cocinero",
+    "Porcion":"200cc",
+    "Calorias":44,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jugo de limón Minerva",
+    "Porcion":"200cc",
+    "Calorias":44,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jugo de limoncito verde Minerva",
+    "Porcion":"200g",
+    "Calorias":44,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ketchup",
+    "Porcion":"12g",
+    "Calorias":15,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ketchup",
+    "Porcion":"10g",
+    "Calorias":10,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ketchup común",
+    "Porcion":"1 cucharada = 12g",
+    "Calorias":18,
+    "CH":6,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ketchup Pet Picante",
+    "Porcion":"1 cucharada = 12g",
+    "Calorias":26,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mostaza",
+    "Porcion":"12g",
+    "Calorias":12,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mostaza amarilla, preparada",
+    "Porcion":"5g",
+    "Calorias":3,
+    "CH":0,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Ranch",
+    "Porcion":"20g",
+    "Calorias":92,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Roquefort",
+    "Porcion":"20g",
+    "Calorias":101,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Salsa Barbacoa",
+    "Porcion":"1 cucharada sopera = 12 g",
+    "Calorias":19,
+    "CH":5,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Thousand Island",
+    "Porcion":"30g",
+    "Calorias":104,
+    "CH":4,
+    "Fibras":"0"
+  }
+]

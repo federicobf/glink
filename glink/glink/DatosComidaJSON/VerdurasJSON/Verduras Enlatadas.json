@@ -1,0 +1,154 @@
+[
+  {
+    "Comida":"Acelga ",
+    "Porcion":"450g",
+    "Calorias":84,
+    "CH":10,
+    "Fibras":14,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chauchas cortadas ",
+    "Porcion":"60g",
+    "Calorias":70,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Esparrago",
+    "Porcion":"405g",
+    "Calorias":77,
+    "CH":10,
+    "Fibras":6,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Palmito",
+    "Porcion":"210g",
+    "Calorias":59,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Remolacha",
+    "Porcion":"140g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, pasta",
+    "Porcion":"50g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, pure, enlatado",
+    "Porcion":"100g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, salsa",
+    "Porcion":"145g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria",
+    "Porcion":"180g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pulpa de tomate",
+    "Porcion":"3 cdas de sopa = 60g",
+    "Calorias":10,
+    "CH":2,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pure de tomate Noel",
+    "Porcion":"3 cdas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate cubeteado con cebolla ",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":65,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate cubeteado",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":54,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate pelado",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate pelado con albahaca",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":62,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate pelados cubet. con pimiento verde",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":65,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate pelado en jugo de tomate",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":61,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate pelado perita",
+    "Porcion":"1/2 taza = 130g",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate Perita en mitades desecado ",
+    "Porcion":"1 taza te = 40g",
+    "Calorias":54,
+    "CH":10,
+    "Fibras":1,
+    "FIELD6":""
+  }
+]

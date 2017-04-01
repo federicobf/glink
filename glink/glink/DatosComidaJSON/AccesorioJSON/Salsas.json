@@ -1,0 +1,457 @@
+[
+  {
+    "Comida":"Pomarola Albahaca Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":20,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Pomarola Cebolla de verdeo Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":20,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Pomarola Light Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":14,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Pomarola Tradicional Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":26,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Purecica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":16,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Purecica con orégano",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":13,
+    "CH":2,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa basilico con albahaca ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":21,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa blanca, casera",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":88,
+    "CH":6,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa blanca, casera, espesa",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":112,
+    "CH":7,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa blanca, casera, liviana",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":63,
+    "CH":4,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa Bolognesa Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":32,
+    "CH":5,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa de La Huerta ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":17,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa de tomate con pulpa de espinaca ",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":29,
+    "CH":6,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa de tomate con pulpa de remolacha ",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa de tomate con pulpa de zanahoria ",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":23,
+    "CH":5,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa de tomates básica Knorr",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":15,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa del mediterráneo Arrabiata Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":26,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa del mediterráneo Cazadora Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":25,
+    "CH":5,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa del mediterráneo Scarparo Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":30,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa deshidratada 4 quesos Knorr Cica ",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Blanca Knorr Cica",
+    "Porcion":"1 cucharadita de té = 1,4g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Carbonara Knorr Cica",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Champignon Knorr Cica",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Crema de albahaca Knorr",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Crema de espinacas Knorr Cica",
+    "Porcion":"1/2 cucharada sopera = 5g",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Hierbas Knorr Cica",
+    "Porcion":"1 cucharadita de té = 2,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Pesto Knorr Cica",
+    "Porcion":"1 cucharadita de té = 3,67g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Primavera Knorr Cica",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa deshidratada Rosa Knorr Cica",
+    "Porcion":"1/2 cucharada sopera = 3g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa filetto Arcor ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":17,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Filetto Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":23,
+    "CH":5,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa Italiana al Verdeo  Arcor",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Italiana con cebolla de verdeo ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":19,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Napolitana Arcor ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":19,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Napolitana Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":25,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Napolitana Noel",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa para Pizza Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":19,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Picantezza  Arcor",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":77,
+    "CH":13,
+    "Fibras":4
+  },
+  {
+    "Comida":"Salsa Pizza  Noel",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":21,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa pizza Arcor",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":23,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Pomarola \"Sin Sal\"  Arcor",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":16,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Pomarola Arcor ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":21,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Pomarola Noel ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Portuguesa Arcor ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Portuguesa Knorr Cica",
+    "Porcion":"3 cucharadas soperas = 60g",
+    "Calorias":25,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Portuguesa Noel ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":20,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Provenzza ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":26,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa Rosatta ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":19,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsa teriyaki",
+    "Porcion":"10g",
+    "Calorias":8,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa teriyaki, reducida en sodio",
+    "Porcion":"10g",
+    "Calorias":8,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa tuco sin carne Noel",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":32,
+    "CH":4,
+    "Fibras":2
+  },
+  {
+    "Comida":"Salsa worcestershire",
+    "Porcion":"10g",
+    "Calorias":7,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsa, carne o ave, preparada, bajo en sodio",
+    "Porcion":"10g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salsati al vino blanco",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":20,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati con aceitunas",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":22,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati con ajo y cebolla",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":17,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati con albahaca",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":29,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati condipizza",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":16,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati cubeteado",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":16,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati cubeteado ",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":32,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati fileto",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":30,
+    "CH":5,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati parmesana",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":30,
+    "CH":3,
+    "Fibras":1
+  },
+  {
+    "Comida":"Salsati Pomarola",
+    "Porcion":"3 cucharadas de sopa = 60g",
+    "Calorias":43,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Shoyu (soja y trigo)",
+    "Porcion":"10g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Tamari (soja)",
+    "Porcion":"10g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  }
+]

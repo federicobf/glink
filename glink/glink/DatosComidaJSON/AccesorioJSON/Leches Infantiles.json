@@ -1,0 +1,79 @@
+[
+  {
+    "Comida":"Bebe 1",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":175,
+    "CH":19,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bebe 2",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":175,
+    "CH":19,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bebe 3",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":173,
+    "CH":19,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bebe P",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":200,
+    "CH":21,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Leche Crecer 1 con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":173,
+    "CH":18,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Leche Crecer 2 con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":170,
+    "CH":16,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Leche crecer 3 con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":170,
+    "CH":18,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nido",
+    "Porcion":"200 cc = 1 vaso (26 g polvo)",
+    "Calorias":130,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nido 3 + con Prebio 3",
+    "Porcion":"200 cc = 1 vaso (29 g polvo)",
+    "Calorias":138,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Nido 6+ con Calci-n",
+    "Porcion":"200 cc = 1 vaso (26 g polvo)",
+    "Calorias":111,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nido Crecimiento 1+ con Prebio 1",
+    "Porcion":"200 cc = 1 vaso (29 g polvo)",
+    "Calorias":133,
+    "CH":15,
+    "Fibras":"1"
+  }
+]

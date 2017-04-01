@@ -1,0 +1,947 @@
+[
+  {
+    "Comida":"Caldo Cubo de Carne Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Carne Knorr Vitalie",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Costilla Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Gallina con azafr‡n Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Gallina Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Gallina Knorr Vitalie",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Pechuga de pollo con aceite ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Puchero Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Puerro, espinaca y arvejas ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":13,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Verdura Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":11,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Verdura Knorr Vitalie",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Verdura Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":12,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo de Zap, zan y choclo con salvado ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":13,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo sabor Carne Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":11,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo Cubo sabor Gallina Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":11,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de ave, en cubo",
+    "Porcion":" (200cc=5g=_cubo)",
+    "Calorias":10,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne Cormillot ",
+    "Porcion":"1 sobre de 5g",
+    "Calorias":12,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne Lucchetti  ",
+    "Porcion":"1 dadito",
+    "Calorias":3,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne Maggi",
+    "Porcion":"_ cubito",
+    "Calorias":13,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne Safra, deshidratado desgras.",
+    "Porcion":"250 cc = 5g",
+    "Calorias":8,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne, casero",
+    "Porcion":"200 cc",
+    "Calorias":26,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne, en cubito ",
+    "Porcion":"(200cc=5g=_ cubo)",
+    "Calorias":9,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de carne, en cubito, listo para consumir",
+    "Porcion":"200 cc",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de gallina Maggi",
+    "Porcion":"_ cubito",
+    "Calorias":13,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de pescado",
+    "Porcion":"200cc",
+    "Calorias":32,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de pescado, casero",
+    "Porcion":"200cc",
+    "Calorias":34,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de pollo Cormillot ",
+    "Porcion":"1 sobre de 5g",
+    "Calorias":14,
+    "CH":3,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de pollo Lucchetti",
+    "Porcion":"1 dadito",
+    "Calorias":3,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de verdura Maggi",
+    "Porcion":"_ cubito",
+    "Calorias":13,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo de vergetales Lucchetti",
+    "Porcion":"1 dadito",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo granulado de Carne Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo granulado de Gallina Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo granulado de Verduras Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo granulado de Verduras light Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":0,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Caldo granulado de Verduras sin sal agregada ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":15,
+    "CH":3,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Albahaca y Ajo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Albahaca y Oliva Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Cebolla y Panceta Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Crema de Verdeo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":17,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Cuatro Quesos Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Hierbas Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Hongos Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":17,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Provenzal Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":16,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sabor en cubos Tuco Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":17,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Amarilla Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":58,
+    "CH":13,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema Arvejas con jam—n Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":51,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema Arvejas Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":45,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema Cebolla Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":57,
+    "CH":11,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema Choclo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa Crema de Arvejas con Jam—n Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":49,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa Crema de Choclo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":61,
+    "CH":12,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa Crema de Esp‡rragos Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":54,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa Crema de Pollo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":57,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa Crema de Vegetales Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa Crema de Zapallo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":69,
+    "CH":6,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Esp‡rragos Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":52,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Esp‡rragos Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema light Calabaza Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":27,
+    "CH":5,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa crema light Pollo al verdeo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":23,
+    "CH":4,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema light Verduras Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa crema light Zap, Zan y espinaca ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":26,
+    "CH":5,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa crema Naranja Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":12,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa crema Pollo con espin + salvado ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":37,
+    "CH":7,
+    "Fibras":4
+  },
+  {
+    "Comida":"Sopa crema Pollo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Queso Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":55,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Roja Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":44,
+    "CH":9,
+    "Fibras":3
+  },
+  {
+    "Comida":"Sopa crema Vege papa, zan y puerro + salvado ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":43,
+    "CH":8,
+    "Fibras":4
+  },
+  {
+    "Comida":"Sopa crema Vegetales Wilde",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":11,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Verde Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":58,
+    "CH":9,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa crema Verduras Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":47,
+    "CH":9,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa crema Zapallo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":69,
+    "CH":14,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa de arvejas",
+    "Porcion":"30g",
+    "Calorias":95,
+    "CH":19,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de arvejas Cormillot ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":24,
+    "CH":3,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa de Arvejas Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":57,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Arvejas Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":35,
+    "CH":7,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Caracolitos Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":59,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de choclo",
+    "Porcion":"30g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de Choclo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":61,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Esp‡rragos Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":59,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Esp‡rragos Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":35,
+    "CH":7,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de gallina con cabello de ‡ngel Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":57,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de pollo con fideos cabello de ‡ngel",
+    "Porcion":"30g",
+    "Calorias":88,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de pollo con municiones",
+    "Porcion":"30g",
+    "Calorias":88,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de queso con letras y nœmeros",
+    "Porcion":"30g",
+    "Calorias":88,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de vegetales con fideos dedalitos",
+    "Porcion":"30g",
+    "Calorias":90,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de vegetales con fideos tricolor",
+    "Porcion":"30g",
+    "Calorias":90,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de vegetales Cormillot ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":25,
+    "CH":3,
+    "Fibras":2
+  },
+  {
+    "Comida":"Sopa de Vegetales Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":55,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Vegetales Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de vegetales rojos con coditos",
+    "Porcion":"30g",
+    "Calorias":89,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de vegetales verdes con caracolitos",
+    "Porcion":"30g",
+    "Calorias":89,
+    "CH":18,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa de verduras con arroz Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":55,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de verduras con dedalitos Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":58,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Zapallo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":55,
+    "CH":12,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa de Zapallo Maggi",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":34,
+    "CH":8,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick  Pollo con Espin y zan+ salvado ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":30,
+    "CH":5,
+    "Fibras":3
+  },
+  {
+    "Comida":"Sopa quick Arvejas con croutons Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":68,
+    "CH":11,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Arvejas Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":45,
+    "CH":9,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Choclo Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":51,
+    "CH":11,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick Consome con croutons Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":42,
+    "CH":6,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick Esp‡rragos Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick light Arvejas Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":32,
+    "CH":5,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick light Esp‡rragos Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":33,
+    "CH":7,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick light Espinaca a la crema Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":23,
+    "CH":5,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick light Tomate con albahaca Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":33,
+    "CH":7,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick light Vegetales Knorr",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":33,
+    "CH":6,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick light Zapallo ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":29,
+    "CH":6,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Naranja ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":53,
+    "CH":9,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Pollo ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa quick Roja ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":40,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Vegetales ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Verde ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":45,
+    "CH":8,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa quick Verdura de primavera + salvado ",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":35,
+    "CH":6,
+    "Fibras":3
+  },
+  {
+    "Comida":"Sopa quick Zapallo",
+    "Porcion":"1 Taza = 200 cc",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa sabor camar—n",
+    "Porcion":"42,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa sabor camar—n picante",
+    "Porcion":"42,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa sabor champi–—n",
+    "Porcion":"42,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa sabor pollo",
+    "Porcion":"42,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa sabor pollo picante",
+    "Porcion":"42,5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa Ser instant‡nea deshidratada de veget",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa Ser instant‡nea deshidratada de zapallo ",
+    "Porcion":"11 g(1 sobre)",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo casera Carne con fideos caracolitos ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":60,
+    "CH":12,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Gallina con cabellos angel ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":11,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Gallina con fideos tipo letras ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":11,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Minestrone Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":34,
+    "CH":7,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Pollo con cabellos de angel",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":71,
+    "CH":14,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo casera Pollo con municiones ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":70,
+    "CH":14,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo casera Vegetales con caracolitos ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo casera Vegetales con dedalitos ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":56,
+    "CH":11,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Vegetales con  letras",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo casera Verduras ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":23,
+    "CH":5,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sopa tipo casera Verduras con arroz ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":64,
+    "CH":14,
+    "Fibras":0
+  },
+  {
+    "Comida":"Sopa tipo cas Verd de  primavera zan, zap, tom + salvado ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":23,
+    "CH":4,
+    "Fibras":4
+  },
+  {
+    "Comida":"Sopa tipo cas Verd de invierno esp, bróc y dedal ",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":32,
+    "CH":5,
+    "Fibras":4
+  },
+  {
+    "Comida":"Sopa zapallo",
+    "Porcion":"1 sobre de 10g",
+    "Calorias":25,
+    "CH":4,
+    "Fibras":2
+  }
+]

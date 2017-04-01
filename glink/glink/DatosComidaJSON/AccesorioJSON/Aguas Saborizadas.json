@@ -1,0 +1,79 @@
+[
+  {
+    "Comida":"Dasani limón finamente gasificada ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dasani limón sin gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dasani citrus sin gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dasani durazno sin gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dasani durazno/citrus finamente gasificada",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dasani sin y con gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"*",
+    "CH":"*",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Lima Lim/Citr/Pom/Nar-Dur/Manz Vde Ivess",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"1",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Pureza Vital Manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"21",
+    "CH":"5",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Pureza Vital Manzana / Naranja para chicos",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"20",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Pureza Vital Naranja / Durazno",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"18",
+    "CH":"5",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Pureza Vital Pomelo",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"22",
+    "CH":"5",
+    "Fibras":"0"
+  }
+]

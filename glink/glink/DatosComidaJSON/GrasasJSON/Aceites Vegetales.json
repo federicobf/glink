@@ -1,0 +1,218 @@
+[
+  {
+    "Comida":"Algodón",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Almendras",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Amapola",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Canola",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Canola virgen y esencias naturales de ajo, albahaca o limón",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":83,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cártamo",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Germen de trigo",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, alto oleico",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, linoleico < 60 %",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, linoleico aprox. 65%",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, mediooleico",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lino",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Maiz ",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":89,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Maní",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mezcla 90% soja - 10% girasol",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mezcla ",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nuez",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oliva",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Palma",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepita de uva",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado de arroz",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":88,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sésamo",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Soja",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Uva Cocinero",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"0",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":90,
+    "CH":"*",
+    "Fibras":"*",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Ajo y perejil ",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Clásico",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":129,
+    "CH":21,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Integral",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":130,
+    "CH":21,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pan rallado",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rebozador horno",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rebozador para freir",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Saborizado",
+    "Porcion":"30g = 3 cdas soperas",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  }
+]

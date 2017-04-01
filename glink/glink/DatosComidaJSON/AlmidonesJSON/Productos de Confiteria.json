@@ -1,0 +1,170 @@
+[
+  {
+    "Comida":"Brownie",
+    "Porcion":"30g",
+    "Calorias":126,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crutones",
+    "Porcion":"25g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Donut, promedio",
+    "Porcion":"1 unidad = 40g",
+    "Calorias":199,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Donut, simple",
+    "Porcion":"1 unidad = 40g",
+    "Calorias":168,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Factura vienesa, de fruta",
+    "Porcion":"40g",
+    "Calorias":150,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas, con chispas, de chocolate",
+    "Porcion":"30g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa, bomba",
+    "Porcion":"90g",
+    "Calorias":319,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa, bomba, rellena con crema pastelera",
+    "Porcion":"85g",
+    "Calorias":224,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa, fila",
+    "Porcion":"40g",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Medialunas, de manteca",
+    "Porcion":"45g",
+    "Calorias":179,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Natilla",
+    "Porcion":"95g",
+    "Calorias":202,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pan, danés, de frutas, (manzana, canela, pasas)",
+    "Porcion":"40g",
+    "Calorias":156,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pastelito, relleno, con cobertura de chocolate",
+    "Porcion":"85g",
+    "Calorias":217,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Strudel, de manzana",
+    "Porcion":"50g",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta angel, industrial",
+    "Porcion":"35g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta de chocolate con cobertura de chocolate",
+    "Porcion":"35g",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta, bizcochuelo, industrial",
+    "Porcion":"35g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostada francesa, con leche, parcial descremada",
+    "Porcion":"80g",
+    "Calorias":183,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vainillas",
+    "Porcion":"2 unidades = 35g",
+    "Calorias":124,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vasitos o cucuruchos para helados",
+    "Porcion":"25g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Waffle, simples",
+    "Porcion":"60g",
+    "Calorias":175,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  }
+]

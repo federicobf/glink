@@ -1,0 +1,34 @@
+[
+  {
+    "Comida":"Coctel de frutas",
+    "Porcion":"1 taza de te de coctel = 140g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ensalada de frutas ",
+    "Porcion":"167g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Peras ",
+    "Porcion":"_ taza de peras + jarabe = 140g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Peras en mitades ",
+    "Porcion":"_ taza de peras + jarabe = 140g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  }
+]

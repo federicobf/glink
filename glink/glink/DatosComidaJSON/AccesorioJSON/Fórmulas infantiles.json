@@ -1,0 +1,65 @@
+[
+  {
+    "Comida":"NAN Pro 1",
+    "Porcion":"100 g",
+    "Calorias":481,
+    "CH":58,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"NAN HA",
+    "Porcion":"100 g",
+    "Calorias":511,
+    "CH":58,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Nidina infantil 1",
+    "Porcion":"100 g",
+    "Calorias":504,
+    "CH":56,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"NAN Pro 2",
+    "Porcion":"100 g",
+    "Calorias":481,
+    "CH":58,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nidina infantil 2",
+    "Porcion":"100 g",
+    "Calorias":478,
+    "CH":51,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"NAN Pro 3",
+    "Porcion":"100 g",
+    "Calorias":482,
+    "CH":58,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Pre NAN",
+    "Porcion":"100 g",
+    "Calorias":497,
+    "CH":56,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"NAN AR",
+    "Porcion":"100 g",
+    "Calorias":493,
+    "CH":58,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"NAN sin lactosa",
+    "Porcion":"100 g",
+    "Calorias":503,
+    "CH":57,
+    "Fibras":"*"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Mayonesa",
+    "Porcion":"1 cda postre = 10 g",
+    "Calorias":96,
+    "CH":2,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salsa Golf ",
+    "Porcion":"2 1/2  cda postre =30 g",
+    "Calorias":109,
+    "CH":13,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aderezo Hellmann's Libre de Colesterol",
+    "Porcion":"4 cda postre = 50 g",
+    "Calorias":113,
+    "CH":5,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayonesa Bc",
+    "Porcion":"2 cda postre = 20 g",
+    "Calorias":96,
+    "CH":1,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mayonesa Light",
+    "Porcion":"4 cda postre = 50 g",
+    "Calorias":116,
+    "CH":6,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salsa Golf",
+    "Porcion":"1 cucharada = 12g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rocio vegetal (tradicional, manteca, oliva)",
+    "Porcion":"0,25g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0,
+    "FIELD6":""
+  }
+]

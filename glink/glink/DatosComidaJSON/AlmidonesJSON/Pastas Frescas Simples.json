@@ -1,0 +1,114 @@
+[
+  {
+    "Comida":"Fideos al huevo",
+    "Porcion":"30g",
+    "Calorias":106,
+    "CH":21,
+    "Fibras":"1,0"
+  },
+  {
+    "Comida":"Fideos al huevo cocidos",
+    "Porcion":"115g",
+    "Calorias":108,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Fideos cinta",
+    "Porcion":"40g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Fideos de arroz, cocidos",
+    "Porcion":"80g",
+    "Calorias":87,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Fideos finos",
+    "Porcion":"35g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Fideos frescos amasado artesanal",
+    "Porcion":"35g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,4"
+  },
+  {
+    "Comida":"Fideos frescos con verdura",
+    "Porcion":"35g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"1,4"
+  },
+  {
+    "Comida":"Fideos fusiles",
+    "Porcion":"30g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Fideos medianos",
+    "Porcion":"35g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Fideos, al huevo, cocidos",
+    "Porcion":"80g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Fideos, al huevo, de espinaca, cocidos",
+    "Porcion":"80g",
+    "Calorias":106,
+    "CH":19,
+    "Fibras":"1,8"
+  },
+  {
+    "Comida":"Ñoquis con gluten ",
+    "Porcion":"60g",
+    "Calorias":108,
+    "CH":20,
+    "Fibras":"0,6"
+  },
+  {
+    "Comida":"Ñoquis de calabaza",
+    "Porcion":"55g",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":"1,2"
+  },
+  {
+    "Comida":"Ñoquis de espinaca",
+    "Porcion":"55g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"1,3"
+  },
+  {
+    "Comida":"Ñoquis de papa",
+    "Porcion":"55g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Pasta, con o sin huevos, cocida",
+    "Porcion":"85g",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"*"
+  }
+]

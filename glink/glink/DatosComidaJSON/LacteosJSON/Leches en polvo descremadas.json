@@ -1,0 +1,42 @@
+[
+  {
+    "Comida":"Leche 0% grasa y colesterol en polvo",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":72,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche descremada en polvo",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":71,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser leche en polvo",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":71,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Svelty Digestion",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":64,
+    "CH":9,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Svetly Huesos fuertes",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":72,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

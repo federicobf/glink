@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Leche de vaca descremada 0%",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":68,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de vaca parcialmente descremada 1,5%",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":96,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche descremada con fibra activa",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":68,
+    "CH":11,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche parcial. descremada deslactosada extra calcio",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":92,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche parcial. descremada, larga vida",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":88,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche parcial. descremada, con Omega 3 y fitoesteroles ",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":104,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser leche con fibra",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":66,
+    "CH":9,
+    "Fibras":"2",
+    "FIELD6":""
+  }
+]

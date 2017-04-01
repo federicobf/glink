@@ -1,0 +1,138 @@
+[
+  {
+    "Comida":"La Serenisima infantil",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":140,
+    "CH":16,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche con calcio",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":96,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":" Leche de bufala ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":194,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de burro",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":82,
+    "CH":12,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de caballo",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":94,
+    "CH":12,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de cabra",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":134,
+    "CH":8,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":" Leche de cabra ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":138,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche de camello",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":152,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":" Leche de oveja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":216,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":114,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera con azucar",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":146,
+    "CH":18,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera con hierro",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":116,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera con hierro y azucar",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":154,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera deslactosada",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":118,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera extra calcio, vitaminas A, C y D",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":118,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera UAT  con vit A y D",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":118,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche entera, larga vida",
+    "Porcion":"200 cc = 1 vaso ",
+    "Calorias":116,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

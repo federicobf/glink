@@ -1,0 +1,44 @@
+[
+  {
+    "Comida":"Cacao en polvo semidescremado",
+    "Porcion":"10g",
+    "Calorias":34,
+    "CH":1,
+    "Fibras":"3"
+  },
+  {
+    "Comida":"Chocolate con leche",
+    "Porcion":"10g",
+    "Calorias":54,
+    "CH":5,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chocolate sin leche",
+    "Porcion":"10g",
+    "Calorias":48,
+    "CH":5,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Chocolino ",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":8,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Nesquik Nutriactive- B",
+    "Porcion":"10g (15 g = 1_ cdas soperas)",
+    "Calorias":38,
+    "CH":9,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Polvo chocloatado Nescao saborchocolate",
+    "Porcion":"10g",
+    "Calorias":40,
+    "CH":9,
+    "Fibras":"*"
+  }
+]

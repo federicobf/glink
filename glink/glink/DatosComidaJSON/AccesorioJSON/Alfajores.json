@@ -1,0 +1,234 @@
+[
+  {
+    "Comida":"Bebidas destiladas, promedio de 42º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":116,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebidas destiladas, promedio de 45º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":125,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebidas destiladas, promedio de 47º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":132,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebidas destiladas, promedio de 50º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":138,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebidas destiladas, promedio de 53º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":148,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza",
+    "Porcion":"354cc",
+    "Calorias":138,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza light",
+    "Porcion":"354cc",
+    "Calorias":138,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza light, BUDWEISER",
+    "Porcion":"354cc",
+    "Calorias":110,
+    "CH":7,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza Negra",
+    "Porcion":"354cc",
+    "Calorias":131,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza Pilsen",
+    "Porcion":"354cc",
+    "Calorias":149,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza Rubia",
+    "Porcion":"354cc",
+    "Calorias":135,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerveza, BUDWEISER",
+    "Porcion":"354cc",
+    "Calorias":145,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Daiquiri",
+    "Porcion":"200cc",
+    "Calorias":372,
+    "CH":14,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Gin, 47º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":132,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Licor de café con crema, 19º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":164,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Licor de café, 34º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":168,
+    "CH":23,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Martini",
+    "Porcion":"200cc",
+    "Calorias":486,
+    "CH":4,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Piña colada",
+    "Porcion":"200cc",
+    "Calorias":348,
+    "CH":45,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ron, 42º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":116,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sake",
+    "Porcion":"50cc",
+    "Calorias":67,
+    "CH":3,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sidra",
+    "Porcion":"150cc",
+    "Calorias":68,
+    "CH":4,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vino Blanco de calidad media",
+    "Porcion":"150cc",
+    "Calorias":107,
+    "CH":4,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vino de postre, dulce",
+    "Porcion":"150cc",
+    "Calorias":240,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vino de postre, seco",
+    "Porcion":"150cc",
+    "Calorias":228,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vino Tinto \"denso\"",
+    "Porcion":"150cc",
+    "Calorias":120,
+    "CH":4,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vino Tinto \"liviano\"",
+    "Porcion":"150cc",
+    "Calorias":101,
+    "CH":4,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vodka, 42º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":116,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Whisky",
+    "Porcion":"50cc",
+    "Calorias":124,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Whisky, 45º de alcohol",
+    "Porcion":"50cc",
+    "Calorias":125,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

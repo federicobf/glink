@@ -1,0 +1,219 @@
+[
+  {
+    "Comida":"Azúcar de caña sin refinar",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Azúcar de remolacha sin refinar",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Azúcares  (caña, remolacha)",
+    "Porcion":"10g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de batata",
+    "Porcion":"1/2 Mazo= 50g",
+    "Calorias":121,
+    "CH":30,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de leche",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":65,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de leche light",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":41,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de leche respostero",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":63,
+    "CH":11,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de membrillo",
+    "Porcion":"1/2 Mazo= 50g",
+    "Calorias":207,
+    "CH":45,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Dulce de naranja",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":52,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jalea de frambuesa",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":49,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jalea de grosellas rojas",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":49,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jalea de manzana",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":52,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Jalea de membrillo",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":74,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada arandano durazno y nueces pecan",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":87,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Mermelada arandano",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":55,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada blueberr",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":29,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada cerezas",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":50,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada ciruela",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada ciruelas",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":48,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada damasco",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada durazno ",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada frambuesa",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":50,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada frutilla ",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada grosellas rojas",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":51,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada higos",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":31,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada membrillo",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":47,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada moras",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":52,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada naranja ",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada todos los sabores",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":32,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mermelada tomate ",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":53,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Miel",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":60,
+    "CH":15,
+    "Fibras":"0"
+  }
+]

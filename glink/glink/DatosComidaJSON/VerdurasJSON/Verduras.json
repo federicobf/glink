@@ -1,0 +1,1098 @@
+[
+  {
+    "Comida":"Acelga, cruda",
+    "Porcion":"265g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Acelga, hervida",
+    "Porcion":"240g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Achicoria, hojas cruda",
+    "Porcion":"215g",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Achicoria, raiz, cruda",
+    "Porcion":"55g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji amarillo, dulce crudo",
+    "Porcion":"160g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji picante, rojo crudo",
+    "Porcion":"105g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji picante, secado al sol",
+    "Porcion":"14g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji picante, verde crudo",
+    "Porcion":"105g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji rojo, dulce crudo",
+    "Porcion":"155g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji rojo, dulce, hervido",
+    "Porcion":"150g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Aji verde, dulce, hervido",
+    "Porcion":"150g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alcaucil, hervido",
+    "Porcion":"90g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alfalfa, semillas y brotes, crudos",
+    "Porcion":"265g",
+    "Calorias":77,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, agar cruda",
+    "Porcion":"150g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, agar seca",
+    "Porcion":"10g",
+    "Calorias":31,
+    "CH":8,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, kelp cruda",
+    "Porcion":"105g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, laver cruda",
+    "Porcion":"195g",
+    "Calorias":68,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, musgo de Irlanda, cruda",
+    "Porcion":"80g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, spirulina cruda",
+    "Porcion":"415g",
+    "Calorias":107,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, spirulina, seca",
+    "Porcion":"40g",
+    "Calorias":116,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alga, wakame cruda",
+    "Porcion":"110g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Amaranto, hoja hervida",
+    "Porcion":"245g",
+    "Calorias":51,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Amaranto, hoja, cruda",
+    "Porcion":"250g",
+    "Calorias":58,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Apio, crudo",
+    "Porcion":"275g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Apio, hervido",
+    "Porcion":"250g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Apionabo, crudo",
+    "Porcion":"110g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Apionabo, hervido",
+    "Porcion":"150g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arvejas, frescas crudas",
+    "Porcion":"70g",
+    "Calorias":57,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Berenjena, cruda",
+    "Porcion":"165g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Berenjena, hervida",
+    "Porcion":"150g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Berza congelada, hervida",
+    "Porcion":"140g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Berza, cruda",
+    "Porcion":"175g",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Berza, hervida ",
+    "Porcion":"210g",
+    "Calorias":55,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brocoli, congelado, picado, hervido",
+    "Porcion":"185g",
+    "Calorias":52,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brocoli, crudo",
+    "Porcion":"190g",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brocoli, hervido",
+    "Porcion":"200g",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Calabaza, flores, hervidas",
+    "Porcion":"270g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Calabaza, promedio, hervida",
+    "Porcion":"230g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cardo, hervido",
+    "Porcion":"190g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cayote, crudo",
+    "Porcion":"220g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cayote, hervido",
+    "Porcion":"195g",
+    "Calorias":47,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebolla, copos deshidratados",
+    "Porcion":"10 g",
+    "Calorias":35,
+    "CH":8,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebolla, cruda",
+    "Porcion":"115g ",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebolla, hervida",
+    "Porcion":"100g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebollin, crudo",
+    "Porcion":"230g",
+    "Calorias":69,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chaucha turca, hervida",
+    "Porcion":"140g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chirivia o pastinaca, cruda",
+    "Porcion":"55g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chirivia o pastinaca, hervida",
+    "Porcion":"50g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coliflor, crudo",
+    "Porcion":"190g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coliflor, hervido",
+    "Porcion":"245g",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Colirrabano, crudo",
+    "Porcion":"160g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Colirrabano, hervido ",
+    "Porcion":"150g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coriandro o cilantro, hojas crudas",
+    "Porcion":"227g",
+    "Calorias":52,
+    "CH":8,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crisantemo, guirnalda, cruda",
+    "Porcion":"230g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crisantemo, guirnalda, hervido",
+    "Porcion":"230g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crisantemo, hojas crudas",
+    "Porcion":"330g",
+    "Calorias":79,
+    "CH":10,
+    "Fibras":"10",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Diente de leon, hojas crudas",
+    "Porcion":"110g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Diente de leon, hojas, hervidas",
+    "Porcion":"155g",
+    "Calorias":51,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Endibia Francesa, cruda (cerrada)",
+    "Porcion":"250g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Endibia o escarola (hoja ancha y abierta)",
+    "Porcion":"300g",
+    "Calorias":51,
+    "CH":10,
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Esparrago, hervido",
+    "Porcion":"235g",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Espinaca, cruda",
+    "Porcion":"285g",
+    "Calorias":63,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Espinaca, hervida",
+    "Porcion":"265g",
+    "Calorias":61,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Hinojo, bulbo, crudo",
+    "Porcion":"135g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Kale, crudo",
+    "Porcion":"100g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Kale, hervido",
+    "Porcion":"180g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lechuga, arrepollada, cruda",
+    "Porcion":"480g",
+    "Calorias":58,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lechuga, china o Wosun, cruda",
+    "Porcion":"270g",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lechuga, mantecosa, cruda",
+    "Porcion":"430g",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lechuga, romana, cruda",
+    "Porcion":"420g",
+    "Calorias":59,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Luffa, cruda",
+    "Porcion":"230g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mache, crudo",
+    "Porcion":"280g",
+    "Calorias":59,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mastuerzo, crudo",
+    "Porcion":"190g",
+    "Calorias":61,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mastuerzo, hervido",
+    "Porcion":"260g",
+    "Calorias":60,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mostaza, hojas, cruda",
+    "Porcion":"205g",
+    "Calorias":53,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mostaza, hojas, hervidas",
+    "Porcion":"475g",
+    "Calorias":71,
+    "CH":10,
+    "Fibras":"10",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo, crudo",
+    "Porcion":"160g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo de Suecia, crudo (repollo y nabo)",
+    "Porcion":"120g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo de Suecia, hervido",
+    "Porcion":"110g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo, hervido",
+    "Porcion":"205g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo, hojas crudas",
+    "Porcion":"175g",
+    "Calorias":47,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo, hojas,  hervidas",
+    "Porcion":"230g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Nabo, hojas, hervido, con sal",
+    "Porcion":"230g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Parra, hoja cruda",
+    "Porcion":"60g",
+    "Calorias":56,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepino, con piel, crudo",
+    "Porcion":"360g",
+    "Calorias":47,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepino, pelado, crudo",
+    "Porcion":"400g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pimiento jalapeno crudo",
+    "Porcion":"170g",
+    "Calorias":51,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pimiento jalapeno, enlatado",
+    "Porcion":"210g",
+    "Calorias":57,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Puerro, bulbo y tallo inferior, crudo",
+    "Porcion":"70g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Puerro, bulbo y tallo inferior, hervido",
+    "Porcion":"130g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rabano, crudo",
+    "Porcion":"275g",
+    "Calorias":55,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rabano, picante, crudo",
+    "Porcion":"115g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rabano, picante, hervido",
+    "Porcion":"120g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Remolacha, cruda",
+    "Porcion":"105g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Remolacha, hervida",
+    "Porcion":"100g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Remolacha, hojas crudas",
+    "Porcion":"250g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Remolacha, hojas hervidas",
+    "Porcion":"185g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollitos de Bruselas, crudos",
+    "Porcion":"110g",
+    "Calorias":47,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollitos de Bruselas, hervidos",
+    "Porcion":"115g",
+    "Calorias":47,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo chino, Pak-Choi, crudo",
+    "Porcion":"460g",
+    "Calorias":60,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo chino, Pak-Choi, hervido ",
+    "Porcion":"560g",
+    "Calorias":67,
+    "CH":10,
+    "Fibras":"9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo chino, Pe-Tsai, crudo",
+    "Porcion":"310g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"10",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo chino, Pe-tsai, hervido ",
+    "Porcion":"415g",
+    "Calorias":58,
+    "CH":10,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo colorado, crudo",
+    "Porcion":"165g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo colorado, hervido",
+    "Porcion":"215g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo, verde y colorado, crudo",
+    "Porcion":"185g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo, verde y colorado, hervido",
+    "Porcion":"225g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo, napa, cocido",
+    "Porcion":"450g",
+    "Calorias":54,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo, Savoy, crudo",
+    "Porcion":"160g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollo, Savoy, hervido",
+    "Porcion":"185g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rucula",
+    "Porcion":"475g",
+    "Calorias":71,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ruibarbo, crudo",
+    "Porcion":"210g",
+    "Calorias":44,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Taro, hojas crudas",
+    "Porcion":"150g",
+    "Calorias":63,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Taro, hojas, al vapor",
+    "Porcion":"250g",
+    "Calorias":60,
+    "CH":10,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, amarillo, crudo",
+    "Porcion":"335g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, anaranjado crudo",
+    "Porcion":"315g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, rojo, maduro crudo",
+    "Porcion":"215g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, rojo, maduro, estofado",
+    "Porcion":"75g",
+    "Calorias":59,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, rojo, maduro, hervido",
+    "Porcion":"170g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, seco",
+    "Porcion":"20g",
+    "Calorias":52,
+    "CH":11,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tomate, seco, en aceite, escurrido",
+    "Porcion":"45g",
+    "Calorias":96,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verdolaga, cruda",
+    "Porcion":"290g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Verdolaga, hervida",
+    "Porcion":"280g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria baby, cruda",
+    "Porcion":"120g",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria, cruda",
+    "Porcion":"100g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria, hervida",
+    "Porcion":"100g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, asado",
+    "Porcion":"70g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, flor, hervida",
+    "Porcion":"300g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, flor, cruda",
+    "Porcion":"300g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, hervido",
+    "Porcion":"200g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, hervido, pisado",
+    "Porcion":"115g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, hoja cruda",
+    "Porcion":"425g",
+    "Calorias":81,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, hoja, hervida",
+    "Porcion":"295g",
+    "Calorias":62,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, redondo, anaranjado, crudo",
+    "Porcion":"150g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo, rugoso, alargado, crudo ",
+    "Porcion":"100g",
+    "Calorias":40,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zucchini, con cascara crudo",
+    "Porcion":"345g",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zucchini, con cascara, hervido",
+    "Porcion":"255g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"4",
+    "FIELD6":""
+  }
+]

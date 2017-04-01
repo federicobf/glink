@@ -1,0 +1,202 @@
+[
+  {
+    "Comida":"Ser Tostadas Clásicas",
+    "Porcion":"6 unidades = 31g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostada de pan blanco",
+    "Porcion":"40g",
+    "Calorias":103,
+    "CH":19,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostada de pan integral",
+    "Porcion":"30g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"4,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas  Light con fibra",
+    "Porcion":"35g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"4,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas clásicas de mesa",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas clásicas dulces",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas clásicas integrales",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas clásicas sin sal",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con fibra Equilibrio",
+    "Porcion":"30g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"3,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con gluten",
+    "Porcion":"30g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con gluten de mesa",
+    "Porcion":"30g",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con gluten dulces",
+    "Porcion":"30g",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con gluten integrales",
+    "Porcion":"30g",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con gluten sin sal",
+    "Porcion":"30g",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas con salvado con gluten",
+    "Porcion":"30g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas dulces con gluten",
+    "Porcion":"30g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas Light de salvado",
+    "Porcion":"35g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"5,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas light Equilibrio",
+    "Porcion":"30g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas saladas con gluten",
+    "Porcion":"30g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostadas sin sal adicionada con gluten",
+    "Porcion":"30g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostaditas clásicas",
+    "Porcion":"25g",
+    "Calorias":108,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostaditas con salvado",
+    "Porcion":"30g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tostaditas sin sal agregada",
+    "Porcion":"25g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mini tostaditas horneadas sabor cuatro quesos",
+    "Porcion":"28,5 g (33 unidades = 30g)",
+    "Calorias":130,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mini tostaditas horneadas sabor jamón ibérico",
+    "Porcion":"26 g (33 unidades = 30g)",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  }
+]

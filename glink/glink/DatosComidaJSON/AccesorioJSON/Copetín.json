@@ -1,0 +1,247 @@
+[
+  {
+    "Comida":"3´D",
+    "Porcion":"25g",
+    "Calorias":126,
+    "CH":12,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Bizcochos de Grasa Arcor ",
+    "Porcion":"25g",
+    "Calorias":115,
+    "CH":16,
+    "Fibras":"8"
+  },
+  {
+    "Comida":"Bizcochos Lia Mediatarde",
+    "Porcion":"25g",
+    "Calorias":125,
+    "CH":16,
+    "Fibras":"10"
+  },
+  {
+    "Comida":"Club Social Chips Crema y Cebolla",
+    "Porcion":"25g",
+    "Calorias":116,
+    "CH":17,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Club Social Chips Original",
+    "Porcion":"25g",
+    "Calorias":112,
+    "CH":18,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Club Social Chips Parmesano",
+    "Porcion":"25g",
+    "Calorias":115,
+    "CH":17,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cheetos queso",
+    "Porcion":"25g",
+    "Calorias":112,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Kesitas ",
+    "Porcion":"25 unidades = 25g",
+    "Calorias":37,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Maní salado",
+    "Porcion":"30g = 1/4 taza",
+    "Calorias":189,
+    "CH":4,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Mini Rex",
+    "Porcion":"25g",
+    "Calorias":110,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nachos ",
+    "Porcion":"25 g = 1 taza",
+    "Calorias":122,
+    "CH":15,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Palitos de harina de maíz",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":125,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Palitos salados",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":133,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas / papas fritas pin",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":139,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Papas fritas aireadas Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":116,
+    "CH":15,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Papas fritas clásicas Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":134,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas Kids jamón Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":119,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas Kids sal Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":119,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas mediterr jamón serrano Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":135,
+    "CH":11,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas mediterr queso Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":138,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Papas fritas mediterr tomate y albahaca Lays",
+    "Porcion":"25g = 1 taza de té",
+    "Calorias":135,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Pretzels",
+    "Porcion":"50g",
+    "Calorias":172,
+    "CH":38,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Rex ",
+    "Porcion":"14 unidades = 30g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Rex 3 Caprese",
+    "Porcion":"26 unidades = 30g",
+    "Calorias":137,
+    "CH":19,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Rex Dip Original",
+    "Porcion":"26 unidades = 30g",
+    "Calorias":113,
+    "CH":29,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Rex Dip Pizza",
+    "Porcion":"26 unidades = 30g",
+    "Calorias":139,
+    "CH":20,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Rex Jamon Serrano",
+    "Porcion":"18 unidades = 18g",
+    "Calorias":82,
+    "CH":11,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Rex Pocket",
+    "Porcion":"3 unidades = 22g",
+    "Calorias":105,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Rex Queso ",
+    "Porcion":"18 unidades = 31g",
+    "Calorias":147,
+    "CH":20,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Saladix Calabresa",
+    "Porcion":"50 unidades = 30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saladix Duo",
+    "Porcion":"27 unidades = 25g",
+    "Calorias":113,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saladix Jamon",
+    "Porcion":"50 unidades = 30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saladix Parmesano ",
+    "Porcion":"50 unidades = 30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saladix Pizza",
+    "Porcion":"50 unidades = 30g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saladix Provoleta ",
+    "Porcion":"28 unidades = 25g",
+    "Calorias":113,
+    "CH":15,
+    "Fibras":"1"
+  }
+]
