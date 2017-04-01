@@ -1,0 +1,106 @@
+[
+  {
+    "Comida":"AdeS Ananá",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS Durazno",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS Frutas Tropicales",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS light Lima Limón ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":30,
+    "CH":5,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS light Manzana ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":30,
+    "CH":5,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS light Naranja ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":30,
+    "CH":5,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS Manzana",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS Naranja",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":72,
+    "CH":15,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"AdeS Natural ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":80,
+    "CH":8,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vida Baggio Banana y Ananá    ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":125,
+    "CH":30,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vida Baggio Durazno y Damasco  ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":125,
+    "CH":30,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vida Baggio Manzana ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":106,
+    "CH":25,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vida Baggio Naranja ",
+    "Porcion":"1 vaso = 200 cc",
+    "Calorias":106,
+    "CH":25,
+    "Fibras":"1",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Comida":"Aros de cebolla, empanados y fritos",
+    "Porcion":"83g",
+    "Calorias":276,
+    "CH":29,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Budin de acelga y calabaza ",
+    "Porcion":"1 porcion de 270g",
+    "Calorias":140,
+    "CH":20,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Budin de calabaza y atun",
+    "Porcion":"1 porcion de 250g",
+    "Calorias":226,
+    "CH":27,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Budin de choclo",
+    "Porcion":"1 porcion de 220g",
+    "Calorias":230,
+    "CH":36,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Budin de zapallitos ",
+    "Porcion":"1 porcion de 260g",
+    "Calorias":237,
+    "CH":32,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Calabaza con salsa de hongos y arroz ",
+    "Porcion":"1 porcion de 270g",
+    "Calorias":156,
+    "CH":35,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coleslaw, casero",
+    "Porcion":"1/2 taza",
+    "Calorias":41,
+    "CH":7,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Croquetas de acelga, al horno",
+    "Porcion":"80 g = 3 unidades",
+    "Calorias":152,
+    "CH":16,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Croquetas de brocoli, al horno",
+    "Porcion":"80 g = 3 unidades",
+    "Calorias":188,
+    "CH":25,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pastel de calabaza con choclo y arvejas",
+    "Porcion":"1 porcion de 290g",
+    "Calorias":190,
+    "CH":30,
+    "Fibras":"7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tamales",
+    "Porcion":"100g",
+    "Calorias":153,
+    "CH":18,
+    "Fibras":"3",
+    "FIELD6":""
+  }
+]

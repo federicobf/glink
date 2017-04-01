@@ -1,0 +1,178 @@
+[
+  {
+    "Comida":"Svetly Huesos fuertes",
+    "Porcion":"1 vaso=20 g polvo",
+    "Calorias":72,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche condensada azucarada",
+    "Porcion":"20 g",
+    "Calorias":67,
+    "CH":11,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebida alimenticia manzana",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebida alimenticia naranja",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":98,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebida alimenticia pomelo rosado",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":98,
+    "CH":23,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coffee mate",
+    "Porcion":"4 g=2 cditas te ",
+    "Calorias":21,
+    "CH":2,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coffee mate light",
+    "Porcion":"4 g=2 cditas te ",
+    "Calorias":11,
+    "CH":4,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Junior  frutilla",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":126,
+    "CH":24,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Junior  manzana",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":126,
+    "CH":24,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Junior dulce de leche",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":146,
+    "CH":26,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Junior leche +4",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":142,
+    "CH":16,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Junior naranja",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":126,
+    "CH":24,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser frutos del tropico con fibra",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":30,
+    "CH":6,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser frutos rojos con fibra",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":126,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser manzanas deliciosas con fibra",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":30,
+    "CH":6,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser naranja mango con fibra",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":30,
+    "CH":6,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serecol 3 manzana",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":64,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serecol 3 naranja",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":62,
+    "CH":8,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Capuccino La Serenisima",
+    "Porcion":"200cc = 1 brick ",
+    "Calorias":96,
+    "CH":16,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche Crecer 1, con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":69,
+    "CH":7,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche Crecer 2, con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":68,
+    "CH":6,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche Crecer 3, con FOS",
+    "Porcion":"250cc = 1 brick",
+    "Calorias":68,
+    "CH":7,
+    "Fibras":"*",
+    "FIELD6":""
+  }
+]

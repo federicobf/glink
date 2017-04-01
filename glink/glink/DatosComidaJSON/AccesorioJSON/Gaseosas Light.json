@@ -1,0 +1,90 @@
+[
+  {
+    "Comida":"Coca-Cola light",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":0,
+    "CH":"*",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coca-Cola zero",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":0,
+    "CH":"*",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cola",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":15,
+    "CH":"4",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cola light Mocoretá ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":38,
+    "CH":"9",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lima Limón ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":15,
+    "CH":"4",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lima Limón  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":15,
+    "CH":"4",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Naranja / Pomelo ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":15,
+    "CH":"4",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Naranja / Pomelo  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":15,
+    "CH":"4",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Quatro light pomelo",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":9,
+    "CH":"2",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Schweppes citrus light",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":4,
+    "CH":"*",
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sprite zero",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":0,
+    "CH":"*",
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

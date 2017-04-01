@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Canelones de ricotta y espinaca",
+    "Porcion":"120g",
+    "Calorias":195,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Canelones de ricotta y jamón ",
+    "Porcion":"130g",
+    "Calorias":211,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lasagna Bolognesa ",
+    "Porcion":"120g",
+    "Calorias":180,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lasagna ricotta y espinca ",
+    "Porcion":"120g",
+    "Calorias":179,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Penne rigatte a la parisien",
+    "Porcion":"105g",
+    "Calorias":154,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Penne rigatte al funghi ",
+    "Porcion":"100g",
+    "Calorias":165,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Penne rigatte al brocoletto",
+    "Porcion":"108g",
+    "Calorias":143,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  }
+]

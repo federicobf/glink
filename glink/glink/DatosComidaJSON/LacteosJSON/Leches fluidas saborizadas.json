@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Latte Baggio shake chocolatada ",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":155,
+    "CH":26,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche chocolatada",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":132,
+    "CH":22,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche chocolatada Cindor",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":144,
+    "CH":23,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche parcialmente descremada chocolatada ",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":148,
+    "CH":24,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Leche UAT chocolatada",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":154,
+    "CH":24,
+    "Fibras":1,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Saborizada dulce de leche",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":160,
+    "CH":28,
+    "Fibras":0,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Saborizada frutilla/banana",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":142,
+    "CH":24,
+    "Fibras":0,
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Comida":"Algarroba",
+    "Porcion":"23g",
+    "Calorias":44,
+    "CH":18,
+    "Fibras":"8,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Garbanzo",
+    "Porcion":"35g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"3,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Soja",
+    "Porcion":"57g",
+    "Calorias":249,
+    "CH":20,
+    "Fibras":"5,5",
+    "FIELD6":""
+  }
+]

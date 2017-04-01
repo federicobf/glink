@@ -1,0 +1,50 @@
+[
+  {
+    "Comida":"Crema 0% de grasa",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":41,
+    "CH":7,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crema de leche 40%",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":93,
+    "CH":1,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crema larga vida",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":93,
+    "CH":1,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crema tenor graso 35%",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":95,
+    "CH":1,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crema tenor graso 42%",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":95,
+    "CH":1,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Crema tenor graso 44%",
+    "Porcion":"15 ml = 1 _ cda sopera",
+    "Calorias":93,
+    "CH":1,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

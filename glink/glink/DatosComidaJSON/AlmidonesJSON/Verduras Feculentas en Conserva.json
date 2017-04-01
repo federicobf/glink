@@ -1,0 +1,42 @@
+[
+  {
+    "Comida":"Choclo amarillo cremoso",
+    "Porcion":"125g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"3,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo amarillo entero ",
+    "Porcion":"125g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo blanco entero",
+    "Porcion":"125g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo, amarillo dulce cremoso, enlatado",
+    "Porcion":"110g",
+    "Calorias":79,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo, blanco dulce cremoso, enlatado",
+    "Porcion":"110g",
+    "Calorias":79,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  }
+]

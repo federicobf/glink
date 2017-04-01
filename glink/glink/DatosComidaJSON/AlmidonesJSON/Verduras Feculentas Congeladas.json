@@ -1,0 +1,58 @@
+[
+  {
+    "Comida":"Choclo, grano amarillo dulce, congelado, hervido",
+    "Porcion":"100g",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo, grano blanco dulce congelado, hervido",
+    "Porcion":"100g",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Choclo en granos supercongelado ",
+    "Porcion":"100g= 1 taza de té",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papas fritas corte tradicional",
+    "Porcion":"90g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"4,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papas horneables",
+    "Porcion":"65g",
+    "Calorias":125,
+    "CH":20,
+    "Fibras":"2,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papas Noisettes",
+    "Porcion":"75g",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Papas Smiles",
+    "Porcion":"65g",
+    "Calorias":138,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  }
+]

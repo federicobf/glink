@@ -1,0 +1,722 @@
+[
+  {
+    "Comida":"Amor",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Anillo de coco",
+    "Porcion":"30g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Anillos",
+    "Porcion":"25g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Anillos Arcor",
+    "Porcion":"25g",
+    "Calorias":82,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Biscuit",
+    "Porcion":"25g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochos azucarados",
+    "Porcion":"35g",
+    "Calorias":170,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochos azucarados",
+    "Porcion":"30g",
+    "Calorias":139,
+    "CH":20,
+    "Fibras":"9,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochos Dulzuras Bagley",
+    "Porcion":"25g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Boca de dama",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas avena y miel",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas avena y miel sabor manzana y canela",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chocochips",
+    "Porcion":"30g",
+    "Calorias":157,
+    "CH":20,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Corazón de frutilla",
+    "Porcion":"30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Diversión Surtido",
+    "Porcion":"35g = 5 unidades",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Dulzuras limón Bagley",
+    "Porcion":"25g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Dulzuras naranja Bagley",
+    "Porcion":"25g",
+    "Calorias":94,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Duquesa",
+    "Porcion":"30g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Formis Black",
+    "Porcion":"31g = 5 unidades",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Formis Chocolate",
+    "Porcion":"31g = 5 unidades",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Formis Dulce De Leche",
+    "Porcion":"31g = 5 unidades",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Formis Frutilla",
+    "Porcion":"31g = 5 unidades",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran avena y pasas",
+    "Porcion":"2_ unidad = 30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran salvado",
+    "Porcion":"2_ unidad = 30g",
+    "Calorias":126,
+    "CH":20,
+    "Fibras":"2,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran tropical",
+    "Porcion":"2_ unidad = 30g",
+    "Calorias":131,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas de manteca, enriquecidas, industriales",
+    "Porcion":"30g",
+    "Calorias":140,
+    "CH":21,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas dulces sabor vainilla tipo María",
+    "Porcion":"25g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas Ser dulces",
+    "Porcion":"25g",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas tridulces sabor coco",
+    "Porcion":"25g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas tridulces sabor limón",
+    "Porcion":"25g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Galletitas tridulces sabor vainillas",
+    "Porcion":"25g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mellizas",
+    "Porcion":"28g = 2 unidades",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merci Chocolate Vainilla",
+    "Porcion":"32g = 3 unidades",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merci Vainilla Frutilla",
+    "Porcion":"32g = 3 unidades",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merci Vainilla Vainilla",
+    "Porcion":"32g = 3 unidades",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merengadas Duo",
+    "Porcion":"23g = 2 unidades",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merengadas Frutilla",
+    "Porcion":"23g = 2 unidades",
+    "Calorias":81,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Merengadas Juguito",
+    "Porcion":"25g = 2 unidades",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Miel",
+    "Porcion":"30g",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mini Oreo",
+    "Porcion":"30g",
+    "Calorias":151,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Naranjitas",
+    "Porcion":"30g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea rellena sabor chocolate Arcor",
+    "Porcion":"30g = 4 obleas",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea rellena sabor frutilla Arcor",
+    "Porcion":"30g = 4 obleas",
+    "Calorias":159,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea sabor chocolate con relleno choc y avellana",
+    "Porcion":"30g = 4 obleas",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea, de chocolate",
+    "Porcion":"30g",
+    "Calorias":121,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea, de vainilla, reducidas en grasa",
+    "Porcion":"25g",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oblea, de vainilla, ricas en grasa",
+    "Porcion":"30g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Obleas de chocolate",
+    "Porcion":"30g",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Obleas de frutilla",
+    "Porcion":"30g",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Obleas rellenas",
+    "Porcion":"30g",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Obleas Trexy",
+    "Porcion":"30g",
+    "Calorias":150,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ópera",
+    "Porcion":"30g",
+    "Calorias":147,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Opera Maxi Bagley",
+    "Porcion":"30g = 3 obleas",
+    "Calorias":161,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Opera Triple",
+    "Porcion":"25g = 2 obleas",
+    "Calorias":152,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Opera Triple naranja/chocolate",
+    "Porcion":"25g = 2 obleas",
+    "Calorias":154,
+    "CH":21,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Opera Triple naranja/frutilla",
+    "Porcion":"25g = 2 obleas",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oreo",
+    "Porcion":"30g = 3 unidades",
+    "Calorias":143,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oreo bañadas en chocolate blanco",
+    "Porcion":"35g",
+    "Calorias":174,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oreo bañadas en chocolate con leche",
+    "Porcion":"30g",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Palmeritas",
+    "Porcion":"30g",
+    "Calorias":127,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Panchitas vainilla",
+    "Porcion":"30g",
+    "Calorias":114,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepas",
+    "Porcion":"30g",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepitos",
+    "Porcion":"30g",
+    "Calorias":140,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepitos bañados",
+    "Porcion":"30g",
+    "Calorias":157,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pepitos rellenos",
+    "Porcion":"30g",
+    "Calorias":139,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Polvorita chocolate/vainilla",
+    "Porcion":"30g = 3 unidades",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Polvorita vainilla/frutilla",
+    "Porcion":"30g = 3 unidades",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Porteñitas",
+    "Porcion":"30g = 6 unidades",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rococó",
+    "Porcion":"30g",
+    "Calorias":130,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rosquitas",
+    "Porcion":"30g",
+    "Calorias":144,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rumba",
+    "Porcion":"28g = 2 unidades",
+    "Calorias":130,
+    "CH":19,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sonrisas Multifruta",
+    "Porcion":"34g = 3 unidades",
+    "Calorias":138,
+    "CH":19,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Surtidas Canale",
+    "Porcion":"30g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Surtido Bagley",
+    "Porcion":"34g = 5 unidades",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Surtido Noel",
+    "Porcion":"25g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortitas Black",
+    "Porcion":"28g = 4 unidades",
+    "Calorias":166,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortitas Chocola",
+    "Porcion":"30g",
+    "Calorias":163,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortitas dulces",
+    "Porcion":"25g",
+    "Calorias":122,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortitas Mix limon/chocolate.",
+    "Porcion":"35g",
+    "Calorias":161,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortitas Super chococolate",
+    "Porcion":"20g",
+    "Calorias":81,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trakinas",
+    "Porcion":"30g",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Triangulitos de hojaldre",
+    "Porcion":"30g",
+    "Calorias":152,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vainillas",
+    "Porcion":"25g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vainillas Arcor recetas de la buela",
+    "Porcion":"2 unidades = 29g",
+    "Calorias":117,
+    "CH":19,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vainillas Capri",
+    "Porcion":"30g",
+    "Calorias":101,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vainillas Dulzuras dulce de leche",
+    "Porcion":"2 unidades = 29g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Variedad Terrabusi",
+    "Porcion":"30g",
+    "Calorias":124,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Varitas de hojaldre",
+    "Porcion":"30g",
+    "Calorias":152,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vocación acarameladas fortificadas",
+    "Porcion":"6 unidades = 30g",
+    "Calorias":121,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vocación chocolate",
+    "Porcion":"6 unidades = 32g",
+    "Calorias":132,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vocación clásicas",
+    "Porcion":"6 unidades = 32g",
+    "Calorias":79,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  }
+]

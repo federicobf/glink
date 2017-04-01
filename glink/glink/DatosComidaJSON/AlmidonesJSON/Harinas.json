@@ -1,0 +1,184 @@
+[
+  {
+    "Comida":"Arroz, harina",
+    "Porcion":"2 cdas soperas = 25g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"0,6"
+  },
+  {
+    "Comida":"Avena, harina",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Avena, salvado, cocido",
+    "Porcion":"175g",
+    "Calorias":70,
+    "CH":20,
+    "Fibras":"4,6"
+  },
+  {
+    "Comida":"Avena, salvado, crudo",
+    "Porcion":"6 cucharadas soperas = 30g",
+    "Calorias":74,
+    "CH":20,
+    "Fibras":"4,6"
+  },
+  {
+    "Comida":"Avena, sémola",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":119,
+    "CH":21,
+    "Fibras":"3,8"
+  },
+  {
+    "Comida":"Cebada, harina",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":86,
+    "CH":19,
+    "Fibras":"2,5"
+  },
+  {
+    "Comida":"Cebada, sémola",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"3,1"
+  },
+  {
+    "Comida":"Centeno, harina",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":96,
+    "CH":21,
+    "Fibras":"2,0"
+  },
+  {
+    "Comida":"Germen de trigo, tostado",
+    "Porcion":"8 cucharadas tipo postre = 40g",
+    "Calorias":153,
+    "CH":20,
+    "Fibras":"6,0"
+  },
+  {
+    "Comida":"Trigo, harina pizza y pan ",
+    "Porcion":"27,5g",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Maíz, almidón",
+    "Porcion":"3 cucharadas tipo postre =25g",
+    "Calorias":87,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Maíz, harina de (polenta)",
+    "Porcion":" taza tipo té en cocido = 25g en crudo",
+    "Calorias":94,
+    "CH":21,
+    "Fibras":"0,5"
+  },
+  {
+    "Comida":"Mandioca o tapioca, almidón",
+    "Porcion":"3 cucharadas tipo postre = 25g",
+    "Calorias":86,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Papa, almidón",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":84,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Papa, harina",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":71,
+    "CH":17,
+    "Fibras":"1,2"
+  },
+  {
+    "Comida":"Trigo sarraceno o alforfón",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":101,
+    "CH":21,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Trigo sarraceno, harina integral",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":105,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Trigo sarraceno, sémola",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":101,
+    "CH":22,
+    "Fibras":"1,0"
+  },
+  {
+    "Comida":"Trigo, almidón",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":87,
+    "CH":22,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Trigo, germen",
+    "Porcion":"65g",
+    "Calorias":203,
+    "CH":20,
+    "Fibras":"11,5"
+  },
+  {
+    "Comida":"Trigo, harina 000",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":94,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Trigo, harina 0000",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,7"
+  },
+  {
+    "Comida":"Trigo, harina integral",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":102,
+    "CH":22,
+    "Fibras":"3,7"
+  },
+  {
+    "Comida":"Trigo, harina leudante",
+    "Porcion":"3 cdas tipo postre = 30g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,7"
+  },
+  {
+    "Comida":"Trigo, salvado, crudo",
+    "Porcion":"5 cdas tipo postre = 30g",
+    "Calorias":65,
+    "CH":19,
+    "Fibras":"12,8"
+  },
+  {
+    "Comida":"Trigo, sémola ",
+    "Porcion":"3 ucharadas tipo postre = 30g",
+    "Calorias":96,
+    "CH":21,
+    "Fibras":"2,1"
+  }
+]

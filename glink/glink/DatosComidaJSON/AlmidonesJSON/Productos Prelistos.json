@@ -1,0 +1,218 @@
+[
+  {
+    "Comida":"Arroz brocoli zanahoria y queso ",
+    "Porcion":"1/4 taza = 47,5g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz con Hongos ",
+    "Porcion":"1/4 taza = 52g",
+    "Calorias":87,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz con salsa de pollo y vegetales",
+    "Porcion":"100 g pcto preparado",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz con salsa de queso",
+    "Porcion":"100 g pcto preparado",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz con salsa de queso y tomate",
+    "Porcion":"100 g pcto preparado",
+    "Calorias":112,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz cuatro quesos ",
+    "Porcion":"1/4 taza = 48,5g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto a la Española",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto al Verdeo",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto con salsa 4 Quesos",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto con salsa de espinaca",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto con salsa de Hongos",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto con salsa de Queso",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Risotto Primavera",
+    "Porcion":"100 g = _ paquete",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz mix de vegetales con pechuga de pollo Knorr",
+    "Porcion":"1/4 taza = 48g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz Primavera",
+    "Porcion":"1/4 taza = 50g",
+    "Calorias":89,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz tipo Chino",
+    "Porcion":"1/4 taza = 50,5g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz tipo Paella",
+    "Porcion":"1/4 taza = 46,25g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa de brocoli con queso ",
+    "Porcion":"1 plato hondo = 72g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa de hongos",
+    "Porcion":"1 plato hondo = 69g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"0,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa de quesos",
+    "Porcion":"1 plato hondo = 69g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"0,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa de verdeo ",
+    "Porcion":"1 plato hondo = 76,67g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa mediterránea ",
+    "Porcion":"1 plato hondo = 70g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos con salsa napolitana ",
+    "Porcion":"1 plato hondo = 73g",
+    "Calorias":98,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fideos mix de vegetales con queso",
+    "Porcion":"1 plato hondo = 66g",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tirabuzón con salsa de queso",
+    "Porcion":"100 pcto preparado",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tirabuzón con salsa de queso y tomate",
+    "Porcion":"100 pcto preparado",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tirabuzones de vegetales verdes al ajo",
+    "Porcion":"1 plato hondo = 66g",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  }
+]

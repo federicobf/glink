@@ -1,0 +1,178 @@
+[
+  {
+    "Comida":"Acelga, congelada, cocida ",
+    "Porcion":"210 g (100 g = _ plato hondo)",
+    "Calorias":61,
+    "CH":10,
+    "Fibras":7,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alcaucil, congelado",
+    "Porcion":"130g",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alcaucil, congelado, hervido",
+    "Porcion":"110g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brocoli, congelado, cocido",
+    "Porcion":"220g (100 g = _ plato hondo)",
+    "Calorias":64,
+    "CH":10,
+    "Fibras":10,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebollo picada, congelada, cocida",
+    "Porcion":"121g (55 g = 1/4 plato hondo)",
+    "Calorias":92,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebollo picada, congelada, cruda",
+    "Porcion":"115g (55 g = 1/4 plato hondo)",
+    "Calorias":46,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coliflor, congelado",
+    "Porcion":"215g",
+    "Calorias":52,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coliflor, congelado, hervido, ",
+    "Porcion":"265g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":7,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chauchas, congeladas, cocidas",
+    "Porcion":"120g (100 g = _ plato hondo)",
+    "Calorias":48,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ensalada jardinera, congelada, cocida",
+    "Porcion":"70g (50 g = 1/4 plato hondo)",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ensalada primavera, congelada, cocida",
+    "Porcion":"70g (50 g = 1/4 plato hondo)",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Esparrago, congelado, hervido",
+    "Porcion":"205g",
+    "Calorias":57,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Espinaca congelada, cocida ",
+    "Porcion":"220g (100 g = _ plato hondo)",
+    "Calorias":88,
+    "CH":10,
+    "Fibras":6,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Espinaca, congelada cruda",
+    "Porcion":"250g",
+    "Calorias":60,
+    "CH":10,
+    "Fibras":8,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Espinaca, congelada, hervida",
+    "Porcion":"185g",
+    "Calorias":52,
+    "CH":10,
+    "Fibras":6,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mix primavera",
+    "Porcion":"170g",
+    "Calorias":58,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Patitas 3 vegetales, al horno",
+    "Porcion":"80 g = 4 unidades",
+    "Calorias":181,
+    "CH":22,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Patitas de espinaca, al horno ",
+    "Porcion":"80 g = 4 unidades",
+    "Calorias":183,
+    "CH":22,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollitos de Bruselas, congelados",
+    "Porcion":"125g",
+    "Calorias":51,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Repollitos de Bruselas, congelados",
+    "Porcion":"120g",
+    "Calorias":50,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria, congelada",
+    "Porcion":"110g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zanahoria, congelada, hervida",
+    "Porcion":"120g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":4,
+    "FIELD6":""
+  }
+]

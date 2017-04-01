@@ -1,0 +1,289 @@
+[
+  {
+    "Comida":"Albahaca, fresca",
+    "Porcion":"5g",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Menta, fresca",
+    "Porcion":"3g",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Peperina, fresca",
+    "Porcion":"6g",
+    "Calorias":3,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Romero, fresco",
+    "Porcion":"2g",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Tomillo, fresco",
+    "Porcion":"0,8g",
+    "Calorias":1,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Ajedrea, molida",
+    "Porcion":"4g",
+    "Calorias":12,
+    "CH":3,
+    "Fibras":2
+  },
+  {
+    "Comida":"Ajo, polvo",
+    "Porcion":"3g",
+    "Calorias":9,
+    "CH":2,
+    "Fibras":0
+  },
+  {
+    "Comida":"Alcarabea, semillas",
+    "Porcion":"2g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Amapola, semillas",
+    "Porcion":"3g",
+    "Calorias":15,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Anís, semillas",
+    "Porcion":"2g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Apio, semillas",
+    "Porcion":"2g",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Azafrán",
+    "Porcion":"0,7g",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Canela, molida",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":2,
+    "Fibras":1
+  },
+  {
+    "Comida":"Cardamomo",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Clavo de olor, molido",
+    "Porcion":"2g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Comino, semillas",
+    "Porcion":"2g",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Coriandro, hojas secas",
+    "Porcion":"0,5g",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Coriandro, semillas",
+    "Porcion":"2g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Curcuma, molida",
+    "Porcion":"2g",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Curry, polvo",
+    "Porcion":"2g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Chile, polvo",
+    "Porcion":"2,5g",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Eneldo, semillas",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Estragón, seco",
+    "Porcion":"1,6g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Hinojo, semillas",
+    "Porcion":"2g",
+    "Calorias":7,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Jengibre, molido",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Laurel, hoja",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Macis, molido",
+    "Porcion":"1,5g",
+    "Calorias":8,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Mejorana, seca",
+    "Porcion":"1,5g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Mostaza amarilla, semilla",
+    "Porcion":"3g",
+    "Calorias":15,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Nuez moscada, molida",
+    "Porcion":"2g",
+    "Calorias":12,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Orégano, seco",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Paprika",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Perejil, seco",
+    "Porcion":"1g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Pimienta de Jamaica, molida",
+    "Porcion":"2g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Pimienta, blanca",
+    "Porcion":"2,5g",
+    "Calorias":7,
+    "CH":2,
+    "Fibras":1
+  },
+  {
+    "Comida":"Pimienta, negra",
+    "Porcion":"2g",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Pimienta, roja o cayena",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":0
+  },
+  {
+    "Comida":"Romero, seco",
+    "Porcion":"1g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Sal de mesa",
+    "Porcion":"5g",
+    "Calorias":0,
+    "CH":0,
+    "Fibras":0
+  },
+  {
+    "Comida":"Salvia, molida",
+    "Porcion":"2g",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":1
+  },
+  {
+    "Comida":"Tomillo, seco",
+    "Porcion":"1,5g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":1
+  }
+]

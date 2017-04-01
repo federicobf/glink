@@ -1,0 +1,378 @@
+[
+  {
+    "Comida":"Barra de cereales a base de trigo sabor cappuccino Nutrilax",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":70,
+    "CH":17,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de cereales Cereal Fort Flekos sin azúcar agregado",
+    "Porcion":"1 unidad = 18g",
+    "Calorias":70,
+    "CH":12,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de cereales Desgras",
+    "Porcion":"1 unidad = 50g",
+    "Calorias":214,
+    "CH":23,
+    "Fibras":"2,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de banana split",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":97,
+    "CH":16,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de cereal fibras",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":70,
+    "CH":14,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de dulce de leche",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":75,
+    "CH":15,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de naranja con fitoesteroles",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":73,
+    "CH":14,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra de yogur y frutilla",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":85,
+    "CH":15,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra light de manzana durazno",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":55,
+    "CH":16,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra rellena sabor ensalada de frutas",
+    "Porcion":"1 unidad = 27g",
+    "Calorias":91,
+    "CH":19,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barra rellena sabor frutilla",
+    "Porcion":"1 unidad = 27g",
+    "Calorias":96,
+    "CH":19,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barrita de cereal durazno Cormillot",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":53,
+    "CH":16,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Barrita de cereal Manzana y frutilla Cormillot",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":53,
+    "CH":16,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Chocolate Con Almendras",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":99,
+    "CH":15,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Chocolate Con Coco",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":102,
+    "CH":15,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Durazno Ligth",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":66,
+    "CH":16,
+    "Fibras":"2,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Frutilla Naranja",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":89,
+    "CH":17,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Naranja Durazno",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":89,
+    "CH":17,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Original",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":94,
+    "CH":16,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Snack",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":104,
+    "CH":15,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal Mix Yogur Con Vainilla",
+    "Porcion":"1 unidad = 28g",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal y frutas ciruela Arcor",
+    "Porcion":"1 unidad = 32g",
+    "Calorias":121,
+    "CH":22,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereal y frutas durazno Arcor",
+    "Porcion":"1 unidad = 32g",
+    "Calorias":121,
+    "CH":22,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas avena y miel",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":103,
+    "CH":16,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas banana y almendras",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":104,
+    "CH":15,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas coco",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":104,
+    "CH":15,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas duraznos",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":103,
+    "CH":16,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealitas manzana",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":102,
+    "CH":16,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cerealmix Frutillas Con Yogur",
+    "Porcion":"1 unidad = 28g",
+    "Calorias":99,
+    "CH":17,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chispas de chocolate  ",
+    "Porcion":"1 unidad = 20g",
+    "Calorias":78,
+    "CH":15,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cookie bar multicereal lino",
+    "Porcion":"1 unidad = 20g",
+    "Calorias":74,
+    "CH":12,
+    "Fibras":"2,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cookie bar sabor chocolate",
+    "Porcion":"1 unidad = 20g",
+    "Calorias":88,
+    "CH":12,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cookie bar sabor vainilla",
+    "Porcion":"1 unidad = 20g",
+    "Calorias":92,
+    "CH":12,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran chocolate",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":100,
+    "CH":17,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran durazno",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":100,
+    "CH":17,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran frutilla",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":100,
+    "CH":17,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutigran manzana",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":434,
+    "CH":74,
+    "Fibras":"3,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutilla",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":94,
+    "CH":18,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lemon Pie",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":85,
+    "CH":18,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lemon pie",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":98,
+    "CH":16,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manzana",
+    "Porcion":"1 unidad = 20g",
+    "Calorias":65,
+    "CH":14,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Menta con chocolate",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mousse de chocolate",
+    "Porcion":"1 unidad = 21g",
+    "Calorias":82,
+    "CH":16,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser Citrus",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser Durazno",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":64,
+    "CH":14,
+    "Fibras":"3,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser frutilla",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":64,
+    "CH":14,
+    "Fibras":"3,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser Manzana",
+    "Porcion":"1 unidad = 23g",
+    "Calorias":63,
+    "CH":14,
+    "Fibras":"3,2",
+    "FIELD6":""
+  }
+]

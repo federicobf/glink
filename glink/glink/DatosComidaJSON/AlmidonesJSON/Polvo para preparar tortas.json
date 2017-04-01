@@ -1,0 +1,98 @@
+[
+  {
+    "Comida":"Bizcochuelo chocolate ",
+    "Porcion":"27g polvo = 40g listo",
+    "Calorias":121,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bizcochuelo Coco-Limón-Naranja-Vainilla -d leche",
+    "Porcion":"27g polvo = 40g listo",
+    "Calorias":119,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Brownies ",
+    "Porcion":"35g listo",
+    "Calorias":137,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cheese cake sin horno ",
+    "Porcion":"60g listo",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lemon pie sin horno ",
+    "Porcion":"55g listo",
+    "Calorias":140,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lemonies",
+    "Porcion":"35g listo",
+    "Calorias":138,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta Delicias Cheese Cake",
+    "Porcion":"1 porción =  25g",
+    "Calorias":119,
+    "CH":21,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta Delicias Lemon Pie",
+    "Porcion":"30g (1 porción =  25g)",
+    "Calorias":158,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta húmeda de chocolate",
+    "Porcion":"45g listo",
+    "Calorias":167,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta húmeda de vainilla con chips de chocolate ",
+    "Porcion":"45g listo",
+    "Calorias":164,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta húmeda marmolada ",
+    "Porcion":"45g listo",
+    "Calorias":160,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Torta mousse sin horno ",
+    "Porcion":"60g listo",
+    "Calorias":152,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  }
+]

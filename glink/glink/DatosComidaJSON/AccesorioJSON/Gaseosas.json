@@ -1,0 +1,138 @@
+[
+  {
+    "Comida":"Agua tónica",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":68,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coca-Cola",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":84,
+    "CH":22,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cola ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fanta naranja",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":101,
+    "CH":25,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Fanta naranja mandarina",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":99,
+    "CH":24,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Gaseosa cola",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":84,
+    "CH":22,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Gaseosa de lima- limón",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":80,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Gaseosa de naranja",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":96,
+    "CH":25,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Gaseosa de uva",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":86,
+    "CH":22,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ginger Ale ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":68,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lima Limón/Pomelo Rosado  ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":80,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manzana/ Naranja ",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":88,
+    "CH":22,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Quatro Pomelo",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":81,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Schweppes agua tonica",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":70,
+    "CH":17,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Schweppes citrus",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":93,
+    "CH":23,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Schweppes ginger ale",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":79,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sprite",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":84,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "Comida":"Arroz con leche clasico/canela/dulce de leche  ",
+    "Porcion":"1 pote de 180g ",
+    "Calorias":228,
+    "CH":40,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arroz con leche light ",
+    "Porcion":"1 pote de 180g ",
+    "Calorias":133,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette banana split",
+    "Porcion":"95g = 1 pote",
+    "Calorias":162,
+    "CH":24,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette crema americana",
+    "Porcion":"95g = 1 pote",
+    "Calorias":140,
+    "CH":20,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette crema americana y salsa de chocolate",
+    "Porcion":"95g = 1 pote",
+    "Calorias":151,
+    "CH":25,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette chocolate",
+    "Porcion":"95g = 1 pote",
+    "Calorias":143,
+    "CH":21,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette dulce de leche",
+    "Porcion":"95g = 1 pote",
+    "Calorias":162,
+    "CH":24,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette duplete cremme y caramel",
+    "Porcion":"95g = 1 pote",
+    "Calorias":160,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette flan",
+    "Porcion":"95g = 1 pote",
+    "Calorias":130,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danette vainilla",
+    "Porcion":"95g = 1 pote",
+    "Calorias":140,
+    "CH":21,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danonino Bebible Frutilla - Vainilla",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":196,
+    "CH":38,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danonino Frutilla - Vainilla Maxi",
+    "Porcion":"140g = 2 potes",
+    "Calorias":179,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Flan 0% deleitate coco / vainilla",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":103,
+    "CH":22,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Flan sabor vainilla",
+    "Porcion":"120 g = 1 unidad",
+    "Calorias":143,
+    "CH":25,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Flan tipo casero light",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":119,
+    "CH":22,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Flan tipo casero, vainilla dulce de leche",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":194,
+    "CH":35,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Flan vainilla con caramelo y dulce de leche",
+    "Porcion":"125 g = 1 pote",
+    "Calorias":178,
+    "CH":33,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mousse light con trozos de arandano",
+    "Porcion":"85 g = pote",
+    "Calorias":99,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mousse light frutilla",
+    "Porcion":"85 g = pote",
+    "Calorias":99,
+    "CH":9,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Petit Nestle crecimiento con Prebio 1",
+    "Porcion":"90 g = 2 unidades",
+    "Calorias":116,
+    "CH":15,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre con confites fortificado con vit A y D",
+    "Porcion":"967 g de postre + 14g de confites",
+    "Calorias":171,
+    "CH":30,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre con crispines fortificado con vit A y D",
+    "Porcion":"96 g de postre + 14g de crispines",
+    "Calorias":182,
+    "CH":29,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre chocolate fortificado con vit A y D",
+    "Porcion":"130 g = 1 pote",
+    "Calorias":161,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre dulce de leche fortificado con vit A y D",
+    "Porcion":"130 g = 1 pote",
+    "Calorias":158,
+    "CH":27,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy  chocolate con dulce de leche",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":159,
+    "CH":29,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy  dulce de leche",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":152,
+    "CH":28,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy  vainilla con dulce de leche",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":151,
+    "CH":28,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy  vainilla con Rocklets",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":179,
+    "CH":30,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy  vainilla y chocolate",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":127,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy Choco Action Dulce de leche",
+    "Porcion":"111 g = 1 pote",
+    "Calorias":185,
+    "CH":30,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy chocolate",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":137,
+    "CH":25,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre Shimy vainilla",
+    "Porcion":"120 g = 1 pote",
+    "Calorias":128,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre vainilla fortificado con vit A y D",
+    "Porcion":"130 g = 1 pote",
+    "Calorias":156,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Postre vainilla y dulce de leche fortificado con vit A y D",
+    "Porcion":"130 g = 1 pote",
+    "Calorias":161,
+    "CH":27,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Royal chocolate ",
+    "Porcion":"60g producto listo para consumir",
+    "Calorias":175,
+    "CH":30,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Royal limon/naranja/vainilla ",
+    "Porcion":"60g producto listo para consumir",
+    "Calorias":177,
+    "CH":32,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser postre Tentacion de Chocolate",
+    "Porcion":"105g = 1 pote",
+    "Calorias":87,
+    "CH":17,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser postre Tentacion de Dulce de leche",
+    "Porcion":"105g = 1 pote",
+    "Calorias":99,
+    "CH":19,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser postre Tentacion de Dulce de leche corazon de coco",
+    "Porcion":"105g = 1 pote",
+    "Calorias":103,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser postre Tentacion Dulce de leche corazon de chocolate",
+    "Porcion":"105g = 1 pote",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser tentacion flan de vainilla con caramelo",
+    "Porcion":"105g = 1 pote",
+    "Calorias":106,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito \"La Copa\"",
+    "Porcion":"110g = 1 pote",
+    "Calorias":188,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito flan vainilla",
+    "Porcion":"110g = 1 pote",
+    "Calorias":144,
+    "CH":25,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre combinado vainilla chocolate",
+    "Porcion":"125g = 1 pote",
+    "Calorias":170,
+    "CH":28,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre de chocolate",
+    "Porcion":"105g = 1 pote",
+    "Calorias":145,
+    "CH":24,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre de vainilla",
+    "Porcion":"105g = 1 pote",
+    "Calorias":144,
+    "CH":23,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre vainilla con confites",
+    "Porcion":"125g = 1 pote",
+    "Calorias":224,
+    "CH":35,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre vainilla con dulce de leche",
+    "Porcion":"125g = 1 pote",
+    "Calorias":174,
+    "CH":30,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Serenito postre vainilla con galletitas",
+    "Porcion":"125g = 1 pote",
+    "Calorias":235,
+    "CH":33,
+    "Fibras":"1",
+    "FIELD6":""
+  }
+]

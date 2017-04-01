@@ -1,0 +1,632 @@
+[
+  {
+    "Comida":"Bananita Dolca",
+    "Porcion":"14 g = 1 unidad",
+    "Calorias":59,
+    "CH":11,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bananita Dolca",
+    "Porcion":"30 g = 1 unidad",
+    "Calorias":117,
+    "CH":24,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bocaditos de turrón",
+    "Porcion":"21g = 2 unidades",
+    "Calorias":95,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Bombones surtidos ",
+    "Porcion":"15 g = 1 unidad",
+    "Calorias":80,
+    "CH":92,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees  light",
+    "Porcion":"10g",
+    "Calorias":33,
+    "CH":6,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Butter Toffees avellanas",
+    "Porcion":"10g",
+    "Calorias":47,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees black",
+    "Porcion":"10g",
+    "Calorias":47,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees black cherry",
+    "Porcion":"10g",
+    "Calorias":47,
+    "CH":6,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees black mint",
+    "Porcion":"10g",
+    "Calorias":48,
+    "CH":6,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees café",
+    "Porcion":"10g",
+    "Calorias":48,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees chocolate",
+    "Porcion":"10g",
+    "Calorias":37,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees dulce de leche",
+    "Porcion":"10g",
+    "Calorias":37,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees Temptation Coffee",
+    "Porcion":"10g",
+    "Calorias":43,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees Temptation dulce de leche",
+    "Porcion":"10g",
+    "Calorias":43,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Butter Toffees Temptation Mint",
+    "Porcion":"10g",
+    "Calorias":43,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelo Mentho Plus C citrus",
+    "Porcion":"1 unidad = 1,3g",
+    "Calorias":4,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelo Top Line C Mix Berry",
+    "Porcion":"1 unidad = 1,8g",
+    "Calorias":5,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelo Top Line C Mix Citrus",
+    "Porcion":"1 unidad = 1,8g",
+    "Calorias":5,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelos Masticables Surtidos Arcor Fruta",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelos Masticables Surtidos Misky",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Caramelos Masticables Yogur Misky",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":9,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Charge",
+    "Porcion":"32 g = 1 unidad",
+    "Calorias":187,
+    "CH":24,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Chicle Top Line Defense",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Fruta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Manzana Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Mentol",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Naranja Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Strong",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Tutti Frutti",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":4,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Top Line Vainilla Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":5,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Topline Frutilla + Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":5,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Topline Rolling Stone Dragon Fruit",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":13,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Topline Rolling Stone Rock Mint",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":12,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chicle Topline Sandía + Menta",
+    "Porcion":"2 unidades = 3g",
+    "Calorias":5,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chips de manzana Cormillot  ",
+    "Porcion":" 1 envase de 20g",
+    "Calorias":72,
+    "CH":17,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chokito",
+    "Porcion":"32 g = 1 unidad",
+    "Calorias":145,
+    "CH":24,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chupetin Misky Leche",
+    "Porcion":"10g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chupetín Pico Dulce ",
+    "Porcion":"1 unidad 14g",
+    "Calorias":50,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chupetin Power Pops",
+    "Porcion":"10g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chupetin Tatin",
+    "Porcion":"10g",
+    "Calorias":38,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cubanitos",
+    "Porcion":" 4 cubanitos 20g",
+    "Calorias":81,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Gomas Mogul Frutales ",
+    "Porcion":"8 unidades = 35g",
+    "Calorias":115,
+    "CH":27,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho  Plus  Sour Berries",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":8,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus C Berry",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Cherry",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Ice Menta",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":11,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Limón",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Manzana Sin Azúcar",
+    "Porcion":"1 unidad = 3,8g",
+    "Calorias":18,
+    "CH":2,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Menta",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Miel",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mentho Plus Sour Citrus",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":8,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Menthoplus C Tropical",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Menthoplus Ice Frutos Del Bosque",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":13,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Menthoplus Strong",
+    "Porcion":"1 unidad = 3,4g",
+    "Calorias":8,
+    "CH":3,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Prestigio",
+    "Porcion":" 1 unidad = 32g",
+    "Calorias":154,
+    "CH":22,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Rhodesia",
+    "Porcion":" 1 unidad = 22g",
+    "Calorias":115,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Serenata de Amor",
+    "Porcion":" 1 unidad = 20g",
+    "Calorias":109,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Confitados",
+    "Porcion":"12 unidades = 20g",
+    "Calorias":78,
+    "CH":19,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Confitados Evolution",
+    "Porcion":"12 unidades = 25g",
+    "Calorias":98,
+    "CH":21,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max ananá",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max damasco",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max Duo Ananá Frutilla",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max Duo uva frutilla",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max frutilla",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max manzana",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max menta",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max naranja",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max Tutti Frutti",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":59,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Max uva",
+    "Porcion":"2 unidades = 16g",
+    "Calorias":62,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Sugus Nuevos Sabores",
+    "Porcion":"6 unidades = 20g",
+    "Calorias":79,
+    "CH":17,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Surreal con Avellanas",
+    "Porcion":"2 bombones = 40g",
+    "Calorias":210,
+    "CH":25,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Surreal crocante de maní",
+    "Porcion":"2 bombones = 40g",
+    "Calorias":210,
+    "CH":24,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Tabletas Gold amargo con granos de cacao tost y caramelizados",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":131,
+    "CH":10,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Tabletas Gold amargo relleno a base de cerezas",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":125,
+    "CH":11,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Tabletas Gold leche",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":137,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Tabletas Gold leche con Almendras",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":140,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Tabletas Gold leche con Nougat",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":134,
+    "CH":14,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Tabletas Gold Noir 70 % cacao",
+    "Porcion":"25 g = 1/4 de cuadradito",
+    "Calorias":140,
+    "CH":8,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Tita",
+    "Porcion":"18g = 1 unidad",
+    "Calorias":88,
+    "CH":12,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Torta de maní",
+    "Porcion":"20g = 1/10 de torta",
+    "Calorias":87,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Turrón Almendra Con Yema",
+    "Porcion":"20g = 1/6 de turrón",
+    "Calorias":82,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Turrón Coco Bañado En Chocolate",
+    "Porcion":"22,5g = 1/2 de turrón",
+    "Calorias":103,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Turrón de almendra tipo Alicante Arcor",
+    "Porcion":"20g = 1/5 de turrón",
+    "Calorias":88,
+    "CH":13,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Turrón de maní  con frutas y yema Arcor",
+    "Porcion":"20g = 1/6 de turrón",
+    "Calorias":87,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Turrón de maní Arcor",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":102,
+    "CH":18,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Turrón de maní con fruta Arcor",
+    "Porcion":"20g = 1/15 de turrón",
+    "Calorias":81,
+    "CH":14,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Turrón de maní con miel",
+    "Porcion":"20g = 1/15 de turrón",
+    "Calorias":87,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Vauquita",
+    "Porcion":"1 unidad = 25g",
+    "Calorias":85,
+    "CH":16,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Vauquita light",
+    "Porcion":"1 unidad = 22g",
+    "Calorias":69,
+    "CH":16,
+    "Fibras":"0"
+  }
+]

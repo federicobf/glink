@@ -1,0 +1,170 @@
+[
+  {
+    "Comida":"Centeno",
+    "Porcion":"1 bollito 1 1/2  rebanada = 40g",
+    "Calorias":104,
+    "CH":19,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Centeno y trigo",
+    "Porcion":"45g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"2,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Centeno y trigo con salvado de trigo",
+    "Porcion":"50g",
+    "Calorias":103,
+    "CH":21,
+    "Fibras":"3,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Centeno, tostado",
+    "Porcion":"40g",
+    "Calorias":114,
+    "CH":21,
+    "Fibras":"2,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereales mezclados, tostado (cereales integrales)",
+    "Porcion":"40g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"2,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Doble integral",
+    "Porcion":"50g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"2,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Integral",
+    "Porcion":"45g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Integral Graham",
+    "Porcion":"50g",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"4,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Light 7 granos",
+    "Porcion":"60g",
+    "Calorias":121,
+    "CH":20,
+    "Fibras":"4,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Light Salvado",
+    "Porcion":"60g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"4,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Mix Cereal All Natural",
+    "Porcion":"45g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"2,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Oroweat semillas",
+    "Porcion":"50g",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"2,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pumpernickel",
+    "Porcion":"1 rebanada = 40g",
+    "Calorias":100,
+    "CH":19,
+    "Fibras":"2,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pumpernickel, tostado",
+    "Porcion":"40g",
+    "Calorias":110,
+    "CH":21,
+    "Fibras":"2,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado de avena",
+    "Porcion":"50g",
+    "Calorias":101,
+    "CH":21,
+    "Fibras":"6,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado de avena,  tostado",
+    "Porcion":"40g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"5,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado de trigo",
+    "Porcion":"40g",
+    "Calorias":99,
+    "CH":19,
+    "Fibras":"1,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Salvado doble dietético",
+    "Porcion":"50g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"3,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trigo y centeno",
+    "Porcion":"40g",
+    "Calorias":90,
+    "CH":19,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Trisalvado light Cormillot",
+    "Porcion":"50g (2 rebanadas 50g)",
+    "Calorias":124,
+    "CH":21,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pan de elaboración tipo artesanal multicereal ",
+    "Porcion":"55g (3 rebanadas = 50g)",
+    "Calorias":157,
+    "CH":20,
+    "Fibras":"4,6",
+    "FIELD6":""
+  }
+]

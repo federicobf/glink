@@ -1,0 +1,138 @@
+[
+  {
+    "Comida":"Blanco",
+    "Porcion":"40g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Blanco light",
+    "Porcion":"50g",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"3,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Blanco Semillas Milenarias ",
+    "Porcion":"50g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"3,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Blanco, industrial, tostado",
+    "Porcion":"35g",
+    "Calorias":103,
+    "CH":19,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Danés, de canela",
+    "Porcion":"45g",
+    "Calorias":181,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"De campo ",
+    "Porcion":"50g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"6,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"De hamburguesa o pancho",
+    "Porcion":"40g",
+    "Calorias":112,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"De hamburguesas con semillas de sésamo",
+    "Porcion":"40g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"De mesa rodajas finas",
+    "Porcion":"45g",
+    "Calorias":108,
+    "CH":20,
+    "Fibras":"1,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Francés o de viena, tostado",
+    "Porcion":"35g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Francés o viena",
+    "Porcion":"2 miñones pequeños = 40g",
+    "Calorias":110,
+    "CH":21,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lacteado original",
+    "Porcion":"45g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Matzo ó matza",
+    "Porcion":"3/4 de hoja = 25g",
+    "Calorias":99,
+    "CH":21,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pita, blanco",
+    "Porcion":"35g",
+    "Calorias":96,
+    "CH":19,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Proteico (incluye gluten)",
+    "Porcion":"45g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Proteico, tostado",
+    "Porcion":"40g",
+    "Calorias":108,
+    "CH":19,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rallado",
+    "Porcion":"3 cucharadas soperas = 30g",
+    "Calorias":119,
+    "CH":22,
+    "Fibras":"1,4",
+    "FIELD6":""
+  }
+]

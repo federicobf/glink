@@ -1,0 +1,114 @@
+[
+  {
+    "Comida":"Aceituna, en salmuera, envasadas, verdes",
+    "Porcion":"16 unidades = 65g",
+    "Calorias":94,
+    "CH":2,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, agua",
+    "Porcion":"50g",
+    "Calorias":950,
+    "CH":186,
+    "Fibras":"55",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, crema cruda",
+    "Porcion":"30g",
+    "Calorias":99,
+    "CH":2,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, crema enlatada",
+    "Porcion":"55g",
+    "Calorias":108,
+    "CH":5,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, leche cruda",
+    "Porcion":"40g",
+    "Calorias":97,
+    "CH":2,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, leche enlantada",
+    "Porcion":"45g",
+    "Calorias":91,
+    "CH":1,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, pulpa cruda",
+    "Porcion":"30g",
+    "Calorias":103,
+    "CH":4,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, pulpa desecada cremosa",
+    "Porcion":"15g",
+    "Calorias":96,
+    "CH":3,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, pulpa desecada endulzada rallada",
+    "Porcion":"30g",
+    "Calorias":140,
+    "CH":13,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, pulpa desecada no endulzada",
+    "Porcion":"15g",
+    "Calorias":99,
+    "CH":4,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coco, pulpa desecada tostada",
+    "Porcion":"20g",
+    "Calorias":124,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Palta, cruda, california",
+    "Porcion":"4 cda tipo postre = 65g",
+    "Calorias":109,
+    "CH":6,
+    "Fibras":"4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Paltas, crudas, florida",
+    "Porcion":"6 cda tipo postre = 100g",
+    "Calorias":120,
+    "CH":8,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Paltas, crudas, todas las variedades",
+    "Porcion":"4 _ cda tipo postre = 70g",
+    "Calorias":112,
+    "CH":6,
+    "Fibras":"5",
+    "FIELD6":""
+  }
+]

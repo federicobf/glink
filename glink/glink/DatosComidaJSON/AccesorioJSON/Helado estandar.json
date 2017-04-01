@@ -1,0 +1,436 @@
+[
+  {
+    "Comida":"Águila Granizado",
+    "Porcion":"70g (80cc) = 1 unidad",
+    "Calorias":276,
+    "CH":66,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Bananita Dolca",
+    "Porcion":"30 g = 1 unidad",
+    "Calorias":55,
+    "CH":4,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Barrita Helada Aguila",
+    "Porcion":"34g (49cc) = 1 unidad",
+    "Calorias":145,
+    "CH":12,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Bombon Helado Arcor",
+    "Porcion":"56g (60cc) = 1 unidad",
+    "Calorias":129,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cofler Americana Almendras",
+    "Porcion":"63g (80cc) = 1 unidad",
+    "Calorias":247,
+    "CH":17,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cofler Block",
+    "Porcion":"74g (80cc) = 1 unidad",
+    "Calorias":203,
+    "CH":18,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cono Bon O Bon",
+    "Porcion":"106g (135cc) = 1 unidad",
+    "Calorias":273,
+    "CH":37,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cono Rocklets",
+    "Porcion":"1 unidad = 120cc",
+    "Calorias":139,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Conogol Extreme Chocolate",
+    "Porcion":"90 g = 1 unidad",
+    "Calorias":248,
+    "CH":35,
+    "Fibras":"4"
+  },
+  {
+    "Comida":"Conogol Extreme Pasión (dulce de leche)",
+    "Porcion":"86 g = 1 unidad",
+    "Calorias":244,
+    "CH":35,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Conogol Extreme Top",
+    "Porcion":"96 g = 1 unidad",
+    "Calorias":333,
+    "CH":35,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Corazon De Bon O Bon",
+    "Porcion":"50g (60cc) = 1 unidad",
+    "Calorias":217,
+    "CH":34,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Chomp  Toffee",
+    "Porcion":"6 bocaditos",
+    "Calorias":198,
+    "CH":17,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Almendras",
+    "Porcion":"6 bocaditos",
+    "Calorias":181,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Chocolate",
+    "Porcion":"6 bocaditos",
+    "Calorias":218,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Chocolate con Salsa",
+    "Porcion":"6 bocaditos",
+    "Calorias":218,
+    "CH":17,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Dulce de Leche / Super dulce de leche",
+    "Porcion":"6 bocaditos",
+    "Calorias":195,
+    "CH":18,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Frutos del Bosque",
+    "Porcion":"6 bocaditos",
+    "Calorias":216,
+    "CH":19,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Chomp Mini Toffee",
+    "Porcion":"16 bocaditos",
+    "Calorias":214,
+    "CH":16,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Dibs Creama Toffee",
+    "Porcion":"55 g = 1 unidad",
+    "Calorias":236,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Epa Alfa choc",
+    "Porcion":"93 g = 1 unidad",
+    "Calorias":317,
+    "CH":41,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Epa Crunchy",
+    "Porcion":"93 g = 1 unidad",
+    "Calorias":303,
+    "CH":37,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Epa cuatro chocolates",
+    "Porcion":"90 g = 1 unidad",
+    "Calorias":311,
+    "CH":38,
+    "Fibras":"3"
+  },
+  {
+    "Comida":"Epa Dulce de leche Max",
+    "Porcion":"93 g = 1 unidad",
+    "Calorias":293,
+    "CH":35,
+    "Fibras":"3"
+  },
+  {
+    "Comida":"Heaven chocolate con brownie",
+    "Porcion":"60 g = _ taza",
+    "Calorias":134,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven dulce de leche con microgalletas",
+    "Porcion":"60 g = 1porción",
+    "Calorias":150,
+    "CH":22,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven frutos del bosque con Chocolate",
+    "Porcion":"60 g = _ taza",
+    "Calorias":140,
+    "CH":22,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven Unic crema americana con corazon de ddl",
+    "Porcion":"90 g = 1unidad",
+    "Calorias":275,
+    "CH":26,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven Unic chocolate con corazon de ddl",
+    "Porcion":"90 g = 1unidad",
+    "Calorias":285,
+    "CH":27,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven Unik Alfajor con corazón de ddl",
+    "Porcion":"90 g = 1unidad",
+    "Calorias":287,
+    "CH":28,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven Unik D  Leche con Crocantec/ ddl y Sambayón c/ddl",
+    "Porcion":"85 g = 1unidad",
+    "Calorias":288,
+    "CH":28,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Heaven Unik Lemon Pie",
+    "Porcion":"90 g = 1unidad",
+    "Calorias":259,
+    "CH":27,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Kim alfajor",
+    "Porcion":"30 g = 1 palito",
+    "Calorias":104,
+    "CH":10,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Kim dulce de leche",
+    "Porcion":"49 g = 1 vasito",
+    "Calorias":150,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Luxor Bonbon",
+    "Porcion":"53 g =1 palito",
+    "Calorias":168,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Luxor Dulce de leche",
+    "Porcion":"53 g =1 palito",
+    "Calorias":156,
+    "CH":16,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Luxor Extra",
+    "Porcion":"53 g =1 palito",
+    "Calorias":187,
+    "CH":13,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Mega Almendras con salsa de Avellanas",
+    "Porcion":"65 g = 1 unidad",
+    "Calorias":175,
+    "CH":22,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Mega Lemon Pie",
+    "Porcion":"65 g = 1 unidad",
+    "Calorias":213,
+    "CH":22,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Mega Super chocolate",
+    "Porcion":"65 g = 1 unidad",
+    "Calorias":217,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Minitorta Águila",
+    "Porcion":"58g (80cc) = 1 unidad",
+    "Calorias":68,
+    "CH":17,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mr Pops Frutilla Ananá",
+    "Porcion":"1 unidad = 50cc",
+    "Calorias":48,
+    "CH":12,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nesquik cream",
+    "Porcion":"40 g = 1 palito",
+    "Calorias":67,
+    "CH":10,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Nesquik chocolate",
+    "Porcion":"41 g = 1 palito",
+    "Calorias":71,
+    "CH":10,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Nesquik vasito",
+    "Porcion":"41 g = 1 vasito",
+    "Calorias":103,
+    "CH":16,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Patalín",
+    "Porcion":" 38 g = 1 unidad",
+    "Calorias":65,
+    "CH":10,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Popsy crema dulce de leche",
+    "Porcion":"27g = 1 palito",
+    "Calorias":48,
+    "CH":7,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Popsy frutal",
+    "Porcion":"43 g = 1 palito",
+    "Calorias":36,
+    "CH":9,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Pote  Chocolate/ Americana Graniz.",
+    "Porcion":"60 g = 1 bocha",
+    "Calorias":118,
+    "CH":16,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Pote  Chocolate/ Dulce de leche",
+    "Porcion":"60 g = 1 bocha ",
+    "Calorias":102,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Pote  d de leche con Salsa/ Americana / Frut/ Vaini ",
+    "Porcion":"60 g = 1 bocha",
+    "Calorias":103,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Pote  Limón",
+    "Porcion":"60 g = 1 bocha",
+    "Calorias":69,
+    "CH":17,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Pote Nesquik Chocolate y Crema",
+    "Porcion":"6 bocaditos",
+    "Calorias":104,
+    "CH":14,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Sin Parar Chocolate/ Dulce de leche / frutilla",
+    "Porcion":"60 g",
+    "Calorias":209,
+    "CH":35,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Sorbete de frutas",
+    "Porcion":"50g",
+    "Calorias":70,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Space Frutilla ",
+    "Porcion":"59g (55cc) = 1 unidad",
+    "Calorias":54,
+    "CH":13,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Space Limon",
+    "Porcion":"59g (55cc) = 1 unidad",
+    "Calorias":124,
+    "CH":15,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Torpedo Explosivo",
+    "Porcion":"70 g = 1 palito",
+    "Calorias":120,
+    "CH":21,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Torpedo frutilla / limón",
+    "Porcion":"65 cc = 1 palito",
+    "Calorias":62,
+    "CH":15,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Torpedo Gira Boca 2",
+    "Porcion":"63 g =1 palito",
+    "Calorias":53,
+    "CH":13,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Torpedo Hela-stick",
+    "Porcion":"74 = 1 palito",
+    "Calorias":117,
+    "CH":29,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Torpedo Soplón",
+    "Porcion":"58 g =1 palito",
+    "Calorias":50,
+    "CH":12,
+    "Fibras":"*"
+  }
+]

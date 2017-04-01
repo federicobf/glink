@@ -1,0 +1,114 @@
+[
+  {
+    "Comida":"Algodon, semillas tostadas",
+    "Porcion":"3 cdas postre = 30 g",
+    "Calorias":137,
+    "CH":6,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Amapola, semillas secas",
+    "Porcion":"2_ cdas postre = 25 g",
+    "Calorias":114,
+    "CH":1,
+    "Fibras":"5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Chia, semillas secas",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":147,
+    "CH":13,
+    "Fibras":"11",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, semillas secas",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":116,
+    "CH":5,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Girasol, semillas tostadas",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":111,
+    "CH":4,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lino, semillas",
+    "Porcion":"3 cdas postre = 30 g",
+    "Calorias":148,
+    "CH":10,
+    "Fibras":"8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sandia, semillas secas",
+    "Porcion":"19 unidades = 20g",
+    "Calorias":117,
+    "CH":3,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sesamo, semillas secas decorticada",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":107,
+    "CH":3,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sesamo, semillas secas enteras",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":115,
+    "CH":5,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sesamo, semillas tostadas decorticadas ",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":113,
+    "CH":5,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sesamo, semillas tostadas enteras",
+    "Porcion":"2 cdas postre = 20 g",
+    "Calorias":113,
+    "CH":5,
+    "Fibras":"3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo y calabaza, enteras tostadas",
+    "Porcion":"250 uniudades = 50g",
+    "Calorias":223,
+    "CH":27,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo y calabaza, semillas secas",
+    "Porcion":"100 unidades =20g",
+    "Calorias":119,
+    "CH":4,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zapallo y calabaza, tostadas ",
+    "Porcion":"125 unidades = 25g",
+    "Calorias":125,
+    "CH":3,
+    "Fibras":"1",
+    "FIELD6":""
+  }
+]

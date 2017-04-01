@@ -1,0 +1,306 @@
+[
+  {
+    "Comida":"Activia 0% Ciruela / Frutos rojos",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":65,
+    "CH":11,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Activia 0% frutillas a la crema",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":70,
+    "CH":12,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Bebible frutilla/vainilla",
+    "Porcion":" 1 pote de 200cc",
+    "Calorias":71,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Con frutas frutilla/durazno ",
+    "Porcion":"1 pote de 160g",
+    "Calorias":78,
+    "CH":13,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cremoso frutilla/durazno/vainilla ",
+    "Porcion":"1 pote de 125g",
+    "Calorias":52,
+    "CH":7,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Vida cremoso con frutilla, frambuesa y mora",
+    "Porcion":"190g = 1 pote",
+    "Calorias":105,
+    "CH":19,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Vida cremoso con trozos de frutilla/durazno",
+    "Porcion":"190g = 1 pote",
+    "Calorias":99,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Vida cremoso con trozos de pera y manzana",
+    "Porcion":"190g = 1 pote",
+    "Calorias":99,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Vida mix cereales mas frutas",
+    "Porcion":"170g = 1 pote",
+    "Calorias":122,
+    "CH":24,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Vida, frutilla o vainilla en botella o sachet",
+    "Porcion":"200g = 1 botellita",
+    "Calorias":64,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur  Total, B-puritas",
+    "Porcion":"183g = 1 vaso",
+    "Calorias":150,
+    "CH":29,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur \"Crunch\"",
+    "Porcion":"130g = 1 pote",
+    "Calorias":88,
+    "CH":16,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido colchon de duraznos ",
+    "Porcion":"185g = 1 pote",
+    "Calorias":102,
+    "CH":19,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido colchon de frutillas ",
+    "Porcion":"185g = 1 pote",
+    "Calorias":113,
+    "CH":21,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido colchon frutos de la Patagonia",
+    "Porcion":"185g = 1 pote",
+    "Calorias":102,
+    "CH":18,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido con capuchon Corn Flakes",
+    "Porcion":"181g = 1 pote",
+    "Calorias":125,
+    "CH":22,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido con capuchon Muesli",
+    "Porcion":"181g = 1 pote",
+    "Calorias":147,
+    "CH":28,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido antojo de lemon pie",
+    "Porcion":"125g = 1 pote",
+    "Calorias":66,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur batido pasion de frutillas",
+    "Porcion":"125g = 1 pote",
+    "Calorias":69,
+    "CH":9,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur bebible fibramix",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":57,
+    "CH":8,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur bebible mix de fruta",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":61,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur bebible ser  frutilla kiwi",
+    "Porcion":"190g = 1 botellita",
+    "Calorias":61,
+    "CH":9,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur calcio+ durazno-manzana",
+    "Porcion":"125g = 1 pote ",
+    "Calorias":66,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur calcio+ frutilla",
+    "Porcion":"125g = 1 pote",
+    "Calorias":64,
+    "CH":11,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ser yogur firme saborizado",
+    "Porcion":"195g = 1 pote",
+    "Calorias":84,
+    "CH":12,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs licuado parcial. descr con durazno/frutilla/banana",
+    "Porcion":"200g = 1 botellita",
+    "Calorias":162,
+    "CH":30,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogs parcial desc durazno/frutilla/vainilla botella o sachet",
+    "Porcion":"200cc = 1 vaso",
+    "Calorias":156,
+    "CH":28,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur bebible descremado, saborizado",
+    "Porcion":"200 cc= 1 vaso",
+    "Calorias":74,
+    "CH":11,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado batido saborizado",
+    "Porcion":"200 g = 1 vaso",
+    "Calorias":92,
+    "CH":12,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado batido saborizado",
+    "Porcion":"125 g = 1 pote",
+    "Calorias":51,
+    "CH":7,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado bebible saborizado",
+    "Porcion":"200 g = 1 vaso",
+    "Calorias":74,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado con frutas en el fondo - Durazno",
+    "Porcion":"160 g = 1 pote",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado con frutas en el fondo - Frutilla",
+    "Porcion":"160 g = 1 pote",
+    "Calorias":98,
+    "CH":19,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado con top para mezclar (cereales)",
+    "Porcion":"150 g yogur + 10  g cereal",
+    "Calorias":97,
+    "CH":17,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado con top para mezclar (durazno)",
+    "Porcion":"150 g yogur + 50  g fruta",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado con top para mezclar (Muesli)",
+    "Porcion":"155 g yogur + 15  g cereal",
+    "Calorias":120,
+    "CH":19,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado firme saborizado",
+    "Porcion":"200 g = 1 pote",
+    "Calorias":89,
+    "CH":13,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Yogur descremado sabor vainilla Dahi",
+    "Porcion":"1 envase = 200g",
+    "Calorias":80,
+    "CH":12,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "Comida":"Anana, enlatado, almibar espeso, sol. y liq",
+    "Porcion":"50g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Anana, enlatado, almibar liviano, sol. y liq",
+    "Porcion":"75g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereza al marrasquino, escurrida",
+    "Porcion":"25g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cereza, agria, roja, en agua, solidos y liq.",
+    "Porcion":"115g",
+    "Calorias":41,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cocktail de frutas almibar espeso, sol y liq",
+    "Porcion":"50g",
+    "Calorias":37,
+    "CH":9,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cocktail de frutas almibar liviano, sol y liq",
+    "Porcion":"65g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cocktail de frutas, almibar espeso, escurrido",
+    "Porcion":"55g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Coctel de 5 frutas ",
+    "Porcion":"1 taza de te de coctel = 140g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Durazno, almibar espeso, escurrido",
+    "Porcion":"50g",
+    "Calorias":39,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Durazno, almibar espeso, solidos y liquidos",
+    "Porcion":"50g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Durazno, almibar liviano, solidos y liquidos",
+    "Porcion":"70g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Duraznos natural",
+    "Porcion":"_ taza de durazno + jarabe = 140g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ensalada de frutas ",
+    "Porcion":"170g",
+    "Calorias":45,
+    "CH":10,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frambuesa ",
+    "Porcion":"60g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Frutilla ",
+    "Porcion":"60g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Manzana, pure, endulzado",
+    "Porcion":"50g",
+    "Calorias":38,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pera, almibar espeso, escurrida",
+    "Porcion":"50g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pera, almibar espeso, solido y liquido",
+    "Porcion":"50g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Pera, almibar liviano, solido y liquido",
+    "Porcion":"65g",
+    "Calorias":37,
+    "CH":10,
+    "Fibras":"1",
+    "FIELD6":""
+  }
+]

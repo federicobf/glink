@@ -1,0 +1,26 @@
+[
+  {
+    "Comida":"Arandano, congelado",
+    "Porcion":"85g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":2,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Boysenberry, congelado",
+    "Porcion":"85g",
+    "Calorias":43,
+    "CH":10,
+    "Fibras":5,
+    "FIELD6":""
+  },
+  {
+    "Comida":"Zarzamora, congelada, sin endulzar",
+    "Porcion":"65g",
+    "Calorias":42,
+    "CH":10,
+    "Fibras":3,
+    "FIELD6":""
+  }
+]

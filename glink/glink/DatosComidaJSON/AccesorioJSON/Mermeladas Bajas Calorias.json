@@ -1,0 +1,93 @@
+[
+  {
+    "Comida":"blueberry",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":31,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"ciruela",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":29,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"citrus",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"damasco",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"durazno",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"frambuesa",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"frutilla",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"jalea de membrillo",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":34,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"kiwi",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":31,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"mora",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":32,
+    "CH":8,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"naranja",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":30,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"pomelo rosado",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":28,
+    "CH":7,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"tomate",
+    "Porcion":"1 cda  = 20g",
+    "Calorias":32,
+    "CH":8,
+    "Fibras":"0"
+  }
+]

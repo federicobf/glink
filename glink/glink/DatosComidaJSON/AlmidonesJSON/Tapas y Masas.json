@@ -1,0 +1,146 @@
+[
+  {
+    "Comida":"Masa de panqueque de espinaca",
+    "Porcion":"80g",
+    "Calorias":179,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa de panqueque tradicional",
+    "Porcion":"60g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"0,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa Fila",
+    "Porcion":"35g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Masa para medialunas",
+    "Porcion":"43g (1_u. )",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rapiditas",
+    "Porcion":"21g (1=50g)",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Rapiditas light",
+    "Porcion":"23g 1 u",
+    "Calorias":101,
+    "CH":20,
+    "Fibras":"4,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Roll-Brise (masa quebrada para tartas dulces)",
+    "Porcion":"75g (2,5/12)",
+    "Calorias":175,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Roll-Hojaldre (masa hojaldrada para repostería)",
+    "Porcion":"45g (1,5/12)",
+    "Calorias":174,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tacos, horneados",
+    "Porcion":"30g",
+    "Calorias":150,
+    "CH":20,
+    "Fibras":"2,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa para empanadas",
+    "Porcion":"2 unidades",
+    "Calorias":135,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa para pastelitos",
+    "Porcion":"45g= 3 u",
+    "Calorias":147,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa pascualina con salvado",
+    "Porcion":"1/8 de la masa",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa pascualina criolla",
+    "Porcion":"1/8 de la masa",
+    "Calorias":147,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa pascualina de hojaldre",
+    "Porcion":"1/8 de la masa",
+    "Calorias":141,
+    "CH":20,
+    "Fibras":"0,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapa pascualina light",
+    "Porcion":"1/8 de la masa",
+    "Calorias":121,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapas para empanadas de copetín",
+    "Porcion":"45g (2 unidades 28g)",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"0,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tapas para tarta ",
+    "Porcion":"1 y 1/2 porción",
+    "Calorias":160,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortas fritas listas para consumir",
+    "Porcion":"45g (1 unidad 27g)",
+    "Calorias":145,
+    "CH":20,
+    "Fibras":"2,7",
+    "FIELD6":""
+  }
+]

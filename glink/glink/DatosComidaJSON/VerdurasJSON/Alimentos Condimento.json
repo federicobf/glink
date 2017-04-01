@@ -1,0 +1,34 @@
+[
+  {
+    "Comida":"Ajo",
+    "Porcion":"35g",
+    "Calorias":49,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Cebollin/ ciboulette",
+    "Porcion":"630g",
+    "Calorias":170,
+    "CH":10,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Perejil",
+    "Porcion":"135g",
+    "Calorias":68,
+    "CH":10,
+    "Fibras":"6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alcaparras, envasadas",
+    "Porcion":"10g",
+    "Calorias":2,
+    "CH":0,
+    "Fibras":"0",
+    "FIELD6":""
+  }
+]

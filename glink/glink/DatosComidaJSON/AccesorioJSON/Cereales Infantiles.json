@@ -1,0 +1,128 @@
+[
+  {
+    "Comida":"Batido Nestum Trigo / Dulce de Leche",
+    "Porcion":"20 g + 200 cc de leche",
+    "Calorias":207,
+    "CH":25,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Batido Nestum Trigo Miel / Cacao Miel",
+    "Porcion":"20 g + 200 cc de leche",
+    "Calorias":206,
+    "CH":26,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Arroz",
+    "Porcion":"25 g + 160 cc de leche",
+    "Calorias":198,
+    "CH":29,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Maíz",
+    "Porcion":"25 g + 160 cc de leche",
+    "Calorias":195,
+    "CH":28,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Trigo Cacao con Copitos",
+    "Porcion":"30 g + 160 cc de leche",
+    "Calorias":214,
+    "CH":31,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Trigo con Frutas",
+    "Porcion":"25 g + 160 cc de leche",
+    "Calorias":198,
+    "CH":28,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Trigo con Miel",
+    "Porcion":"25 g + 160 cc de leche",
+    "Calorias":192,
+    "CH":28,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Cereal Infantil Nestum Trigo Manzana con Copitos",
+    "Porcion":"30 g + 160 cc de leche",
+    "Calorias":215,
+    "CH":32,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Cereal Nestum 5 Cereales",
+    "Porcion":"25 g + 160 cc de leche",
+    "Calorias":197,
+    "CH":28,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Nestum Arroz y Manzana",
+    "Porcion":"30 g + 160 cc de leche",
+    "Calorias":207,
+    "CH":34,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Nestum Avena y Ciruela",
+    "Porcion":"30 g + 160 cc de leche",
+    "Calorias":207,
+    "CH":30,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"Nestum Trigo con leche",
+    "Porcion":"50 g",
+    "Calorias":199,
+    "CH":34,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Pastas secas Vitina (Formitas de animales- Coditos- Espiralitos- Letrinumeritos- Municiones- Dinos)",
+    "Porcion":"28g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Sémola de zapallo Vitina",
+    "Porcion":"29g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Sémola espinaca Vitina",
+    "Porcion":"29g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Sémola tradicional Vitina",
+    "Porcion":"27g",
+    "Calorias":92,
+    "CH":20,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Vitina Bebé cereales ",
+    "Porcion":"26g",
+    "Calorias":90,
+    "CH":20,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Vitina Bebé vegetales",
+    "Porcion":"29g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"1"
+  }
+]

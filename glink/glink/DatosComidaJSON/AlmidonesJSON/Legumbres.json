@@ -1,0 +1,170 @@
+[
+  {
+    "Comida":"Adzuki, hervido",
+    "Porcion":"80g",
+    "Calorias":102,
+    "CH":20,
+    "Fibras":"5,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Alubia, hervido",
+    "Porcion":"75g",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"4,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arvejas en vaina, comestible, hervidas",
+    "Porcion":"285g",
+    "Calorias":120,
+    "CH":20,
+    "Fibras":"8,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Arvejas hervidas y escurridas",
+    "Porcion":"205g",
+    "Calorias":132,
+    "CH":19,
+    "Fibras":"6,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Garbanzo, hervido",
+    "Porcion":"75g",
+    "Calorias":115,
+    "CH":19,
+    "Fibras":"5,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Habas, hervidas",
+    "Porcion":"100g",
+    "Calorias":110,
+    "CH":20,
+    "Fibras":"5,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Lupín, hervido",
+    "Porcion":"200g",
+    "Calorias":238,
+    "CH":20,
+    "Fibras":"5,6",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto amarillo, hervido",
+    "Porcion":"80g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"8,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto arriñonado, hervido",
+    "Porcion":"90g",
+    "Calorias":108,
+    "CH":19,
+    "Fibras":"5,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto blanco pequeño, hervido",
+    "Porcion":"75g",
+    "Calorias":107,
+    "CH":19,
+    "Fibras":"7,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto blanco, hervido",
+    "Porcion":"80g",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"5,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto cocido, promedio",
+    "Porcion":"100g",
+    "Calorias":93,
+    "CH":21,
+    "Fibras":"5,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto francés, hervido",
+    "Porcion":"85g",
+    "Calorias":103,
+    "CH":19,
+    "Fibras":"7,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto jacinto, hervido",
+    "Porcion":"95g",
+    "Calorias":117,
+    "CH":21,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto lima, grande, hervido",
+    "Porcion":"95g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"6,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto lima, hervido",
+    "Porcion":"85g",
+    "Calorias":105,
+    "CH":20,
+    "Fibras":"4,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto mung, hervido",
+    "Porcion":"110g",
+    "Calorias":116,
+    "CH":20,
+    "Fibras":"7,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto negro, hervido",
+    "Porcion":"85g",
+    "Calorias":112,
+    "CH":20,
+    "Fibras":"7,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto ojo negro, hervido",
+    "Porcion":"100g",
+    "Calorias":97,
+    "CH":20,
+    "Fibras":"5,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto pinto, hervido",
+    "Porcion":"80g",
+    "Calorias":103,
+    "CH":19,
+    "Fibras":"6,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Poroto rosa, hervido",
+    "Porcion":"70g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"3,7",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Comida":"Actimel Frutos del bosque 0%",
+    "Porcion":"100g = 1 botellita",
+    "Calorias":40,
+    "CH":7,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Actimel Multifruta - Manzana 0%",
+    "Porcion":"100g = 1 botellita",
+    "Calorias":40,
+    "CH":7,
+    "Fibras":"2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Bio 0% frutilla/multifruta",
+    "Porcion":"95g = 1 botellita",
+    "Calorias":29,
+    "CH":4,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Actimel Multifruta - Vainilla - Frutilla - Frutos del bosque",
+    "Porcion":"100g = 1 botellita",
+    "Calorias":88,
+    "CH":16,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Actimel Natural ",
+    "Porcion":"100g = 1 botellita",
+    "Calorias":83,
+    "CH":14,
+    "Fibras":"*",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sancor Bio frutilla/multifruta/natural",
+    "Porcion":"95g = 1 botellita",
+    "Calorias":71,
+    "CH":12,
+    "Fibras":"1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vidacol frutilla",
+    "Porcion":"80g = 1 botellita",
+    "Calorias":40,
+    "CH":5,
+    "Fibras":"0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Vidacol vainilla / multifruta",
+    "Porcion":"80g = 1 botellita",
+    "Calorias":40,
+    "CH":5,
+    "Fibras":"*",
+    "FIELD6":""
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "Comida":"Capelletis ricota y espinaca",
+    "Porcion":"45g",
+    "Calorias":122,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Capellettis 4 quesos",
+    "Porcion":"35g",
+    "Calorias":104,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Capellettis pollo y espinaca",
+    "Porcion":"40g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles 4 quesos ",
+    "Porcion":"55g",
+    "Calorias":142,
+    "CH":20,
+    "Fibras":"2,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de calabaza",
+    "Porcion":"45g",
+    "Calorias":138,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de calabaza y espinaca",
+    "Porcion":"50g",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de calabaza y mozzarella ",
+    "Porcion":"50g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de carne y espinaca",
+    "Porcion":"50g",
+    "Calorias":138,
+    "CH":20,
+    "Fibras":"1,7",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de espinaca",
+    "Porcion":"60g",
+    "Calorias":118,
+    "CH":20,
+    "Fibras":"1,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de pollo",
+    "Porcion":"50g",
+    "Calorias":111,
+    "CH":20,
+    "Fibras":"0,5",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de pollo y espinaca",
+    "Porcion":"50g",
+    "Calorias":113,
+    "CH":20,
+    "Fibras":"1,8",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de ricota",
+    "Porcion":"40g",
+    "Calorias":129,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de ricota y espinaca",
+    "Porcion":"40g",
+    "Calorias":109,
+    "CH":20,
+    "Fibras":"1,3",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de ricota y jamón",
+    "Porcion":"45g",
+    "Calorias":133,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de ricota, espinaca y mozzarella ",
+    "Porcion":"55g",
+    "Calorias":145,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de ricota, jamón y mozzarella ",
+    "Porcion":"55g",
+    "Calorias":136,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Ravioles de soja",
+    "Porcion":"65g",
+    "Calorias":107,
+    "CH":20,
+    "Fibras":"2,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Raviolitos cuatro quesos",
+    "Porcion":"45g",
+    "Calorias":128,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Raviolitos de ricota, mozzarella y espinaca",
+    "Porcion":"45g",
+    "Calorias":125,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sacotinos cuatro quesos",
+    "Porcion":"50g",
+    "Calorias":154,
+    "CH":20,
+    "Fibras":"1,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sacotinos de pollo y verdura",
+    "Porcion":"50g",
+    "Calorias":146,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sacotinos ricota y nuez",
+    "Porcion":"50g",
+    "Calorias":156,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sorrentinos jamón y muzarella",
+    "Porcion":"65g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,4",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Sorrentinos ricota, jamón y muzarella",
+    "Porcion":"65g",
+    "Calorias":123,
+    "CH":20,
+    "Fibras":"0,0",
+    "FIELD6":""
+  },
+  {
+    "Comida":"Tortellettis pollo y espinaca",
+    "Porcion":"40g",
+    "Calorias":115,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":""
+  }
+]

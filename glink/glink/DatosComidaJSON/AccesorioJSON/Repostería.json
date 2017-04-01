@@ -1,0 +1,30 @@
+[
+  {
+    "Comida":"Crema nougat",
+    "Porcion":"15g",
+    "Calorias":80,
+    "CH":9,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Fondant",
+    "Porcion":"10g",
+    "Calorias":35,
+    "CH":9,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Kero",
+    "Porcion":"1 cucharada sopera = 20 g.",
+    "Calorias":66,
+    "CH":16,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Mazapán",
+    "Porcion":"15g",
+    "Calorias":73,
+    "CH":9,
+    "Fibras":"*"
+  }
+]

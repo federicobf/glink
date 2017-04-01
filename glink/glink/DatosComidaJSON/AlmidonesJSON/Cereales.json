@@ -1,0 +1,209 @@
+[
+  {
+    "Comida":"Amaranto",
+    "Porcion":"30g",
+    "Calorias":112,
+    "CH":20,
+    "Fibras":"4,6",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Arroz  blanco, parboilizado, grano largo, cocido",
+    "Porcion":"3/4 taza de té = 80g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"0,3",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Arroz blanco cocido",
+    "Porcion":"_ taza de té = 100g",
+    "Calorias":84,
+    "CH":19,
+    "Fibras":"*",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Arroz, integral, grano largo, cocido",
+    "Porcion":"85g",
+    "Calorias":94,
+    "CH":20,
+    "Fibras":"1,5",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Avena",
+    "Porcion":"_ taza de té = 30g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"3,2",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Avena instantánea, cocida con agua",
+    "Porcion":"185g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"3,1",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Avena tradicional",
+    "Porcion":"2 cdas soperas = 40g",
+    "Calorias":118,
+    "CH":20,
+    "Fibras":"3,6",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Cebada",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":106,
+    "CH":22,
+    "Fibras":"5,2",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Cebada, perlada cruda",
+    "Porcion":"2 cdas tipo postre = 25g",
+    "Calorias":88,
+    "CH":19,
+    "Fibras":"3,9",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Cebada, perlada, cocida",
+    "Porcion":"70g",
+    "Calorias":86,
+    "CH":20,
+    "Fibras":"2,7",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Centeno",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":101,
+    "CH":21,
+    "Fibras":"4,4",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Cous cous, instantáneo",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":88,
+    "CH":20,
+    "Fibras":"0,9",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Couscous, cocido",
+    "Porcion":"85g",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"1,2",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Maíz entero",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":98,
+    "CH":19,
+    "Fibras":"2,9",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Maíz, almidón",
+    "Porcion":"20g",
+    "Calorias":76,
+    "CH":18,
+    "Fibras":"0,2",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Mijo, cocido",
+    "Porcion":"85g",
+    "Calorias":101,
+    "CH":20,
+    "Fibras":"1,1",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Mijo, crudo",
+    "Porcion":"2 cdas tipo postre = 25 g",
+    "Calorias":95,
+    "CH":18,
+    "Fibras":"2,1",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Quinoa",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":117,
+    "CH":20,
+    "Fibras":"2,3",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Sorgo",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":105,
+    "CH":21,
+    "Fibras":"1,1",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Tapioca, perlada, seca",
+    "Porcion":"20g",
+    "Calorias":72,
+    "CH":18,
+    "Fibras":"0,2",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Trigo burgol, cocido",
+    "Porcion":"3/4 taza tipo té = 110g",
+    "Calorias":91,
+    "CH":20,
+    "Fibras":"5,0",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Trigo común o de pan, grano entero",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":104,
+    "CH":21,
+    "Fibras":"4,7",
+    "FIELD6":"",
+    "FIELD7":""
+  },
+  {
+    "Comida":"Trigo Triticale",
+    "Porcion":"2 cdas soperas = 30g",
+    "Calorias":99,
+    "CH":19,
+    "Fibras":"2,0",
+    "FIELD6":"",
+    "FIELD7":""
+  }
+]

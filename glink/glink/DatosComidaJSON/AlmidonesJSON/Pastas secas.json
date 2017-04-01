@@ -1,0 +1,156 @@
+[
+  {
+    "Comida":"Ave María, Cabello de ángel, Municiones, Nidos",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Bucatini, Fettuccini, Spaghetti, Tallarín ",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Casereccia",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Caseritos, Fettuccini, Tallarín",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Codo, Macarrón, Moño, Mostachol, Tirabuzón",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Fettuccini con albahaca, c/ espinaca, c/ morrón",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":100,
+    "CH":20,
+    "Fibras":"1,1"
+  },
+  {
+    "Comida":"Fideos al huevo, secos",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":101,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Fideos, al huevo, de espinaca, cocidos",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":106,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Foratini, Spaghetti, Tallarín,Nido ancho ",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Lasagna común, de espinaca ",
+    "Porcion":"30g = 2 1/4 u",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Macarrones, cocidos",
+    "Porcion":"70g",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Macarrones, secos",
+    "Porcion":"2 cdas soperas = 25g",
+    "Calorias":93,
+    "CH":19,
+    "Fibras":"0,6"
+  },
+  {
+    "Comida":"Mostachol integral, Spaghetti integral  ",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"2,1"
+  },
+  {
+    "Comida":"Pasta 5 cereales",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":92,
+    "CH":19,
+    "Fibras":"1,0"
+  },
+  {
+    "Comida":"Pasta corta de sémola (Penne-Mostachol-etc)",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Pasta larga de sémola (Fetuccini-Spaghetti-Tallarín)",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Pastas al huevo (Casareccia- Rigatoni- Spaghetti)",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":97,
+    "CH":19,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Spaghetti mix vegetales verdes, morrón",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":95,
+    "CH":20,
+    "Fibras":"0,9"
+  },
+  {
+    "Comida":"Spaghetti, cocido",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":99,
+    "CH":20,
+    "Fibras":"1,2"
+  },
+  {
+    "Comida":"Spaghetti, de trigo integral, cocido",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":93,
+    "CH":20,
+    "Fibras":"3,4"
+  },
+  {
+    "Comida":"Tres vegetales (Farfalle- Mostachol-Tirabuzón)",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,8"
+  },
+  {
+    "Comida":"Tubettini- Moño- Mostachol- Tirabuzón ",
+    "Porcion":"1 taza té cocido = 30g crudo",
+    "Calorias":96,
+    "CH":20,
+    "Fibras":"0,8"
+  }
+]

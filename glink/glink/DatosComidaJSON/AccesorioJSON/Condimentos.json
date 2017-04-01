@@ -1,0 +1,65 @@
+[
+  {
+    "Comida":"Extracto de carne",
+    "Porcion":"30g",
+    "Calorias":74,
+    "CH":1,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Extracto doble de tomate Arcor",
+    "Porcion":"2 cucharadas de sopa = 30g",
+    "Calorias":38,
+    "CH":8,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Extracto simple de tomate Titan",
+    "Porcion":"2 cucharadas de sopa = 30g",
+    "Calorias":35,
+    "CH":6,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Extracto triple",
+    "Porcion":"2 cucharadas de sopa = 30g",
+    "Calorias":161,
+    "CH":17,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Saborizador tipo Criollo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Saborizador tipo Francés Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":5,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Saborizador tipo Italiano Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":0,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Saborizador tipo Mediterráneo Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Saborizador tipo Napolitano Knorr",
+    "Porcion":"1 Taza = 250 cc",
+    "Calorias":6,
+    "CH":1,
+    "Fibras":"0"
+  }
+]

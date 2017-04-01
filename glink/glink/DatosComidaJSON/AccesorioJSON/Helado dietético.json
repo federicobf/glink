@@ -1,0 +1,121 @@
+[
+  {
+    "Comida":"Helado de crema americana y frutilla dietético",
+    "Porcion":"60g",
+    "Calorias":45,
+    "CH":7,
+    "Fibras":"6"
+  },
+  {
+    "Comida":"Helado de dulce de leche y chocolate dietético ",
+    "Porcion":"60g",
+    "Calorias":47,
+    "CH":7,
+    "Fibras":"6"
+  },
+  {
+    "Comida":"Bc durazno",
+    "Porcion":"80g (125cc) = 1 vasito",
+    "Calorias":78,
+    "CH":16,
+    "Fibras":"6"
+  },
+  {
+    "Comida":"Bc frutilla",
+    "Porcion":"80g (125cc) = 1 vasito",
+    "Calorias":78,
+    "CH":16,
+    "Fibras":"6"
+  },
+  {
+    "Comida":"Crema americana con duraznos Bc",
+    "Porcion":"1 unidad = 125cc",
+    "Calorias":151,
+    "CH":63,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Chocolate  diet Cormillot ",
+    "Porcion":"1 bocha de 125cc",
+    "Calorias":77,
+    "CH":18,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Dulce de leche  diet Cormillot ",
+    "Porcion":"1 bocha de 125cc",
+    "Calorias":77,
+    "CH":19,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Helado frutilla  diet Cormillot",
+    "Porcion":" 1 bocha de 125cc",
+    "Calorias":72,
+    "CH":19,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Helado limón  diet Cormillot",
+    "Porcion":" 1 bocha de 125cc",
+    "Calorias":75,
+    "CH":22,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Helado Svelty Frutillas con crema",
+    "Porcion":"60 g = 1 _ taza",
+    "Calorias":66,
+    "CH":14,
+    "Fibras":"2"
+  },
+  {
+    "Comida":"La Frutta Creamy 0% grasa Limón 0% grasa",
+    "Porcion":"69 g = 1 palito",
+    "Calorias":68,
+    "CH":23,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"La Frutta del Tropico /Bosque / Paraíso",
+    "Porcion":"69 g = 1 palito",
+    "Calorias":92,
+    "CH":22,
+    "Fibras":"*"
+  },
+  {
+    "Comida":"Postre Svelty Frigor chocolate y vainilla",
+    "Porcion":"60 g = 1 _ taza",
+    "Calorias":70,
+    "CH":15,
+    "Fibras":"1"
+  },
+  {
+    "Comida":"Slice Batido De Piña",
+    "Porcion":"1 unidad ",
+    "Calorias":68,
+    "CH":17,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Slice Frutilla",
+    "Porcion":"1 unidad",
+    "Calorias":29,
+    "CH":5,
+    "Fibras":"11"
+  },
+  {
+    "Comida":"Slice Manzana",
+    "Porcion":"1 unidad",
+    "Calorias":64,
+    "CH":16,
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Slice Menta",
+    "Porcion":"1 unidad",
+    "Calorias":68,
+    "CH":17,
+    "Fibras":"0"
+  }
+]

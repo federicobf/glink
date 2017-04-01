@@ -1,0 +1,37 @@
+[
+  {
+    "Comida":"Eco de los Andes",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Glaciar con gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Glaciar sin Gas",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Nestlé Pureza Vital",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  },
+  {
+    "Comida":"Agua Perrier",
+    "Porcion":"200 cc = 1 vaso",
+    "Calorias":"0",
+    "CH":"0",
+    "Fibras":"0"
+  }
+]
