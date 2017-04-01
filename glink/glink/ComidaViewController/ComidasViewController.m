@@ -406,11 +406,8 @@
     valorTotal = [self valorSumaTotal];
     if (valorTotal==-1) {
         return;
-    }
-    
+    }    
     self.selectionsDictionary = [NSMutableDictionary new];
-    [self performSegueWithIdentifier:@"displayFlow" sender:nil];
-    [self performSelector:@selector(changeTab) withObject:nil afterDelay:1];
     [self.tableView reloadData];
     
 }
