@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
+		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
 		F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA61E4BEE6200955EE6 /* main.m */; };
 		F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */; };
 		F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */; };
 		F7B2EBB01E4BEE6200955EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B2EBAE1E4BEE6200955EE6 /* Main.storyboard */; };
-		F7B2EBB21E4BEE6200955EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B2EBB11E4BEE6200955EE6 /* Assets.xcassets */; };
+		F7B2EBB21E4BEE6200955EE6 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B2EBB11E4BEE6200955EE6 /* asset.xcassets */; };
 		F7B2EBB51E4BEE6200955EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B2EBB31E4BEE6200955EE6 /* LaunchScreen.storyboard */; };
 		F7B2EBC01E4BEE6200955EE6 /* glinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBBF1E4BEE6200955EE6 /* glinkTests.m */; };
 		F7B2EBCB1E4BEE6200955EE6 /* glinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBCA1E4BEE6200955EE6 /* glinkUITests.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileViewController.h; sourceTree = "<group>"; };
+		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
+		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
+		F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileTableViewCell.m; sourceTree = "<group>"; };
 		F7B2EBA21E4BEE6200955EE6 /* glink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2EBA61E4BEE6200955EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B2EBA81E4BEE6200955EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +48,7 @@
 		F7B2EBAB1E4BEE6200955EE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7B2EBAF1E4BEE6200955EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7B2EBB11E4BEE6200955EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7B2EBB11E4BEE6200955EE6 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
 		F7B2EBB41E4BEE6200955EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B2EBB61E4BEE6200955EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B2EBBB1E4BEE6200955EE6 /* glinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,8 +111,12 @@
 				F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */,
 				F7B2EBAB1E4BEE6200955EE6 /* ViewController.h */,
 				F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */,
+				F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */,
+				F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */,
+				F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */,
+				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
 				F7B2EBAE1E4BEE6200955EE6 /* Main.storyboard */,
-				F7B2EBB11E4BEE6200955EE6 /* Assets.xcassets */,
+				F7B2EBB11E4BEE6200955EE6 /* asset.xcassets */,
 				F7B2EBB31E4BEE6200955EE6 /* LaunchScreen.storyboard */,
 				F7B2EBB61E4BEE6200955EE6 /* Info.plist */,
 				F7B2EBA51E4BEE6200955EE6 /* Supporting Files */,
@@ -244,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B2EBB51E4BEE6200955EE6 /* LaunchScreen.storyboard in Resources */,
-				F7B2EBB21E4BEE6200955EE6 /* Assets.xcassets in Resources */,
+				F7B2EBB21E4BEE6200955EE6 /* asset.xcassets in Resources */,
 				F7B2EBB01E4BEE6200955EE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */,
 				F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
+				F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */,
 				F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				F7B2EBD11E4BEE6200955EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7B2EBD21E4BEE6200955EE6 /* Build configuration list for PBXNativeTarget "glinkTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				F7B2EBD41E4BEE6200955EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7B2EBD51E4BEE6200955EE6 /* Build configuration list for PBXNativeTarget "glinkUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				F7B2EBD71E4BEE6200955EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
