@@ -7,6 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
+		981E90201E9029FE003456AB /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E901B1E9029FE003456AB /* FoodItem.m */; };
+		981E90211E9029FE003456AB /* FoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981E901C1E9029FE003456AB /* FoodList.plist */; };
+		981E90221E9029FE003456AB /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E901E1E9029FE003456AB /* FoodTableViewCell.m */; };
+		981E908B1E902A66003456AB /* Aderezos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90291E902A66003456AB /* Aderezos.json */; };
+		981E908C1E902A66003456AB /* Aguas Saborizadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902A1E902A66003456AB /* Aguas Saborizadas.json */; };
+		981E908D1E902A66003456AB /* Aguas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902B1E902A66003456AB /* Aguas.json */; };
+		981E908E1E902A66003456AB /* Alfajores.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902C1E902A66003456AB /* Alfajores.json */; };
+		981E908F1E902A66003456AB /* Amargos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902D1E902A66003456AB /* Amargos.json */; };
+		981E90901E902A66003456AB /* Bebidas a base de soja.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902E1E902A66003456AB /* Bebidas a base de soja.json */; };
+		981E90911E902A66003456AB /* Bebidas Alcohólicas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E902F1E902A66003456AB /* Bebidas Alcohólicas.json */; };
+		981E90921E902A66003456AB /* Caldos y Sopas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90301E902A66003456AB /* Caldos y Sopas.json */; };
+		981E90931E902A66003456AB /* Cereales Infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90311E902A66003456AB /* Cereales Infantiles.json */; };
+		981E90941E902A66003456AB /* Chocolates.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90321E902A66003456AB /* Chocolates.json */; };
+		981E90951E902A66003456AB /* Colados y Picados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90331E902A66003456AB /* Colados y Picados.json */; };
+		981E90961E902A66003456AB /* Comidas instantáneas deshidratadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90341E902A66003456AB /* Comidas instantáneas deshidratadas.json */; };
+		981E90971E902A66003456AB /* Condimentos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90351E902A66003456AB /* Condimentos.json */; };
+		981E90981E902A66003456AB /* Copetín.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90361E902A66003456AB /* Copetín.json */; };
+		981E90991E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90371E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json */; };
+		981E909A1E902A66003456AB /* Fórmulas infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90381E902A66003456AB /* Fórmulas infantiles.json */; };
+		981E909B1E902A66003456AB /* Gaseosas Light.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90391E902A66003456AB /* Gaseosas Light.json */; };
+		981E909C1E902A66003456AB /* Gaseosas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903A1E902A66003456AB /* Gaseosas.json */; };
+		981E909D1E902A66003456AB /* Golosinas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903B1E902A66003456AB /* Golosinas.json */; };
+		981E909E1E902A66003456AB /* Helado dietético.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903C1E902A66003456AB /* Helado dietético.json */; };
+		981E909F1E902A66003456AB /* Helado estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903D1E902A66003456AB /* Helado estandar.json */; };
+		981E90A01E902A66003456AB /* Hierbas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903E1E902A66003456AB /* Hierbas.json */; };
+		981E90A11E902A66003456AB /* Infusiones.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E903F1E902A66003456AB /* Infusiones.json */; };
+		981E90A21E902A66003456AB /* Jugos en polvo.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90401E902A66003456AB /* Jugos en polvo.json */; };
+		981E90A31E902A66003456AB /* Jugos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90411E902A66003456AB /* Jugos.json */; };
+		981E90A41E902A66003456AB /* Leches Infantiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90421E902A66003456AB /* Leches Infantiles.json */; };
+		981E90A51E902A66003456AB /* Mermeladas Bajas Calorias.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90431E902A66003456AB /* Mermeladas Bajas Calorias.json */; };
+		981E90A61E902A66003456AB /* Polvo para postre dietético.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90441E902A66003456AB /* Polvo para postre dietético.json */; };
+		981E90A71E902A66003456AB /* Polvo para postre estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90451E902A66003456AB /* Polvo para postre estandar.json */; };
+		981E90A81E902A66003456AB /* Polvo para saborizar leches.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90461E902A66003456AB /* Polvo para saborizar leches.json */; };
+		981E90A91E902A66003456AB /* Repostería.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90471E902A66003456AB /* Repostería.json */; };
+		981E90AA1E902A66003456AB /* Salsas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90481E902A66003456AB /* Salsas.json */; };
+		981E90AB1E902A66003456AB /* Amasados Industriales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904A1E902A66003456AB /* Amasados Industriales.json */; };
+		981E90AC1E902A66003456AB /* Barras de cereal por unidad.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904B1E902A66003456AB /* Barras de cereal por unidad.json */; };
+		981E90AD1E902A66003456AB /* Cereales para el desayuno.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904C1E902A66003456AB /* Cereales para el desayuno.json */; };
+		981E90AE1E902A66003456AB /* Cereales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904D1E902A66003456AB /* Cereales.json */; };
+		981E90AF1E902A66003456AB /* Comidas elaboradas a base de almidones.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904E1E902A66003456AB /* Comidas elaboradas a base de almidones.json */; };
+		981E90B01E902A66003456AB /* Galletitas Dulces.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E904F1E902A66003456AB /* Galletitas Dulces.json */; };
+		981E90B11E902A66003456AB /* Galletitas y Tostaditas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90501E902A66003456AB /* Galletitas y Tostaditas.json */; };
+		981E90B21E902A66003456AB /* Harinas de legumbres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90511E902A66003456AB /* Harinas de legumbres.json */; };
+		981E90B31E902A66003456AB /* Harinas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90521E902A66003456AB /* Harinas.json */; };
+		981E90B41E902A66003456AB /* Legumbres congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90531E902A66003456AB /* Legumbres congeladas.json */; };
+		981E90B51E902A66003456AB /* Legumbres en conserva.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90541E902A66003456AB /* Legumbres en conserva.json */; };
+		981E90B61E902A66003456AB /* Legumbres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90551E902A66003456AB /* Legumbres.json */; };
+		981E90B71E902A66003456AB /* Panes blancos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90561E902A66003456AB /* Panes blancos.json */; };
+		981E90B81E902A66003456AB /* Panes integrales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90571E902A66003456AB /* Panes integrales.json */; };
+		981E90B91E902A66003456AB /* Pastas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90581E902A66003456AB /* Pastas Congeladas.json */; };
+		981E90BA1E902A66003456AB /* Pastas Frescas Rellenas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90591E902A66003456AB /* Pastas Frescas Rellenas.json */; };
+		981E90BB1E902A66003456AB /* Pastas Frescas Simples.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905A1E902A66003456AB /* Pastas Frescas Simples.json */; };
+		981E90BC1E902A66003456AB /* Pastas secas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905B1E902A66003456AB /* Pastas secas.json */; };
+		981E90BD1E902A66003456AB /* Polvo para preparar tortas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905C1E902A66003456AB /* Polvo para preparar tortas.json */; };
+		981E90BE1E902A66003456AB /* Premezclas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905D1E902A66003456AB /* Premezclas.json */; };
+		981E90BF1E902A66003456AB /* Productos de Confiteria.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905E1E902A66003456AB /* Productos de Confiteria.json */; };
+		981E90C01E902A66003456AB /* Productos Prelistos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E905F1E902A66003456AB /* Productos Prelistos.json */; };
+		981E90C11E902A66003456AB /* Productos usados en panificación.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90601E902A66003456AB /* Productos usados en panificación.json */; };
+		981E90C21E902A66003456AB /* Rebozadores y Pan Rallado.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90611E902A66003456AB /* Rebozadores y Pan Rallado.json */; };
+		981E90C31E902A66003456AB /* Soja y derivados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90621E902A66003456AB /* Soja y derivados.json */; };
+		981E90C41E902A66003456AB /* Tapas y Masas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90631E902A66003456AB /* Tapas y Masas.json */; };
+		981E90C51E902A66003456AB /* Tostadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90641E902A66003456AB /* Tostadas.json */; };
+		981E90C61E902A66003456AB /* Verduras Feculentas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90651E902A66003456AB /* Verduras Feculentas Congeladas.json */; };
+		981E90C71E902A66003456AB /* Verduras Feculentas en Conserva.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90661E902A66003456AB /* Verduras Feculentas en Conserva.json */; };
+		981E90C81E902A66003456AB /* Verduras Feculentas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90671E902A66003456AB /* Verduras Feculentas.json */; };
+		981E90C91E902A66003456AB /* Aceites Animales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90691E902A66003456AB /* Aceites Animales.json */; };
+		981E90CA1E902A66003456AB /* Aceites Vegetales.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906A1E902A66003456AB /* Aceites Vegetales.json */; };
+		981E90CB1E902A66003456AB /* Cremas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906B1E902A66003456AB /* Cremas.json */; };
+		981E90CC1E902A66003456AB /* Frutas Secas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906C1E902A66003456AB /* Frutas Secas.json */; };
+		981E90CD1E902A66003456AB /* Frutos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906D1E902A66003456AB /* Frutos.json */; };
+		981E90CE1E902A66003456AB /* Grasas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906E1E902A66003456AB /* Grasas.json */; };
+		981E90CF1E902A66003456AB /* Manteca.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E906F1E902A66003456AB /* Manteca.json */; };
+		981E90D01E902A66003456AB /* Margarinas y Mantecas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90701E902A66003456AB /* Margarinas y Mantecas.json */; };
+		981E90D11E902A66003456AB /* Mayonesas y Derivados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90711E902A66003456AB /* Mayonesas y Derivados.json */; };
+		981E90D21E902A66003456AB /* Semillas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90721E902A66003456AB /* Semillas.json */; };
+		981E90D31E902A66003456AB /* Sustitutos.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90731E902A66003456AB /* Sustitutos.json */; };
+		981E90D41E902A66003456AB /* Leches en polvo descremadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90751E902A66003456AB /* Leches en polvo descremadas.json */; };
+		981E90D51E902A66003456AB /* Leches en polvo enteras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90761E902A66003456AB /* Leches en polvo enteras.json */; };
+		981E90D61E902A66003456AB /* Leches fluidas descremadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90771E902A66003456AB /* Leches fluidas descremadas.json */; };
+		981E90D71E902A66003456AB /* Leches fluidas enteras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90781E902A66003456AB /* Leches fluidas enteras.json */; };
+		981E90D81E902A66003456AB /* Leches fluidas saborizadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90791E902A66003456AB /* Leches fluidas saborizadas.json */; };
+		981E90D91E902A66003456AB /* Leches Modificadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E907A1E902A66003456AB /* Leches Modificadas.json */; };
+		981E90DA1E902A66003456AB /* Leches Otro.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E907B1E902A66003456AB /* Leches Otro.json */; };
+		981E90DB1E902A66003456AB /* Postres.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E907C1E902A66003456AB /* Postres.json */; };
+		981E90DC1E902A66003456AB /* Yogures Descremados.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E907D1E902A66003456AB /* Yogures Descremados.json */; };
+		981E90DD1E902A66003456AB /* Yogures Enteros.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E907E1E902A66003456AB /* Yogures Enteros.json */; };
+		981E90DE1E902A66003456AB /* Alimentos Condimento.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90801E902A66003456AB /* Alimentos Condimento.json */; };
+		981E90DF1E902A66003456AB /* Comidas preparadas a base de verduras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90811E902A66003456AB /* Comidas preparadas a base de verduras.json */; };
+		981E90E01E902A66003456AB /* Frutas Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90821E902A66003456AB /* Frutas Congeladas.json */; };
+		981E90E11E902A66003456AB /* Frutas disecadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90831E902A66003456AB /* Frutas disecadas.json */; };
+		981E90E21E902A66003456AB /* Frutas en conserva dietéticas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90841E902A66003456AB /* Frutas en conserva dietéticas.json */; };
+		981E90E31E902A66003456AB /* Frutas en conserva estandar.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90851E902A66003456AB /* Frutas en conserva estandar.json */; };
+		981E90E41E902A66003456AB /* Frutas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90861E902A66003456AB /* Frutas.json */; };
+		981E90E51E902A66003456AB /* Hongos y Brotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90871E902A66003456AB /* Hongos y Brotes.json */; };
+		981E90E61E902A66003456AB /* Verduras Congeladas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90881E902A66003456AB /* Verduras Congeladas.json */; };
+		981E90E71E902A66003456AB /* Verduras Enlatadas.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E90891E902A66003456AB /* Verduras Enlatadas.json */; };
+		981E90E81E902A66003456AB /* Verduras.json in Resources */ = {isa = PBXBuildFile; fileRef = 981E908A1E902A66003456AB /* Verduras.json */; };
+		981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90EB1E902A6D003456AB /* ALView+PureLayout.m */; };
+		981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90ED1E902A6D003456AB /* NSArray+PureLayout.m */; };
+		981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90EF1E902A6D003456AB /* NSLayoutConstraint+PureLayout.m */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
 		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
 		F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA61E4BEE6200955EE6 /* main.m */; };
@@ -37,6 +138,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		981E90181E9029FE003456AB /* ComidasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComidasViewController.h; sourceTree = "<group>"; };
+		981E90191E9029FE003456AB /* ComidasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComidasViewController.m; sourceTree = "<group>"; };
+		981E901A1E9029FE003456AB /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		981E901B1E9029FE003456AB /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		981E901C1E9029FE003456AB /* FoodList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoodList.plist; sourceTree = "<group>"; };
+		981E901D1E9029FE003456AB /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		981E901E1E9029FE003456AB /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		981E90291E902A66003456AB /* Aderezos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aderezos.json; sourceTree = "<group>"; };
+		981E902A1E902A66003456AB /* Aguas Saborizadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aguas Saborizadas.json"; sourceTree = "<group>"; };
+		981E902B1E902A66003456AB /* Aguas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aguas.json; sourceTree = "<group>"; };
+		981E902C1E902A66003456AB /* Alfajores.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alfajores.json; sourceTree = "<group>"; };
+		981E902D1E902A66003456AB /* Amargos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Amargos.json; sourceTree = "<group>"; };
+		981E902E1E902A66003456AB /* Bebidas a base de soja.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Bebidas a base de soja.json"; sourceTree = "<group>"; };
+		981E902F1E902A66003456AB /* Bebidas Alcohólicas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Bebidas Alcohólicas.json"; sourceTree = "<group>"; };
+		981E90301E902A66003456AB /* Caldos y Sopas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Caldos y Sopas.json"; sourceTree = "<group>"; };
+		981E90311E902A66003456AB /* Cereales Infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cereales Infantiles.json"; sourceTree = "<group>"; };
+		981E90321E902A66003456AB /* Chocolates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chocolates.json; sourceTree = "<group>"; };
+		981E90331E902A66003456AB /* Colados y Picados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Colados y Picados.json"; sourceTree = "<group>"; };
+		981E90341E902A66003456AB /* Comidas instantáneas deshidratadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas instantáneas deshidratadas.json"; sourceTree = "<group>"; };
+		981E90351E902A66003456AB /* Condimentos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Condimentos.json; sourceTree = "<group>"; };
+		981E90361E902A66003456AB /* Copetín.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Copetín.json"; sourceTree = "<group>"; };
+		981E90371E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Dulces Mermeladas Jaleas y Miel.json"; sourceTree = "<group>"; };
+		981E90381E902A66003456AB /* Fórmulas infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fórmulas infantiles.json"; sourceTree = "<group>"; };
+		981E90391E902A66003456AB /* Gaseosas Light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Gaseosas Light.json"; sourceTree = "<group>"; };
+		981E903A1E902A66003456AB /* Gaseosas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gaseosas.json; sourceTree = "<group>"; };
+		981E903B1E902A66003456AB /* Golosinas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Golosinas.json; sourceTree = "<group>"; };
+		981E903C1E902A66003456AB /* Helado dietético.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Helado dietético.json"; sourceTree = "<group>"; };
+		981E903D1E902A66003456AB /* Helado estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Helado estandar.json"; sourceTree = "<group>"; };
+		981E903E1E902A66003456AB /* Hierbas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hierbas.json; sourceTree = "<group>"; };
+		981E903F1E902A66003456AB /* Infusiones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Infusiones.json; sourceTree = "<group>"; };
+		981E90401E902A66003456AB /* Jugos en polvo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Jugos en polvo.json"; sourceTree = "<group>"; };
+		981E90411E902A66003456AB /* Jugos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Jugos.json; sourceTree = "<group>"; };
+		981E90421E902A66003456AB /* Leches Infantiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Infantiles.json"; sourceTree = "<group>"; };
+		981E90431E902A66003456AB /* Mermeladas Bajas Calorias.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Mermeladas Bajas Calorias.json"; sourceTree = "<group>"; };
+		981E90441E902A66003456AB /* Polvo para postre dietético.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para postre dietético.json"; sourceTree = "<group>"; };
+		981E90451E902A66003456AB /* Polvo para postre estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para postre estandar.json"; sourceTree = "<group>"; };
+		981E90461E902A66003456AB /* Polvo para saborizar leches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para saborizar leches.json"; sourceTree = "<group>"; };
+		981E90471E902A66003456AB /* Repostería.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Repostería.json"; sourceTree = "<group>"; };
+		981E90481E902A66003456AB /* Salsas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Salsas.json; sourceTree = "<group>"; };
+		981E904A1E902A66003456AB /* Amasados Industriales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Amasados Industriales.json"; sourceTree = "<group>"; };
+		981E904B1E902A66003456AB /* Barras de cereal por unidad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Barras de cereal por unidad.json"; sourceTree = "<group>"; };
+		981E904C1E902A66003456AB /* Cereales para el desayuno.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cereales para el desayuno.json"; sourceTree = "<group>"; };
+		981E904D1E902A66003456AB /* Cereales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cereales.json; sourceTree = "<group>"; };
+		981E904E1E902A66003456AB /* Comidas elaboradas a base de almidones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas elaboradas a base de almidones.json"; sourceTree = "<group>"; };
+		981E904F1E902A66003456AB /* Galletitas Dulces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Galletitas Dulces.json"; sourceTree = "<group>"; };
+		981E90501E902A66003456AB /* Galletitas y Tostaditas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Galletitas y Tostaditas.json"; sourceTree = "<group>"; };
+		981E90511E902A66003456AB /* Harinas de legumbres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Harinas de legumbres.json"; sourceTree = "<group>"; };
+		981E90521E902A66003456AB /* Harinas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Harinas.json; sourceTree = "<group>"; };
+		981E90531E902A66003456AB /* Legumbres congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legumbres congeladas.json"; sourceTree = "<group>"; };
+		981E90541E902A66003456AB /* Legumbres en conserva.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Legumbres en conserva.json"; sourceTree = "<group>"; };
+		981E90551E902A66003456AB /* Legumbres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Legumbres.json; sourceTree = "<group>"; };
+		981E90561E902A66003456AB /* Panes blancos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Panes blancos.json"; sourceTree = "<group>"; };
+		981E90571E902A66003456AB /* Panes integrales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Panes integrales.json"; sourceTree = "<group>"; };
+		981E90581E902A66003456AB /* Pastas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Congeladas.json"; sourceTree = "<group>"; };
+		981E90591E902A66003456AB /* Pastas Frescas Rellenas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Frescas Rellenas.json"; sourceTree = "<group>"; };
+		981E905A1E902A66003456AB /* Pastas Frescas Simples.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas Frescas Simples.json"; sourceTree = "<group>"; };
+		981E905B1E902A66003456AB /* Pastas secas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Pastas secas.json"; sourceTree = "<group>"; };
+		981E905C1E902A66003456AB /* Polvo para preparar tortas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Polvo para preparar tortas.json"; sourceTree = "<group>"; };
+		981E905D1E902A66003456AB /* Premezclas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Premezclas.json; sourceTree = "<group>"; };
+		981E905E1E902A66003456AB /* Productos de Confiteria.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos de Confiteria.json"; sourceTree = "<group>"; };
+		981E905F1E902A66003456AB /* Productos Prelistos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos Prelistos.json"; sourceTree = "<group>"; };
+		981E90601E902A66003456AB /* Productos usados en panificación.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Productos usados en panificación.json"; sourceTree = "<group>"; };
+		981E90611E902A66003456AB /* Rebozadores y Pan Rallado.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Rebozadores y Pan Rallado.json"; sourceTree = "<group>"; };
+		981E90621E902A66003456AB /* Soja y derivados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Soja y derivados.json"; sourceTree = "<group>"; };
+		981E90631E902A66003456AB /* Tapas y Masas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tapas y Masas.json"; sourceTree = "<group>"; };
+		981E90641E902A66003456AB /* Tostadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tostadas.json; sourceTree = "<group>"; };
+		981E90651E902A66003456AB /* Verduras Feculentas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas Congeladas.json"; sourceTree = "<group>"; };
+		981E90661E902A66003456AB /* Verduras Feculentas en Conserva.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas en Conserva.json"; sourceTree = "<group>"; };
+		981E90671E902A66003456AB /* Verduras Feculentas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Feculentas.json"; sourceTree = "<group>"; };
+		981E90691E902A66003456AB /* Aceites Animales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aceites Animales.json"; sourceTree = "<group>"; };
+		981E906A1E902A66003456AB /* Aceites Vegetales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Aceites Vegetales.json"; sourceTree = "<group>"; };
+		981E906B1E902A66003456AB /* Cremas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cremas.json; sourceTree = "<group>"; };
+		981E906C1E902A66003456AB /* Frutas Secas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas Secas.json"; sourceTree = "<group>"; };
+		981E906D1E902A66003456AB /* Frutos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Frutos.json; sourceTree = "<group>"; };
+		981E906E1E902A66003456AB /* Grasas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Grasas.json; sourceTree = "<group>"; };
+		981E906F1E902A66003456AB /* Manteca.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Manteca.json; sourceTree = "<group>"; };
+		981E90701E902A66003456AB /* Margarinas y Mantecas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Margarinas y Mantecas.json"; sourceTree = "<group>"; };
+		981E90711E902A66003456AB /* Mayonesas y Derivados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Mayonesas y Derivados.json"; sourceTree = "<group>"; };
+		981E90721E902A66003456AB /* Semillas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Semillas.json; sourceTree = "<group>"; };
+		981E90731E902A66003456AB /* Sustitutos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sustitutos.json; sourceTree = "<group>"; };
+		981E90751E902A66003456AB /* Leches en polvo descremadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches en polvo descremadas.json"; sourceTree = "<group>"; };
+		981E90761E902A66003456AB /* Leches en polvo enteras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches en polvo enteras.json"; sourceTree = "<group>"; };
+		981E90771E902A66003456AB /* Leches fluidas descremadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas descremadas.json"; sourceTree = "<group>"; };
+		981E90781E902A66003456AB /* Leches fluidas enteras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas enteras.json"; sourceTree = "<group>"; };
+		981E90791E902A66003456AB /* Leches fluidas saborizadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches fluidas saborizadas.json"; sourceTree = "<group>"; };
+		981E907A1E902A66003456AB /* Leches Modificadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Modificadas.json"; sourceTree = "<group>"; };
+		981E907B1E902A66003456AB /* Leches Otro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Leches Otro.json"; sourceTree = "<group>"; };
+		981E907C1E902A66003456AB /* Postres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Postres.json; sourceTree = "<group>"; };
+		981E907D1E902A66003456AB /* Yogures Descremados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Yogures Descremados.json"; sourceTree = "<group>"; };
+		981E907E1E902A66003456AB /* Yogures Enteros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Yogures Enteros.json"; sourceTree = "<group>"; };
+		981E90801E902A66003456AB /* Alimentos Condimento.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Alimentos Condimento.json"; sourceTree = "<group>"; };
+		981E90811E902A66003456AB /* Comidas preparadas a base de verduras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Comidas preparadas a base de verduras.json"; sourceTree = "<group>"; };
+		981E90821E902A66003456AB /* Frutas Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas Congeladas.json"; sourceTree = "<group>"; };
+		981E90831E902A66003456AB /* Frutas disecadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas disecadas.json"; sourceTree = "<group>"; };
+		981E90841E902A66003456AB /* Frutas en conserva dietéticas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas en conserva dietéticas.json"; sourceTree = "<group>"; };
+		981E90851E902A66003456AB /* Frutas en conserva estandar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Frutas en conserva estandar.json"; sourceTree = "<group>"; };
+		981E90861E902A66003456AB /* Frutas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Frutas.json; sourceTree = "<group>"; };
+		981E90871E902A66003456AB /* Hongos y Brotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Hongos y Brotes.json"; sourceTree = "<group>"; };
+		981E90881E902A66003456AB /* Verduras Congeladas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Congeladas.json"; sourceTree = "<group>"; };
+		981E90891E902A66003456AB /* Verduras Enlatadas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Verduras Enlatadas.json"; sourceTree = "<group>"; };
+		981E908A1E902A66003456AB /* Verduras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Verduras.json; sourceTree = "<group>"; };
+		981E90EA1E902A6D003456AB /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		981E90EB1E902A6D003456AB /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		981E90EC1E902A6D003456AB /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		981E90ED1E902A6D003456AB /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		981E90EE1E902A6D003456AB /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		981E90EF1E902A6D003456AB /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		981E90F01E902A6D003456AB /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		981E90F11E902A6D003456AB /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		981E90F21E902A6D003456AB /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 		F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileViewController.h; sourceTree = "<group>"; };
 		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
 		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
@@ -84,6 +295,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		981E90171E9029FE003456AB /* ComidaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				981E90181E9029FE003456AB /* ComidasViewController.h */,
+				981E90191E9029FE003456AB /* ComidasViewController.m */,
+				981E901A1E9029FE003456AB /* FoodItem.h */,
+				981E901B1E9029FE003456AB /* FoodItem.m */,
+				981E901C1E9029FE003456AB /* FoodList.plist */,
+				981E901D1E9029FE003456AB /* FoodTableViewCell.h */,
+				981E901E1E9029FE003456AB /* FoodTableViewCell.m */,
+			);
+			path = ComidaViewController;
+			sourceTree = "<group>";
+		};
+		981E90271E902A66003456AB /* DatosComidaJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E90281E902A66003456AB /* AccesorioJSON */,
+				981E90491E902A66003456AB /* AlmidonesJSON */,
+				981E90681E902A66003456AB /* GrasasJSON */,
+				981E90741E902A66003456AB /* LacteosJSON */,
+				981E907F1E902A66003456AB /* VerdurasJSON */,
+			);
+			path = DatosComidaJSON;
+			sourceTree = "<group>";
+		};
+		981E90281E902A66003456AB /* AccesorioJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E90291E902A66003456AB /* Aderezos.json */,
+				981E902A1E902A66003456AB /* Aguas Saborizadas.json */,
+				981E902B1E902A66003456AB /* Aguas.json */,
+				981E902C1E902A66003456AB /* Alfajores.json */,
+				981E902D1E902A66003456AB /* Amargos.json */,
+				981E902E1E902A66003456AB /* Bebidas a base de soja.json */,
+				981E902F1E902A66003456AB /* Bebidas Alcohólicas.json */,
+				981E90301E902A66003456AB /* Caldos y Sopas.json */,
+				981E90311E902A66003456AB /* Cereales Infantiles.json */,
+				981E90321E902A66003456AB /* Chocolates.json */,
+				981E90331E902A66003456AB /* Colados y Picados.json */,
+				981E90341E902A66003456AB /* Comidas instantáneas deshidratadas.json */,
+				981E90351E902A66003456AB /* Condimentos.json */,
+				981E90361E902A66003456AB /* Copetín.json */,
+				981E90371E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json */,
+				981E90381E902A66003456AB /* Fórmulas infantiles.json */,
+				981E90391E902A66003456AB /* Gaseosas Light.json */,
+				981E903A1E902A66003456AB /* Gaseosas.json */,
+				981E903B1E902A66003456AB /* Golosinas.json */,
+				981E903C1E902A66003456AB /* Helado dietético.json */,
+				981E903D1E902A66003456AB /* Helado estandar.json */,
+				981E903E1E902A66003456AB /* Hierbas.json */,
+				981E903F1E902A66003456AB /* Infusiones.json */,
+				981E90401E902A66003456AB /* Jugos en polvo.json */,
+				981E90411E902A66003456AB /* Jugos.json */,
+				981E90421E902A66003456AB /* Leches Infantiles.json */,
+				981E90431E902A66003456AB /* Mermeladas Bajas Calorias.json */,
+				981E90441E902A66003456AB /* Polvo para postre dietético.json */,
+				981E90451E902A66003456AB /* Polvo para postre estandar.json */,
+				981E90461E902A66003456AB /* Polvo para saborizar leches.json */,
+				981E90471E902A66003456AB /* Repostería.json */,
+				981E90481E902A66003456AB /* Salsas.json */,
+			);
+			path = AccesorioJSON;
+			sourceTree = "<group>";
+		};
+		981E90491E902A66003456AB /* AlmidonesJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E904A1E902A66003456AB /* Amasados Industriales.json */,
+				981E904B1E902A66003456AB /* Barras de cereal por unidad.json */,
+				981E904C1E902A66003456AB /* Cereales para el desayuno.json */,
+				981E904D1E902A66003456AB /* Cereales.json */,
+				981E904E1E902A66003456AB /* Comidas elaboradas a base de almidones.json */,
+				981E904F1E902A66003456AB /* Galletitas Dulces.json */,
+				981E90501E902A66003456AB /* Galletitas y Tostaditas.json */,
+				981E90511E902A66003456AB /* Harinas de legumbres.json */,
+				981E90521E902A66003456AB /* Harinas.json */,
+				981E90531E902A66003456AB /* Legumbres congeladas.json */,
+				981E90541E902A66003456AB /* Legumbres en conserva.json */,
+				981E90551E902A66003456AB /* Legumbres.json */,
+				981E90561E902A66003456AB /* Panes blancos.json */,
+				981E90571E902A66003456AB /* Panes integrales.json */,
+				981E90581E902A66003456AB /* Pastas Congeladas.json */,
+				981E90591E902A66003456AB /* Pastas Frescas Rellenas.json */,
+				981E905A1E902A66003456AB /* Pastas Frescas Simples.json */,
+				981E905B1E902A66003456AB /* Pastas secas.json */,
+				981E905C1E902A66003456AB /* Polvo para preparar tortas.json */,
+				981E905D1E902A66003456AB /* Premezclas.json */,
+				981E905E1E902A66003456AB /* Productos de Confiteria.json */,
+				981E905F1E902A66003456AB /* Productos Prelistos.json */,
+				981E90601E902A66003456AB /* Productos usados en panificación.json */,
+				981E90611E902A66003456AB /* Rebozadores y Pan Rallado.json */,
+				981E90621E902A66003456AB /* Soja y derivados.json */,
+				981E90631E902A66003456AB /* Tapas y Masas.json */,
+				981E90641E902A66003456AB /* Tostadas.json */,
+				981E90651E902A66003456AB /* Verduras Feculentas Congeladas.json */,
+				981E90661E902A66003456AB /* Verduras Feculentas en Conserva.json */,
+				981E90671E902A66003456AB /* Verduras Feculentas.json */,
+			);
+			path = AlmidonesJSON;
+			sourceTree = "<group>";
+		};
+		981E90681E902A66003456AB /* GrasasJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E90691E902A66003456AB /* Aceites Animales.json */,
+				981E906A1E902A66003456AB /* Aceites Vegetales.json */,
+				981E906B1E902A66003456AB /* Cremas.json */,
+				981E906C1E902A66003456AB /* Frutas Secas.json */,
+				981E906D1E902A66003456AB /* Frutos.json */,
+				981E906E1E902A66003456AB /* Grasas.json */,
+				981E906F1E902A66003456AB /* Manteca.json */,
+				981E90701E902A66003456AB /* Margarinas y Mantecas.json */,
+				981E90711E902A66003456AB /* Mayonesas y Derivados.json */,
+				981E90721E902A66003456AB /* Semillas.json */,
+				981E90731E902A66003456AB /* Sustitutos.json */,
+			);
+			path = GrasasJSON;
+			sourceTree = "<group>";
+		};
+		981E90741E902A66003456AB /* LacteosJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E90751E902A66003456AB /* Leches en polvo descremadas.json */,
+				981E90761E902A66003456AB /* Leches en polvo enteras.json */,
+				981E90771E902A66003456AB /* Leches fluidas descremadas.json */,
+				981E90781E902A66003456AB /* Leches fluidas enteras.json */,
+				981E90791E902A66003456AB /* Leches fluidas saborizadas.json */,
+				981E907A1E902A66003456AB /* Leches Modificadas.json */,
+				981E907B1E902A66003456AB /* Leches Otro.json */,
+				981E907C1E902A66003456AB /* Postres.json */,
+				981E907D1E902A66003456AB /* Yogures Descremados.json */,
+				981E907E1E902A66003456AB /* Yogures Enteros.json */,
+			);
+			path = LacteosJSON;
+			sourceTree = "<group>";
+		};
+		981E907F1E902A66003456AB /* VerdurasJSON */ = {
+			isa = PBXGroup;
+			children = (
+				981E90801E902A66003456AB /* Alimentos Condimento.json */,
+				981E90811E902A66003456AB /* Comidas preparadas a base de verduras.json */,
+				981E90821E902A66003456AB /* Frutas Congeladas.json */,
+				981E90831E902A66003456AB /* Frutas disecadas.json */,
+				981E90841E902A66003456AB /* Frutas en conserva dietéticas.json */,
+				981E90851E902A66003456AB /* Frutas en conserva estandar.json */,
+				981E90861E902A66003456AB /* Frutas.json */,
+				981E90871E902A66003456AB /* Hongos y Brotes.json */,
+				981E90881E902A66003456AB /* Verduras Congeladas.json */,
+				981E90891E902A66003456AB /* Verduras Enlatadas.json */,
+				981E908A1E902A66003456AB /* Verduras.json */,
+			);
+			path = VerdurasJSON;
+			sourceTree = "<group>";
+		};
+		981E90E91E902A6D003456AB /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				981E90EA1E902A6D003456AB /* ALView+PureLayout.h */,
+				981E90EB1E902A6D003456AB /* ALView+PureLayout.m */,
+				981E90EC1E902A6D003456AB /* NSArray+PureLayout.h */,
+				981E90ED1E902A6D003456AB /* NSArray+PureLayout.m */,
+				981E90EE1E902A6D003456AB /* NSLayoutConstraint+PureLayout.h */,
+				981E90EF1E902A6D003456AB /* NSLayoutConstraint+PureLayout.m */,
+				981E90F01E902A6D003456AB /* PureLayout+Internal.h */,
+				981E90F11E902A6D003456AB /* PureLayout.h */,
+				981E90F21E902A6D003456AB /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
 		F7B2EB991E4BEE6200955EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +497,9 @@
 				F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */,
 				F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */,
 				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
+				981E90E91E902A6D003456AB /* PureLayout */,
+				981E90271E902A66003456AB /* DatosComidaJSON */,
+				981E90171E9029FE003456AB /* ComidaViewController */,
 				F7B2EBAE1E4BEE6200955EE6 /* Main.storyboard */,
 				F7B2EBB11E4BEE6200955EE6 /* asset.xcassets */,
 				F7B2EBB31E4BEE6200955EE6 /* LaunchScreen.storyboard */,
@@ -253,9 +638,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981E90211E9029FE003456AB /* FoodList.plist in Resources */,
+				981E90A11E902A66003456AB /* Infusiones.json in Resources */,
+				981E908F1E902A66003456AB /* Amargos.json in Resources */,
 				F7B2EBB51E4BEE6200955EE6 /* LaunchScreen.storyboard in Resources */,
+				981E90E21E902A66003456AB /* Frutas en conserva dietéticas.json in Resources */,
+				981E90BD1E902A66003456AB /* Polvo para preparar tortas.json in Resources */,
+				981E909D1E902A66003456AB /* Golosinas.json in Resources */,
+				981E908B1E902A66003456AB /* Aderezos.json in Resources */,
+				981E90A71E902A66003456AB /* Polvo para postre estandar.json in Resources */,
+				981E90BB1E902A66003456AB /* Pastas Frescas Simples.json in Resources */,
+				981E90B31E902A66003456AB /* Harinas.json in Resources */,
+				981E90B91E902A66003456AB /* Pastas Congeladas.json in Resources */,
+				981E90AD1E902A66003456AB /* Cereales para el desayuno.json in Resources */,
+				981E90DF1E902A66003456AB /* Comidas preparadas a base de verduras.json in Resources */,
+				981E90CE1E902A66003456AB /* Grasas.json in Resources */,
+				981E90AB1E902A66003456AB /* Amasados Industriales.json in Resources */,
+				981E90971E902A66003456AB /* Condimentos.json in Resources */,
+				981E90C01E902A66003456AB /* Productos Prelistos.json in Resources */,
+				981E909E1E902A66003456AB /* Helado dietético.json in Resources */,
+				981E90A51E902A66003456AB /* Mermeladas Bajas Calorias.json in Resources */,
+				981E90D51E902A66003456AB /* Leches en polvo enteras.json in Resources */,
+				981E90D41E902A66003456AB /* Leches en polvo descremadas.json in Resources */,
+				981E90D71E902A66003456AB /* Leches fluidas enteras.json in Resources */,
+				981E90B71E902A66003456AB /* Panes blancos.json in Resources */,
+				981E90DC1E902A66003456AB /* Yogures Descremados.json in Resources */,
+				981E909F1E902A66003456AB /* Helado estandar.json in Resources */,
+				981E90B41E902A66003456AB /* Legumbres congeladas.json in Resources */,
+				981E90E31E902A66003456AB /* Frutas en conserva estandar.json in Resources */,
+				981E90E41E902A66003456AB /* Frutas.json in Resources */,
+				981E90E81E902A66003456AB /* Verduras.json in Resources */,
+				981E90D81E902A66003456AB /* Leches fluidas saborizadas.json in Resources */,
+				981E90A01E902A66003456AB /* Hierbas.json in Resources */,
+				981E90A21E902A66003456AB /* Jugos en polvo.json in Resources */,
+				981E90E51E902A66003456AB /* Hongos y Brotes.json in Resources */,
+				981E90D11E902A66003456AB /* Mayonesas y Derivados.json in Resources */,
+				981E90DB1E902A66003456AB /* Postres.json in Resources */,
+				981E90C31E902A66003456AB /* Soja y derivados.json in Resources */,
 				F7B2EBB21E4BEE6200955EE6 /* asset.xcassets in Resources */,
+				981E90C81E902A66003456AB /* Verduras Feculentas.json in Resources */,
+				981E90E01E902A66003456AB /* Frutas Congeladas.json in Resources */,
+				981E90C11E902A66003456AB /* Productos usados en panificación.json in Resources */,
+				981E908C1E902A66003456AB /* Aguas Saborizadas.json in Resources */,
+				981E90D31E902A66003456AB /* Sustitutos.json in Resources */,
+				981E909C1E902A66003456AB /* Gaseosas.json in Resources */,
+				981E90CD1E902A66003456AB /* Frutos.json in Resources */,
+				981E90931E902A66003456AB /* Cereales Infantiles.json in Resources */,
+				981E90D91E902A66003456AB /* Leches Modificadas.json in Resources */,
+				981E908E1E902A66003456AB /* Alfajores.json in Resources */,
+				981E90A81E902A66003456AB /* Polvo para saborizar leches.json in Resources */,
+				981E90C51E902A66003456AB /* Tostadas.json in Resources */,
+				981E90CA1E902A66003456AB /* Aceites Vegetales.json in Resources */,
+				981E90941E902A66003456AB /* Chocolates.json in Resources */,
+				981E90911E902A66003456AB /* Bebidas Alcohólicas.json in Resources */,
+				981E90DD1E902A66003456AB /* Yogures Enteros.json in Resources */,
+				981E90AC1E902A66003456AB /* Barras de cereal por unidad.json in Resources */,
+				981E90C61E902A66003456AB /* Verduras Feculentas Congeladas.json in Resources */,
+				981E90921E902A66003456AB /* Caldos y Sopas.json in Resources */,
+				981E90AE1E902A66003456AB /* Cereales.json in Resources */,
+				981E90B61E902A66003456AB /* Legumbres.json in Resources */,
+				981E90AA1E902A66003456AB /* Salsas.json in Resources */,
+				981E90D61E902A66003456AB /* Leches fluidas descremadas.json in Resources */,
+				981E909A1E902A66003456AB /* Fórmulas infantiles.json in Resources */,
+				981E90BA1E902A66003456AB /* Pastas Frescas Rellenas.json in Resources */,
+				981E90961E902A66003456AB /* Comidas instantáneas deshidratadas.json in Resources */,
+				981E90D01E902A66003456AB /* Margarinas y Mantecas.json in Resources */,
+				981E90A41E902A66003456AB /* Leches Infantiles.json in Resources */,
+				981E90B01E902A66003456AB /* Galletitas Dulces.json in Resources */,
+				981E90901E902A66003456AB /* Bebidas a base de soja.json in Resources */,
+				981E90D21E902A66003456AB /* Semillas.json in Resources */,
+				981E909B1E902A66003456AB /* Gaseosas Light.json in Resources */,
+				981E90C91E902A66003456AB /* Aceites Animales.json in Resources */,
+				981E90B11E902A66003456AB /* Galletitas y Tostaditas.json in Resources */,
+				981E90C41E902A66003456AB /* Tapas y Masas.json in Resources */,
+				981E90981E902A66003456AB /* Copetín.json in Resources */,
+				981E90DA1E902A66003456AB /* Leches Otro.json in Resources */,
+				981E90C21E902A66003456AB /* Rebozadores y Pan Rallado.json in Resources */,
 				F7B2EBB01E4BEE6200955EE6 /* Main.storyboard in Resources */,
+				981E90AF1E902A66003456AB /* Comidas elaboradas a base de almidones.json in Resources */,
+				981E90A31E902A66003456AB /* Jugos.json in Resources */,
+				981E90B21E902A66003456AB /* Harinas de legumbres.json in Resources */,
+				981E90BC1E902A66003456AB /* Pastas secas.json in Resources */,
+				981E908D1E902A66003456AB /* Aguas.json in Resources */,
+				981E90951E902A66003456AB /* Colados y Picados.json in Resources */,
+				981E90A91E902A66003456AB /* Repostería.json in Resources */,
+				981E90B51E902A66003456AB /* Legumbres en conserva.json in Resources */,
+				981E90991E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json in Resources */,
+				981E90BE1E902A66003456AB /* Premezclas.json in Resources */,
+				981E90B81E902A66003456AB /* Panes integrales.json in Resources */,
+				981E90A61E902A66003456AB /* Polvo para postre dietético.json in Resources */,
+				981E90CB1E902A66003456AB /* Cremas.json in Resources */,
+				981E90C71E902A66003456AB /* Verduras Feculentas en Conserva.json in Resources */,
+				981E90CF1E902A66003456AB /* Manteca.json in Resources */,
+				981E90DE1E902A66003456AB /* Alimentos Condimento.json in Resources */,
+				981E90BF1E902A66003456AB /* Productos de Confiteria.json in Resources */,
+				981E90E61E902A66003456AB /* Verduras Congeladas.json in Resources */,
+				981E90CC1E902A66003456AB /* Frutas Secas.json in Resources */,
+				981E90E11E902A66003456AB /* Frutas disecadas.json in Resources */,
+				981E90E71E902A66003456AB /* Verduras Enlatadas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +761,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */,
+				981E90221E9029FE003456AB /* FoodTableViewCell.m in Sources */,
+				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
 				F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */,
+				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
+				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
+				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
 				F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */,
 				F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */,
+				981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
