@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Grupo Almidones</key>
+	<key>Almidones</key>
 	<array>
 		<string>Amasados Industriales</string>
 		<string>Barras de cereal por unidad</string>
@@ -35,7 +35,7 @@
 		<string>Verduras Feculentas en Conserva</string>
 		<string>Verduras Feculentas</string>
 	</array>
-	<key>Grupo Accesorio</key>
+	<key>Accesorios</key>
 	<array>
 		<string>Aderezos</string>
 		<string>Aguas Saborizadas</string>
@@ -70,7 +70,7 @@
 		<string>Repostería</string>
 		<string>Salsas</string>
 	</array>
-	<key>Grupo Sustancias Grasas</key>
+	<key>Sustancias grasas</key>
 	<array>
 		<string>Aceites Animales</string>
 		<string>Aceites Vegetales</string>
@@ -84,7 +84,7 @@
 		<string>Semillas</string>
 		<string>Sustitutos</string>
 	</array>
-	<key>Grupo Vegetales</key>
+	<key>Vegetales</key>
 	<array>
 		<string>Alimentos Condimento</string>
 		<string>Comidas preparadas a base de verduras</string>
@@ -98,7 +98,7 @@
 		<string>Verduras Enlatadas</string>
 		<string>Verduras</string>
 	</array>
-	<key>Grupo Lacteos</key>
+	<key>Lacteos</key>
 	<array>
 		<string>Leches en polvo descremadas</string>
 		<string>Leches en polvo enteras</string>
@@ -113,11 +113,11 @@
 	</array>
 	<key>types</key>
 	<array>
-		<string>Grupo Almidones</string>
-		<string>Grupo Accesorio</string>
-		<string>Grupo Sustancias Grasas</string>
-		<string>Grupo Vegetales</string>
-		<string>Grupo Lacteos</string>
+		<string>Almidones</string>
+		<string>Accesorios</string>
+		<string>Sustancias grasas</string>
+		<string>Vegetales</string>
+		<string>Lacteos</string>
 	</array>
 </dict>
 </plist>

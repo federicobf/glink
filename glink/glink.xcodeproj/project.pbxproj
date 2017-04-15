@@ -108,6 +108,10 @@
 		981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90EB1E902A6D003456AB /* ALView+PureLayout.m */; };
 		981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90ED1E902A6D003456AB /* NSArray+PureLayout.m */; };
 		981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90EF1E902A6D003456AB /* NSLayoutConstraint+PureLayout.m */; };
+		981E90F81E9149D1003456AB /* SelectGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90F71E9149D1003456AB /* SelectGroupViewController.m */; };
+		981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90FA1E918AA6003456AB /* FoodCollectionViewCell.m */; };
+		981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */; };
+		981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E91011E91B1E3003456AB /* SegmentedScrollView.m */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
 		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
 		F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA61E4BEE6200955EE6 /* main.m */; };
@@ -248,6 +252,14 @@
 		981E90F01E902A6D003456AB /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		981E90F11E902A6D003456AB /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		981E90F21E902A6D003456AB /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		981E90F61E9149D1003456AB /* SelectGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectGroupViewController.h; sourceTree = "<group>"; };
+		981E90F71E9149D1003456AB /* SelectGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectGroupViewController.m; sourceTree = "<group>"; };
+		981E90F91E918AA6003456AB /* FoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCollectionViewCell.h; sourceTree = "<group>"; };
+		981E90FA1E918AA6003456AB /* FoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCollectionViewCell.m; sourceTree = "<group>"; };
+		981E90FD1E91A7D5003456AB /* SelectCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCategoryViewController.h; sourceTree = "<group>"; };
+		981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCategoryViewController.m; sourceTree = "<group>"; };
+		981E91001E91B1E3003456AB /* SegmentedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedScrollView.h; sourceTree = "<group>"; };
+		981E91011E91B1E3003456AB /* SegmentedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedScrollView.m; sourceTree = "<group>"; };
 		F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileViewController.h; sourceTree = "<group>"; };
 		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
 		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
@@ -466,6 +478,17 @@
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
+		981E90FC1E91A7B9003456AB /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				981E90F61E9149D1003456AB /* SelectGroupViewController.h */,
+				981E90F71E9149D1003456AB /* SelectGroupViewController.m */,
+				981E90F91E918AA6003456AB /* FoodCollectionViewCell.h */,
+				981E90FA1E918AA6003456AB /* FoodCollectionViewCell.m */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
 		F7B2EB991E4BEE6200955EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +520,11 @@
 				F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */,
 				F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */,
 				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
+				981E90FD1E91A7D5003456AB /* SelectCategoryViewController.h */,
+				981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */,
+				981E91001E91B1E3003456AB /* SegmentedScrollView.h */,
+				981E91011E91B1E3003456AB /* SegmentedScrollView.m */,
+				981E90FC1E91A7B9003456AB /* Collection */,
 				981E90E91E902A6D003456AB /* PureLayout */,
 				981E90271E902A66003456AB /* DatosComidaJSON */,
 				981E90171E9029FE003456AB /* ComidaViewController */,
@@ -762,9 +790,13 @@
 			files = (
 				F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */,
 				981E90221E9029FE003456AB /* FoodTableViewCell.m in Sources */,
+				981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */,
+				981E90F81E9149D1003456AB /* SelectGroupViewController.m in Sources */,
 				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
 				F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */,
 				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
+				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
+				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
