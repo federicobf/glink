@@ -60,7 +60,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 5;
+    return 6;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -92,6 +92,9 @@
             break;
         case 4:
             return @"Accesorios";
+            break;
+        case 5:
+            return @"Añadir alimento";
             break;
             
         default:
