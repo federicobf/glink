@@ -114,6 +114,8 @@
 		981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E91011E91B1E3003456AB /* SegmentedScrollView.m */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
 		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
+		F79FC8311EA2A41D00B6902B /* GlucemiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */; };
+		F79FC8341EA2BDBA00B6902B /* StrippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC8331EA2BDBA00B6902B /* StrippedView.m */; };
 		F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA61E4BEE6200955EE6 /* main.m */; };
 		F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */; };
 		F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */; };
@@ -264,6 +266,10 @@
 		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
 		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
 		F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileTableViewCell.m; sourceTree = "<group>"; };
+		F79FC82F1EA2A41D00B6902B /* GlucemiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucemiaViewController.h; sourceTree = "<group>"; };
+		F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucemiaViewController.m; sourceTree = "<group>"; };
+		F79FC8321EA2BDBA00B6902B /* StrippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrippedView.h; sourceTree = "<group>"; };
+		F79FC8331EA2BDBA00B6902B /* StrippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrippedView.m; sourceTree = "<group>"; };
 		F7B2EBA21E4BEE6200955EE6 /* glink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2EBA61E4BEE6200955EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B2EBA81E4BEE6200955EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -524,6 +530,10 @@
 				981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */,
 				981E91001E91B1E3003456AB /* SegmentedScrollView.h */,
 				981E91011E91B1E3003456AB /* SegmentedScrollView.m */,
+				F79FC82F1EA2A41D00B6902B /* GlucemiaViewController.h */,
+				F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */,
+				F79FC8321EA2BDBA00B6902B /* StrippedView.h */,
+				F79FC8331EA2BDBA00B6902B /* StrippedView.m */,
 				981E90FC1E91A7B9003456AB /* Collection */,
 				981E90E91E902A6D003456AB /* PureLayout */,
 				981E90271E902A66003456AB /* DatosComidaJSON */,
@@ -797,6 +807,8 @@
 				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
 				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
+				F79FC8311EA2A41D00B6902B /* GlucemiaViewController.m in Sources */,
+				F79FC8341EA2BDBA00B6902B /* StrippedView.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
