@@ -10,11 +10,18 @@
 #import "FoodTableViewCell.h"
 #import "PureLayout.h"
 #import "AppDelegate.h"
+#import "SegmentedScrollView.h"
 
-@interface ComidasViewController ()
-<UITableViewDataSource, UITableViewDelegate>
+@interface ComidasViewController () <ButtonPressDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray* sectionsArray;
+@property (weak, nonatomic) IBOutlet SegmentedScrollView *segmentedScrollView;
 @property (nonatomic, strong) NSMutableDictionary* selectionsDictionary;
+@property (nonatomic, strong) NSString *currentKey;
+@property (nonatomic, strong) NSString *lastUsedKey;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (nonatomic, strong) NSArray *dataSourceArray;
+@property BOOL layoutSet;
+
 @end
 
 @implementation ComidasViewController {
@@ -23,73 +30,118 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.searchBar.barTintColor = [UIColor whiteColor];
+    self.segmentedScrollView.alpha = 0;
+    [self.searchBar setBackgroundImage:[[UIImage alloc]init]];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"FoodList" ofType:@"plist"];
-    NSDictionary* root = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-    
-    self.sectionsArray = [NSMutableArray new];
     self.selectionsDictionary = [NSMutableDictionary new];
+    [self.segmentedScrollView addButtons:self.sectionsArray];
+    self.segmentedScrollView.delegate = self;
+
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear: animated];
+    [self.segmentedScrollView setSelectedButton:self.currentKey animated:NO];
+    [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        self.segmentedScrollView.alpha = 1;
+    } completion:nil];
+}
+
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
     
-    for (NSString* str in root [@"types"]) {
-    
-        NSArray* array = root [str];
-    
-        [self.sectionsArray addObjectsFromArray:array];
-        
+    if (self.layoutSet) {
+        return;
     }
+    self.layoutSet = YES;
+    
+    [self.searchBar layoutSubviews];
+    
+    float topPadding = 16.0;
+    for(UIView *view in self.searchBar.subviews)
+    {
+        for(UITextField *textfield in view.subviews)
+        {
+            if ([textfield isKindOfClass:[UITextField class]]) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [textfield autoSetDimension:ALDimensionHeight toSize:40];
+                    [textfield autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:textfield.superview];
+                    [textfield autoCenterInSuperview];
+                });
+            }
+        }
+    }
+}
+
+
+- (void) actionPressed: (UIButton *) sender
+{
+    self.currentKey = sender.titleLabel.text;
+    [self.segmentedScrollView setSelectedButton:self.currentKey animated:YES];
+    [self.tableView reloadData];
+}
+
+- (void) setUpWithCategories: (NSArray *) categories andCurrentKey:(NSString *) currentKey;
+{
+    self.sectionsArray = (NSMutableArray *) categories;
+    self.currentKey = currentKey;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return self.sectionsArray.count;
+    return 1;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSArray* items = [self dataSourceForKey:self.sectionsArray [section]];
+    NSArray* items = [self dataSourceForKey:self.currentKey];
     return items.count;
 }
 
 - (NSArray*) dataSourceForKey: (NSString*) key {
 
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:key ofType:@"json"];
-    NSString *myJSON = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];
-    NSArray *result = [NSJSONSerialization JSONObjectWithData:[myJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
-    
-    return result;
-    
+    if (![self.lastUsedKey isEqualToString: key]) {
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:key ofType:@"json"];
+        NSString *myJSON = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];
+        NSArray *result = [NSJSONSerialization JSONObjectWithData:[myJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
+        self.lastUsedKey = key;
+        self.dataSourceArray = result;
+    }
+    return self.dataSourceArray;
 }
 
-- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-
-    return 40;
-
-}
-
-- (UIView*) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-
-    UIView* v = [[UIView alloc] init];
-    v.backgroundColor = [UIColor colorWithRed:255/255.f green:33/255.f blue:162/255.f alpha:.8f];
-                         
-    
-    UILabel* lbl = [[UILabel alloc] initForAutoLayout];
-    lbl.text = self.sectionsArray [section];
-    lbl.textColor = [UIColor whiteColor];
-    [v addSubview:lbl];
-    [lbl autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMake(0, 20, 0, 20)];
-    
-    return v;
-}
+//- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+//
+//    return 0;
+//
+//}
+//
+//- (UIView*) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+//
+//    UIView* v = [[UIView alloc] init];
+//    v.backgroundColor = [UIColor colorWithRed:255/255.f green:33/255.f blue:162/255.f alpha:.8f];
+//                         
+//    
+//    UILabel* lbl = [[UILabel alloc] initForAutoLayout];
+//    lbl.text = self.currentKey;
+//    lbl.textColor = [UIColor whiteColor];
+//    [v addSubview:lbl];
+//    [lbl autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+//    
+//    return v;
+//}
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     FoodTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"foodCell" forIndexPath:indexPath];
     
-    NSArray* items = [self dataSourceForKey:self.sectionsArray [indexPath.section]];
+    NSArray* items = [self dataSourceForKey:self.currentKey];
     FoodItem* foodItem = [FoodItem new];
     [foodItem configureWithDict:items [indexPath.row]];
     [cell setUpWithFoodItem: foodItem];
@@ -472,6 +524,10 @@
     
     if ([segue.identifier isEqualToString:@"displayFlow"]) {
     }
+}
+- (IBAction)back:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
