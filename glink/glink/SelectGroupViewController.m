@@ -39,7 +39,13 @@
         for(UITextField *textfield in view.subviews)
         {
             if ([textfield isKindOfClass:[UITextField class]]) {
-                textfield.frame = CGRectMake(textfield.frame.origin.x, topPadding, textfield.frame.size.width, (self.searchbar.frame.size.height - (topPadding * 2)));
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [textfield autoSetDimension:ALDimensionHeight toSize:40];
+                    [textfield autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:textfield.superview];
+                    [textfield autoCenterInSuperview];
+                });
+
             }
         }
     }
@@ -66,7 +72,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     FoodCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"FoodCategoryCell" forIndexPath:indexPath];
-    cell.imageView.image = [UIImage imageNamed:[self titleForPosition:indexPath.row]];
+    cell.imageView.image = [UIImage imageNamed:[self imageForPosition:indexPath.row]];
     cell.text.text = [self titleForPosition:indexPath.row];
     cell.alpha = 0.f;
         [UIView animateWithDuration:.8f delay:indexPath.row * .3f options:UIViewAnimationOptionCurveEaseInOut animations:^{
@@ -103,16 +109,50 @@
     }
 }
 
+- (NSString *) imageForPosition: (NSInteger) position
+{
+    switch (position) {
+        case 0:
+            return @"Almidones";
+            break;
+        case 1:
+            return @"Lacteos";
+            break;
+        case 2:
+            return @"Sustancias grasas";
+            break;
+        case 3:
+            return @"Vegetales";
+            break;
+        case 4:
+            return @"Accesorios";
+            break;
+        case 5:
+            return @"Anadir alimento";
+            break;
+            
+        default:
+            return nil;
+            break;
+    }
+}
+
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 5) {
+        [self performSegueWithIdentifier:@"suggestFood" sender:indexPath];
+        return;
+    }
     [self performSegueWithIdentifier:@"categorySelection" sender:indexPath];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *ip = sender;
-    SelectCategoryViewController *nextVC = [segue destinationViewController];
-    nextVC.key = [self titleForPosition:ip.row];
-    // Pass the selected object to the new view controller.
+    UIViewController *nextVC = [segue destinationViewController];
+    if ([nextVC isKindOfClass:[SelectCategoryViewController class]]) {
+        SelectCategoryViewController *categoryVC = (SelectCategoryViewController *) nextVC;
+        categoryVC.key = [self titleForPosition:ip.row];
+    }
 }
 
 @end

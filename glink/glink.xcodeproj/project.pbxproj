@@ -112,10 +112,10 @@
 		981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90FA1E918AA6003456AB /* FoodCollectionViewCell.m */; };
 		981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */; };
 		981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E91011E91B1E3003456AB /* SegmentedScrollView.m */; };
+		984F97AE1EA4122900F6F52E /* StrippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F97AD1EA4122900F6F52E /* StrippedView.m */; };
+		984F97B11EA4126300F6F52E /* GlucemiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F97B01EA4126300F6F52E /* GlucemiaViewController.m */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
 		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
-		F79FC8311EA2A41D00B6902B /* GlucemiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */; };
-		F79FC8341EA2BDBA00B6902B /* StrippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC8331EA2BDBA00B6902B /* StrippedView.m */; };
 		F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA61E4BEE6200955EE6 /* main.m */; };
 		F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */; };
 		F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */; };
@@ -262,14 +262,14 @@
 		981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCategoryViewController.m; sourceTree = "<group>"; };
 		981E91001E91B1E3003456AB /* SegmentedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedScrollView.h; sourceTree = "<group>"; };
 		981E91011E91B1E3003456AB /* SegmentedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedScrollView.m; sourceTree = "<group>"; };
+		984F97AC1EA4122900F6F52E /* StrippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrippedView.h; sourceTree = "<group>"; };
+		984F97AD1EA4122900F6F52E /* StrippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrippedView.m; sourceTree = "<group>"; };
+		984F97AF1EA4126300F6F52E /* GlucemiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucemiaViewController.h; sourceTree = "<group>"; };
+		984F97B01EA4126300F6F52E /* GlucemiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucemiaViewController.m; sourceTree = "<group>"; };
 		F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileViewController.h; sourceTree = "<group>"; };
 		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
 		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
 		F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileTableViewCell.m; sourceTree = "<group>"; };
-		F79FC82F1EA2A41D00B6902B /* GlucemiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucemiaViewController.h; sourceTree = "<group>"; };
-		F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucemiaViewController.m; sourceTree = "<group>"; };
-		F79FC8321EA2BDBA00B6902B /* StrippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrippedView.h; sourceTree = "<group>"; };
-		F79FC8331EA2BDBA00B6902B /* StrippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrippedView.m; sourceTree = "<group>"; };
 		F7B2EBA21E4BEE6200955EE6 /* glink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2EBA61E4BEE6200955EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B2EBA81E4BEE6200955EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -313,7 +313,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		981E90171E9029FE003456AB /* ComidaViewController */ = {
+		981E90171E9029FE003456AB /* Comida */ = {
 			isa = PBXGroup;
 			children = (
 				981E90181E9029FE003456AB /* ComidasViewController.h */,
@@ -324,6 +324,7 @@
 				981E901D1E9029FE003456AB /* FoodTableViewCell.h */,
 				981E901E1E9029FE003456AB /* FoodTableViewCell.m */,
 			);
+			name = Comida;
 			path = ComidaViewController;
 			sourceTree = "<group>";
 		};
@@ -495,6 +496,17 @@
 			name = Collection;
 			sourceTree = "<group>";
 		};
+		984F97AB1EA3CD6100F6F52E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				981E90FD1E91A7D5003456AB /* SelectCategoryViewController.h */,
+				981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */,
+				981E91001E91B1E3003456AB /* SegmentedScrollView.h */,
+				981E91011E91B1E3003456AB /* SegmentedScrollView.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		F7B2EB991E4BEE6200955EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -526,18 +538,15 @@
 				F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */,
 				F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */,
 				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
-				981E90FD1E91A7D5003456AB /* SelectCategoryViewController.h */,
-				981E90FE1E91A7D5003456AB /* SelectCategoryViewController.m */,
-				981E91001E91B1E3003456AB /* SegmentedScrollView.h */,
-				981E91011E91B1E3003456AB /* SegmentedScrollView.m */,
-				F79FC82F1EA2A41D00B6902B /* GlucemiaViewController.h */,
-				F79FC8301EA2A41D00B6902B /* GlucemiaViewController.m */,
-				F79FC8321EA2BDBA00B6902B /* StrippedView.h */,
-				F79FC8331EA2BDBA00B6902B /* StrippedView.m */,
+				984F97AF1EA4126300F6F52E /* GlucemiaViewController.h */,
+				984F97B01EA4126300F6F52E /* GlucemiaViewController.m */,
+				984F97AC1EA4122900F6F52E /* StrippedView.h */,
+				984F97AD1EA4122900F6F52E /* StrippedView.m */,
 				981E90FC1E91A7B9003456AB /* Collection */,
+				984F97AB1EA3CD6100F6F52E /* Category */,
+				981E90171E9029FE003456AB /* Comida */,
 				981E90E91E902A6D003456AB /* PureLayout */,
 				981E90271E902A66003456AB /* DatosComidaJSON */,
-				981E90171E9029FE003456AB /* ComidaViewController */,
 				F7B2EBAE1E4BEE6200955EE6 /* Main.storyboard */,
 				F7B2EBB11E4BEE6200955EE6 /* asset.xcassets */,
 				F7B2EBB31E4BEE6200955EE6 /* LaunchScreen.storyboard */,
@@ -807,14 +816,14 @@
 				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
 				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
-				F79FC8311EA2A41D00B6902B /* GlucemiaViewController.m in Sources */,
-				F79FC8341EA2BDBA00B6902B /* StrippedView.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
 				F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */,
 				F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */,
 				981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */,
+				984F97AE1EA4122900F6F52E /* StrippedView.m in Sources */,
+				984F97B11EA4126300F6F52E /* GlucemiaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
