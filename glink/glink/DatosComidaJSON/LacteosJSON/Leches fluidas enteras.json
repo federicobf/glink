@@ -16,7 +16,7 @@
     "FIELD6":""
   },
   {
-    "Comida":" Leche de bufala ",
+    "Comida":"Leche de bufala ",
     "Porcion":"200 cc = 1 vaso",
     "Calorias":194,
     "CH":10,
@@ -48,7 +48,7 @@
     "FIELD6":""
   },
   {
-    "Comida":" Leche de cabra ",
+    "Comida":"Leche de cabra ",
     "Porcion":"200 cc = 1 vaso",
     "Calorias":138,
     "CH":9,
@@ -64,7 +64,7 @@
     "FIELD6":""
   },
   {
-    "Comida":" Leche de oveja ",
+    "Comida":"Leche de oveja ",
     "Porcion":"200 cc = 1 vaso",
     "Calorias":216,
     "CH":11,

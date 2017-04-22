@@ -10,5 +10,6 @@
 
 @interface ComidasViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property BOOL noCategory;
 - (void) setUpWithCategories: (NSArray *) categories andCurrentKey:(NSString *) currentKey;
 @end

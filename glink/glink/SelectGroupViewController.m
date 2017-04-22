@@ -10,6 +10,7 @@
 #import "FoodCollectionViewCell.h"
 #import "PureLayout.h"
 #import "SelectCategoryViewController.h"
+#import "ComidasViewController.h"
 
 @interface SelectGroupViewController ()
 @property (weak, nonatomic) IBOutlet UISearchBar *searchbar;
@@ -152,6 +153,11 @@
     if ([nextVC isKindOfClass:[SelectCategoryViewController class]]) {
         SelectCategoryViewController *categoryVC = (SelectCategoryViewController *) nextVC;
         categoryVC.key = [self titleForPosition:ip.row];
+    }
+    
+    if ([nextVC isKindOfClass:[ComidasViewController class]]) {
+        ComidasViewController *comidasVC = (ComidasViewController *) nextVC;
+        comidasVC.noCategory = YES;
     }
 }
 

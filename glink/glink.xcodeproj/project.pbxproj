@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9818EF241EABD3250016DBAA /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF231EABD3250016DBAA /* FoodManager.m */; };
 		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
 		981E90201E9029FE003456AB /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E901B1E9029FE003456AB /* FoodItem.m */; };
 		981E90211E9029FE003456AB /* FoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981E901C1E9029FE003456AB /* FoodList.plist */; };
@@ -144,6 +145,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9818EF221EABD3250016DBAA /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
+		9818EF231EABD3250016DBAA /* FoodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodManager.m; sourceTree = "<group>"; };
 		981E90181E9029FE003456AB /* ComidasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComidasViewController.h; sourceTree = "<group>"; };
 		981E90191E9029FE003456AB /* ComidasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComidasViewController.m; sourceTree = "<group>"; };
 		981E901A1E9029FE003456AB /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
@@ -323,6 +326,8 @@
 				981E901C1E9029FE003456AB /* FoodList.plist */,
 				981E901D1E9029FE003456AB /* FoodTableViewCell.h */,
 				981E901E1E9029FE003456AB /* FoodTableViewCell.m */,
+				9818EF221EABD3250016DBAA /* FoodManager.h */,
+				9818EF231EABD3250016DBAA /* FoodManager.m */,
 			);
 			name = Comida;
 			path = ComidaViewController;
@@ -818,6 +823,7 @@
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
+				9818EF241EABD3250016DBAA /* FoodManager.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
 				F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */,
 				F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */,
