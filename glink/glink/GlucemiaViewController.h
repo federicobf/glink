@@ -10,5 +10,6 @@
 
 @interface GlucemiaViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
+@property CGFloat initialValue;
 
 @end

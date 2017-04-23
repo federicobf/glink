@@ -11,6 +11,7 @@
 @implementation FoodTableViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
     self.leftImage.layer.cornerRadius = 30;
 }
@@ -18,7 +19,7 @@
 - (void) setUpWithFoodItem: (FoodItem*) foodItem {
     self.foodItem = foodItem;
     self.comidaLbl.text =  [NSString stringWithFormat:@"%@", foodItem.comida];
-    self.descripcionLbl.text = foodItem.descripcion;
+    self.descripcionLbl.text = [NSString stringWithFormat:@"Porción: %@", foodItem.descripcion];
     self.fibrasLbl.text = [NSString stringWithFormat:@"Fibras: %ig", (int) foodItem.fibras];
     self.glucidosLbl.text = [NSString stringWithFormat:@"Glúcidos: %ig", (int) foodItem.glucidos];
     self.caloriasLbl.text = [NSString stringWithFormat:@"Calorías: %ikcal", (int) foodItem.calorias];

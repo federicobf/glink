@@ -13,7 +13,7 @@
 - (void) drawLines
 {
     
-    for (int x = 0; x < 300; x++) {
+    for (int x = 0; x < 101; x++) {
         
         float height = 45;
         float position = 60;
@@ -33,7 +33,8 @@
         }
         
         UIView *line = [UIView new];
-        line.frame = CGRectMake(14 * x , position , widht, height);
+        float posx = -300 + 15 * x;
+        line.frame = CGRectMake(posx, position , widht, height);
         line.backgroundColor = [UIColor colorWithRed:24/255.f green:23/255.f blue:23/255.f alpha:.1f];
         
         [self addSubview:line];

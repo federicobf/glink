@@ -17,6 +17,7 @@
 @property (strong, nonatomic) NSArray *listArray;
 @property CGFloat delayMuliplier;
 @property BOOL layoutSet;
+@property BOOL voidCategories;
 
 @end
 
@@ -39,6 +40,7 @@
     self.tableView.dataSource = self;
     
     self.listArray = [[self dataSourceForKey:self.key] copy];
+    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
     [self.tableView reloadData];
     [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO];
 }
@@ -50,6 +52,7 @@
     [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.segmentedScrollView.alpha = 1;
     } completion:nil];
+    self.voidCategories = YES;
 }
 
 - (void) actionPressed: (UIButton *) sender
@@ -131,6 +134,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    self.voidCategories = NO;
     [self performSegueWithIdentifier:@"foodlist" sender:self.listArray [indexPath.row]];
 }
 
@@ -138,7 +142,11 @@
     UIViewController *nextVC = [segue destinationViewController];
     if ([nextVC isKindOfClass:[ComidasViewController class]]) {
         ComidasViewController *comidasVC = (ComidasViewController *) nextVC;
-        [comidasVC setUpWithCategories:self.listArray andCurrentKey:(NSString *)sender];
+        if (self.voidCategories) {
+            comidasVC.noCategory = YES;
+        } else {
+            [comidasVC setUpWithCategories:self.listArray andCurrentKey:(NSString *)sender];
+        }
     }
 }
 

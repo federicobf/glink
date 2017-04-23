@@ -11,16 +11,29 @@
 #import "PureLayout.h"
 #import "AppDelegate.h"
 #import "SegmentedScrollView.h"
+#import "FoodManager.h"
+#import "GlucemiaViewController.h"
 
-@interface ComidasViewController () <ButtonPressDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface ComidasViewController () <ButtonPressDelegate, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 @property (nonatomic, strong) NSMutableArray* sectionsArray;
 @property (weak, nonatomic) IBOutlet SegmentedScrollView *segmentedScrollView;
-@property (nonatomic, strong) NSMutableDictionary* selectionsDictionary;
 @property (nonatomic, strong) NSString *currentKey;
 @property (nonatomic, strong) NSString *lastUsedKey;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSArray *dataSourceArray;
+@property (nonatomic, strong) NSArray *tableViewCells;
+@property (nonatomic, strong) NSString *preloadedString;
+@property (nonatomic, strong) NSArray *fullOptions;
+@property BOOL resignFlag;
 @property BOOL layoutSet;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *searchBarConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *segmentedConstraint;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
+@property (weak, nonatomic) IBOutlet UIView *emptyView;
+@property (weak, nonatomic) IBOutlet UILabel *labelSearch;
+@property (weak, nonatomic) IBOutlet UIButton *searchAgainButton;
+@property CGFloat totValue;
 
 @end
 
@@ -33,12 +46,22 @@
     self.searchBar.barTintColor = [UIColor whiteColor];
     self.segmentedScrollView.alpha = 0;
     [self.searchBar setBackgroundImage:[[UIImage alloc]init]];
+    self.searchBar.delegate = self;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.selectionsDictionary = [NSMutableDictionary new];
+    self.nextButton.layer.cornerRadius = 20;
+    self.nextButton.layer.masksToBounds = YES;
+    self.searchAgainButton.layer.cornerRadius = 20;
+    self.searchAgainButton.layer.masksToBounds = YES;
+    self.emptyView.hidden = YES;
+
     [self.segmentedScrollView addButtons:self.sectionsArray];
     self.segmentedScrollView.delegate = self;
-
+    [self searchBar:self.searchBar textDidChange:self.preloadedString];
+    if (self.noCategory) {
+        [self hideSegmented];
+        [self.searchBar becomeFirstResponder];
+    }
 }
 
 - (void) viewDidAppear:(BOOL)animated
@@ -48,6 +71,11 @@
     [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.segmentedScrollView.alpha = 1;
     } completion:nil];
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [self.searchBar resignFirstResponder];
 }
 
 - (void)viewDidLayoutSubviews
@@ -77,12 +105,81 @@
     }
 }
 
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    if (searchText.length > 0) {
+        self.tableViewCells = [self searchResultForString:searchText];
+        [self hideSegmented];
+    } else {
+        if (self.resignFlag ) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.searchBar resignFirstResponder];
+            });
+        }
+        if (!self.noCategory) {
+            [self showSegmented];
+        }
+        if (self.currentKey) {
+            self.tableViewCells = [self dataSourceForKey:self.currentKey];
+        } else {
+            self.tableViewCells = [self fullOptions];
+        }
+    }
+    
+    [self updateEmptyView];
+    
+    [self.tableView reloadData];
+    self.resignFlag = YES;
+}
+
+- (void) updateEmptyView
+{
+    self.emptyView.hidden = (self.tableViewCells.count != 0);
+    if (!self.emptyView.hidden) {
+        self.labelSearch.text = [NSString stringWithFormat:@"No se encontraron alimentos con la palabra “%@”", self.searchBar.text];
+                                 }
+}
+- (IBAction)searchBack:(id)sender {
+}
+
+- (BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    self.resignFlag = NO;
+    return YES;
+}
+
+- (void) showSegmented
+{
+    [self.view layoutIfNeeded];
+self.segmentedConstraint.constant = 60;
+    [UIView animateWithDuration:.5f animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}
+
+- (void) hideSegmented
+{
+    [self.view layoutIfNeeded];
+    self.segmentedConstraint.constant = 0;
+    [UIView animateWithDuration:.5f animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [self.searchBar resignFirstResponder];
+}
 
 - (void) actionPressed: (UIButton *) sender
 {
     self.currentKey = sender.titleLabel.text;
     [self.segmentedScrollView setSelectedButton:self.currentKey animated:YES];
+    self.tableViewCells = [self dataSourceForKey:self.currentKey];
+    self.searchBar.text = @"";
+    [self.searchBar resignFirstResponder];
     [self.tableView reloadData];
+    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO];
 }
 
 - (void) setUpWithCategories: (NSArray *) categories andCurrentKey:(NSString *) currentKey;
@@ -99,8 +196,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSArray* items = [self dataSourceForKey:self.currentKey];
-    return items.count;
+    return self.tableViewCells.count;
 }
 
 - (NSArray*) dataSourceForKey: (NSString*) key {
@@ -141,14 +237,14 @@
 {
     FoodTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"foodCell" forIndexPath:indexPath];
     
-    NSArray* items = [self dataSourceForKey:self.currentKey];
+    NSArray* items = self.tableViewCells;
     FoodItem* foodItem = [FoodItem new];
     [foodItem configureWithDict:items [indexPath.row]];
     [cell setUpWithFoodItem: foodItem];
     
-    if ([self.selectionsDictionary objectForKey:foodItem.identificationKey]) {
+    if ([[FoodManager sharedInstance].selectionsDictionary objectForKey:foodItem.identificationKey]) {
     
-        cell.amountTextfield.text = [NSString stringWithFormat:@"%lu", [[self.selectionsDictionary objectForKey:foodItem.identificationKey] integerValue]];
+        cell.amountTextfield.text = [NSString stringWithFormat:@"%lu", [[[FoodManager sharedInstance].selectionsDictionary objectForKey:foodItem.identificationKey] integerValue]];
         
     }
     else {
@@ -332,97 +428,58 @@
     
     FoodItem* item = cell.foodItem;
     NSInteger value = [cell.amountTextfield.text integerValue];
-    [self.selectionsDictionary setObject:[NSNumber numberWithInteger:value] forKey:item.identificationKey];
+    [[FoodManager sharedInstance].selectionsDictionary setObject:[NSNumber numberWithInteger:value] forKey:item.identificationKey];
 }
 
-- (IBAction)search:(id)sender {
-    
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Búsqueda de Alimento"
-                                  message:@"Por favor escriba una palabra clave que identifique al alimento que busca:"
-                                  preferredStyle:UIAlertControllerStyleAlert];
-    
-    [alert addTextFieldWithConfigurationHandler:nil];
-    
-    [alert addAction: [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
-        UITextField *textField = alert.textFields[0];
-        NSLog(@"text was %@", textField.text);
-        [self selectSearchResultForString:textField.text];
-    }]];
-    
-    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-        NSLog(@"Cancel pressed");
-    }]];
-    
-    [self presentViewController:alert animated:YES completion:nil];
-    
-}
-
-- (void) selectSearchResultForString: (NSString*) string {
-    
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Resultado de Búsqueda"
-                                  message:@"Por favor seleccione el resultado que más se aproxime al alimento que desea agregar:"
-                                  preferredStyle:(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)? UIAlertControllerStyleAlert: UIAlertControllerStyleActionSheet];
-    
-
-    NSMutableArray* allItems = [NSMutableArray new];
-    
-    for (NSString* key in self.sectionsArray) {
-        NSArray* items = [self dataSourceForKey:key];
-        NSMutableArray* titles = [NSMutableArray new];
-        for (NSDictionary* dictItem in items) {
-            [titles addObject:dictItem[@"Comida"]];
+- (NSArray *) fullOptions
+{
+    if (!_fullOptions) {
+        NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"FoodList" ofType:@"plist"];
+        NSDictionary* root = [NSDictionary dictionaryWithContentsOfFile:plistPath];
+        NSArray *types = root [@"types"];
+        NSMutableArray *categories = [NSMutableArray new];
+        for (NSString *type in types) {
+            NSArray *category = root [type];
+            [categories addObjectsFromArray:category];
         }
         
-        [allItems addObjectsFromArray:titles];
+        NSMutableArray *fullOptions = [NSMutableArray new];
+        for (NSString *item in categories) {
+            NSArray *items = [self dataSourceForKey:item];
+            [fullOptions addObjectsFromArray:items];
+        }
+        
+        //Sorting of the Array
+        NSComparator comparator = ^NSComparisonResult(id aDictionary, id anotherDictionary) {
+            return [[aDictionary objectForKey:@"Comida"] localizedCaseInsensitiveCompare:[anotherDictionary objectForKey:@"Comida"]];
+        };
+        NSArray *sortedArray = [fullOptions sortedArrayUsingComparator:comparator];
+        _fullOptions = [NSArray arrayWithArray:sortedArray];
+    }
+    
+    return _fullOptions;
+}
+
+- (NSMutableArray *) searchResultForString: (NSString*) string
+{
+    NSMutableArray* selectedItems = [NSMutableArray new];
+    NSMutableArray* allFoods = [NSMutableArray new];
+    for (NSDictionary* item in self.fullOptions) {
+        [allFoods addObject:item[@"Comida"]];
     }
     
     NSPredicate* predicate = [NSPredicate predicateWithFormat:@"SELF contains[c] %@", string];
-    NSArray* filteredArray = [allItems filteredArrayUsingPredicate:predicate];
+    NSArray* filteredFoodArray = [allFoods filteredArrayUsingPredicate:predicate];
     
-    if (filteredArray.count==0) {
-
-        UIAlertView* alert2 = [[UIAlertView alloc] initWithTitle:@"Resultado Nulo" message:[NSString stringWithFormat:@"No se ha encontrado ningún elemento que contenga la palabra: %@", string] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
-        [alert2 show];
-        return;
-    
+    for (NSDictionary* item in [self fullOptions]) {
+        for (NSString* food in filteredFoodArray) {
+            if ([item[@"Comida"] isEqualToString:food]) {
+                [selectedItems addObject:item];
+            }
+        }
     }
     
-    if (filteredArray.count>=100) {
-        
-        UIAlertView* alert2 = [[UIAlertView alloc] initWithTitle:@"Demasiados Resultados" message:[NSString stringWithFormat:@"Usted ha utilizado una palabra demasiado genérica (%@), por favor repita la búsqueda utilizando un término más específico", string] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
-        [alert2 show];
-        return;
-        
-    }
-    
-    
-    for (NSString* item in filteredArray) {
-        UIAlertAction* action = [UIAlertAction
-                                 actionWithTitle:item
-                                 style:UIAlertActionStyleDefault
-                                 handler:^(UIAlertAction * action)
-                                 {
-                                     [self scrollToItem:item];
-                                     [alert dismissViewControllerAnimated:YES completion:nil];
-                                 }];
-        [alert addAction:action];
-    }
-    
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"Volver"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                                   [self search:nil];
-                               }];
-    [alert addAction:cancelar];
-    
-    [self presentViewController:alert animated:YES completion:nil];
-    
-    
+    return selectedItems;
 }
 
 - (void) scrollToItem: (NSString*) item {
@@ -453,14 +510,34 @@
     
 }
 
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+    [self.view layoutIfNeeded];
+    self.bottomConstraint.constant = 216-44;
+    [UIView animateWithDuration:.5f animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
+{
+    [self.view layoutIfNeeded];
+    self.bottomConstraint.constant = 0;
+    [UIView animateWithDuration:.5f animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}
+
 - (IBAction)calcularTotal:(id)sender {
 
     valorTotal = [self valorSumaTotal];
+    self.totValue = valorTotal;
     if (valorTotal==-1) {
         return;
     }    
-    self.selectionsDictionary = [NSMutableDictionary new];
+    [FoodManager sharedInstance].selectionsDictionary = [NSMutableDictionary new];
     [self.tableView reloadData];
+    [self performSegueWithIdentifier:@"carbsFlow" sender:nil];
     
 }
 
@@ -471,21 +548,14 @@
     NSString* descriptor = @"";
     
     NSMutableArray* allItems = [NSMutableArray new];
-    
-    for (NSString* key in self.sectionsArray) {
-        NSArray* items = [self dataSourceForKey:key];
-        NSMutableArray* foodItems = [NSMutableArray new];
-        for (NSDictionary* dictItem in items) {
-            
-            FoodItem* foodItem = [FoodItem new];
-            [foodItem configureWithDict:dictItem];
-            [foodItems addObject: foodItem];
-        }
+    for (NSDictionary* dictItem in [self fullOptions]) {
         
-        [allItems addObjectsFromArray:foodItems];
+        FoodItem* foodItem = [FoodItem new];
+        [foodItem configureWithDict:dictItem];
+        [allItems addObject: foodItem];
     }
-
-    for (NSString* key in [self.selectionsDictionary allKeys]) {
+    
+    for (NSString* key in [[FoodManager sharedInstance].selectionsDictionary allKeys]) {
     
         FoodItem* myItem;
         for (FoodItem* item in allItems) {
@@ -495,7 +565,7 @@
         }
         
         CGFloat value = myItem.glucidos;
-        NSInteger amount = [self.selectionsDictionary [key] integerValue];
+        NSInteger amount = [[FoodManager sharedInstance].selectionsDictionary [key] integerValue];
         
         NSString *shortString = ([myItem.comida length]>18 ? [NSString stringWithFormat:@"%@...", [myItem.comida substringToIndex:15]] : myItem.comida);
         
@@ -506,15 +576,20 @@
         
     }
     
-    if (self.selectionsDictionary.allKeys.count == 0) {
+    if ([FoodManager sharedInstance].selectionsDictionary.allKeys.count == 0) {
     
         UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Por favor agrega al menos una porción en alguno de los items disponibles para poder continuar."] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
         [alert show];
         return -1;
     }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.searchBar resignFirstResponder];
+    });
     
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Total de Carbohidratos" message:[NSString stringWithFormat:@"Se ha calculado un valor total de %.2fg para los siguientes items: %@", totalValue, descriptor] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
-    [alert show];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, .8f * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Total de Carbohidratos" message:[NSString stringWithFormat:@"Se ha calculado un valor total de %.2fg para los siguientes items: %@", totalValue, descriptor] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        [alert show];
+    });
     
     return totalValue;
     
@@ -522,7 +597,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    if ([segue.identifier isEqualToString:@"displayFlow"]) {
+    if ([segue.identifier isEqualToString:@"carbsFlow"]) {
+        UIViewController *nextVC = [segue destinationViewController];
+        if ([nextVC isKindOfClass:[GlucemiaViewController class]]) {
+            GlucemiaViewController *comidasVC = (GlucemiaViewController *) nextVC;
+            comidasVC.initialValue = self.totValue;
+        }
     }
 }
 - (IBAction)back:(id)sender {
@@ -530,11 +610,4 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-
-- (void) changeTab {
-
-    
-    AppDelegate* appdelegate = [UIApplication sharedApplication].delegate;
-    
-}
 @end
