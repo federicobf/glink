@@ -22,9 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.nextButton.layer.cornerRadius = 20;
+    self.nextButton.layer.cornerRadius = 23;
     self.nextButton.layer.masksToBounds = YES;
-    [self.strippedView drawLines];
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.delegate = self;
     self.scrollView.contentInset = UIEdgeInsetsMake(0, [UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2);
@@ -37,6 +36,15 @@
     
 }
 
+- (void) viewDidAppear:(BOOL)animated
+{
+    [self.strippedView drawLines];
+    self.strippedView.alpha = 0;
+    [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        self.strippedView.alpha = 1;
+    } completion:nil];
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     float distanciaX = scrollView.contentOffset.x + [UIScreen mainScreen].bounds.size.width/2;
@@ -46,8 +54,8 @@
         glucemia = 0;
     }
     
-    if (glucemia > 300) {
-        glucemia = 300;
+    if (glucemia > 600) {
+        glucemia = 600;
     }
     
     self.amountLabel.text = [NSString stringWithFormat:@"%.0f", glucemia];

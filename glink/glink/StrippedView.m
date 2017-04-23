@@ -13,23 +13,41 @@
 - (void) drawLines
 {
     
-    for (int x = 0; x < 101; x++) {
+    for (int x = 0; x < 161; x++) {
         
-        float height = 45;
-        float position = 60;
-        float widht = 1.1;
+        float altura = self.frame.size.height;
+
+        float widht;
+        float height;
+        float position;
         
         if (!(x % 5)) {
-            position = 40;
+            //barritas altas
             widht = 2;
             height = 66;
+            position = altura - height;
             
+        } else {
+            //barritas bajas
+            widht = 1.1;
+            height = 45;
+            position = altura - height - 11;
+    
+
         }
         
         UIView *line = [UIView new];
-        float posx = -300 + 15 * x;
+        float posx = -300 + 15 * x -.5f;
         line.frame = CGRectMake(posx, position , widht, height);
-        line.backgroundColor = [UIColor colorWithRed:24/255.f green:23/255.f blue:23/255.f alpha:.1f];
+
+        
+        float numeroActual = posx / 3;
+        
+        if (numeroActual < 70 || numeroActual > 300) {
+            line.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:.4f];
+        } else {
+            line.backgroundColor = [UIColor colorWithRed:24/255.f green:23/255.f blue:23/255.f alpha:.1f];
+        }
         
         [self addSubview:line];
     }
