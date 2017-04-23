@@ -26,12 +26,6 @@
             
         }
         
-        if (!(x % 20)) {
-            position = 20;
-            widht = 2;
-            height = 100;
-        }
-        
         UIView *line = [UIView new];
         float posx = -300 + 15 * x;
         line.frame = CGRectMake(posx, position , widht, height);
