@@ -126,6 +126,7 @@
 		F7B2EBC01E4BEE6200955EE6 /* glinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBBF1E4BEE6200955EE6 /* glinkTests.m */; };
 		F7B2EBCB1E4BEE6200955EE6 /* glinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2EBCA1E4BEE6200955EE6 /* glinkUITests.m */; };
 		F7E1E7D91EAD43780011911F /* AddFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E1E7D81EAD43780011911F /* AddFoodViewController.m */; };
+		F7E1E7DC1EAFE9D80011911F /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E1E7DB1EAFE9D80011911F /* SuccessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,6 +293,8 @@
 		F7B2EBCC1E4BEE6200955EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E1E7D71EAD43780011911F /* AddFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodViewController.h; sourceTree = "<group>"; };
 		F7E1E7D81EAD43780011911F /* AddFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodViewController.m; sourceTree = "<group>"; };
+		F7E1E7DA1EAFE9D80011911F /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		F7E1E7DB1EAFE9D80011911F /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -552,6 +555,8 @@
 				984F97AD1EA4122900F6F52E /* StrippedView.m */,
 				F7E1E7D71EAD43780011911F /* AddFoodViewController.h */,
 				F7E1E7D81EAD43780011911F /* AddFoodViewController.m */,
+				F7E1E7DA1EAFE9D80011911F /* SuccessViewController.h */,
+				F7E1E7DB1EAFE9D80011911F /* SuccessViewController.m */,
 				981E90FC1E91A7B9003456AB /* Collection */,
 				984F97AB1EA3CD6100F6F52E /* Category */,
 				981E90171E9029FE003456AB /* Comida */,
@@ -835,6 +840,7 @@
 				981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */,
 				984F97AE1EA4122900F6F52E /* StrippedView.m in Sources */,
 				F7E1E7D91EAD43780011911F /* AddFoodViewController.m in Sources */,
+				F7E1E7DC1EAFE9D80011911F /* SuccessViewController.m in Sources */,
 				984F97B11EA4126300F6F52E /* GlucemiaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
