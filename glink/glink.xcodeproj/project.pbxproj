@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9811EBAE1EB8AA41009F260E /* ReviewViewController.m */; };
 		9818EF241EABD3250016DBAA /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF231EABD3250016DBAA /* FoodManager.m */; };
 		9818EF271EAD4A440016DBAA /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF261EAD4A440016DBAA /* SlidersViewController.m */; };
 		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
@@ -149,6 +150,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9811EBAD1EB8AA41009F260E /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
+		9811EBAE1EB8AA41009F260E /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
 		9818EF221EABD3250016DBAA /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
 		9818EF231EABD3250016DBAA /* FoodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodManager.m; sourceTree = "<group>"; };
 		9818EF251EAD4A440016DBAA /* SlidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersViewController.h; sourceTree = "<group>"; };
@@ -557,6 +560,8 @@
 				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
 				984F97AF1EA4126300F6F52E /* GlucemiaViewController.h */,
 				984F97B01EA4126300F6F52E /* GlucemiaViewController.m */,
+				9811EBAD1EB8AA41009F260E /* ReviewViewController.h */,
+				9811EBAE1EB8AA41009F260E /* ReviewViewController.m */,
 				984F97AC1EA4122900F6F52E /* StrippedView.h */,
 				984F97AD1EA4122900F6F52E /* StrippedView.m */,
 				F7E1E7D71EAD43780011911F /* AddFoodViewController.h */,
@@ -843,6 +848,7 @@
 				988AECF11EB5222800209343 /* FirstTimeUseViewController.m in Sources */,
 				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
+				9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				9818EF241EABD3250016DBAA /* FoodManager.m in Sources */,
