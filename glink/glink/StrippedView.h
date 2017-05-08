@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface StrippedView : UIView
+@property BOOL drawnLines;
 
 - (void) drawLines;
 

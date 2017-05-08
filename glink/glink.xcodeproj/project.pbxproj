@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9811EBAE1EB8AA41009F260E /* ReviewViewController.m */; };
+		981288611EBFB1F00082D1A6 /* HealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9812885F1EBFB1F00082D1A6 /* HealthManager.m */; };
+		981288661EBFB2320082D1A6 /* HealthDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288631EBFB2320082D1A6 /* HealthDTO.m */; };
+		981288671EBFB2320082D1A6 /* HealthDayDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288651EBFB2320082D1A6 /* HealthDayDTO.m */; };
+		9812886B1EC00D110082D1A6 /* CarbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9812886A1EC00D110082D1A6 /* CarbsViewController.m */; };
+		9812886E1EC018740082D1A6 /* CarbsStrippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9812886D1EC018740082D1A6 /* CarbsStrippedView.m */; };
 		9818EF241EABD3250016DBAA /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF231EABD3250016DBAA /* FoodManager.m */; };
 		9818EF271EAD4A440016DBAA /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF261EAD4A440016DBAA /* SlidersViewController.m */; };
 		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
@@ -152,6 +157,16 @@
 /* Begin PBXFileReference section */
 		9811EBAD1EB8AA41009F260E /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
 		9811EBAE1EB8AA41009F260E /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
+		9812885F1EBFB1F00082D1A6 /* HealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthManager.m; sourceTree = "<group>"; };
+		981288601EBFB1F00082D1A6 /* HealthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthManager.h; sourceTree = "<group>"; };
+		981288621EBFB2320082D1A6 /* HealthDayDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDayDTO.h; sourceTree = "<group>"; };
+		981288631EBFB2320082D1A6 /* HealthDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDTO.m; sourceTree = "<group>"; };
+		981288641EBFB2320082D1A6 /* HealthDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDTO.h; sourceTree = "<group>"; };
+		981288651EBFB2320082D1A6 /* HealthDayDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDayDTO.m; sourceTree = "<group>"; };
+		981288691EC00D110082D1A6 /* CarbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbsViewController.h; sourceTree = "<group>"; };
+		9812886A1EC00D110082D1A6 /* CarbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbsViewController.m; sourceTree = "<group>"; };
+		9812886C1EC018740082D1A6 /* CarbsStrippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbsStrippedView.h; sourceTree = "<group>"; };
+		9812886D1EC018740082D1A6 /* CarbsStrippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbsStrippedView.m; sourceTree = "<group>"; };
 		9818EF221EABD3250016DBAA /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
 		9818EF231EABD3250016DBAA /* FoodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodManager.m; sourceTree = "<group>"; };
 		9818EF251EAD4A440016DBAA /* SlidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersViewController.h; sourceTree = "<group>"; };
@@ -331,6 +346,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9812885E1EBF643C0082D1A6 /* FTU */ = {
+			isa = PBXGroup;
+			children = (
+				988AECEF1EB5222800209343 /* FirstTimeUseViewController.h */,
+				988AECF01EB5222800209343 /* FirstTimeUseViewController.m */,
+			);
+			name = FTU;
+			sourceTree = "<group>";
+		};
+		981288681EBFB2380082D1A6 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				9812885F1EBFB1F00082D1A6 /* HealthManager.m */,
+				981288601EBFB1F00082D1A6 /* HealthManager.h */,
+				981288621EBFB2320082D1A6 /* HealthDayDTO.h */,
+				981288631EBFB2320082D1A6 /* HealthDTO.m */,
+				981288641EBFB2320082D1A6 /* HealthDTO.h */,
+				981288651EBFB2320082D1A6 /* HealthDayDTO.m */,
+			);
+			name = Health;
+			sourceTree = "<group>";
+		};
+		9812886F1EC0187E0082D1A6 /* Glucemia */ = {
+			isa = PBXGroup;
+			children = (
+				984F97AF1EA4126300F6F52E /* GlucemiaViewController.h */,
+				984F97B01EA4126300F6F52E /* GlucemiaViewController.m */,
+				984F97AC1EA4122900F6F52E /* StrippedView.h */,
+				984F97AD1EA4122900F6F52E /* StrippedView.m */,
+			);
+			name = Glucemia;
+			sourceTree = "<group>";
+		};
+		981288701EC018860082D1A6 /* Carbs */ = {
+			isa = PBXGroup;
+			children = (
+				981288691EC00D110082D1A6 /* CarbsViewController.h */,
+				9812886A1EC00D110082D1A6 /* CarbsViewController.m */,
+				9812886C1EC018740082D1A6 /* CarbsStrippedView.h */,
+				9812886D1EC018740082D1A6 /* CarbsStrippedView.m */,
+			);
+			name = Carbs;
+			sourceTree = "<group>";
+		};
+		981288711EC021760082D1A6 /* AddFood */ = {
+			isa = PBXGroup;
+			children = (
+				F7E1E7D71EAD43780011911F /* AddFoodViewController.h */,
+				F7E1E7D81EAD43780011911F /* AddFoodViewController.m */,
+			);
+			name = AddFood;
+			sourceTree = "<group>";
+		};
 		981E90171E9029FE003456AB /* Comida */ = {
 			isa = PBXGroup;
 			children = (
@@ -552,26 +620,23 @@
 			children = (
 				F7B2EBA81E4BEE6200955EE6 /* AppDelegate.h */,
 				F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */,
+				981288681EBFB2380082D1A6 /* Health */,
 				F7B2EBAB1E4BEE6200955EE6 /* ViewController.h */,
 				F7B2EBAC1E4BEE6200955EE6 /* ViewController.m */,
 				F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */,
 				F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */,
 				F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */,
 				F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */,
-				984F97AF1EA4126300F6F52E /* GlucemiaViewController.h */,
-				984F97B01EA4126300F6F52E /* GlucemiaViewController.m */,
+				9812886F1EC0187E0082D1A6 /* Glucemia */,
 				9811EBAD1EB8AA41009F260E /* ReviewViewController.h */,
 				9811EBAE1EB8AA41009F260E /* ReviewViewController.m */,
-				984F97AC1EA4122900F6F52E /* StrippedView.h */,
-				984F97AD1EA4122900F6F52E /* StrippedView.m */,
-				F7E1E7D71EAD43780011911F /* AddFoodViewController.h */,
-				F7E1E7D81EAD43780011911F /* AddFoodViewController.m */,
+				981288701EC018860082D1A6 /* Carbs */,
+				981288711EC021760082D1A6 /* AddFood */,
 				F7E1E7DA1EAFE9D80011911F /* SuccessViewController.h */,
 				F7E1E7DB1EAFE9D80011911F /* SuccessViewController.m */,
 				9818EF251EAD4A440016DBAA /* SlidersViewController.h */,
 				9818EF261EAD4A440016DBAA /* SlidersViewController.m */,
-				988AECEF1EB5222800209343 /* FirstTimeUseViewController.h */,
-				988AECF01EB5222800209343 /* FirstTimeUseViewController.m */,
+				9812885E1EBF643C0082D1A6 /* FTU */,
 				981E90FC1E91A7B9003456AB /* Collection */,
 				984F97AB1EA3CD6100F6F52E /* Category */,
 				981E90171E9029FE003456AB /* Comida */,
@@ -843,18 +908,23 @@
 				981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */,
 				981E90F81E9149D1003456AB /* SelectGroupViewController.m in Sources */,
 				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
+				981288661EBFB2320082D1A6 /* HealthDTO.m in Sources */,
 				F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */,
 				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
 				988AECF11EB5222800209343 /* FirstTimeUseViewController.m in Sources */,
 				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
+				981288611EBFB1F00082D1A6 /* HealthManager.m in Sources */,
 				9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
 				9818EF241EABD3250016DBAA /* FoodManager.m in Sources */,
+				9812886B1EC00D110082D1A6 /* CarbsViewController.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
+				9812886E1EC018740082D1A6 /* CarbsStrippedView.m in Sources */,
 				F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */,
 				F7B2EBA71E4BEE6200955EE6 /* main.m in Sources */,
+				981288671EBFB2320082D1A6 /* HealthDayDTO.m in Sources */,
 				981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */,
 				984F97AE1EA4122900F6F52E /* StrippedView.m in Sources */,
 				F7E1E7D91EAD43780011911F /* AddFoodViewController.m in Sources */,

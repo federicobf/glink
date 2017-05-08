@@ -7,11 +7,18 @@
 //
 
 #import "StrippedView.h"
+#import "HealthManager.h"
+
 
 @implementation StrippedView
 
 - (void) drawLines
 {
+    if (self.drawnLines) {
+        return;
+    }
+    
+    self.drawnLines = YES;
     
     for (int x = 0; x < 161; x++) {
         
@@ -23,13 +30,13 @@
         
         if (!(x % 5)) {
             //barritas altas
-            widht = 2;
+            widht = 1.5f;
             height = 66;
             position = altura - height;
             
         } else {
             //barritas bajas
-            widht = 1.1;
+            widht = .5f;
             height = 45;
             position = altura - height - 11;
     
@@ -37,20 +44,28 @@
         }
         
         UIView *line = [UIView new];
-        float posx = -300 + 15 * x -.5f;
+        float posx = -300 + 15 * x -1.f;
         line.frame = CGRectMake(posx, position , widht, height);
 
         
         float numeroActual = posx / 3;
         
-        if (numeroActual < 70 || numeroActual > 300) {
-            line.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:.4f];
+        if (numeroActual < [self minRed] || numeroActual > [self maxRed]) {
+            line.backgroundColor = [UIColor colorWithRed:1 green:.2f blue:.2f alpha:.3f];
         } else {
-            line.backgroundColor = [UIColor colorWithRed:24/255.f green:23/255.f blue:23/255.f alpha:.1f];
+            line.backgroundColor = [UIColor colorWithRed:24/255.f green:23/255.f blue:23/255.f alpha:.2f];
         }
         
         [self addSubview:line];
     }
+}
+
+- (CGFloat) minRed {
+    return kHipoGlucemia;
+}
+
+- (CGFloat) maxRed {
+    return kHiperGlucemia;
 }
 
 

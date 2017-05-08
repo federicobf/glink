@@ -17,6 +17,7 @@
 
 - (void) addButtons: (NSArray *) buttons
 {
+    self.canCancelContentTouches = YES;
     self.buttonArray = [NSMutableArray new];
     self.showsHorizontalScrollIndicator = NO;
     self.innerContentView = [[UIView alloc] initForAutoLayout];

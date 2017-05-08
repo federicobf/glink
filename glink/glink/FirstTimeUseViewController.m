@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *comenzar;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (weak, nonatomic) IBOutlet UIButton *saltear;
+@property (weak, nonatomic) IBOutlet UIImageView *ftu1;
+@property (weak, nonatomic) IBOutlet UIImageView *ftu2;
+@property (weak, nonatomic) IBOutlet UIImageView *ftu3;
+@property (weak, nonatomic) IBOutlet UIImageView *ftu4;
 
 @end
 
@@ -36,6 +40,36 @@
         self.titleLabel.alpha = 0;
         self.descriptionLabel.alpha = 0;
     }];
+}
+
+- (NSArray *) ftuImages
+{
+    return @[self.ftu1, self.ftu2, self.ftu3, self.ftu4];
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    int randNumber = arc4random() % 5;
+    if (randNumber == 0) {
+        return;
+    }
+    for (UIImageView *imgView in [self ftuImages]) {
+        float center = imgView.center.x;
+        float halfScreen =  scrollView.bounds.size.width/2;
+        float screen2 = scrollView.bounds.size.width * 1.5f;
+        float posx = scrollView.contentOffset.x + halfScreen;
+        float desviation =  posx - center;
+        float normalized = (desviation > 0)? desviation : -desviation;
+        float antivalue = screen2 - normalized;
+        
+        if (imgView == self.ftu1) {
+            NSLog(@"c %.1f", antivalue);
+        }
+        float cropped = antivalue > 0? antivalue : 0;
+        float opacity = antivalue / screen2;
+        imgView.alpha = opacity;
+    }
+
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView

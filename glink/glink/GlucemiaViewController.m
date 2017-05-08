@@ -7,14 +7,10 @@
 //
 
 #import "GlucemiaViewController.h"
-#import "StrippedView.h"
-
-
+#import "HealthManager.h"
 
 @interface GlucemiaViewController ()
-@property (weak, nonatomic) IBOutlet StrippedView *strippedView;
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
-@property (weak, nonatomic) IBOutlet UILabel *amountLabel;
+
 
 @end
 
@@ -27,13 +23,13 @@
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.delegate = self;
     self.scrollView.contentInset = UIEdgeInsetsMake(0, [UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2);
+
     
-    if (self.initialValue) {
-        self.amountLabel.text = [NSString stringWithFormat:@"%.0f", self.initialValue];
-        float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width/2;
-        self.scrollView.contentOffset = CGPointMake(distanciaX, 0);
-    }
-    
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+
+    self.strippedView.alpha = 0;
 }
 
 - (void) viewDidAppear:(BOOL)animated
@@ -61,8 +57,203 @@
     self.amountLabel.text = [NSString stringWithFormat:@"%.0f", glucemia];
 }
 
+- (void) hipoglucemiaFlow {
+    
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Hipoglucemia"
+                                  message:@"Usted ha indicado un valor de glucemia demasiado bajo, estando el mismo considerado dentro del rango de la hipoglucemia. Consulte a su médico antes de continuar."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* action = [UIAlertAction
+                             actionWithTitle:@"He consultado a mi medico"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 
+                                 CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+                                 [HealthManager sharedInstance].glucemia = glucemiaValue;
+                                 [self performSegueWithIdentifier:@"nextStep" sender:nil];
+                                 
+                             }];
+    [alert addAction:action];
+    
+    UIAlertAction* cancelar = [UIAlertAction
+                               actionWithTitle:@"No"
+                               style:UIAlertActionStyleCancel
+                               handler:^(UIAlertAction * action)
+                               {
+                                   [alert dismissViewControllerAnimated:YES completion:nil];
+                               }];
+    [alert addAction:cancelar];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+- (void) hiperglucemiaFlow {
+    
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Hiperglucemia"
+                                  message:@"Usted ha indicado un valor de glucemia demasiado alta, estando el mismo considerado dentro del rango de la hiperglucemia. Consulte a su médico antes de continuar."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* action = [UIAlertAction
+                             actionWithTitle:@"He consultado a mi medico"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 
+                                 CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+                                 [HealthManager sharedInstance].glucemia = glucemiaValue;
+                                 [self performSegueWithIdentifier:@"nextStep" sender:nil];
+                                 
+                             }];
+    [alert addAction:action];
+    
+    UIAlertAction* cancelar = [UIAlertAction
+                               actionWithTitle:@"No"
+                               style:UIAlertActionStyleCancel
+                               handler:^(UIAlertAction * action)
+                               {
+                                   [alert dismissViewControllerAnimated:YES completion:nil];
+                               }];
+    [alert addAction:cancelar];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+- (BOOL) checkEntryTimeAllowed {
+    
+    CGFloat spareTime = [[HealthManager sharedInstance] timeSinceLastEntry];
+    CGFloat hours = spareTime/60.0f/60.0f;
+    
+    return hours > [self tiempoInsulinaActiva];
+    
+}
+
+- (CGFloat) tiempoInsulinaActiva {
+    
+    if (![[NSUserDefaults standardUserDefaults] objectForKey:@"InsulinaActivaKey"]) {
+        return 2;
+    }
+    
+    return [[[NSUserDefaults standardUserDefaults] objectForKey:@"InsulinaActivaKey"] floatValue];
+}
+
 - (IBAction)backAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (IBAction)continue:(id)sender
+{
+    
+    CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+    
+    //ERROR
+    if ((glucemiaValue < kMinGlucemia || glucemiaValue > kMaxGlucemia)&& [self checkEntryTimeAllowed]) {
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor inválido para la utilización de esta app. \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        [alert show];
+        return;
+    }
+    
+    //HIPOGLUCEMIA
+    
+    if (glucemiaValue >= kMinGlucemia && glucemiaValue < kHipoGlucemia) {
+        [self hipoglucemiaFlow];
+        return;
+    }
+    
+    //HIPERGLUCEMIA
+    if (glucemiaValue <= kMaxGlucemia && glucemiaValue > kHiperGlucemia) {
+        [self hiperglucemiaFlow];
+        return;
+    }
+    
+    if (![self checkEntryTimeAllowed]) {
+        [self glucemiaActivaFlow];
+        return;
+    }
+    
+    if (![[NSUserDefaults standardUserDefaults] objectForKey:@"InsulinaActivaKey"]) {
+        [self cambiarInsulinaActiva: NO];
+        return;
+    }
+    
+    [HealthManager sharedInstance].glucemia = glucemiaValue;
+    
+    [self performSegueWithIdentifier:@"nextStep" sender:nil];
+}
+
+
+- (void) glucemiaActivaFlow {
+    
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Campo bloqueado"
+                                  message:[NSString stringWithFormat:@"Tienen que pasar al menos %.f horas para que pueda volver a aplicarse una dosis relativa a su glucemia.", [self tiempoInsulinaActiva]]
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* action = [UIAlertAction
+                             actionWithTitle:@"De acuerdo"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+    [alert addAction:action];
+    
+    UIAlertAction* cambiar = [UIAlertAction
+                              actionWithTitle:@"Modificar duración"
+                              style:UIAlertActionStyleCancel
+                              handler:^(UIAlertAction * action)
+                              {
+                                  [self cambiarInsulinaActiva: YES];
+                                  [alert dismissViewControllerAnimated:YES completion:nil];
+                              }];
+    [alert addAction:cambiar];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
+- (void) cambiarInsulinaActiva: (BOOL) dismiss {
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Modificar duración de insulina activa"
+                                  message:@"Elija la cantidad de horas indicada por su médico acerca del lapso de tiempo mínimo que debe transcurrir entre la aplicación de una dosis y la siguiente."
+                                  preferredStyle:(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)? UIAlertControllerStyleAlert: UIAlertControllerStyleActionSheet];
+    
+    for (NSNumber *value in @[@1,@2,@3,@4,@5,@6]) {
+        UIAlertAction* action = [UIAlertAction
+                                 actionWithTitle:[NSString stringWithFormat:@"%.f horas", value.floatValue]
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action)
+                                 {
+                                     [[NSUserDefaults standardUserDefaults] setObject:value forKey:@"InsulinaActivaKey"];
+                                     [alert dismissViewControllerAnimated:YES completion:nil];
+                                     if (dismiss) {
+                                         [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+                                     }
+                                     else {
+                                         [self continue:nil];
+                                     }
+                                     
+                                 }];
+        [alert addAction:action];
+    }
+    
+    UIAlertAction* cancelar = [UIAlertAction
+                               actionWithTitle:@"Cancelar"
+                               style:UIAlertActionStyleCancel
+                               handler:^(UIAlertAction * action)
+                               {
+                                   [alert dismissViewControllerAnimated:YES completion:nil];
+                               }];
+    [alert addAction:cancelar];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
+
 
 @end

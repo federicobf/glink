@@ -13,6 +13,7 @@
 #import "SegmentedScrollView.h"
 #import "FoodManager.h"
 #import "GlucemiaViewController.h"
+#import "CarbsViewController.h"
 
 @interface ComidasViewController () <ButtonPressDelegate, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 @property (nonatomic, strong) NSMutableArray* sectionsArray;
@@ -33,6 +34,7 @@
 @property (weak, nonatomic) IBOutlet UIView *emptyView;
 @property (weak, nonatomic) IBOutlet UILabel *labelSearch;
 @property (weak, nonatomic) IBOutlet UIButton *searchAgainButton;
+@property (nonatomic, strong) NSString *totalText;
 @property CGFloat totValue;
 
 @end
@@ -569,7 +571,7 @@ self.segmentedConstraint.constant = 60;
         
         NSString *shortString = ([myItem.comida length]>18 ? [NSString stringWithFormat:@"%@...", [myItem.comida substringToIndex:15]] : myItem.comida);
         
-        descriptor = [NSString stringWithFormat:@"%@\n%@: %lu x %.1fg = %.1fg",descriptor, shortString, amount,myItem. glucidos, myItem.glucidos * amount];
+        descriptor = [NSString stringWithFormat:@"%@\n%@: %lu x %.0fg = %.0fg",descriptor, shortString, amount,myItem. glucidos, myItem.glucidos * amount];
         NSLog(@"Item %@: value %f x amount %lu", myItem.comida, myItem.glucidos, amount);
         
         totalValue = totalValue + (value*amount);
@@ -586,10 +588,7 @@ self.segmentedConstraint.constant = 60;
         [self.searchBar resignFirstResponder];
     });
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, .8f * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Total de Carbohidratos" message:[NSString stringWithFormat:@"Se ha calculado un valor total de %.2fg para los siguientes items: %@", totalValue, descriptor] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
-        [alert show];
-    });
+    self.totalText = [NSString stringWithFormat:@"Se ha calculado un valor total de %.0fg para los siguientes items: %@", totalValue, descriptor];
     
     return totalValue;
     
@@ -600,8 +599,9 @@ self.segmentedConstraint.constant = 60;
     if ([segue.identifier isEqualToString:@"carbsFlow"]) {
         UIViewController *nextVC = [segue destinationViewController];
         if ([nextVC isKindOfClass:[GlucemiaViewController class]]) {
-            GlucemiaViewController *comidasVC = (GlucemiaViewController *) nextVC;
+            CarbsViewController *comidasVC = (CarbsViewController *) nextVC;
             comidasVC.initialValue = self.totValue;
+            comidasVC.initialText = self.totalText;
         }
     }
 }
