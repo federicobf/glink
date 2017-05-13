@@ -10,6 +10,7 @@
 
 
 @interface SlidersViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *relLabel;
 
 @end
 
@@ -17,24 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    float myAngle = (_relSlider.value = 1 );
-    
-    
-    
-    if(myAngle < kMaxRelacion) {
-        myAngle -= kMaxRelacion;
-    }
-    
-    if(myAngle > kMinRelacion) {
-        myAngle += kMinRelacion;
-        
-    }
-    
-    
-    
-    // Do any additional setup after loading the view.
+   
+    //SETUP INICIAL
+    self.relSlider.value = 0;
+    NSString *relationText = [NSString stringWithFormat:@"%.2f", kMinRelacion];
+    self.relLabel.text = relationText;
 }
 
+- (IBAction)relationSliderChanged:(id)sender {
+    //UPDATE LABEL WITH SLIDER
+    float sliderValue = self.relSlider.value;
+    float relationValue = sliderValue * (kMaxRelacion - kMinRelacion) + kMinRelacion;
+    //esto es igual a hacer: relationValue = sliderValue * 29 + 1
+    NSString *relationText = [NSString stringWithFormat:@"%.2f", relationValue];
+    self.relLabel.text = relationText;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
