@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SlidersViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISlider *relSlider;
+@property (weak, nonatomic) IBOutlet UISlider *objetivoSlider;
+@property (weak, nonatomic) IBOutlet UISlider *sensibilidadSlider;
 
 @end

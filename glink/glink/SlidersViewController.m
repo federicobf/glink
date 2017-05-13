@@ -7,6 +7,8 @@
 //
 
 #import "SlidersViewController.h"
+#import "HealthManager.m"
+
 
 @interface SlidersViewController ()
 
@@ -16,8 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    float myAngle = (_relSlider.value - 50 );
+    
+    
+    _relSlider.value = myAngle;
+    
+    if(myAngle < 50) {
+        myAngle -= 0.1;
+    }
+    
+    if(myAngle > 50) {
+        myAngle += 0.1;
+    }
+    
+    
+    
     // Do any additional setup after loading the view.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

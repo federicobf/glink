@@ -1949,7 +1949,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CcG-0Y-93a">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CcG-0Y-93a" userLabel="Objetivo Slider">
                                                         <rect key="frame" x="26" y="205" width="241" height="8"/>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -1967,7 +1967,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Jm-5j-5WI">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Jm-5j-5WI" userLabel="Sensibilidad Slider">
                                                         <rect key="frame" x="26" y="118" width="241" height="8"/>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -1988,7 +1988,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-AC-qDa">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-AC-qDa" userLabel="Rel Slider">
                                                         <rect key="frame" x="26" y="34" width="241" height="8"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="7" id="0fM-lB-Ukq"/>
@@ -1996,6 +1996,9 @@ grasas</string>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="thumbTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <connections>
+                                                            <action selector="relSlider:" destination="0Gp-3R-g1N" eventType="valueChanged" id="ha5-e1-edy"/>
+                                                        </connections>
                                                     </slider>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rel L/CH (g/U)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EO7-wR-Pvf">
                                                         <rect key="frame" x="28" y="0.0" width="111" height="20"/>
@@ -2105,6 +2108,11 @@ grasas</string>
                     <navigationItem key="navigationItem" id="pOf-Ca-THn"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <connections>
+                        <outlet property="objetivoSlider" destination="CcG-0Y-93a" id="XJb-lb-abb"/>
+                        <outlet property="relSlider" destination="TRt-AC-qDa" id="0Kl-dd-Ezm"/>
+                        <outlet property="sensibilidadSlider" destination="6Jm-5j-5WI" id="909-ro-CJb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CtL-08-ANm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
