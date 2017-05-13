@@ -462,7 +462,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                         <rect key="frame" x="0.0" y="28" width="311" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o5Z-Oz-Eed" id="UgI-Um-yer">
-                                            <rect key="frame" x="0.0" y="0.0" width="311" height="99"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="311" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17q-VA-HhY">
@@ -1056,7 +1056,7 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="1" width="375" height="103"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fje-8Q-zzS" id="wrU-eL-5IV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userGuides>
                                                 <userLayoutGuide location="24" affinity="minY"/>
@@ -1976,6 +1976,9 @@ grasas</string>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="thumbTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <connections>
+                                                            <action selector="sensibilidadSliderChanged:" destination="0Gp-3R-g1N" eventType="valueChanged" id="r7l-R1-xaQ"/>
+                                                        </connections>
                                                     </slider>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensibilidad (mg/dl/U)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJ0-O8-1hD">
                                                         <rect key="frame" x="28" y="83" width="161" height="20"/>
@@ -2117,7 +2120,8 @@ grasas</string>
                         <outlet property="objetivoSlider" destination="CcG-0Y-93a" id="XJb-lb-abb"/>
                         <outlet property="relLabel" destination="NVO-AN-kuu" id="Rav-lC-YIL"/>
                         <outlet property="relSlider" destination="TRt-AC-qDa" id="0Kl-dd-Ezm"/>
-                        <outlet property="sensibilidadSlider" destination="6Jm-5j-5WI" id="909-ro-CJb"/>
+                        <outlet property="sensibilidadLabel" destination="hjH-U7-N9E" id="sGW-6B-ixU"/>
+                        <outlet property="sensibilidadSlider" destination="6Jm-5j-5WI" id="B0G-pW-yue"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CtL-08-ANm" userLabel="First Responder" sceneMemberID="firstResponder"/>
