@@ -26,6 +26,30 @@
     //esto es igual a hacer: relationValue = sliderValue * 29 + 1
     NSString *relationText = [NSString stringWithFormat:@"%.2f", relationValue];
     self.relLabel.text = relationText;
+    
+
+
+
+    
+    
+    
+    self.objetivoSlider.value = 0;
+    NSString *relationText = [NSString stringWithFormat:@"%.2f", kMinTarget];
+    _objetivoLabel.text =relationText;
+    
 }
+
+- (IBAction)relationSliderChanged:(id)sender {
+    
+    float sliderValue = self.objetivoSlider.value;
+    float relationValue = sliderValue * (kMaxTarget - kMinTarget) + kMinTarget;
+ 
+    NSString *relationText = [NSString stringWithFormat:@"%.2f", relationValue];
+    self.objetivoLabel.text = relationText;
+    
+}
+
+
+
 
 @end
