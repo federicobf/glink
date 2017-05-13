@@ -7,7 +7,6 @@
 //
 
 #import "SlidersViewController.h"
-#import "HealthManager.h"
 
 
 @interface SlidersViewController ()
@@ -18,17 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    float myAngle = (_relSlider.value - 50 );
+    float myAngle = (_relSlider.value = 1 );
     
     
-    _relSlider.value = myAngle;
     
-    if(myAngle < 50) {
-        myAngle -= 0.1;
+    if(myAngle < kMaxRelacion) {
+        myAngle -= kMaxRelacion;
     }
     
-    if(myAngle > 50) {
-        myAngle += 0.1;
+    if(myAngle > kMinRelacion) {
+        myAngle += kMinRelacion;
+        
     }
     
     
