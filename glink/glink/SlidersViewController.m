@@ -7,7 +7,7 @@
 //
 
 #import "SlidersViewController.h"
-#import "HealthManager.m"
+#import "HealthManager.h"
 
 
 @interface SlidersViewController ()
