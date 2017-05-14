@@ -36,6 +36,10 @@
         button.backgroundColor = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
         [button autoAlignAxisToSuperviewAxis:ALAxisHorizontal];
         [button autoSetDimension:ALDimensionHeight toSize:30];
+        
+        if (self.hardWidth) {
+            [button autoSetDimension:ALDimensionWidth toSize:self.hardWidth];
+        }
         [button setTitle:string forState:UIControlStateNormal];
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         button.titleLabel.font = [UIFont systemFontOfSize:13];

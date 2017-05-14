@@ -16,6 +16,7 @@
 
 @interface SegmentedScrollView : UIScrollView
 @property (weak) id <ButtonPressDelegate> delegate;
+@property (nonatomic) CGFloat hardWidth;
 - (void) addButtons: (NSArray *) buttons;
 - (void) setSelectedButton: (NSString *) buttonText animated:(BOOL) animated;
 @end

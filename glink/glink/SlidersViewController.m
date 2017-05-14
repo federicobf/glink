@@ -66,15 +66,14 @@
 - (IBAction)continuar:(id)sender {
     
     if (self.isModal) {
-        [self guardarValores];
+        [self consultaGuardarValores];
     } else {
         [self saveAllDay];
+        [HealthManager sharedInstance].relacionch = self.relLabel.text.floatValue;
+        [HealthManager sharedInstance].target = self.objetivoLabel.text.floatValue;
+        [HealthManager sharedInstance].sensibilidad = self.sensibilidadLabel.text.floatValue;
+        [self performSegueWithIdentifier:@"nextStep" sender:nil];
     }
-    
-    [HealthManager sharedInstance].relacionch = self.relLabel.text.floatValue;
-    [HealthManager sharedInstance].target = self.objetivoLabel.text.floatValue;
-    [HealthManager sharedInstance].sensibilidad = self.sensibilidadLabel.text.floatValue;
-    [self performSegueWithIdentifier:@"nextStep" sender:nil];
 }
 
 - (IBAction)backAction:(id)sender
@@ -88,6 +87,16 @@
 
 //save data
 
+- (void) consultaGuardarValores
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Guardar valores"
+                                                    message:@"¿Desea que estos valores se carguen automaticamente en un próximo uso?"
+                                                   delegate:self
+                                          cancelButtonTitle:@"No"
+                                          otherButtonTitles:@"Sí", nil];
+    alert.tag = 2;
+    [alert show];
+}
 
 - (void)guardarValores {
     
@@ -145,20 +154,11 @@
                                [alert dismissViewControllerAnimated:YES completion:nil];
                            }];
     
-    UIAlertAction* opt6 = [UIAlertAction
-                           actionWithTitle:@"Cancelar"
-                           style:UIAlertActionStyleCancel
-                           handler:^(UIAlertAction * action)
-                           {
-                               [alert dismissViewControllerAnimated:YES completion:nil];
-                           }];
-    
     [alert addAction:opt1];
     [alert addAction:opt2];
     [alert addAction:opt3];
     [alert addAction:opt4];
     [alert addAction:opt5];
-    [alert addAction:opt6];
     
     [self presentViewController:alert animated:YES completion:nil];
 }
@@ -210,25 +210,42 @@
     [[NSUserDefaults standardUserDefaults] setFloat:targetValue forKey:[NSString stringWithFormat: @"targetValue-%lu", timeframe]];
     [[NSUserDefaults standardUserDefaults] setFloat:sensibilidadValue forKey:[NSString stringWithFormat: @"sensibilidadValue-%lu", timeframe]];
     
+    [HealthManager sharedInstance].relacionch = self.relLabel.text.floatValue;
+    [HealthManager sharedInstance].target = self.objetivoLabel.text.floatValue;
+    [HealthManager sharedInstance].sensibilidad = self.sensibilidadLabel.text.floatValue;
 }
 
 - (void) displayMessageForSaving: (NSString*) message {
     
     
     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Valores Predeterminados" message:[NSString stringWithFormat:@"En los próximos usos estos valores serán cargados de antemano durante el siguiente periodo: %@", message] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+    alert.tag = 0;
     [alert show];
     alert.delegate = self;
     
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    [self.navigationController popViewControllerAnimated:YES];
-}
-
-
-
-- (BOOL) isModal {
-    return self.presentingViewController != nil;
+    
+    if (alertView.tag == 0) {
+        [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    }
+    
+    if (alertView.tag == 2) {
+        if (buttonIndex == 0) {
+            CGFloat relacionValue = self.relLabel.text.floatValue;
+            CGFloat targetValue = self.objetivoLabel.text.floatValue;
+            CGFloat sensibilidadValue = self.sensibilidadLabel.text.floatValue;
+            
+            [HealthManager sharedInstance].relacionch = self.relLabel.text.floatValue;
+            [HealthManager sharedInstance].target = self.objetivoLabel.text.floatValue;
+            [HealthManager sharedInstance].sensibilidad = self.sensibilidadLabel.text.floatValue;
+            
+            [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+        } else {
+            [self guardarValores];
+        }
+    }
 }
 
 - (void) displayLastShownValues

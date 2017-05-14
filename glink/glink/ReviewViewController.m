@@ -38,9 +38,13 @@
     self.carbs.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].cantidadch];
     self.glucemia.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].glucemia];
 
-    
+    self.segmentedScrollView.hardWidth = 70;
     [self.segmentedScrollView addButtons:@[@"Desayuno",@"Almuerzo",@"Colación",@"Cena"]];
     self.segmentedScrollView.delegate = self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [self preloadValues];
 }
 
 - (void) preloadValues
@@ -203,6 +207,17 @@
     self.relacion.text = [NSString stringWithFormat:@"%g", relacionValue];
     self.target.text = [NSString stringWithFormat:@"%g", targetValue];
     self.sensibilidad.text = [NSString stringWithFormat:@"%g", sensibilidadValue];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString:@"presentSliders"]) {
+        UIViewController *nextVC = [segue destinationViewController];
+        if ([nextVC isKindOfClass:[SlidersViewController class]]) {
+            SlidersViewController *sliderVC = (SlidersViewController *) nextVC;
+            sliderVC.isModal = YES;
+        }
+    }
 }
 
 @end
