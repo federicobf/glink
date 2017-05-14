@@ -68,7 +68,7 @@
     
 
     [HealthManager sharedInstance].cantidadch = chValue;    
-    [self performSegueWithIdentifier:@"nextStep" sender:nil];
+    [self continuar];
 }
 
 - (void) hipercarbsFlow {
@@ -86,7 +86,6 @@
                                  
                                  CGFloat chValue = self.amountLabel.text.floatValue;
                                  [HealthManager sharedInstance].cantidadch = chValue;
-                                 [self performSegueWithIdentifier:@"nextStep" sender:nil];
                                  
                              }];
     [alert addAction:action];
@@ -102,6 +101,19 @@
     
     [self presentViewController:alert animated:YES completion:nil];
     
+}
+
+- (void) continuar
+{
+
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", 1]];
+    if (relacionValue>0) {
+        [self performSegueWithIdentifier:@"reviewFlow" sender:nil];
+    } else {
+        [self performSegueWithIdentifier:@"nextStep" sender:nil];
+    }
+    
+
 }
 
 - (IBAction)back:(id)sender {

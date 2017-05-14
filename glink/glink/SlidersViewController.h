@@ -20,4 +20,5 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollview;
 @property (weak, nonatomic) IBOutlet UIButton *leftButton;
 @property (weak, nonatomic) IBOutlet UILabel *relLabel;
+@property (nonatomic, readonly) BOOL isModal;
 @end

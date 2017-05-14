@@ -31,6 +31,7 @@
         
         
         UIButton *button = [[UIButton alloc] initForAutoLayout];
+        button.tag = position;
         [self.innerContentView addSubview:button];
         button.backgroundColor = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
         [button autoAlignAxisToSuperviewAxis:ALAxisHorizontal];

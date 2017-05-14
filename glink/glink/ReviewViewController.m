@@ -11,14 +11,17 @@
 #import "CarbsViewController.h"
 #import "GlucemiaViewController.h"
 #import "SlidersViewController.h"
+#import "SegmentedScrollView.h"
 
-@interface ReviewViewController ()
+@interface ReviewViewController () <ButtonPressDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *relacion;
 @property (weak, nonatomic) IBOutlet UILabel *sensibilidad;
 @property (weak, nonatomic) IBOutlet UILabel *target;
 @property (weak, nonatomic) IBOutlet UILabel *carbs;
 @property (weak, nonatomic) IBOutlet UILabel *glucemia;
 @property (weak, nonatomic) IBOutlet UISwitch *switchItem;
+@property (weak, nonatomic) IBOutlet SegmentedScrollView *segmentedScrollView;
+
 @property CGFloat reductionFactor;
 
 @end
@@ -34,9 +37,61 @@
     self.reductionFactor = 1;
     self.carbs.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].cantidadch];
     self.glucemia.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].glucemia];
-    self.relacion.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].relacionch];
-    self.sensibilidad.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].sensibilidad];
-    self.target.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].target];
+
+    
+    [self.segmentedScrollView addButtons:@[@"Desayuno",@"Almuerzo",@"Colación",@"Cena"]];
+    self.segmentedScrollView.delegate = self;
+}
+
+- (void) preloadValues
+{
+
+    if ([HealthManager sharedInstance].relacionch>0) {
+        self.relacion.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].relacionch];
+        self.sensibilidad.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].sensibilidad];
+        self.target.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].target];
+    } else {
+        [self displayValuesForTimeframe:[self timeframeForCurrentHour]];
+    }
+    
+    [self.segmentedScrollView setSelectedButton:[self titleForTimeframe:[self timeframeForCurrentHour]] animated:YES];
+}
+
+- (void) actionPressed: (UIButton *) sender
+{
+    [self.segmentedScrollView setSelectedButton:sender.titleLabel.text animated:YES];
+    int timeframe = sender.tag + 1;
+    [self displayValuesForTimeframe:timeframe];
+    [self displayMessageForRecovering:[self descriptionForTimeframe:timeframe]];
+}
+
+- (void) displayMessageForRecovering: (NSString*) message {
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Valores Predeterminados" message:[NSString stringWithFormat:@"Estos valores se cargan automáticamente en el siguiente periodo: %@", message] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+    [alert show];
+    
+}
+
+- (NSString *) descriptionForTimeframe: (NSInteger) timeframe {
+    switch (timeframe) {
+        case 1: return @"4AM a 12PM"; break;
+        case 2: return @"12PM a 4PM"; break;
+        case 3: return @"4PM a 8PM"; break;
+        case 4: return @"8PM a 4AM"; break;
+        default: return nil;
+    }
+    
+}
+
+- (NSString *) titleForTimeframe: (NSInteger) timeframe {
+    NSString* comida;
+    switch (timeframe) {
+        case 1: comida = @"Desayuno"; break;
+        case 2: comida = @"Almuerzo"; break;
+        case 3: comida = @"Colación"; break;
+        case 4: comida = @"Cena"; break;
+        default:comida = nil;  break;
+    }
+    return comida;
 }
 
 - (IBAction)changeGlucemia:(id)sender {
@@ -65,6 +120,12 @@
             return;
         }
     }
+    
+    [HealthManager sharedInstance].relacionch = self.relacion.text.floatValue;
+    [HealthManager sharedInstance].target = self.target.text.floatValue;
+    [HealthManager sharedInstance].sensibilidad = self.sensibilidad.text.floatValue;
+    
+    [self performSegueWithIdentifier:@"presentSliders" sender:nil];
 }
 - (IBAction)switchChanged:(id)sender {
     self.reductionFactor = 1;
@@ -110,8 +171,38 @@
 }
 
 - (IBAction)nextStep:(id)sender {
+    [HealthManager sharedInstance].relacionch = self.relacion.text.floatValue;
+    [HealthManager sharedInstance].target = self.target.text.floatValue;
+    [HealthManager sharedInstance].sensibilidad = self.sensibilidad.text.floatValue;
     [HealthManager sharedInstance].reductionFactor = self.reductionFactor;
     [self performSegueWithIdentifier:@"nextStep" sender:nil];
+}
+
+#pragma mark Timeframe
+
+
+- (NSInteger) timeframeForCurrentHour {
+    
+    NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitHour fromDate:[NSDate date]];
+    NSInteger hour = [components hour];
+    NSLog(@"hour?? %i", hour);
+    if (0<=hour&&hour<4)   { return 4;}
+    if (4<=hour&&hour<12)  { return 1;}
+    if (12<=hour&&hour<16) { return 2;}
+    if (16<=hour&&hour<20) { return 3;}
+    if (20<=hour&&hour<24) { return 4;}
+    return 0;
+}
+
+- (void) displayValuesForTimeframe: (NSInteger) timeframe {
+    
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", timeframe]];
+    CGFloat targetValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"targetValue-%lu", timeframe]];
+    CGFloat sensibilidadValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"sensibilidadValue-%lu", timeframe]];
+    
+    self.relacion.text = [NSString stringWithFormat:@"%g", relacionValue];
+    self.target.text = [NSString stringWithFormat:@"%g", targetValue];
+    self.sensibilidad.text = [NSString stringWithFormat:@"%g", sensibilidadValue];
 }
 
 @end
