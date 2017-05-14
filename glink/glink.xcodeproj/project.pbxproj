@@ -53,6 +53,7 @@
 		981288D01EC815F60082D1A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981288CF1EC815F60082D1A6 /* GoogleService-Info.plist */; };
 		981288D61EC81F360082D1A6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288D51EC81F360082D1A6 /* MBProgressHUD.m */; };
 		981288DB1EC839870082D1A6 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288DA1EC839870082D1A6 /* StartViewController.m */; };
+		981288E01EC8FC070082D1A6 /* TouchSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288DF1EC8FC070082D1A6 /* TouchSlider.m */; };
 		9818EF241EABD3250016DBAA /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF231EABD3250016DBAA /* FoodManager.m */; };
 		9818EF271EAD4A440016DBAA /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF261EAD4A440016DBAA /* SlidersViewController.m */; };
 		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
@@ -251,6 +252,8 @@
 		981288D51EC81F360082D1A6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		981288D91EC839870082D1A6 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
 		981288DA1EC839870082D1A6 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		981288DE1EC8FC070082D1A6 /* TouchSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSlider.h; sourceTree = "<group>"; };
+		981288DF1EC8FC070082D1A6 /* TouchSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchSlider.m; sourceTree = "<group>"; };
 		9818EF221EABD3250016DBAA /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
 		9818EF231EABD3250016DBAA /* FoodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodManager.m; sourceTree = "<group>"; };
 		9818EF251EAD4A440016DBAA /* SlidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersViewController.h; sourceTree = "<group>"; };
@@ -513,6 +516,8 @@
 				9818EF261EAD4A440016DBAA /* SlidersViewController.m */,
 				981288731EC7D8280082D1A6 /* TouchScrollView.h */,
 				981288741EC7D8280082D1A6 /* TouchScrollView.m */,
+				981288DE1EC8FC070082D1A6 /* TouchSlider.h */,
+				981288DF1EC8FC070082D1A6 /* TouchSlider.m */,
 			);
 			name = Sliders;
 			sourceTree = "<group>";
@@ -1038,6 +1043,7 @@
 				TargetAttributes = {
 					F7B2EBA11E4BEE6200955EE6 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = SS99NH97T4;
 					};
 					F7B2EBBA1E4BEE6200955EE6 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -1221,6 +1227,7 @@
 				981288CA1EC8144C0082D1A6 /* README.md in Sources */,
 				981E90FB1E918AA6003456AB /* FoodCollectionViewCell.m in Sources */,
 				981288611EBFB1F00082D1A6 /* HealthManager.m in Sources */,
+				981288E01EC8FC070082D1A6 /* TouchSlider.m in Sources */,
 				9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
@@ -1378,6 +1385,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SS99NH97T4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/glink",
@@ -1398,6 +1407,8 @@
 				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_BUNDLE_IDENTIFIER = com.federicobf.glink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1405,6 +1416,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SS99NH97T4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/glink",
@@ -1425,6 +1438,8 @@
 				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_BUNDLE_IDENTIFIER = com.federicobf.glink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

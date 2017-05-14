@@ -21,6 +21,7 @@
     
    //SETUP INICIAL
     self.scrollview.delaysContentTouches = NO;
+    self.scrollview.canCancelContentTouches = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

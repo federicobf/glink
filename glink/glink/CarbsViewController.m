@@ -86,7 +86,7 @@
                                  
                                  CGFloat chValue = self.amountLabel.text.floatValue;
                                  [HealthManager sharedInstance].cantidadch = chValue;
-                                 
+                                [self continuar];
                              }];
     [alert addAction:action];
     

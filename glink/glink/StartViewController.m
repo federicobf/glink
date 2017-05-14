@@ -9,42 +9,41 @@
 #import "StartViewController.h"
 
 @interface StartViewController ()
-
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property BOOL ticked;
 @end
 
 @implementation StartViewController
 
 
-- (IBAction)tickon:(id)sender {
+- (IBAction)tickon:(id)sender
+{
+    if (self.ticked) {
+        self.untickImage.image = [UIImage imageNamed:@"tickoff"];
+    } else {
+        self.untickImage.image = [UIImage imageNamed:@"tickon"];
+    }
     
-    self.untickImage.image = [UIImage imageNamed:@"tickon"];
-    
-    if _untickImage.image
-        = [UIImage imagen named:@"tickoff"]
-    
+    self.ticked = !self.ticked;
+}
+
+- (IBAction)nextStep:(id)sender {
+    if (self.ticked) {
+        [self performSegueWithIdentifier:@"nextStep"sender:nil];
+    } else {
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Terminos y condiciones"
+                                                        message:@"Por favor acepta los terminos y condiciones de la app antes de empezar a utilizarla."
+                                                       delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        [alert show];
+        return;
+    }
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-
-
-    
+    self.untickImage.image = [UIImage imageNamed:@"tickoff"];
+    self.startButton.layer.cornerRadius = 23;
+    self.startButton.layer.masksToBounds = YES;
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -189,7 +189,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="W2z-NQ-Q1m">
-                                <rect key="frame" x="85" y="56.5" width="150" height="150"/>
+                                <rect key="frame" x="85.5" y="56.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="JMR-2u-6DZ"/>
                                     <constraint firstAttribute="height" priority="100" constant="150" id="ZFs-fA-RMl"/>
@@ -209,18 +209,18 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Wyl-yJ-UvA" kind="presentation" modalTransitionStyle="crossDissolve" id="vZK-kP-8Cg"/>
+                                    <action selector="nextStep:" destination="pl0-RN-jQg" eventType="touchUpInside" id="BCD-3O-fWL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fid-wY-sBH">
-                                <rect key="frame" x="3.5" y="282" width="313" height="90"/>
+                                <rect key="frame" x="12" y="282" width="296.5" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Jjk-6Z-dd1"/>
                                 </constraints>
                                 <string key="text">¿Estás listo para llevar una vida más sana? 
 Te recomendamos usar esta aplicación bajo
 la revisión de tu médico personal.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -285,7 +285,9 @@ la revisión de tu médico personal.</string>
                     </view>
                     <navigationItem key="navigationItem" id="wA6-9d-Lho"/>
                     <connections>
+                        <outlet property="startButton" destination="Qg4-dv-MdY" id="h7g-Vd-Ybh"/>
                         <outlet property="untickImage" destination="ml9-Rr-lLB" id="PxL-1C-3v1"/>
+                        <segue destination="Wyl-yJ-UvA" kind="show" identifier="nextStep" id="X8F-tY-Dwi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8c-Lt-8fa" sceneMemberID="firstResponder"/>
@@ -578,7 +580,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                         <rect key="frame" x="0.0" y="28" width="256" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o5Z-Oz-Eed" id="UgI-Um-yer">
-                                            <rect key="frame" x="0.0" y="0.0" width="256" height="99"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="256" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17q-VA-HhY">
@@ -910,8 +912,11 @@ grasas</string>
                                             <action selector="sendButton:" destination="v7k-c1-tMo" eventType="touchUpInside" id="kLg-LT-wp0"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Completa este campo con el nombre del alimento que deseas sugerir a la lista." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M67-gZ-0vK">
-                                        <rect key="frame" x="25" y="13.5" width="278" height="59.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="10" text="Completa este campo con el nombre del alimento que deseas sugerir a la lista." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M67-gZ-0vK">
+                                        <rect key="frame" x="25" y="13" width="278" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="998" constant="60" id="M7k-RI-SLm"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -951,8 +956,9 @@ grasas</string>
                                     <constraint firstAttribute="bottom" secondItem="ZBo-AG-psB" secondAttribute="bottom" constant="168" id="7k4-Hj-f71"/>
                                     <constraint firstAttribute="trailing" secondItem="gc9-mH-yZ5" secondAttribute="trailing" constant="16" id="7oQ-lw-UVI"/>
                                     <constraint firstItem="dJX-Ei-6gu" firstAttribute="centerX" secondItem="UVi-e8-uOD" secondAttribute="centerX" id="BgT-SE-7iM"/>
+                                    <constraint firstItem="M67-gZ-0vK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="UVi-e8-uOD" secondAttribute="top" id="Enh-3O-hdw"/>
                                     <constraint firstItem="gc9-mH-yZ5" firstAttribute="leading" secondItem="UVi-e8-uOD" secondAttribute="leading" constant="26" id="KLG-e7-Vr8"/>
-                                    <constraint firstItem="gc9-mH-yZ5" firstAttribute="top" secondItem="M67-gZ-0vK" secondAttribute="bottom" constant="23" id="KP0-Tq-0wY"/>
+                                    <constraint firstItem="gc9-mH-yZ5" firstAttribute="top" secondItem="M67-gZ-0vK" secondAttribute="bottom" priority="999" constant="23" id="KP0-Tq-0wY"/>
                                     <constraint firstItem="ZBo-AG-psB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="eGL-Fy-PJh" secondAttribute="bottom" constant="20" id="Knm-aK-sdj"/>
                                     <constraint firstAttribute="bottom" secondItem="dJX-Ei-6gu" secondAttribute="bottom" id="Ncb-cU-Pqf"/>
                                     <constraint firstItem="M67-gZ-0vK" firstAttribute="leading" secondItem="UVi-e8-uOD" secondAttribute="leading" constant="25" id="OFk-1S-mZl"/>
@@ -1000,6 +1006,7 @@ grasas</string>
                             <constraint firstItem="yc3-Nm-YFc" firstAttribute="centerX" secondItem="dkF-hr-ZnU" secondAttribute="centerX" id="icj-Rq-gGE"/>
                             <constraint firstItem="n4d-ZS-tud" firstAttribute="width" secondItem="dkF-hr-ZnU" secondAttribute="width" id="jbn-Tb-PTT"/>
                             <constraint firstAttribute="centerX" secondItem="vTr-kD-slc" secondAttribute="centerX" id="jbs-ta-xLA"/>
+                            <constraint firstItem="UVi-e8-uOD" firstAttribute="top" secondItem="nUq-aT-OUW" secondAttribute="bottom" constant="8" id="jen-RM-OdL"/>
                             <constraint firstItem="yqW-mB-VyV" firstAttribute="centerY" secondItem="nUq-aT-OUW" secondAttribute="centerY" id="kdM-RQ-nY7"/>
                             <constraint firstItem="vTr-kD-slc" firstAttribute="width" secondItem="dkF-hr-ZnU" secondAttribute="width" id="nz1-eY-eu2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nUq-aT-OUW" secondAttribute="trailing" constant="-20" id="pmM-oH-g2V"/>
@@ -1103,11 +1110,11 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="28" width="320" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h0Q-XX-LyL" id="71l-EY-SnE">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="57"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vyI-HB-kVC">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="57"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="57.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1193,7 +1200,7 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="1" width="320" height="103"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fje-8Q-zzS" id="wrU-eL-5IV">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userGuides>
                                                 <userLayoutGuide location="24" affinity="minY"/>
@@ -1638,10 +1645,10 @@ grasas</string>
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Ingresa la cantidad de glucemia que tiene antes de ingerir esta comida" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lr-gT-lbK">
-                                <rect key="frame" x="20" y="168" width="280" height="38.5"/>
+                                <rect key="frame" x="20" y="168" width="280" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="YIP-lN-Zy8"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="lVk-jk-eSY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="lVk-jk-eSY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.63529411759999999" green="0.63529411759999999" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2016,10 +2023,10 @@ grasas</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajusta estos valores" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE5-QU-eYX">
-                                <rect key="frame" x="40" y="122" width="240" height="20.5"/>
+                                <rect key="frame" x="40" y="122" width="240" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="2BJ-56-ZGg"/>
-                                    <constraint firstAttribute="height" constant="20.5" id="oca-Fe-p91"/>
+                                    <constraint firstAttribute="height" constant="24" id="oca-Fe-p91"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <color key="textColor" red="0.2274509804" green="0.24313725489999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2062,29 +2069,29 @@ grasas</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Si no conoces los carbohidratos del alimento, puedes buscarlo por grupos o manualmente" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmz-QK-nTU">
-                                <rect key="frame" x="20" y="148.5" width="280" height="57.5"/>
+                                <rect key="frame" x="20" y="152" width="280" height="57.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="OAv-xC-x4l"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="999" constant="38" id="wX2-P2-nT8"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="999" constant="42" id="wX2-P2-nT8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.63529411759999999" green="0.63529411759999999" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Si no conoces estos datos, revísalos con tu médico personal" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQu-lh-wgC">
-                                <rect key="frame" x="20" y="148.5" width="280" height="57.5"/>
+                                <rect key="frame" x="20" y="152" width="280" height="57.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2H-24-lic" customClass="TouchScrollView">
-                                <rect key="frame" x="0.0" y="214" width="320" height="250"/>
+                                <rect key="frame" x="0.0" y="217.5" width="320" height="250"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6G-zM-HE7">
                                         <rect key="frame" x="-0.5" y="0.0" width="320" height="250"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxF-NX-9dg">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxF-NX-9dg" customClass="TouchScrollView">
                                                 <rect key="frame" x="13" y="-0.5" width="293" height="250"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHO-Lu-fbz" userLabel="Objetivo label">
@@ -2093,7 +2100,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CcG-0Y-93a" userLabel="Objetivo Slider">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CcG-0Y-93a" userLabel="Objetivo Slider" customClass="TouchSlider">
                                                         <rect key="frame" x="26" y="205" width="241" height="8"/>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2114,7 +2121,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Jm-5j-5WI" userLabel="Sensibilidad Slider">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Jm-5j-5WI" userLabel="Sensibilidad Slider" customClass="TouchSlider">
                                                         <rect key="frame" x="26" y="118" width="241" height="8"/>
                                                         <color key="minimumTrackTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2138,7 +2145,7 @@ grasas</string>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-AC-qDa" userLabel="Rel Slider">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TRt-AC-qDa" userLabel="Rel Slider" customClass="TouchSlider">
                                                         <rect key="frame" x="26" y="34" width="241" height="8"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="7" id="0fM-lB-Ukq"/>
