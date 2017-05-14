@@ -14,9 +14,22 @@
 
 @implementation StartViewController
 
+
+- (IBAction)tickon:(id)sender {
+    
+    self.untickImage.image = [UIImage imageNamed:@"tickon"];
+    
+    if _untickImage.image
+        = [UIImage imagen named:@"tickoff"]
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

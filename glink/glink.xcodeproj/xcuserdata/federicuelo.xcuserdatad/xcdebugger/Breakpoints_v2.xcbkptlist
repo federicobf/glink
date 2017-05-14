@@ -141,6 +141,38 @@
             endingLineNumber = "16"
             landmarkName = "sensibilidadSlider"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SlidersViewController sensibilidadLabel]"
+                  moduleName = "glink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/federicuelo/glink/glink/glink/SlidersViewController.h"
+                  timestampString = "516480659.708372"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SlidersViewController setSensibilidadLabel:]"
+                  moduleName = "glink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/federicuelo/glink/glink/glink/SlidersViewController.h"
+                  timestampString = "516480659.714776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -155,8 +187,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
-            landmarkName = "@implementation SlidersViewController"
-            landmarkType = "3">
+            landmarkName = "-sensibilidadSliderChanged:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

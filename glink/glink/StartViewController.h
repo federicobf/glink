@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface StartViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *untickImage;
 
 @end
