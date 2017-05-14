@@ -13,6 +13,7 @@
 		981288671EBFB2320082D1A6 /* HealthDayDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288651EBFB2320082D1A6 /* HealthDayDTO.m */; };
 		9812886B1EC00D110082D1A6 /* CarbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9812886A1EC00D110082D1A6 /* CarbsViewController.m */; };
 		9812886E1EC018740082D1A6 /* CarbsStrippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9812886D1EC018740082D1A6 /* CarbsStrippedView.m */; };
+		981288751EC7D8280082D1A6 /* TouchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288741EC7D8280082D1A6 /* TouchScrollView.m */; };
 		9818EF241EABD3250016DBAA /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF231EABD3250016DBAA /* FoodManager.m */; };
 		9818EF271EAD4A440016DBAA /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818EF261EAD4A440016DBAA /* SlidersViewController.m */; };
 		981E901F1E9029FE003456AB /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E90191E9029FE003456AB /* ComidasViewController.m */; };
@@ -167,6 +168,8 @@
 		9812886A1EC00D110082D1A6 /* CarbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbsViewController.m; sourceTree = "<group>"; };
 		9812886C1EC018740082D1A6 /* CarbsStrippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbsStrippedView.h; sourceTree = "<group>"; };
 		9812886D1EC018740082D1A6 /* CarbsStrippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbsStrippedView.m; sourceTree = "<group>"; };
+		981288731EC7D8280082D1A6 /* TouchScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchScrollView.h; sourceTree = "<group>"; };
+		981288741EC7D8280082D1A6 /* TouchScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchScrollView.m; sourceTree = "<group>"; };
 		9818EF221EABD3250016DBAA /* FoodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodManager.h; sourceTree = "<group>"; };
 		9818EF231EABD3250016DBAA /* FoodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodManager.m; sourceTree = "<group>"; };
 		9818EF251EAD4A440016DBAA /* SlidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersViewController.h; sourceTree = "<group>"; };
@@ -358,8 +361,8 @@
 		981288681EBFB2380082D1A6 /* Health */ = {
 			isa = PBXGroup;
 			children = (
-				9812885F1EBFB1F00082D1A6 /* HealthManager.m */,
 				981288601EBFB1F00082D1A6 /* HealthManager.h */,
+				9812885F1EBFB1F00082D1A6 /* HealthManager.m */,
 				981288621EBFB2320082D1A6 /* HealthDayDTO.h */,
 				981288631EBFB2320082D1A6 /* HealthDTO.m */,
 				981288641EBFB2320082D1A6 /* HealthDTO.h */,
@@ -397,6 +400,17 @@
 				F7E1E7D81EAD43780011911F /* AddFoodViewController.m */,
 			);
 			name = AddFood;
+			sourceTree = "<group>";
+		};
+		981288721EC7D8050082D1A6 /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				9818EF251EAD4A440016DBAA /* SlidersViewController.h */,
+				9818EF261EAD4A440016DBAA /* SlidersViewController.m */,
+				981288731EC7D8280082D1A6 /* TouchScrollView.h */,
+				981288741EC7D8280082D1A6 /* TouchScrollView.m */,
+			);
+			name = Sliders;
 			sourceTree = "<group>";
 		};
 		981E90171E9029FE003456AB /* Comida */ = {
@@ -634,8 +648,7 @@
 				981288711EC021760082D1A6 /* AddFood */,
 				F7E1E7DA1EAFE9D80011911F /* SuccessViewController.h */,
 				F7E1E7DB1EAFE9D80011911F /* SuccessViewController.m */,
-				9818EF251EAD4A440016DBAA /* SlidersViewController.h */,
-				9818EF261EAD4A440016DBAA /* SlidersViewController.m */,
+				981288721EC7D8050082D1A6 /* Sliders */,
 				9812885E1EBF643C0082D1A6 /* FTU */,
 				981E90FC1E91A7B9003456AB /* Collection */,
 				984F97AB1EA3CD6100F6F52E /* Category */,
@@ -907,6 +920,7 @@
 				981E90221E9029FE003456AB /* FoodTableViewCell.m in Sources */,
 				981E91021E91B1E3003456AB /* SegmentedScrollView.m in Sources */,
 				981E90F81E9149D1003456AB /* SelectGroupViewController.m in Sources */,
+				981288751EC7D8280082D1A6 /* TouchScrollView.m in Sources */,
 				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
 				981288661EBFB2320082D1A6 /* HealthDTO.m in Sources */,
 				F7B2EBAD1E4BEE6200955EE6 /* ViewController.m in Sources */,

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wyl-yJ-UvA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wyl-yJ-UvA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -966,11 +966,11 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="28" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h0Q-XX-LyL" id="71l-EY-SnE">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vyI-HB-kVC">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="57"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="57.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1934,7 +1934,7 @@ grasas</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2H-24-lic">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2H-24-lic" customClass="TouchScrollView">
                                 <rect key="frame" x="0.0" y="245" width="375" height="250"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6G-zM-HE7">
@@ -1955,8 +1955,7 @@ grasas</string>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="thumbTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <connections>
-                                                            <action selector="objetivoSlider:" destination="0Gp-3R-g1N" eventType="valueChanged" id="eeI-3u-EbP"/>
-                                                            <action selector="relationSliderChanged:" destination="0Gp-3R-g1N" eventType="valueChanged" id="G6D-fX-x5a"/>
+                                                            <action selector="targetSliderChanged:" destination="0Gp-3R-g1N" eventType="valueChanged" id="njB-zh-lOa"/>
                                                         </connections>
                                                     </slider>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objetivo (mg/dl)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWk-gD-2AG">
@@ -1977,7 +1976,7 @@ grasas</string>
                                                         <color key="maximumTrackTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="thumbTintColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <connections>
-                                                            <action selector="sensibilidadSliderChanged:" destination="0Gp-3R-g1N" eventType="valueChanged" id="r7l-R1-xaQ"/>
+                                                            <action selector="sensibilidadSliderChanged:" destination="0Gp-3R-g1N" eventType="valueChanged" id="gBW-2Z-SQx"/>
                                                         </connections>
                                                     </slider>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensibilidad (mg/dl/U)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJ0-O8-1hD">
@@ -2117,9 +2116,10 @@ grasas</string>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
                         <outlet property="objetivoLabel" destination="KHO-Lu-fbz" id="esg-1I-PQk"/>
-                        <outlet property="objetivoSlider" destination="CcG-0Y-93a" id="XJb-lb-abb"/>
+                        <outlet property="objetivoSlider" destination="CcG-0Y-93a" id="Ulh-fz-9Zu"/>
                         <outlet property="relLabel" destination="NVO-AN-kuu" id="Rav-lC-YIL"/>
                         <outlet property="relSlider" destination="TRt-AC-qDa" id="0Kl-dd-Ezm"/>
+                        <outlet property="scrollview" destination="B2H-24-lic" id="7zy-ZO-AVt"/>
                         <outlet property="sensibilidadLabel" destination="hjH-U7-N9E" id="sGW-6B-ixU"/>
                         <outlet property="sensibilidadSlider" destination="6Jm-5j-5WI" id="B0G-pW-yue"/>
                     </connections>
