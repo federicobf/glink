@@ -12,6 +12,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.leftButton.layer.cornerRadius = 23;
+    self.leftButton.layer.masksToBounds = YES;
+    
+    self.rightButton.layer.cornerRadius = 23;
+    self.rightButton.layer.masksToBounds = YES;
+    
    //SETUP INICIAL
     self.scrollview.delaysContentTouches = NO;
 
@@ -57,6 +64,18 @@
     NSString *sensibilidadText = [NSString stringWithFormat:@"%.0f", sensibilidadvalue];
     self.sensibilidadLabel.text = sensibilidadText;
     
+}
+
+- (IBAction)continuar:(id)sender {
+    [HealthManager sharedInstance].relacionch = self.relLabel.text.floatValue;
+    [HealthManager sharedInstance].target = self.objetivoLabel.text.floatValue;
+    [HealthManager sharedInstance].sensibilidad = self.sensibilidadLabel.text.floatValue;
+    [self performSegueWithIdentifier:@"nextStep" sender:nil];
+}
+
+- (IBAction)backAction:(id)sender
+{
+        [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

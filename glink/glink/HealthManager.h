@@ -56,5 +56,6 @@ extern const float kMaxSensibilidad;
 @property float relacionch;
 @property float target;
 @property float sensibilidad;
+@property float reductionFactor;
 
 @end

@@ -37,6 +37,15 @@
         float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width/2;
         CGRect size = CGRectMake(distanciaX, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
         [self.scrollView scrollRectToVisible:size animated:YES];
+        [self performSelector:@selector(autoScroll) withObject:nil afterDelay:.2f];
+    }
+}
+
+- (void) autoScroll
+{
+    if(self.descriptorSection.text.length > 0 ) {
+        NSRange bottom = NSMakeRange(self.descriptorSection.text.length -1, 1);
+        [self.descriptorSection scrollRangeToVisible:bottom];
     }
 }
 

@@ -50,8 +50,7 @@ const float kMaxSensibilidad    = 100.0f;
     CGFloat cantidadGlucemia = (self.glucemia - self.target)/self.sensibilidad;
     if (cantidadGlucemia<0) {cantidadGlucemia = 0;}
     
-    CGFloat bolo = (cantidadCH + cantidadGlucemia);
-    
+    CGFloat bolo = (cantidadCH + cantidadGlucemia) * self.reductionFactor;
 
     return bolo;
 

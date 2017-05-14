@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Almidones</key>
+	<key>Carbohidratos</key>
 	<array>
 		<string>Amasados Industriales</string>
 		<string>Barras de cereal por unidad</string>
@@ -70,7 +70,7 @@
 		<string>Repostería</string>
 		<string>Salsas</string>
 	</array>
-	<key>Sustancias grasas</key>
+	<key>Lipidos</key>
 	<array>
 		<string>Aceites Animales</string>
 		<string>Aceites Vegetales</string>
@@ -113,11 +113,11 @@
 	</array>
 	<key>types</key>
 	<array>
-		<string>Almidones</string>
-		<string>Accesorios</string>
-		<string>Sustancias grasas</string>
-		<string>Vegetales</string>
+		<string>Carbohidratos</string>
+		<string>Lipidos</string>
 		<string>Lacteos</string>
+		<string>Vegetales</string>
+		<string>Accesorios</string>
 	</array>
 </dict>
 </plist>

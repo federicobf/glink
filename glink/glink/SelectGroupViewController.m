@@ -86,13 +86,13 @@
 {
     switch (position) {
         case 0:
-            return @"Almidones";
+            return @"Carbohidratos";
             break;
         case 1:
-            return @"Lacteos";
+            return @"Lípidos";
             break;
         case 2:
-            return @"Sustancias grasas";
+            return @"Lacteos";
             break;
         case 3:
             return @"Vegetales";
@@ -114,13 +114,13 @@
 {
     switch (position) {
         case 0:
-            return @"Almidones";
+            return @"Carbohidratos";
             break;
         case 1:
-            return @"Lacteos";
+            return @"Lipidos";
             break;
         case 2:
-            return @"Sustancias grasas";
+            return @"Lacteos";
             break;
         case 3:
             return @"Vegetales";
@@ -152,7 +152,7 @@
     UIViewController *nextVC = [segue destinationViewController];
     if ([nextVC isKindOfClass:[SelectCategoryViewController class]]) {
         SelectCategoryViewController *categoryVC = (SelectCategoryViewController *) nextVC;
-        categoryVC.key = [self titleForPosition:ip.row];
+        categoryVC.key = [self imageForPosition:ip.row];
     }
     
     if ([nextVC isKindOfClass:[ComidasViewController class]]) {
