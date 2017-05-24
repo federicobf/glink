@@ -11,19 +11,19 @@
 
 const float kMinCH              = 0.0f;
 const float kMaxCH              = 300.0f;
-const float kWarnCH             = 200.0f;
+const float kWarnCH             = 150.0f;
 
 
 const float kMinGlucemia        = 20.0f;
 const float kHipoGlucemia       = 70.0f;
-const float kHiperGlucemia      = 300.0f;
+const float kHiperGlucemia      = 200.0f;
 const float kMaxGlucemia        = 500.0f;
 
 const float kMinGlucemiaOK      = 70.0f;
 const float kMaxGlucemiaOK      = 140.0f;
 
 const float kMinRelacion        = 1.0f;
-const float kMaxRelacion        = 30.0f;
+const float kMaxRelacion        = 40.0f;
 
 const float kMinTarget          = 70.0f;
 const float kMaxTarget          = 200.0f;
@@ -46,11 +46,11 @@ const float kMaxSensibilidad    = 100.0f;
 
 - (float) calculoFinalBolo {
 
-    CGFloat cantidadCH = self.cantidadch / self.relacionch;
-    CGFloat cantidadGlucemia = (self.glucemia - self.target)/self.sensibilidad;
+    float cantidadCH = self.cantidadch / self.relacionch;
+    float cantidadGlucemia = (self.glucemia - self.target)/self.sensibilidad;
     if (cantidadGlucemia<0) {cantidadGlucemia = 0;}
     
-    CGFloat bolo = (cantidadCH + cantidadGlucemia) * self.reductionFactor;
+    float bolo = (cantidadCH + cantidadGlucemia) * self.reductionFactor;
 
     return bolo;
 

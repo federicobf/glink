@@ -35,15 +35,10 @@
 		<string>Verduras Feculentas en Conserva</string>
 		<string>Verduras Feculentas</string>
 	</array>
-	<key>Accesorios</key>
+	<key>Dulces</key>
 	<array>
 		<string>Aderezos</string>
-		<string>Aguas Saborizadas</string>
-		<string>Aguas</string>
 		<string>Alfajores</string>
-		<string>Amargos</string>
-		<string>Bebidas a base de soja</string>
-		<string>Bebidas Alcohólicas</string>
 		<string>Caldos y Sopas</string>
 		<string>Cereales Infantiles</string>
 		<string>Chocolates</string>
@@ -53,22 +48,31 @@
 		<string>Copetín</string>
 		<string>Dulces Mermeladas Jaleas y Miel</string>
 		<string>Fórmulas infantiles</string>
-		<string>Gaseosas Light</string>
-		<string>Gaseosas</string>
 		<string>Golosinas</string>
 		<string>Helado dietético</string>
 		<string>Helado estandar</string>
 		<string>Hierbas</string>
-		<string>Infusiones</string>
-		<string>Jugos en polvo</string>
-		<string>Jugos</string>
-		<string>Leches Infantiles</string>
 		<string>Mermeladas Bajas Calorias</string>
 		<string>Polvo para postre dietético</string>
 		<string>Polvo para postre estandar</string>
-		<string>Polvo para saborizar leches</string>
 		<string>Repostería</string>
 		<string>Salsas</string>
+	</array>
+	<key>Bebidas</key>
+	<array>
+		<string>Bebidas Alcohólicas</string>
+		<string>Leches Infantiles</string>
+		<string>Jugos</string>
+		<string>Gaseosas Light</string>
+		<string>Amargos</string>
+		<string>Jugos en polvo</string>
+		<string>Polvo para saborizar leches</string>
+		<string>Gaseosas</string>
+		<string>Infusiones</string>
+		<string>Bebidas a base de soja</string>
+		<string>Amargos</string>
+		<string>Aguas</string>
+		<string>Aguas Saborizadas</string>
 	</array>
 	<key>Lipidos</key>
 	<array>
@@ -117,7 +121,8 @@
 		<string>Lipidos</string>
 		<string>Lacteos</string>
 		<string>Vegetales</string>
-		<string>Accesorios</string>
+		<string>Dulces</string>
+		<string>Bebidas</string>
 	</array>
 </dict>
 </plist>

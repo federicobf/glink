@@ -10,6 +10,7 @@
 
 @interface FoodItem : NSObject
 
+@property NSDictionary* dictionary;
 @property NSString* comida;
 @property NSString* descripcion;
 @property float porcion;

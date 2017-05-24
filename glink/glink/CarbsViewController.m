@@ -12,6 +12,7 @@
 @interface CarbsViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *backbutton;
 @property (weak, nonatomic) IBOutlet UITextView *descriptorSection;
+@property (weak, nonatomic) IBOutlet UIImageView *stepcounter;
 
 @end
 
@@ -26,6 +27,22 @@
         self.descriptorSection.text = self.initialText;
     } else {
         [self.descriptorSection removeFromSuperview];
+    }
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self stepCounterUpdate];
+}
+
+- (void) stepCounterUpdate
+{
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", 1]];
+    if (relacionValue>0) {
+        self.stepcounter.image = [UIImage imageNamed:@"step2-bis"];
+    } else {
+        self.stepcounter.image = [UIImage imageNamed:@"step2"];
     }
 }
 
@@ -46,6 +63,17 @@
     if(self.descriptorSection.text.length > 0 ) {
         NSRange bottom = NSMakeRange(self.descriptorSection.text.length -1, 1);
         [self.descriptorSection scrollRangeToVisible:bottom];
+    }
+}
+
+- (void) doTextColorCheck
+{
+    CGFloat carbsValue = self.amountLabel.text.floatValue;
+    
+    if (carbsValue <= kMinCH || carbsValue >= kWarnCH) {
+        self.amountLabel.textColor = [UIColor colorWithRed:1 green:.2f blue:.2f alpha:.5f];
+    } else {
+        self.amountLabel.textColor  = [UIColor colorWithRed:58/255.f green:62/255.f blue:65/255.f alpha:1];
     }
 }
 

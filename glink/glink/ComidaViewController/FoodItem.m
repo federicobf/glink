@@ -12,6 +12,7 @@
 
 - (void) configureWithDict: (NSDictionary*) dict {
 
+    self.dictionary = dict;
     self.comida = dict [@"Comida"];
     self.descripcion = dict [@"Porcion"];
     self.glucidos = [dict [@"CH"] floatValue];

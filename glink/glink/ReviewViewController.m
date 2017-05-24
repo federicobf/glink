@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *glucemia;
 @property (weak, nonatomic) IBOutlet UISwitch *switchItem;
 @property (weak, nonatomic) IBOutlet SegmentedScrollView *segmentedScrollView;
+@property (weak, nonatomic) IBOutlet UIImageView *stepcounter;
 
 @property CGFloat reductionFactor;
 
@@ -39,12 +40,26 @@
     self.glucemia.text = [NSString stringWithFormat:@"%i", (int) [HealthManager sharedInstance].glucemia];
 
     self.segmentedScrollView.hardWidth = 70;
-    [self.segmentedScrollView addButtons:@[@"Desayuno",@"Almuerzo",@"Colación",@"Cena"]];
+    [self.segmentedScrollView addButtons:@[@"Desayuno",@"Almuerzo",@"Merienda",@"Cena"]];
     self.segmentedScrollView.delegate = self;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     [self preloadValues];
+    [self stepCounterUpdate];
+}
+
+- (void) stepCounterUpdate
+{
+    for (UIViewController *vc in self.navigationController.viewControllers) {
+        if ([vc isKindOfClass:[SlidersViewController class]]) {
+            self.stepcounter.image = [UIImage imageNamed:@"step4"];
+            return;
+        }
+    }
+
+    self.stepcounter.image = [UIImage imageNamed:@"step3-bis"];
 }
 
 - (void) preloadValues
@@ -91,7 +106,7 @@
     switch (timeframe) {
         case 1: comida = @"Desayuno"; break;
         case 2: comida = @"Almuerzo"; break;
-        case 3: comida = @"Colación"; break;
+        case 3: comida = @"Merienda"; break;
         case 4: comida = @"Cena"; break;
         default:comida = nil;  break;
     }

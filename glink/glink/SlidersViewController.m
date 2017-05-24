@@ -25,8 +25,8 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    
-    if (self.isModal) {
+
+    if (self.isModal || [HealthManager sharedInstance].relacionch>0) {
         [self displayLastShownValues];
     } else {
         [self preloadMinimumValues];
@@ -66,6 +66,45 @@
 
 - (IBAction)continuar:(id)sender {
     
+    if (self.relSlider.value == 0 && self.objetivoSlider.value == 0 && self.sensibilidadSlider.value == 0) {
+        [self advertenciaStep];
+    } else {
+        [self continueStep];
+    }
+    
+}
+
+- (void) advertenciaStep
+{
+    
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Advertencia"
+                                  message:@"Usted no ha modificado los valores minimos preconfigurados. Recuerde que es importante que datermine estos valores con su medico para que los resultados del cálculo sean válidos."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* action = [UIAlertAction
+                             actionWithTitle:@"He revisado este dato"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [self continueStep];
+                             }];
+    [alert addAction:action];
+    
+    UIAlertAction* cancelar = [UIAlertAction
+                               actionWithTitle:@"Modificar"
+                               style:UIAlertActionStyleCancel
+                               handler:^(UIAlertAction * action)
+                               {
+                                   [alert dismissViewControllerAnimated:YES completion:nil];
+                               }];
+    [alert addAction:cancelar];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (void) continueStep
+{
     if (self.isModal) {
         [self consultaGuardarValores];
     } else {
@@ -126,7 +165,7 @@
                                [alert dismissViewControllerAnimated:YES completion:nil];
                            }];
     UIAlertAction* opt3 = [UIAlertAction
-                           actionWithTitle:@"Colación"
+                           actionWithTitle:@"Merienda"
                            style:UIAlertActionStyleDefault
                            handler:^(UIAlertAction * action)
                            {

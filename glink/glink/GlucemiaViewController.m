@@ -11,6 +11,7 @@
 
 @interface GlucemiaViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *stepcounter;
 
 @end
 
@@ -23,17 +24,29 @@
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.delegate = self;
     self.scrollView.contentInset = UIEdgeInsetsMake(0, [UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2);
-
-    
 }
 
 - (void) viewWillAppear:(BOOL)animated {
 
+    [super viewWillAppear:animated];
     self.strippedView.alpha = 0;
+    [self doTextColorCheck];
+    [self stepCounterUpdate];
+}
+
+- (void) stepCounterUpdate
+{
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", 1]];
+    if (relacionValue>0) {
+        self.stepcounter.image = [UIImage imageNamed:@"step1-bis"];
+    } else {
+        self.stepcounter.image = [UIImage imageNamed:@"step1"];
+    }
 }
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     [self.strippedView drawLines];
     self.strippedView.alpha = 0;
     [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
@@ -55,17 +68,29 @@
     }
     
     self.amountLabel.text = [NSString stringWithFormat:@"%.0f", glucemia];
+    [self doTextColorCheck];
+}
+
+- (void) doTextColorCheck
+{
+    CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+    
+    if (glucemiaValue <= kHipoGlucemia || glucemiaValue >= kHiperGlucemia) {
+        self.amountLabel.textColor = [UIColor colorWithRed:1 green:.2f blue:.2f alpha:.5f];
+    } else {
+        self.amountLabel.textColor  = [UIColor colorWithRed:58/255.f green:62/255.f blue:65/255.f alpha:1];
+    }
 }
 
 - (void) hipoglucemiaFlow {
     
     UIAlertController * alert=   [UIAlertController
                                   alertControllerWithTitle:@"Hipoglucemia"
-                                  message:@"Usted ha indicado un valor de glucemia demasiado bajo, estando el mismo considerado dentro del rango de la hipoglucemia. Consulte a su médico antes de continuar."
+                                  message:@"Usted ha indicado un valor de glucemia demasiado bajo, estando el mismo considerado dentro del rango de la hipoglucemia. ¿Desea continuar?"
                                   preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"He consultado a mi medico"
+                             actionWithTitle:@"Si"
                              style:UIAlertActionStyleDefault
                              handler:^(UIAlertAction * action)
                              {
@@ -94,11 +119,11 @@
     
     UIAlertController * alert=   [UIAlertController
                                   alertControllerWithTitle:@"Hiperglucemia"
-                                  message:@"Usted ha indicado un valor de glucemia demasiado alta, estando el mismo considerado dentro del rango de la hiperglucemia. Consulte a su médico antes de continuar."
+                                  message:@"Usted ha indicado un valor de glucemia considerado dentro del rango de la hiperglucemia."
                                   preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"He consultado a mi medico"
+                             actionWithTitle:@"De acuerdo"
                              style:UIAlertActionStyleDefault
                              handler:^(UIAlertAction * action)
                              {
@@ -109,15 +134,7 @@
                                  
                              }];
     [alert addAction:action];
-    
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"No"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                               }];
-    [alert addAction:cancelar];
+
     
     [self presentViewController:alert animated:YES completion:nil];
     

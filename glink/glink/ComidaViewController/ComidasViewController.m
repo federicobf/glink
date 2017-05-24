@@ -124,7 +124,7 @@
         if (self.currentKey) {
             self.tableViewCells = [self dataSourceForKey:self.currentKey];
         } else {
-            self.tableViewCells = [self fullOptions];
+            self.tableViewCells = [self storedItems];
         }
     }
     
@@ -132,6 +132,15 @@
     
     [self.tableView reloadData];
     self.resignFlag = YES;
+}
+
+- (NSArray *) storedItems
+{
+   NSArray *array = [[NSUserDefaults standardUserDefaults] objectForKey:@"storedFoods"];
+    if (array.count>0) {
+        return array;
+    }
+    return [self fullOptions];
 }
 
 - (void) updateEmptyView
@@ -557,11 +566,13 @@ self.segmentedConstraint.constant = 60;
         [allItems addObject: foodItem];
     }
     
+    NSMutableArray* allDictionaries = [NSMutableArray new];
     for (NSString* key in [[FoodManager sharedInstance].selectionsDictionary allKeys]) {
     
         FoodItem* myItem;
         for (FoodItem* item in allItems) {
             if ([item.identificationKey isEqualToString:key]) {
+                [allDictionaries addObject:item.dictionary];
                 myItem = item;
             }
         }
@@ -584,6 +595,9 @@ self.segmentedConstraint.constant = 60;
         [alert show];
         return -1;
     }
+    
+    [self updateStoredItemsWithArray:allDictionaries];
+    
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.searchBar resignFirstResponder];
     });
@@ -592,6 +606,28 @@ self.segmentedConstraint.constant = 60;
     
     return totalValue;
     
+}
+
+- (void) updateStoredItemsWithArray: (NSArray *) array
+{
+    NSMutableArray *mutArray = [[[NSUserDefaults standardUserDefaults] objectForKey:@"storedFoods"] mutableCopy];
+    [mutArray addObjectsFromArray:array];
+    
+    
+    //Sorting of the Array
+    NSComparator comparator = ^NSComparisonResult(id aDictionary, id anotherDictionary) {
+        return [[aDictionary objectForKey:@"Comida"] localizedCaseInsensitiveCompare:[anotherDictionary objectForKey:@"Comida"]];
+    };
+    NSArray *sortedArray = [mutArray sortedArrayUsingComparator:comparator];
+    
+    NSMutableArray *newArray = [NSMutableArray new];
+    for (NSDictionary *dic in sortedArray) {
+        if (![newArray containsObject:dic]) {
+            [newArray addObject:dic];
+        }
+    }
+    
+    [[NSUserDefaults standardUserDefaults] setObject: newArray.copy forKey:@"storedFoods"];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

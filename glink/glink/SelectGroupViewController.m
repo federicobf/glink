@@ -14,6 +14,8 @@
 
 @interface SelectGroupViewController ()
 @property (weak, nonatomic) IBOutlet UISearchBar *searchbar;
+@property CGFloat delayMultiplier;
+@property BOOL layoutSet;
 @end
 
 @implementation SelectGroupViewController
@@ -24,8 +26,18 @@
     self.collectionView.dataSource = self;
     self.searchbar.barTintColor = [UIColor whiteColor];
     [self.searchbar setBackgroundImage:[[UIImage alloc]init]];
-    
+}
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.delayMultiplier = .3f;
+    [self performSelector:@selector(killMultiplier) withObject:nil afterDelay:.2f];
+}
+
+- (void) killMultiplier
+{
+    self.delayMultiplier = 0;
 }
 
 - (void)viewDidLayoutSubviews
@@ -33,6 +45,11 @@
     [super viewDidLayoutSubviews];
     
     [self.searchbar layoutSubviews];
+    
+    if (self.layoutSet) {
+        return;
+    }
+    self.layoutSet = YES;
     
     float topPadding = 16.0;
     for(UIView *view in self.searchbar.subviews)
@@ -67,7 +84,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 6;
+    return 7;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -76,7 +93,7 @@
     cell.imageView.image = [UIImage imageNamed:[self imageForPosition:indexPath.row]];
     cell.text.text = [self titleForPosition:indexPath.row];
     cell.alpha = 0.f;
-        [UIView animateWithDuration:.8f delay:indexPath.row * .3f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [UIView animateWithDuration:.8f delay:indexPath.row * self.delayMultiplier options:UIViewAnimationOptionCurveEaseInOut animations:^{
             cell.alpha = 1.f;
         } completion:nil];
     return cell;
@@ -89,18 +106,21 @@
             return @"Carbohidratos";
             break;
         case 1:
-            return @"Lípidos";
+            return @"Dulces";
             break;
         case 2:
             return @"Lacteos";
             break;
         case 3:
-            return @"Vegetales";
+            return @"Bebidas";
             break;
         case 4:
-            return @"Accesorios";
+            return @"Vegetales";
             break;
         case 5:
+            return @"Lípidos";
+            break;
+        case 6:
             return @"Añadir alimento";
             break;
             
@@ -117,18 +137,21 @@
             return @"Carbohidratos";
             break;
         case 1:
-            return @"Lipidos";
+            return @"Dulces";
             break;
         case 2:
             return @"Lacteos";
             break;
         case 3:
-            return @"Vegetales";
+            return @"Bebidas";
             break;
         case 4:
-            return @"Accesorios";
+            return @"Vegetales";
             break;
         case 5:
+            return @"Lipidos";
+            break;
+        case 6:
             return @"Anadir alimento";
             break;
             
@@ -140,7 +163,7 @@
 
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 5) {
+    if (indexPath.row == [self collectionView:self.collectionView numberOfItemsInSection:0]-1) {
         [self performSegueWithIdentifier:@"suggestFood" sender:indexPath];
         return;
     }
