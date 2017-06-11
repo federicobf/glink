@@ -21,6 +21,8 @@
 - (void) viewDidLoad {
     [super viewDidLoad];
     
+    [self setUpScrollView];
+    
     
     
     self.roundContainerView.layer.cornerRadius = self.roundContainerView.bounds.size.width/2;
@@ -29,11 +31,39 @@
     self.tableView.dataSource = self;
 }
 
+- (void) setUpScrollView {
+    
+     UIColor *darkGray =[UIColor colorWithRed:142/255.f green:142/255.f blue:147/255.f alpha:1];
+    UIColor *paleBlue = [UIColor colorWithRed:232/255.f green:244/255.f blue:253/255.f alpha:1];
+    UIColor *lightBlue = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *lightGray = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
+    
+    self.segmentedControl.tintColor = paleBlue;
+    self.segmentedControl.backgroundColor =  lightGray;
+    NSDictionary *selectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    [UIFont systemFontOfSize:13.0], NSFontAttributeName,
+    lightBlue, NSForegroundColorAttributeName,
+    paleBlue, NSBackgroundColorAttributeName, nil];
+   
+    
+    [self.segmentedControl setTitleTextAttributes:selectedAttributes forState:UIControlStateSelected];
+    NSDictionary *unselectedAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+    [UIFont systemFontOfSize:13.0], NSFontAttributeName,
+    darkGray, NSForegroundColorAttributeName,
+    lightGray, NSBackgroundColorAttributeName, nil];
+    [self.segmentedControl setTitleTextAttributes:unselectedAttributes forState:UIControlStateNormal];
+
+    }
+
+
 
 - (IBAction)segmentedControlChanged:(id)sender {
     
-    NSLog(@"segmented %li", self.segmentedControl.selectedSegmentIndex);
+    
     [self.tableView reloadData];
+    
+ 
+ 
     
 }
 
