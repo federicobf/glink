@@ -546,7 +546,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mrk-mQ-qko">
                                 <rect key="frame" x="32" y="170" width="80" height="80"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ftu4" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-2j-Gxz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-2j-Gxz">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                     </imageView>
                                 </subviews>
@@ -649,21 +649,21 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="f2U-0C-7sE">
-                                <rect key="frame" x="274" y="191.5" width="20" height="20"/>
+                                <rect key="frame" x="274" y="192" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="Pek-kX-SDo"/>
                                     <constraint firstAttribute="height" constant="20" id="pv2-Je-ROB"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="EnK-47-kTa">
-                                <rect key="frame" x="256" y="212.5" width="20" height="20"/>
+                                <rect key="frame" x="256" y="213" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="LUO-QB-0Qa"/>
                                     <constraint firstAttribute="width" constant="20" id="QL9-uZ-Joa"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="janemorris@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUk-cF-zdQ">
-                                <rect key="frame" x="120" y="215" width="129" height="14.5"/>
+                                <rect key="frame" x="120" y="215" width="129" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2803,6 +2803,7 @@ datos y ¡listo!</string>
     </scenes>
     <resources>
         <image name="Hearts Filled-50 (2)" width="25" height="25"/>
+        <image name="Profile" width="366" height="360"/>
         <image name="Succes" width="390" height="396"/>
         <image name="Sustancias grasas" width="426" height="204"/>
         <image name="Vegetarian Food-50" width="16" height="16"/>
