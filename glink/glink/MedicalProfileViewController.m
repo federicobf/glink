@@ -82,9 +82,11 @@
 
 - (UITableViewCell *) celdaMedicoForIndexPath: (NSIndexPath *) indexPath
 {
+    UIColor *lightGray = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
     MedicalProfileTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cellIdentifier"];
     cell.cellTextField.delegate = self;
     cell.backgroundColor = [UIColor whiteColor];
+    cell.line.backgroundColor = lightGray;
     
     if (indexPath.row == 0) {
         cell.cellLabel.text = @"Email";
@@ -115,9 +117,11 @@
 
 - (UITableViewCell *) celdaPacienteForIndexPath: (NSIndexPath *) indexPath
 {
+    UIColor *lightGray = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
     MedicalProfileTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cellIdentifier"];
     cell.backgroundColor = [UIColor whiteColor];
     cell.cellTextField.delegate = self;
+    cell.line.backgroundColor = lightGray;
     
     if (indexPath.row == 0) {
         cell.cellLabel.text = @"Altura";
@@ -158,14 +162,18 @@
     //GUARDO ESTE VALOR bajo la key tagstring
     [[NSUserDefaults standardUserDefaults] setObject:text forKey:tagString];
     
-    
+    UIColor *lightGray = [UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1];
+    MedicalProfileTableViewCell *cell = (MedicalProfileTableViewCell *) textField.superview.superview;
+    cell.line.backgroundColor = lightGray;
     
     NSLog(@"El textfield con el tag %i escribio el texto %@ y debe ser guardado", tag, text);
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
-
+    UIColor *lightBlue = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    MedicalProfileTableViewCell *cell = (MedicalProfileTableViewCell *) textField.superview.superview;
+    cell.line.backgroundColor = lightBlue;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
