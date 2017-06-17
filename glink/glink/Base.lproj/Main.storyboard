@@ -668,22 +668,33 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLO-Xx-5Hf" userLabel="button mail">
+                                <rect key="frame" x="120" y="208" width="156" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-FG-9QZ" userLabel="Button name">
+                                <rect key="frame" x="120" y="187" width="174" height="30"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Nx1-Mj-Fig" firstAttribute="top" secondItem="lhf-eS-zxE" secondAttribute="bottom" id="0H8-7N-u94"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PEM-eD-top" secondAttribute="trailing" constant="16" id="0KZ-J0-fwV"/>
                             <constraint firstItem="PEM-eD-top" firstAttribute="top" secondItem="Nx1-Mj-Fig" secondAttribute="bottom" constant="24" id="26S-Ha-qja"/>
+                            <constraint firstItem="f2U-0C-7sE" firstAttribute="trailing" secondItem="XAg-FG-9QZ" secondAttribute="trailing" id="2M4-Cj-IlB"/>
                             <constraint firstItem="Nx1-Mj-Fig" firstAttribute="centerX" secondItem="8QZ-0N-IuO" secondAttribute="centerX" id="417-2U-dVf"/>
                             <constraint firstItem="gwI-cE-tmH" firstAttribute="leading" secondItem="Wei-2j-Gxz" secondAttribute="trailing" constant="8" id="4QS-rA-vWw"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Mrk-mQ-qko" secondAttribute="leading" constant="-16" id="53I-Py-yYv"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="f2U-0C-7sE" secondAttribute="trailing" constant="10" id="5Oz-xx-BHu"/>
+                            <constraint firstItem="EnK-47-kTa" firstAttribute="trailing" secondItem="hLO-Xx-5Hf" secondAttribute="trailing" id="74I-IW-qwG"/>
                             <constraint firstItem="RLk-Lh-9QH" firstAttribute="top" secondItem="Mrk-mQ-qko" secondAttribute="bottom" constant="18" id="8UV-td-icw"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="centerY" secondItem="gwI-cE-tmH" secondAttribute="centerY" id="AEl-la-R7Z"/>
+                            <constraint firstItem="hLO-Xx-5Hf" firstAttribute="leading" secondItem="WUk-cF-zdQ" secondAttribute="leading" id="Ba6-fI-hIp"/>
                             <constraint firstItem="Nx1-Mj-Fig" firstAttribute="width" secondItem="8QZ-0N-IuO" secondAttribute="width" id="BdJ-Wb-13D"/>
+                            <constraint firstItem="hLO-Xx-5Hf" firstAttribute="centerY" secondItem="EnK-47-kTa" secondAttribute="centerY" id="H1K-XA-PYZ"/>
                             <constraint firstItem="PEM-eD-top" firstAttribute="leading" secondItem="8QZ-0N-IuO" secondAttribute="leadingMargin" constant="16" id="LjM-Qe-Si7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RLk-Lh-9QH" secondAttribute="trailing" id="S5f-rv-FqK"/>
                             <constraint firstItem="Xms-Dg-O8F" firstAttribute="top" secondItem="RLk-Lh-9QH" secondAttribute="bottom" constant="10" id="TfR-QS-jEZ"/>
+                            <constraint firstItem="gwI-cE-tmH" firstAttribute="leading" secondItem="XAg-FG-9QZ" secondAttribute="leading" id="UPP-Jk-nwJ"/>
                             <constraint firstItem="lhf-eS-zxE" firstAttribute="top" secondItem="3eN-dQ-YhN" secondAttribute="bottom" id="XiP-sh-lWV"/>
                             <constraint firstItem="gwI-cE-tmH" firstAttribute="top" secondItem="Wei-2j-Gxz" secondAttribute="top" constant="20" id="Xvf-N5-O2X"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="leading" secondItem="gwI-cE-tmH" secondAttribute="trailing" constant="8" id="ceU-bo-11H"/>
@@ -694,6 +705,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <constraint firstItem="lhf-eS-zxE" firstAttribute="width" secondItem="8QZ-0N-IuO" secondAttribute="width" id="iCF-IV-b1c"/>
                             <constraint firstItem="WUk-cF-zdQ" firstAttribute="top" secondItem="gwI-cE-tmH" secondAttribute="bottom" constant="1" id="jnl-hA-1fk"/>
                             <constraint firstItem="Mrk-mQ-qko" firstAttribute="top" secondItem="3eN-dQ-YhN" secondAttribute="bottom" constant="150" id="mIv-Tn-8fV"/>
+                            <constraint firstItem="XAg-FG-9QZ" firstAttribute="centerY" secondItem="gwI-cE-tmH" secondAttribute="centerY" id="xZe-TN-0Ko"/>
                             <constraint firstItem="EnK-47-kTa" firstAttribute="centerY" secondItem="WUk-cF-zdQ" secondAttribute="centerY" id="ya0-ZA-F7G"/>
                         </constraints>
                     </view>
