@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -568,7 +568,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                         <rect key="frame" x="0.0" y="28" width="288" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o5Z-Oz-Eed" id="UgI-Um-yer">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="99.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17q-VA-HhY">
@@ -645,6 +645,9 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Federico Bustos Fierro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gwI-cE-tmH">
                                 <rect key="frame" x="120" y="190" width="146" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="glD-QR-H6m"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -657,23 +660,32 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="EnK-47-kTa">
-                                <rect key="frame" x="256" y="213" width="20" height="20"/>
+                                <rect key="frame" x="256" y="222" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="LUO-QB-0Qa"/>
                                     <constraint firstAttribute="width" constant="20" id="QL9-uZ-Joa"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="janemorris@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUk-cF-zdQ">
-                                <rect key="frame" x="120" y="215" width="129" height="15"/>
+                                <rect key="frame" x="120" y="215" width="129" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLO-Xx-5Hf" userLabel="button mail">
-                                <rect key="frame" x="120" y="208" width="156" height="30"/>
+                                <rect key="frame" x="220" y="217" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="u2O-tz-EZN"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="editLabelMail:" destination="ENi-Gj-t6h" eventType="touchUpInside" id="gIw-8m-n1l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-FG-9QZ" userLabel="Button name">
-                                <rect key="frame" x="120" y="187" width="174" height="30"/>
+                                <rect key="frame" x="220" y="187" width="74" height="30"/>
+                                <connections>
+                                    <action selector="editLabelName:" destination="ENi-Gj-t6h" eventType="touchUpInside" id="fnU-a0-u5n"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -689,16 +701,18 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <constraint firstItem="EnK-47-kTa" firstAttribute="trailing" secondItem="hLO-Xx-5Hf" secondAttribute="trailing" id="74I-IW-qwG"/>
                             <constraint firstItem="RLk-Lh-9QH" firstAttribute="top" secondItem="Mrk-mQ-qko" secondAttribute="bottom" constant="18" id="8UV-td-icw"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="centerY" secondItem="gwI-cE-tmH" secondAttribute="centerY" id="AEl-la-R7Z"/>
-                            <constraint firstItem="hLO-Xx-5Hf" firstAttribute="leading" secondItem="WUk-cF-zdQ" secondAttribute="leading" id="Ba6-fI-hIp"/>
+                            <constraint firstItem="hLO-Xx-5Hf" firstAttribute="leading" secondItem="WUk-cF-zdQ" secondAttribute="leading" constant="100" id="Ba6-fI-hIp"/>
                             <constraint firstItem="Nx1-Mj-Fig" firstAttribute="width" secondItem="8QZ-0N-IuO" secondAttribute="width" id="BdJ-Wb-13D"/>
                             <constraint firstItem="hLO-Xx-5Hf" firstAttribute="centerY" secondItem="EnK-47-kTa" secondAttribute="centerY" id="H1K-XA-PYZ"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="EnK-47-kTa" secondAttribute="trailing" constant="10" id="Hv6-Gi-snh"/>
                             <constraint firstItem="PEM-eD-top" firstAttribute="leading" secondItem="8QZ-0N-IuO" secondAttribute="leadingMargin" constant="16" id="LjM-Qe-Si7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RLk-Lh-9QH" secondAttribute="trailing" id="S5f-rv-FqK"/>
                             <constraint firstItem="Xms-Dg-O8F" firstAttribute="top" secondItem="RLk-Lh-9QH" secondAttribute="bottom" constant="10" id="TfR-QS-jEZ"/>
-                            <constraint firstItem="gwI-cE-tmH" firstAttribute="leading" secondItem="XAg-FG-9QZ" secondAttribute="leading" id="UPP-Jk-nwJ"/>
+                            <constraint firstItem="gwI-cE-tmH" firstAttribute="leading" secondItem="XAg-FG-9QZ" secondAttribute="leading" constant="-100" id="UPP-Jk-nwJ"/>
                             <constraint firstItem="lhf-eS-zxE" firstAttribute="top" secondItem="3eN-dQ-YhN" secondAttribute="bottom" id="XiP-sh-lWV"/>
                             <constraint firstItem="gwI-cE-tmH" firstAttribute="top" secondItem="Wei-2j-Gxz" secondAttribute="top" constant="20" id="Xvf-N5-O2X"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="leading" secondItem="gwI-cE-tmH" secondAttribute="trailing" constant="8" id="ceU-bo-11H"/>
+                            <constraint firstItem="hLO-Xx-5Hf" firstAttribute="top" secondItem="XAg-FG-9QZ" secondAttribute="bottom" id="cty-uz-Cc7"/>
                             <constraint firstItem="WUk-cF-zdQ" firstAttribute="leading" secondItem="Wei-2j-Gxz" secondAttribute="trailing" constant="8" id="f2D-dS-3a4"/>
                             <constraint firstItem="EnK-47-kTa" firstAttribute="leading" secondItem="WUk-cF-zdQ" secondAttribute="trailing" constant="7" id="fP9-4c-mci"/>
                             <constraint firstItem="RLk-Lh-9QH" firstAttribute="leading" secondItem="8QZ-0N-IuO" secondAttribute="leadingMargin" id="h8P-Df-fDK"/>
@@ -714,7 +728,9 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                     <connections>
                         <outlet property="roundContainerView" destination="Mrk-mQ-qko" id="TdS-gf-bgr"/>
                         <outlet property="segmentedControl" destination="PEM-eD-top" id="akG-0d-bCo"/>
+                        <outlet property="subtitleLabel" destination="WUk-cF-zdQ" id="kKv-SQ-mWp"/>
                         <outlet property="tableView" destination="RLk-Lh-9QH" id="D9D-4V-0a3"/>
+                        <outlet property="titleLabel" destination="gwI-cE-tmH" id="jVP-Jc-jeF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x6d-8u-SZL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1194,11 +1210,11 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="28" width="320" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h0Q-XX-LyL" id="71l-EY-SnE">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="57.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="57"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vyI-HB-kVC">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="57.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="57"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1284,7 +1300,7 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="1" width="320" height="103"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fje-8Q-zzS" id="wrU-eL-5IV">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userGuides>
                                                 <userLayoutGuide location="24" affinity="minY"/>

@@ -13,6 +13,10 @@
 @property (weak, nonatomic) IBOutlet UIView *roundContainerView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+@property (strong, nonatomic) UITextField *fakeTitleTextfield;
+@property (strong, nonatomic) UITextField *fakeSubtitleTextfield;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
 
 @end
 
@@ -20,11 +24,9 @@
 
 - (void) viewDidLoad {
     [super viewDidLoad];
-    
+    [self createFakeTextfield];
     [self setUpScrollView];
-    
-    
-    
+
     self.roundContainerView.layer.cornerRadius = self.roundContainerView.bounds.size.width/2;
     self.tableView.separatorColor = [UIColor clearColor];
     self.tableView.delegate = self;
@@ -53,18 +55,10 @@
     lightGray, NSBackgroundColorAttributeName, nil];
     [self.segmentedControl setTitleTextAttributes:unselectedAttributes forState:UIControlStateNormal];
 
-    }
-
-
+}
 
 - (IBAction)segmentedControlChanged:(id)sender {
-    
-    
     [self.tableView reloadData];
-    
- 
- 
-    
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -154,6 +148,10 @@
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
 
+    if (textField.tag == 0) {
+        return;
+    }
+    
     NSInteger tag = textField.tag;
     NSString *text = textField.text;
     
@@ -171,6 +169,10 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
+    if (textField.tag == 0) {
+        return;
+    }
+    
     UIColor *lightBlue = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     MedicalProfileTableViewCell *cell = (MedicalProfileTableViewCell *) textField.superview.superview;
     cell.line.backgroundColor = lightBlue;
@@ -180,6 +182,59 @@
 {
     [textField resignFirstResponder];
     return YES;
+}
+
+//metodos de texto magico de arriba
+- (void) createFakeTextfield
+{
+    self.fakeTitleTextfield = [UITextField new];
+    self.fakeTitleTextfield.autocorrectionType = UITextAutocorrectionTypeNo;
+    self.fakeTitleTextfield.delegate = self;
+    [self.view addSubview:self.fakeTitleTextfield];
+    
+    self.fakeSubtitleTextfield = [UITextField new];
+    self.fakeSubtitleTextfield.autocorrectionType = UITextAutocorrectionTypeNo;
+    self.fakeSubtitleTextfield.delegate = self;
+    [self.view addSubview:self.fakeSubtitleTextfield];
+}
+
+- (IBAction)editLabelName:(id)sender
+{
+    self.titleLabel.text = @"";
+    self.fakeTitleTextfield.text = self.titleLabel.text;
+    [self.fakeTitleTextfield becomeFirstResponder];
+}
+- (IBAction)editLabelMail:(id)sender
+{
+    self.subtitleLabel.text = @"";
+    self.fakeSubtitleTextfield.text = self.subtitleLabel.text;
+    [self.fakeSubtitleTextfield becomeFirstResponder];
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSString *newText = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    
+    if (textField == self.fakeTitleTextfield) {
+        self.titleLabel.text = newText;
+    }
+    
+    if (textField == self.fakeSubtitleTextfield) {
+        self.subtitleLabel.text = newText;
+    }
+    
+    return YES;
+}
+
+- (void) bounceEffectWithView: (UIView *) view
+{
+    [UIView animateWithDuration:.1f animations:^{
+        view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:.1f animations:^{
+            view.transform = CGAffineTransformIdentity;
+        }];
+    }];
 }
 
 @end
