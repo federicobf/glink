@@ -150,7 +150,7 @@
                   moduleName = "glink"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/federicuelo/glink/glink/glink/SlidersViewController.h"
-                  timestampString = "518307324.405716"
+                  timestampString = "519681369.735458"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -165,7 +165,7 @@
                   moduleName = "glink"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/federicuelo/glink/glink/glink/SlidersViewController.h"
-                  timestampString = "518307324.432945"
+                  timestampString = "519681369.740052"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -236,22 +236,6 @@
             startingLineNumber = "139"
             endingLineNumber = "139"
             landmarkName = "-storedItems"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "glink/MedicalProfileViewController.m"
-            timestampString = "518306988.261295"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-segmentedControlChanged:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
