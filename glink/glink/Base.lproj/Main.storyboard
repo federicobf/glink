@@ -549,14 +549,25 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-2j-Gxz">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8B-5z-d7c" userLabel="Select photo">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <connections>
+                                            <action selector="selectPhoto:" destination="ENi-Gj-t6h" eventType="touchUpInside" id="2si-bs-Vuu"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.64705882349999999" green="0.81176470590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="g8B-5z-d7c" firstAttribute="top" secondItem="Wei-2j-Gxz" secondAttribute="top" id="1of-Rv-L46"/>
                                     <constraint firstItem="Wei-2j-Gxz" firstAttribute="width" secondItem="Mrk-mQ-qko" secondAttribute="width" id="9NO-nr-dUO"/>
+                                    <constraint firstItem="g8B-5z-d7c" firstAttribute="trailing" secondItem="Wei-2j-Gxz" secondAttribute="trailing" id="W8z-NE-cYY"/>
+                                    <constraint firstItem="g8B-5z-d7c" firstAttribute="leading" secondItem="Wei-2j-Gxz" secondAttribute="leading" id="Zia-26-Bqx"/>
                                     <constraint firstAttribute="width" secondItem="Mrk-mQ-qko" secondAttribute="height" multiplier="1:1" id="aa7-qr-bZT"/>
+                                    <constraint firstItem="g8B-5z-d7c" firstAttribute="centerX" secondItem="Wei-2j-Gxz" secondAttribute="centerX" id="bZa-jK-Gsk"/>
                                     <constraint firstItem="Wei-2j-Gxz" firstAttribute="height" secondItem="Mrk-mQ-qko" secondAttribute="height" id="lMD-HG-Px1"/>
                                     <constraint firstAttribute="height" constant="80" id="nDg-DE-cE3"/>
                                     <constraint firstItem="Wei-2j-Gxz" firstAttribute="centerY" secondItem="Mrk-mQ-qko" secondAttribute="centerY" id="pKC-hx-bNX"/>
+                                    <constraint firstItem="g8B-5z-d7c" firstAttribute="bottom" secondItem="Wei-2j-Gxz" secondAttribute="bottom" id="sT7-TV-bmu"/>
                                     <constraint firstItem="Wei-2j-Gxz" firstAttribute="centerX" secondItem="Mrk-mQ-qko" secondAttribute="centerX" id="x5Q-5y-0C1"/>
                                 </constraints>
                             </view>
@@ -702,6 +713,13 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                                     <action selector="editLabelName:" destination="ENi-Gj-t6h" eventType="touchUpInside" id="fnU-a0-u5n"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="RpM-0x-nlY">
+                                <rect key="frame" x="77" y="220" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="B9r-Dg-Pi5"/>
+                                    <constraint firstAttribute="height" constant="40" id="H1A-b0-UWs"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -715,6 +733,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="f2U-0C-7sE" secondAttribute="trailing" constant="10" id="5Oz-xx-BHu"/>
                             <constraint firstItem="EnK-47-kTa" firstAttribute="trailing" secondItem="hLO-Xx-5Hf" secondAttribute="trailing" id="74I-IW-qwG"/>
                             <constraint firstItem="RLk-Lh-9QH" firstAttribute="top" secondItem="Mrk-mQ-qko" secondAttribute="bottom" constant="18" id="8UV-td-icw"/>
+                            <constraint firstItem="RpM-0x-nlY" firstAttribute="bottom" secondItem="Wei-2j-Gxz" secondAttribute="bottom" constant="10" id="8a0-2O-2s4"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="centerY" secondItem="gwI-cE-tmH" secondAttribute="centerY" id="AEl-la-R7Z"/>
                             <constraint firstItem="hLO-Xx-5Hf" firstAttribute="leading" secondItem="WUk-cF-zdQ" secondAttribute="leading" constant="100" id="Ba6-fI-hIp"/>
                             <constraint firstItem="Nx1-Mj-Fig" firstAttribute="width" secondItem="8QZ-0N-IuO" secondAttribute="width" id="BdJ-Wb-13D"/>
@@ -726,6 +745,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <constraint firstItem="gwI-cE-tmH" firstAttribute="leading" secondItem="XAg-FG-9QZ" secondAttribute="leading" constant="-100" id="UPP-Jk-nwJ"/>
                             <constraint firstItem="lhf-eS-zxE" firstAttribute="top" secondItem="3eN-dQ-YhN" secondAttribute="bottom" id="XiP-sh-lWV"/>
                             <constraint firstItem="gwI-cE-tmH" firstAttribute="top" secondItem="Wei-2j-Gxz" secondAttribute="top" constant="20" id="Xvf-N5-O2X"/>
+                            <constraint firstItem="RpM-0x-nlY" firstAttribute="trailing" secondItem="Wei-2j-Gxz" secondAttribute="trailing" constant="5" id="aN9-0R-uyO"/>
                             <constraint firstItem="f2U-0C-7sE" firstAttribute="leading" secondItem="gwI-cE-tmH" secondAttribute="trailing" constant="8" id="ceU-bo-11H"/>
                             <constraint firstItem="hLO-Xx-5Hf" firstAttribute="top" secondItem="XAg-FG-9QZ" secondAttribute="bottom" id="cty-uz-Cc7"/>
                             <constraint firstItem="WUk-cF-zdQ" firstAttribute="leading" secondItem="Wei-2j-Gxz" secondAttribute="trailing" constant="8" id="f2D-dS-3a4"/>
@@ -741,6 +761,7 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="1N0-Ri-dby"/>
                     <connections>
+                        <outlet property="profilePhoto" destination="Wei-2j-Gxz" id="d8u-Nb-J39"/>
                         <outlet property="roundContainerView" destination="Mrk-mQ-qko" id="TdS-gf-bgr"/>
                         <outlet property="segmentedControl" destination="PEM-eD-top" id="akG-0d-bCo"/>
                         <outlet property="subtitleLabel" destination="WUk-cF-zdQ" id="kKv-SQ-mWp"/>
@@ -2862,6 +2883,7 @@ datos y ¡listo!</string>
         <image name="ftu2" width="725" height="766"/>
         <image name="ftu3" width="742" height="760"/>
         <image name="ftu4" width="730" height="800"/>
+        <image name="image" width="40" height="40"/>
         <image name="mas" width="125" height="128"/>
         <image name="menos" width="129" height="128"/>
         <image name="start" width="542" height="553"/>

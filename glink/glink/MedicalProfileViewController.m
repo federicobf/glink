@@ -9,7 +9,7 @@
 #import "MedicalProfileViewController.h"
 #import "MedicalProfileTableViewCell.h"
 
-@interface MedicalProfileViewController () <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
+@interface MedicalProfileViewController () <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate , UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIView *roundContainerView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
@@ -17,6 +17,9 @@
 @property (strong, nonatomic) UITextField *fakeSubtitleTextfield;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *profilePhoto;
+@property (weak, nonatomic) IBOutlet UIImage *userPhoto;
+@property (weak, nonatomic) IBOutlet UIImage *doctorPhoto;
 
 @end
 
@@ -27,10 +30,17 @@
     [self createFakeTextfield];
     [self setUpScrollView];
 
+    
     self.roundContainerView.layer.cornerRadius = self.roundContainerView.bounds.size.width/2;
     self.tableView.separatorColor = [UIColor clearColor];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    
+   
+        
+    
+        
+    
 }
 
 - (void) setUpScrollView {
@@ -59,6 +69,12 @@
 
 - (IBAction)segmentedControlChanged:(id)sender {
     [self.tableView reloadData];
+    
+    if (self.segmentedControl.selectedSegmentIndex == 1) {
+        self.profilePhoto.image = self.doctorPhoto;
+    } else {
+        self.profilePhoto.image = self.userPhoto;
+    }
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -291,5 +307,37 @@
         }];
     }];
 }
+- (IBAction)selectPhoto:(id)sender {
+    
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.allowsEditing = YES;
+    picker.sourceType =UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    [self presentViewController:picker animated:YES completion:NULL];
+}
 
-@end
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
+    self.profilePhoto.image = chosenImage;
+    self.profilePhoto.layer.cornerRadius = self.profilePhoto.bounds.size.width/2;
+    self.profilePhoto.layer.masksToBounds = YES;
+    
+
+    
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+    if (self.segmentedControl.selectedSegmentIndex == 1) {
+        self.doctorPhoto = _profilePhoto.image;
+    }
+    else {
+        self.userPhoto = self.profilePhoto.image;
+    
+    }
+
+    
+}
+    
+    @end
+
