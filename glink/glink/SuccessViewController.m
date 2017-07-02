@@ -44,11 +44,20 @@
     [super viewDidAppear: animated];
     self.value.text = [NSString stringWithFormat:@"%.2f", [[HealthManager sharedInstance] calculoFinalBolo]];
     [MBProgressHUD hideHUDForView:self.window animated:YES];
-
+    [self saveValue];
 }
 
 - (IBAction)finalize:(id)sender {
     [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void) saveValue {    
+    HealthDTO* dto = [HealthDTO new];
+    dto.carbohidratos = [HealthManager sharedInstance].cantidadch;
+    dto.glucemia = [HealthManager sharedInstance].glucemia;
+    dto.insulina = [[HealthManager sharedInstance] calculoFinalBolo];
+    dto.date = [NSDate date];
+    [[HealthManager sharedInstance] storeNewItem:dto];
 }
 
 @end

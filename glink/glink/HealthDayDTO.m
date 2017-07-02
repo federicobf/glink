@@ -31,5 +31,22 @@
     
 }
 
+- (NSString *) dateKey
+{
+    NSDateFormatter *yearFormatter = [[NSDateFormatter alloc] init];
+    [yearFormatter setDateFormat: @"yyyy"];
+    
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    if ([[yearFormatter stringFromDate:self.date] isEqualToString:[yearFormatter stringFromDate:[NSDate date]]]) {
+        [formatter setDateFormat: @"dd/MM"];
+    } else {
+        [formatter setDateFormat: @"dd/MM/yy"];
+    }
+    
+        
+    return [formatter stringFromDate:self.date];
+}
 
 @end

@@ -18,8 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *profilePhoto;
-@property (weak, nonatomic) IBOutlet UIImage *userPhoto;
-@property (weak, nonatomic) IBOutlet UIImage *doctorPhoto;
+@property (strong, nonatomic) IBOutlet UIImage *userPhoto;
+@property (strong, nonatomic) IBOutlet UIImage *doctorPhoto;
 
 @end
 
@@ -37,9 +37,10 @@
     self.tableView.dataSource = self;
     
    
-        
     
-        
+    self.profilePhoto.image =  [UIImage imageNamed:@"profileimage"];
+    
+    
     
 }
 
@@ -71,9 +72,10 @@
     [self.tableView reloadData];
     
     if (self.segmentedControl.selectedSegmentIndex == 1) {
-        self.profilePhoto.image = self.doctorPhoto;
+        self.profilePhoto.image =  self.doctorPhoto != nil? self.doctorPhoto : [UIImage imageNamed:@"profileimage"];
+    
     } else {
-        self.profilePhoto.image = self.userPhoto;
+        self.profilePhoto.image = self.userPhoto != nil? self.userPhoto : [UIImage imageNamed:@"profileimage"];
     }
 }
 

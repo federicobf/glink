@@ -32,6 +32,9 @@ extern const float kMaxTarget;
 extern const float kMinSensibilidad;
 extern const float kMaxSensibilidad;
 
+extern const float kMinInsulina;
+extern const float kMaxInsulina;
+
 #define kHelpCarbohidratos @"Este valor debe ser completado con la cantidad de carbohidratos que usted va a ingerir en la comida próxima";
 #define kHelpGlucemia @"Este campo debe ser completado con lo que haya detectado el dispositivo capilar o sensor previo a la comida próxima";
 #define kHelpRelacion @"Este dato debe ser indicado por su medico, representa la cantidad de carbohidratos que una unidad de insulina utilizara para mantener la glucemia normal.";

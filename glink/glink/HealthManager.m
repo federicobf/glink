@@ -31,6 +31,9 @@ const float kMaxTarget          = 200.0f;
 const float kMinSensibilidad    = 10.0f;
 const float kMaxSensibilidad    = 100.0f;
 
+const float kMinInsulina   = 0.0f;
+const float kMaxInsulina    = 40.0f;
+
 @implementation HealthManager
 
 + (instancetype)sharedInstance
@@ -95,7 +98,13 @@ const float kMaxSensibilidad    = 100.0f;
         return 100000000;
     }
     
-    return -[self getLastEntryDate].timeIntervalSinceNow;
+    float interval = -[self getLastEntryDate].timeIntervalSinceNow;
+    
+    if (interval < 0) {
+        interval = 0;
+    }
+    
+    return interval;
 
 }
 
