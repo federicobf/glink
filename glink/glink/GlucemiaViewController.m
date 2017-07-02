@@ -97,7 +97,7 @@
                                  
                                  CGFloat glucemiaValue = self.amountLabel.text.floatValue;
                                  [HealthManager sharedInstance].glucemia = glucemiaValue;
-                                 [self performSegueWithIdentifier:@"nextStep" sender:nil];
+                                 [self afterValueCheckFlow];
                                  
                              }];
     [alert addAction:action];
@@ -130,7 +130,7 @@
                                  
                                  CGFloat glucemiaValue = self.amountLabel.text.floatValue;
                                  [HealthManager sharedInstance].glucemia = glucemiaValue;
-                                 [self performSegueWithIdentifier:@"nextStep" sender:nil];
+                                 [self afterValueCheckFlow];
                                  
                              }];
     [alert addAction:action];
@@ -186,7 +186,13 @@
         [self hiperglucemiaFlow];
         return;
     }
-    
+    [self afterValueCheckFlow];
+}
+
+- (void) afterValueCheckFlow
+{
+    CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+
     if (![self checkEntryTimeAllowed]) {
         [self glucemiaActivaFlow];
         return;
@@ -248,12 +254,7 @@
                                  {
                                      [[NSUserDefaults standardUserDefaults] setObject:value forKey:@"InsulinaActivaKey"];
                                      [alert dismissViewControllerAnimated:YES completion:nil];
-                                     if (dismiss) {
-                                         [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
-                                     }
-                                     else {
-                                         [self continue:nil];
-                                     }
+                                     [self afterValueCheckFlow];
                                      
                                  }];
         [alert addAction:action];

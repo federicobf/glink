@@ -14,4 +14,5 @@
 @property NSDate* date;
 @property NSMutableArray* healthItems;
 
+- (NSString *) dateKey;
 @end
