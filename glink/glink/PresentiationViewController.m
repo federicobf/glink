@@ -57,21 +57,15 @@
 }
 
 - (IBAction)sendMail:(id)sender {
-    if([MFMailComposeViewController canSendMail]){
         
-        MFMailComposeViewController *mail=[[MFMailComposeViewController alloc]init];
-        mail.mailComposeDelegate=self;
-        [mail setSubject:@"Reporte glink"];
-        [mail addAttachmentData:self.pdfData mimeType:@"application/pdf" fileName:@"reporte_glink.pdf"];
-        NSString * body = @"Reporte de salud actualizado de los ultimos meses";
-        [mail setMessageBody:body isHTML:NO];
-        [self presentViewController:mail animated:YES completion:^{
-            
-        }];
-    }
-    else
-    {
-        NSLog(@"Message cannot be sent");
+    MFMailComposeViewController *mail=[[MFMailComposeViewController alloc]init];
+    mail.mailComposeDelegate=self;
+    [mail setSubject:@"Reporte glink"];
+    [mail addAttachmentData:self.pdfData mimeType:@"application/pdf" fileName:@"reporte_glink.pdf"];
+    NSString * body = @"Reporte de salud actualizado de los ultimos meses";
+    [mail setMessageBody:body isHTML:NO];
+    if (mail) {
+        [self presentViewController:mail animated:YES completion:nil];
     }
 }
 

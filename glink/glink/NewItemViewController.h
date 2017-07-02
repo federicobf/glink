@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *chTextfield;
 @property (weak, nonatomic) IBOutlet UITextField *glucemiaTextfield;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+@property (weak, nonatomic) IBOutlet UITextField *insulinaTextfield;
 
 @end

@@ -30,6 +30,12 @@
     self.chTextfield.inputAccessoryView = [self toolbarWithTag:1];
     self.chTextfield.delegate = self;
     
+    self.insulinaTextfield.tag = 3;
+    self.insulinaTextfield.text = @"0";
+    self.insulinaTextfield.keyboardType = UIKeyboardTypeDecimalPad;
+    self.insulinaTextfield.inputAccessoryView = [self toolbarWithTag:3];
+    self.insulinaTextfield.delegate = self;
+    
     // Do any additional setup after loading the view.
 }
 
@@ -69,6 +75,9 @@
         if (textField.tag == 2) {
             self.glucemiaTextfield.text  = newString;
         }
+        if (textField.tag == 3) {
+            self.insulinaTextfield.text  = newString;
+        }
     }
     
     return NO;
@@ -97,6 +106,10 @@
     if (sender.tag == 2) {
         self.glucemiaTextfield.text = @"0";
     }
+    
+    if (sender.tag == 3) {
+        self.insulinaTextfield.text = @"0";
+    }
 }
 
 -(void)returnNumberPad: (UIBarButtonItem*) sender
@@ -118,6 +131,7 @@
 - (IBAction)continuar:(id)sender {
     CGFloat chValue = self.chTextfield.text.floatValue;
     CGFloat glucemiaValue = self.glucemiaTextfield.text.floatValue;
+    CGFloat insulinaValue = self.insulinaTextfield.text.floatValue;
     
     
     if (chValue <= kMinCH || chValue > kMaxCH) {
@@ -135,7 +149,7 @@
     HealthDTO* dto = [HealthDTO new];
     dto.carbohidratos = chValue;
     dto.glucemia = glucemiaValue;
-    dto.insulina = 0;
+    dto.insulina = insulinaValue;
     dto.date = self.datePicker.date;
     
     [[HealthManager sharedInstance] storeNewItem:dto];

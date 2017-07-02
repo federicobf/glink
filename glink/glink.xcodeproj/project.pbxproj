@@ -158,6 +158,7 @@
 		98B5C9D91F094D9D00BC181E /* PresentiationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B5C9D81F094D9D00BC181E /* PresentiationViewController.m */; };
 		98B5C9DC1F0957F200BC181E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B5C9DB1F0957F200BC181E /* MessageUI.framework */; };
 		98B5C9DF1F095B3100BC181E /* PresentationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B5C9DE1F095B3100BC181E /* PresentationItem.m */; };
+		98B5C9E11F096D9B00BC181E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B5C9E01F096D9B00BC181E /* MapKit.framework */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
 		F79CCF201E665088008F9E3A /* MedicalProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1F1E665088008F9E3A /* MedicalProfileTableViewCell.m */; };
 		F7A33AF61ED2AB5400D6E0F3 /* Aguas Saborizadas.json in Resources */ = {isa = PBXBuildFile; fileRef = F7A33AE81ED2AB5400D6E0F3 /* Aguas Saborizadas.json */; };
@@ -391,6 +392,7 @@
 		98B5C9DB1F0957F200BC181E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		98B5C9DD1F095B3100BC181E /* PresentationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationItem.h; sourceTree = "<group>"; };
 		98B5C9DE1F095B3100BC181E /* PresentationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationItem.m; sourceTree = "<group>"; };
+		98B5C9E01F096D9B00BC181E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F79CCF1B1E663097008F9E3A /* MedicalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileViewController.h; sourceTree = "<group>"; };
 		F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalProfileViewController.m; sourceTree = "<group>"; };
 		F79CCF1E1E665088008F9E3A /* MedicalProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalProfileTableViewCell.h; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B5C9E11F096D9B00BC181E /* MapKit.framework in Frameworks */,
 				98B5C9DC1F0957F200BC181E /* MessageUI.framework in Frameworks */,
 				981288AC1EC8144C0082D1A6 /* FirebaseAnalytics.framework in Frameworks */,
 				981288BC1EC8144C0082D1A6 /* FirebaseDynamicLinks.framework in Frameworks */,
@@ -934,6 +937,7 @@
 		98B5C9DA1F0957F200BC181E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98B5C9E01F096D9B00BC181E /* MapKit.framework */,
 				98B5C9DB1F0957F200BC181E /* MessageUI.framework */,
 			);
 			name = Frameworks;

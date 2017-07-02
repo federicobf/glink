@@ -8,8 +8,10 @@
 
 #import "MedicalProfileViewController.h"
 #import "MedicalProfileTableViewCell.h"
+#import <MessageUI/MessageUI.h>
+#import <MapKit/MapKit.h>
 
-@interface MedicalProfileViewController () <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate , UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface MedicalProfileViewController () <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate , UIImagePickerControllerDelegate, UINavigationControllerDelegate, MFMailComposeViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIView *roundContainerView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
@@ -36,11 +38,21 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-   
+    NSData* imageDataMedico = [[NSUserDefaults standardUserDefaults] objectForKey:@"Foto-Medico"];
+    UIImage* imageMedico = [UIImage imageWithData:imageDataMedico];
+    self.doctorPhoto = (imageMedico != nil) ? imageMedico : [UIImage imageNamed:@"profileimage"];
     
-    self.profilePhoto.image =  [UIImage imageNamed:@"profileimage"];
     
+    NSData* imageDataPaciente = [[NSUserDefaults standardUserDefaults] objectForKey:@"Foto-Paciente"];
+    UIImage* imagePaciente = [UIImage imageWithData:imageDataPaciente];
+    self.userPhoto = (imagePaciente != nil) ? imagePaciente : [UIImage imageNamed:@"profileimage"];
     
+    self.profilePhoto.image = self.userPhoto;
+    
+    self.profilePhoto.layer.cornerRadius = self.profilePhoto.bounds.size.width/2;
+    self.profilePhoto.layer.masksToBounds = YES;
+    
+    [self updateWithSavedData];
     
 }
 
@@ -77,6 +89,9 @@
     } else {
         self.profilePhoto.image = self.userPhoto != nil? self.userPhoto : [UIImage imageNamed:@"profileimage"];
     }
+    [self updateWithSavedData];
+    self.profilePhoto.layer.cornerRadius = self.profilePhoto.bounds.size.width/2;
+    self.profilePhoto.layer.masksToBounds = YES;
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -107,6 +122,7 @@
     
     if (indexPath.row == 0) {
         cell.cellLabel.text = @"Email";
+        cell.cellTextField.keyboardType = UIKeyboardTypeEmailAddress;
         [cell.cellButton setTitle:@"ENVIAR MAIL" forState:UIControlStateNormal];
         cell.cellTextField.tag = 201;
         
@@ -114,7 +130,7 @@
     
     if (indexPath.row == 1) {
         cell.cellLabel.text = @"Teléfono";
-        cell.cellTextField.keyboardType = UIKeyboardTypeNumberPad;
+        cell.cellTextField.keyboardType = UIKeyboardTypePhonePad;
         [cell.cellButton setTitle:@"LLAMAR" forState:UIControlStateNormal];
         cell.cellTextField.tag = 202;
     }
@@ -122,11 +138,13 @@
     if (indexPath.row == 2) {
         cell.cellLabel.text = @"Web";
         [cell.cellButton setTitle:@"ENTRAR" forState:UIControlStateNormal];
+        cell.cellTextField.keyboardType = UIKeyboardTypeURL;
         cell.cellTextField.tag = 203;
     }
     
     if (indexPath.row == 3) {
         cell.cellLabel.text = @"Ubicación";
+        cell.cellTextField.keyboardType = UIKeyboardTypeDefault;
         [cell.cellButton setTitle:@"VER MAPA" forState:UIControlStateNormal];
         cell.cellTextField.tag = 204;
     }
@@ -144,9 +162,7 @@
     NSIndexPath *indexPath = cell.indexPath;
     
     if (indexPath.row == 0) {
-        
-        
-        
+        [self sendEmailTo:cell.cellTextField.text];
     }
     
     if (indexPath.row == 1) {
@@ -158,6 +174,10 @@
     if (indexPath.row == 2) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString: cell.cellTextField.text]];
         
+    }
+    
+    if (indexPath.row == 3) {
+        [self openMapsWithAddress: cell.cellTextField.text];
     }
 
 
@@ -189,12 +209,14 @@
     if (indexPath.row == 1) {
         cell.cellLabel.text = @"Sexo";
         [cell.cellButton setTitle:@"" forState:UIControlStateNormal];
+        cell.cellTextField.keyboardType = UIKeyboardTypeDefault;
         cell.cellTextField.tag = 102;
     }
     
     if (indexPath.row == 2) {
         cell.cellLabel.text = @"Web";
         [cell.cellButton setTitle:@"" forState:UIControlStateNormal];
+        cell.cellTextField.keyboardType = UIKeyboardTypeURL;
         cell.cellTextField.tag = 103;
     }
     
@@ -213,10 +235,47 @@
     return cell;
 }
 
+- (void) updateWithSavedData
+{
+    if (self.segmentedControl.selectedSegmentIndex == 0) {
+        [self showSavedDataForPaciente];
+    } else {
+        [self showSavedDataForMedico];
+    }
+}
+
+- (void) showSavedDataForPaciente
+{
+    self.titleLabel.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Paciente-Title"];
+    self.subtitleLabel.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Paciente-Subtitle"];
+}
+
+
+- (void) showSavedDataForMedico
+{
+    self.titleLabel.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Medico-Title"];
+    self.subtitleLabel.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"Medico-Subtitle"];
+}
+
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
-
-    if (textField.tag == 0) {
+    if (textField == self.fakeTitleTextfield && self.segmentedControl.selectedSegmentIndex == 0) {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Paciente-Title"];
+        return;
+    }
+    
+    if (textField == self.fakeTitleTextfield && self.segmentedControl.selectedSegmentIndex == 1) {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Medico-Title"];
+        return;
+    }
+    
+    if (textField == self.fakeSubtitleTextfield && self.segmentedControl.selectedSegmentIndex == 0) {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Paciente-Subtitle"];
+        return;
+    }
+    
+    if (textField == self.fakeSubtitleTextfield && self.segmentedControl.selectedSegmentIndex == 1) {
+        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Medico-Subtitle"];
         return;
     }
     
@@ -323,22 +382,101 @@
     
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     self.profilePhoto.image = chosenImage;
-    self.profilePhoto.layer.cornerRadius = self.profilePhoto.bounds.size.width/2;
-    self.profilePhoto.layer.masksToBounds = YES;
+
     
 
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
     if (self.segmentedControl.selectedSegmentIndex == 1) {
-        self.doctorPhoto = _profilePhoto.image;
+        self.doctorPhoto = self.profilePhoto.image;
+        [[NSUserDefaults standardUserDefaults] setObject:UIImagePNGRepresentation(chosenImage) forKey:@"Foto-Medico"];
     }
     else {
         self.userPhoto = self.profilePhoto.image;
-    
+        [[NSUserDefaults standardUserDefaults] setObject:UIImagePNGRepresentation(chosenImage) forKey:@"Foto-Paciente"];
     }
-
     
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (void) sendEmailTo: (NSString *) recipient
+{
+    // Email Subject
+    NSString *emailTitle = @"Consulta medica";
+    // Email Content
+    NSString *messageBody = @"";
+    // To address
+    NSArray *toRecipents = [NSArray arrayWithObject:recipient];
+    
+    MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
+    mc.mailComposeDelegate = self;
+    [mc setSubject:emailTitle];
+    [mc setMessageBody:messageBody isHTML:NO];
+    [mc setToRecipients:toRecipents];
+    
+    // Present mail view controller on screen
+    if (mc) {
+        [self presentViewController:mc animated:YES completion:NULL];
+    }
+}
+
+- (IBAction)openMapsWithAddress: (NSString *) address
+{
+    
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:address
+                 completionHandler:^(NSArray *placemarks, NSError *error) {
+                     
+                     // Convert the CLPlacemark to an MKPlacemark
+                     // Note: There's no error checking for a failed geocode
+                     CLPlacemark *geocodedPlacemark = [placemarks objectAtIndex:0];
+                     MKPlacemark *placemark = [[MKPlacemark alloc]
+                                               initWithCoordinate:geocodedPlacemark.location.coordinate
+                                               addressDictionary:geocodedPlacemark.addressDictionary];
+                     
+                     // Create a map item for the geocoded address to pass to Maps app
+                     MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
+                     [mapItem setName:geocodedPlacemark.name];
+                     
+                     // Set the directions mode to "Driving"
+                     // Can use MKLaunchOptionsDirectionsModeWalking instead
+                     NSDictionary *launchOptions = @{MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving};
+                     
+                     // Get the "Current User Location" MKMapItem
+                     MKMapItem *currentLocationMapItem = [MKMapItem mapItemForCurrentLocation];
+                     
+                     // Pass the current location and destination map items to the Maps app
+                     // Set the direction mode in the launchOptions dictionary
+                     [MKMapItem openMapsWithItems:@[currentLocationMapItem, mapItem] launchOptions:launchOptions];
+                     
+                 }];
+}
+
+
+- (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail saved");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail sent");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail sent failure: %@", [error localizedDescription]);
+            break;
+        default:
+            break;
+    }
+    
+    
+    // Close the Mail Interface
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
     
     @end

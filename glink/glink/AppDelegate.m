@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[UITextField appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]] setBackgroundColor:[UIColor colorWithRed:243/255.f green:244/255.f blue:245/255.f alpha:1]];
     [FIRApp configure];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 

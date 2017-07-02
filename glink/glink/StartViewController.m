@@ -44,6 +44,22 @@
     self.untickImage.image = [UIImage imageNamed:@"tickoff"];
     self.startButton.layer.cornerRadius = 23;
     self.startButton.layer.masksToBounds = YES;
+    self.view.alpha = 0;
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    BOOL firstTimeSeen = [[NSUserDefaults standardUserDefaults] boolForKey:@"ftuSeen"];
+    
+    if (firstTimeSeen) {
+        [self performSegueWithIdentifier:@"autoContinue"sender:nil];
+    } else {
+        [UIView animateWithDuration:.5f animations:^{
+            self.view.alpha = 1;
+        }];
+    }
+    
 }
 
 @end

@@ -24,6 +24,7 @@
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.delegate = self;
     self.scrollView.contentInset = UIEdgeInsetsMake(0, [UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2);
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"ftuSeen"];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
