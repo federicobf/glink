@@ -17,4 +17,4 @@ branches:
 branches:
   only:
   - master
-  - stable
+  - development
