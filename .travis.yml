@@ -12,9 +12,3 @@ branches:
   except:
   - legacy
   - experimental
-
-# safelist
-branches:
-  only:
-  - master
-  - development
