@@ -118,6 +118,9 @@
                                     <constraint firstAttribute="width" constant="266" id="cso-UT-rEN"/>
                                 </constraints>
                                 <state key="normal" title="Ver gráfico"/>
+                                <connections>
+                                    <action selector="seegraphic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c2g-6H-AHJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="¡Listo!  Debes aplicarte la siguiente cantidad de bolo:" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg3-v1-hDN">
                                 <rect key="frame" x="64" y="290" width="248" height="43"/>

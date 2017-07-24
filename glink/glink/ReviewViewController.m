@@ -168,7 +168,7 @@
     
     ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Dosis Parcial" message:@"Si tienes pensado realizar ejercicio debes aplicarte una dosis parcial acorde al porcentaje (%) de reducción recomendado por tu médico." alertType:AlertTypeMultipleChoice];
     
-    for (NSNumber *value in @[@10,@20,@25,@30,@40,@50,@60,@70,@80,@90]) {
+    for (NSNumber *value in @[@10,@20,@30,@40,@50,@60,@70,@80,@90]) {
         float alpha = ( 200.f - value.floatValue) / 200.f;
         UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:alpha];
         [alert addButton:[NSString stringWithFormat:@"%.f%%", value.floatValue] color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
@@ -178,7 +178,7 @@
         }];
     }
     
-    [alert addButton:@"Cancelar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+    [alert addButton:@"No realizaré ejercicio" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
         [alertview dismissAlertView];
         self.reductionFactor = 1;
         ZAlertView.buttonHeight = 40;

@@ -51,6 +51,11 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
+- (IBAction)seegraphic:(id)sender {
+    self.tabBarController.selectedIndex = 2;
+    [self.navigationController popToRootViewControllerAnimated:NO];
+}
+
 - (void) saveValue {    
     HealthDTO* dto = [HealthDTO new];
     dto.carbohidratos = [HealthManager sharedInstance].cantidadch;
