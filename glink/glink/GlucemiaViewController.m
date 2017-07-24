@@ -198,7 +198,7 @@
     UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     UIColor *textColor = [UIColor whiteColor];
     
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Glucemia bloqueada" message:[NSString stringWithFormat:@"Este calculo se realizara solo teniendo en cuenta los carbohidratos ingresados porque la duración de la insulina activa configurada es de %.0f horas", [self tiempoInsulinaActiva]] alertType:AlertTypeMultipleChoice];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Glucemia bloqueada" message:[NSString stringWithFormat:@"Este cálculo se realizara solo teniendo en cuenta los carbohidratos ingresados porque la duración de la insulina activa configurada es de %.0f horas", [self tiempoInsulinaActiva]] alertType:AlertTypeMultipleChoice];
     
     [alert addButton:@"De acuerdo" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
         [alertview dismissAlertView];

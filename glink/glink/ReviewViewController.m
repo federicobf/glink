@@ -162,37 +162,30 @@
 
 - (void) ejercicioFlow {
     
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Dosis Parcial"
-                                  message:@"Si tienes pensado realizar ejercicio debes aplicarte una dosis parcial acorde al porcentaje (%) de reducción recomendado por tu médico."
-                                  preferredStyle:UIAlertControllerStyleAlert];
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    ZAlertView.buttonHeight = 20;
+    
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Dosis Parcial" message:@"Si tienes pensado realizar ejercicio debes aplicarte una dosis parcial acorde al porcentaje (%) de reducción recomendado por tu médico." alertType:AlertTypeMultipleChoice];
     
     for (NSNumber *value in @[@10,@20,@25,@30,@40,@50,@60,@70,@80,@90]) {
-        UIAlertAction* action = [UIAlertAction
-                                 actionWithTitle:[NSString stringWithFormat:@"%.f%%", value.floatValue]
-                                 style:UIAlertActionStyleDefault
-                                 handler:^(UIAlertAction * action)
-                                 {
-                                     [alert dismissViewControllerAnimated:YES completion:nil];
-                                     self.reductionFactor = (1 - value.integerValue/100.f);
-
-                                     
-                                 }];
-        [alert addAction:action];
+        float alpha = ( 200.f - value.floatValue) / 200.f;
+        UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:alpha];
+        [alert addButton:[NSString stringWithFormat:@"%.f%%", value.floatValue] color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+            self.reductionFactor = (1 - value.integerValue/100.f);
+            ZAlertView.buttonHeight = 40;
+        }];
     }
     
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"Cancelar"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   self.reductionFactor = 1;
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                               }];
-    [alert addAction:cancelar];
+    [alert addButton:@"Cancelar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        self.reductionFactor = 1;
+        ZAlertView.buttonHeight = 40;
+        [self.switchItem setOn:NO animated:YES];
+    }];
     
-    [self presentViewController:alert animated:YES completion:nil];
-    
+    [alert show];
 }
 
 - (IBAction)nextStep:(id)sender {
