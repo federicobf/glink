@@ -324,31 +324,31 @@ la revisión de tu médico personal.</string>
                                 </connections>
                             </button>
                             <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1d-wn-Sr7">
-                                <rect key="frame" x="75" y="50" width="225" height="400"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="400"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7X-qr-OmK" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="900" height="400"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="400"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ftu1" translatesAutoresizingMaskIntoConstraints="NO" id="A5C-f9-STC">
-                                                <rect key="frame" x="0.0" y="0.0" width="226" height="200"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="376" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="1dt-K5-zi9"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ftu2" translatesAutoresizingMaskIntoConstraints="NO" id="yu5-Nf-kke">
-                                                <rect key="frame" x="222" y="0.0" width="226" height="200"/>
+                                                <rect key="frame" x="372" y="0.0" width="376" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="kiW-Rq-AbH"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ftu3" translatesAutoresizingMaskIntoConstraints="NO" id="Ofo-xf-1ta">
-                                                <rect key="frame" x="448" y="1" width="226" height="200"/>
+                                                <rect key="frame" x="748" y="1" width="376" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="YmM-i0-NwF"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ftu4" translatesAutoresizingMaskIntoConstraints="NO" id="gam-4e-QkC">
-                                                <rect key="frame" x="674" y="1" width="226" height="200"/>
+                                                <rect key="frame" x="1124" y="1" width="376" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="QDv-jT-OvF"/>
                                                 </constraints>
@@ -491,12 +491,13 @@ a tí y tu médico personal hacer un seguimiento de tu salud.</string>
                             <constraint firstItem="pOT-vD-2XP" firstAttribute="centerX" secondItem="H0I-6f-vqC" secondAttribute="centerX" id="hIf-KD-I7f"/>
                             <constraint firstItem="65O-BC-l8l" firstAttribute="top" secondItem="pOT-vD-2XP" secondAttribute="bottom" priority="600" constant="36" id="jes-Jk-fpv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bH0-BP-JXB" secondAttribute="trailing" constant="-16" id="lbl-X6-wIQ"/>
-                            <constraint firstItem="w1d-wn-Sr7" firstAttribute="width" secondItem="H0I-6f-vqC" secondAttribute="width" multiplier="3:5" id="rOL-xk-0uk"/>
+                            <constraint firstItem="w1d-wn-Sr7" firstAttribute="width" secondItem="H0I-6f-vqC" secondAttribute="width" id="rOL-xk-0uk"/>
                             <constraint firstItem="pOT-vD-2XP" firstAttribute="top" secondItem="MD2-sv-NgT" secondAttribute="bottom" constant="14" id="vLe-gQ-OAa"/>
                             <constraint firstItem="bH0-BP-JXB" firstAttribute="top" secondItem="65O-BC-l8l" secondAttribute="bottom" priority="400" constant="48" id="yk9-LJ-pAG"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bluearrow" destination="LUL-Mg-YFt" id="qr1-X4-E4c"/>
                         <outlet property="comenzar" destination="65O-BC-l8l" id="HDA-UZ-dIR"/>
                         <outlet property="descriptionLabel" destination="pOT-vD-2XP" id="s94-pW-R7X"/>
                         <outlet property="ftu1" destination="A5C-f9-STC" id="rrh-Ii-lcJ"/>
@@ -1011,7 +1012,7 @@ MES</string>
                                         <rect key="frame" x="0.0" y="28" width="343" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o5Z-Oz-Eed" id="UgI-Um-yer">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17q-VA-HhY">
@@ -1888,7 +1889,7 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="1" width="375" height="103"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fje-8Q-zzS" id="wrU-eL-5IV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="102.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userGuides>
                                                 <userLayoutGuide location="24" affinity="minY"/>

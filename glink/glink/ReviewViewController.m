@@ -12,6 +12,8 @@
 #import "GlucemiaViewController.h"
 #import "SlidersViewController.h"
 #import "SegmentedScrollView.h"
+#import "glink-Swift.h"
+
 
 @interface ReviewViewController () <ButtonPressDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *relacion;
@@ -85,8 +87,12 @@
 }
 
 - (void) displayMessageForRecovering: (NSString*) message {
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Valores Predeterminados" message:[NSString stringWithFormat:@"Estos valores se cargan automáticamente en el siguiente periodo: %@", message] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Valores Predeterminados" message:[NSString stringWithFormat:@"Estos valores se cargan automáticamente en el siguiente periodo: %@", message] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
     [alert show];
+    
     
 }
 

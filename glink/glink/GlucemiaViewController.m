@@ -8,6 +8,7 @@
 
 #import "GlucemiaViewController.h"
 #import "HealthManager.h"
+#import "glink-Swift.h"
 
 @interface GlucemiaViewController ()
 
@@ -85,59 +86,37 @@
 
 - (void) hipoglucemiaFlow {
     
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Hipoglucemia"
-                                  message:@"Usted ha indicado un valor de glucemia demasiado bajo, estando el mismo considerado dentro del rango de la hipoglucemia. ¿Desea continuar?"
-                                  preferredStyle:UIAlertControllerStyleAlert];
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
     
-    UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"Si"
-                             style:UIAlertActionStyleDefault
-                             handler:^(UIAlertAction * action)
-                             {
-                                 
-                                 CGFloat glucemiaValue = self.amountLabel.text.floatValue;
-                                 [HealthManager sharedInstance].glucemia = glucemiaValue;
-                                 [self afterValueCheckFlow];
-                                 
-                             }];
-    [alert addAction:action];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Hipoglucemia" message:@"Usted ha indicado un valor de glucemia demasiado bajo, estando el mismo considerado dentro del rango de la hipoglucemia. ¿Desea continuar?" alertType:AlertTypeMultipleChoice];
     
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"No"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                               }];
-    [alert addAction:cancelar];
+    [alert addButton:@"Si" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+        [HealthManager sharedInstance].glucemia = glucemiaValue;
+        [self afterValueCheckFlow];
+    }];
     
-    [self presentViewController:alert animated:YES completion:nil];
+    [alert addButton:@"No" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
     
 }
 
-- (void) hiperglucemiaFlow {
+- (void) hiperglucemiaFlow
+{
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Hiperglucemia" message:@"Usted ha indicado un valor de glucemia considerado dentro del rango de la hiperglucemia." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        
+        CGFloat glucemiaValue = self.amountLabel.text.floatValue;
+        [HealthManager sharedInstance].glucemia = glucemiaValue;
+        [self afterValueCheckFlow];
+    }];
+    [alert show];
     
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Hiperglucemia"
-                                  message:@"Usted ha indicado un valor de glucemia considerado dentro del rango de la hiperglucemia."
-                                  preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"De acuerdo"
-                             style:UIAlertActionStyleDefault
-                             handler:^(UIAlertAction * action)
-                             {
-                                 
-                                 CGFloat glucemiaValue = self.amountLabel.text.floatValue;
-                                 [HealthManager sharedInstance].glucemia = glucemiaValue;
-                                 [self afterValueCheckFlow];
-                                 
-                             }];
-    [alert addAction:action];
-
-    
-    [self presentViewController:alert animated:YES completion:nil];
     
 }
 
@@ -170,7 +149,11 @@
     
     //ERROR
     if ((glucemiaValue < kMinGlucemia || glucemiaValue > kMaxGlucemia)&& [self checkEntryTimeAllowed]) {
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor inválido para la utilización de esta app. \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+
+        
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor inválido para la utilización de esta app. \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
         [alert show];
         return;
     }
@@ -211,67 +194,49 @@
 
 
 - (void) glucemiaActivaFlow {
+
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
     
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Campo bloqueado"
-                                  message:[NSString stringWithFormat:@"Tienen que pasar al menos %.f horas para que pueda volver a aplicarse una dosis relativa a su glucemia.", [self tiempoInsulinaActiva]]
-                                  preferredStyle:UIAlertControllerStyleAlert];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Glucemia bloqueada" message:[NSString stringWithFormat:@"Este calculo se realizara solo teniendo en cuenta los carbohidratos ingresados porque la duración de la insulina activa configurada es de %.0f horas", [self tiempoInsulinaActiva]] alertType:AlertTypeMultipleChoice];
     
-    UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"De acuerdo"
-                             style:UIAlertActionStyleDefault
-                             handler:^(UIAlertAction * action)
-                             {
-                                 [alert dismissViewControllerAnimated:YES completion:nil];
-                                 
-                             }];
-    [alert addAction:action];
+    [alert addButton:@"De acuerdo" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        [HealthManager sharedInstance].glucemia = 0;
+        [self performSegueWithIdentifier:@"nextStep" sender:nil];
+    }];
     
-    UIAlertAction* cambiar = [UIAlertAction
-                              actionWithTitle:@"Modificar duración"
-                              style:UIAlertActionStyleCancel
-                              handler:^(UIAlertAction * action)
-                              {
-                                  [self cambiarInsulinaActiva: YES];
-                                  [alert dismissViewControllerAnimated:YES completion:nil];
-                              }];
-    [alert addAction:cambiar];
-    
-    [self presentViewController:alert animated:YES completion:nil];
+    [alert addButton:@"Modificar duración" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        [self cambiarInsulinaActiva: YES];
+    }];
+
+    [alert show];
     
 }
 
-- (void) cambiarInsulinaActiva: (BOOL) dismiss {
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Modificar duración de insulina activa"
-                                  message:@"Elija la cantidad de horas indicada por su médico acerca del lapso de tiempo mínimo que debe transcurrir entre la aplicación de una dosis y la siguiente."
-                                  preferredStyle:(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)? UIAlertControllerStyleAlert: UIAlertControllerStyleActionSheet];
+- (void) cambiarInsulinaActiva: (BOOL) dismiss
+{
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Modificar duración de insulina activa" message:@"Elija la cantidad de horas indicada por su médico acerca del lapso de tiempo mínimo que debe transcurrir entre la aplicación de una dosis y la siguiente." alertType:AlertTypeMultipleChoice];
     
     for (NSNumber *value in @[@1,@2,@3,@4,@5,@6]) {
-        UIAlertAction* action = [UIAlertAction
-                                 actionWithTitle:[NSString stringWithFormat:@"%.f horas", value.floatValue]
-                                 style:UIAlertActionStyleDefault
-                                 handler:^(UIAlertAction * action)
-                                 {
-                                     [[NSUserDefaults standardUserDefaults] setObject:value forKey:@"InsulinaActivaKey"];
-                                     [alert dismissViewControllerAnimated:YES completion:nil];
-                                     [self afterValueCheckFlow];
-                                     
-                                 }];
-        [alert addAction:action];
+
+        [alert addButton:[NSString stringWithFormat:@"%.f horas", value.floatValue] color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+            [[NSUserDefaults standardUserDefaults] setObject:value forKey:@"InsulinaActivaKey"];
+            [self afterValueCheckFlow];
+        }];
+        
     }
+
+    [alert addButton:@"Cancelar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
     
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"Cancelar"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                               }];
-    [alert addAction:cancelar];
-    
-    [self presentViewController:alert animated:YES completion:nil];
-    
+    [alert show];
 }
 
 

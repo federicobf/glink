@@ -14,6 +14,7 @@
 #import "FoodManager.h"
 #import "GlucemiaViewController.h"
 #import "CarbsViewController.h"
+#import "glink-Swift.h"
 
 @interface ComidasViewController () <ButtonPressDelegate, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 @property (nonatomic, strong) NSMutableArray* sectionsArray;
@@ -590,8 +591,9 @@ self.segmentedConstraint.constant = 60;
     }
     
     if ([FoodManager sharedInstance].selectionsDictionary.allKeys.count == 0) {
-    
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Por favor agrega al menos una porción en alguno de los items disponibles para poder continuar."] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Por favor agrega al menos una porción en alguno de los items disponibles para poder continuar." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
         [alert show];
         return -1;
     }

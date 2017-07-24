@@ -8,6 +8,7 @@
 
 #import "NewItemViewController.h"
 #import "HealthManager.h"
+#import "glink-Swift.h"
 
 @interface NewItemViewController () <UITextFieldDelegate>
 
@@ -135,13 +136,17 @@
     
     
     if (chValue <= kMinCH || chValue > kMaxCH) {
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Carbohidratos Mínimo: %.2f \n Carbohidratos Máximo: %.2f ", kMinCH, kMaxCH] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Carbohidratos Mínimo: %.2f \n Carbohidratos Máximo: %.2f ", kMinCH, kMaxCH] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
         [alert show];
         return;
     }
     
     if (glucemiaValue <= kMinGlucemia || glucemiaValue > kMaxGlucemia) {
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
         [alert show];
         return;
     }

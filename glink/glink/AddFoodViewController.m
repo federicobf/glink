@@ -9,6 +9,7 @@
 #import "AddFoodViewController.h"
 #import "Firebase.h"
 #import "MBProgressHUD.h"
+#import "glink-Swift.h"
 
 @interface AddFoodViewController () <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *nameTextfield;
@@ -30,16 +31,9 @@
     self.blurView.alpha = 0;
     self.blurView.hidden = YES;
 }
-- (IBAction)sendButton:(id)sender {
-    if (self.nameTextfield.text.length == 0) {
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
-                                                        message:@"Completa el campo de sugerencias."
-                                                       delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
-        [alert show];
-        return;
-    }
-    
-    [self sendAction];
+- (IBAction)sendButton:(id)sender
+{
+    [self checkAndSend];
 }
 
 
@@ -48,9 +42,23 @@
     if (textField == self.nameTextfield) {
         [self.commentTextfield becomeFirstResponder];
     } else {
-        [self sendAction];
+        [self checkAndSend];
     }
     return NO;
+}
+
+- (void) checkAndSend
+{
+    if (self.nameTextfield.text.length == 0) {
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Completa el campo de sugerencias." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
+        [alert show];
+        
+        return;
+    }
+    
+    [self sendAction];
 }
 
 - (void) sendAction
@@ -84,20 +92,15 @@
             NSLog(@"%@", error.localizedDescription);
         }
 
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Sugerencia enviada" message:[NSString stringWithFormat:@"Estaremos revisando tu sugerencia en los próximos días."] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Sugerencia enviada" message:@"Estaremos revisando tu sugerencia en los próximos días." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+            [MBProgressHUD hideHUDForView:self.view.window animated:YES];
+            [self.navigationController popViewControllerAnimated:YES];
+        }];
         [alert show];
-        alert.delegate = self;
+
 
     }];
-    
-
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-
-    
-    [MBProgressHUD hideHUDForView:self.view.window animated:YES];
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (IBAction)backAction:(id)sender {

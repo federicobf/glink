@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *ftu2;
 @property (weak, nonatomic) IBOutlet UIImageView *ftu3;
 @property (weak, nonatomic) IBOutlet UIImageView *ftu4;
+@property (weak, nonatomic) IBOutlet UIImageView *bluearrow;
 
 @end
 
@@ -154,11 +155,13 @@
         [UIView animateWithDuration:.3f animations:^{
             self.comenzar.alpha = 1;
             self.saltear.alpha = 0;
+            self.bluearrow.alpha = 0;
         }];
     } else {
         [UIView animateWithDuration:.3f animations:^{
             self.comenzar.alpha = 0;
             self.saltear.alpha = 1;
+            self.bluearrow.alpha = 1;
         }];
     }
 }

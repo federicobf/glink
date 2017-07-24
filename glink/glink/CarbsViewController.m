@@ -8,6 +8,7 @@
 
 #import "CarbsViewController.h"
 #import "HealthManager.h"
+#import "glink-Swift.h"
 
 @interface CarbsViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *backbutton;
@@ -38,7 +39,7 @@
 
 - (void) stepCounterUpdate
 {
-    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", 1]];
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-1"]];
     if (relacionValue>0) {
         self.stepcounter.image = [UIImage imageNamed:@"step2-bis"];
     } else {
@@ -51,7 +52,7 @@
     [super viewDidAppear:animated];
     if (self.initialValue) {
         self.amountLabel.text = [NSString stringWithFormat:@"%.0f", self.initialValue];
-        float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width/2;
+        float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width;
         CGRect size = CGRectMake(distanciaX, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
         [self.scrollView scrollRectToVisible:size animated:YES];
         [self performSelector:@selector(autoScroll) withObject:nil afterDelay:.2f];
@@ -88,7 +89,9 @@
     
     //ERROR
     if (chValue <= kMinCH || chValue >= kMaxCH) {
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Carbohidratos Mínimo: %.2f \n Carbohidratos Máximo: %.2f ", kMinCH, kMaxCH] delegate: nil cancelButtonTitle: nil otherButtonTitles: @"De acuerdo", nil];
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor que está fuera de los límites permitidos: \n Carbohidratos Mínimo: %.2f \n Carbohidratos Máximo: %.2f ", kMinCH, kMaxCH] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+        }];
         [alert show];
         return;
     }
@@ -101,40 +104,32 @@
 
 - (void) hipercarbsFlow {
     
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Advertencia"
-                                  message:@"Usted ha indicado un valor de carbohidratos demasiado alto. Recuerde que debe ingresar solo el peso de los carbohidratos a consumir y no el peso del total de la comida."
-                                  preferredStyle:UIAlertControllerStyleAlert];
+
     
-    UIAlertAction* action = [UIAlertAction
-                             actionWithTitle:@"He revisado este dato"
-                             style:UIAlertActionStyleDefault
-                             handler:^(UIAlertAction * action)
-                             {
-                                 
-                                 CGFloat chValue = self.amountLabel.text.floatValue;
-                                 [HealthManager sharedInstance].cantidadch = chValue;
-                                [self continuar];
-                             }];
-    [alert addAction:action];
     
-    UIAlertAction* cancelar = [UIAlertAction
-                               actionWithTitle:@"Modificar"
-                               style:UIAlertActionStyleCancel
-                               handler:^(UIAlertAction * action)
-                               {
-                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                               }];
-    [alert addAction:cancelar];
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
     
-    [self presentViewController:alert animated:YES completion:nil];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Advertencia" message:@"Usted ha indicado un valor de carbohidratos demasiado alto. Recuerde que debe ingresar solo el peso de los carbohidratos a consumir y no el peso del total de la comida." alertType:AlertTypeMultipleChoice];
+    
+    [alert addButton:@"He revisado este dato" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        CGFloat chValue = self.amountLabel.text.floatValue;
+        [HealthManager sharedInstance].cantidadch = chValue;
+        [self continuar];
+    }];
+    
+    [alert addButton:@"Modificar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
     
 }
 
 - (void) continuar
 {
-
-    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-%lu", 1]];
+    CGFloat relacionValue = [[NSUserDefaults standardUserDefaults] floatForKey:[NSString stringWithFormat: @"relationValue-1"]];
     if (relacionValue>0) {
         [self performSegueWithIdentifier:@"reviewFlow" sender:nil];
     } else {
