@@ -23,13 +23,13 @@ const float kMinGlucemiaOK      = 70.0f;
 const float kMaxGlucemiaOK      = 140.0f;
 
 const float kMinRelacion        = 1.0f;
-const float kMaxRelacion        = 40.0f;
+const float kMaxRelacion        = 60.0f;
 
 const float kMinTarget          = 70.0f;
-const float kMaxTarget          = 200.0f;
+const float kMaxTarget          = 300.0f;
 
-const float kMinSensibilidad    = 10.0f;
-const float kMaxSensibilidad    = 100.0f;
+const float kMinSensibilidad    = 5.0f;
+const float kMaxSensibilidad    = 150.0f;
 
 const float kMinInsulina   = 0.0f;
 const float kMaxInsulina    = 40.0f;
