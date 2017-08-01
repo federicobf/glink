@@ -37,6 +37,7 @@
     self.tableView.separatorColor = [UIColor clearColor];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.profilePhoto.backgroundColor = [UIColor whiteColor];
     
     NSData* imageDataMedico = [[NSUserDefaults standardUserDefaults] objectForKey:@"Foto-Medico"];
     UIImage* imageMedico = [UIImage imageWithData:imageDataMedico];
