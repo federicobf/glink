@@ -36,6 +36,7 @@
 @property (weak, nonatomic) IBOutlet UIView *graphicView;
 @property (strong, nonatomic) StatisticsTableViewCell *innerCell;
 @property (strong, nonatomic) HealthDayDTO *lastHealthDay;
+@property int touchCounter;
 @end
 
 @implementation StatisticsViewController
@@ -93,6 +94,13 @@
         }];
     });
 
+}
+- (IBAction)newItemAction:(id)sender {
+    
+    self.touchCounter++;
+    if (!(self.touchCounter & 3)) {
+        [self performSegueWithIdentifier:@"newItem" sender:nil];
+    }
 }
 
 - (void) actionPressed: (UIButton *) sender

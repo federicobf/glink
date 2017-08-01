@@ -9,6 +9,7 @@
 #import "PresentiationViewController.h"
 #import "PresentationView.h"
 #import <MessageUI/MessageUI.h>
+#import "glink-Swift.h"
 
 
 @interface PresentiationViewController () <MFMailComposeViewControllerDelegate>
@@ -42,6 +43,11 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear: animated];
+    
+    if (self.pdfData) {
+        return;
+    }
+    
     UIView *presentationView = self.presentationView;
     UIGraphicsBeginImageContextWithOptions(presentationView.bounds.size, presentationView.opaque, 0.0f);
     [presentationView drawViewHierarchyInRect:presentationView.bounds afterScreenUpdates:NO];
@@ -69,11 +75,51 @@
     }
 }
 
-- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(nullable NSError *)error
+
+- (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
 {
-
-
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+        {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail cancelado" message:@"Tu reporte se canceló correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+                [alertview dismissAlertView];
+            }];
+            [alert show];
+        }
+            break;
+        case MFMailComposeResultSaved:
+        {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail guardado" message:@"Tu reporte se guardó correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+                [alertview dismissAlertView];
+            }];
+            [alert show];
+        }
+            break;
+        case MFMailComposeResultSent:
+        {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail enviado" message:@"Tu reporte se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+                [alertview dismissAlertView];
+            }];
+            [alert show];
+        }
+            NSLog(@"Mail sent");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail sent failure: %@", [error localizedDescription]);
+        {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Tu reporte no se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+                [alertview dismissAlertView];
+            }];
+            [alert show];
+        }
+            break;
+        default:
+            break;
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 -(NSData*)makePDFfromView:(UIView*)view
 {

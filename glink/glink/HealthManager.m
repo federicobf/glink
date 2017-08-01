@@ -32,7 +32,7 @@ const float kMinSensibilidad    = 5.0f;
 const float kMaxSensibilidad    = 150.0f;
 
 const float kMinInsulina   = 0.0f;
-const float kMaxInsulina    = 40.0f;
+const float kMaxInsulina    = 20.0f;
 
 @implementation HealthManager
 

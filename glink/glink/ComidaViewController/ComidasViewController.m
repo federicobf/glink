@@ -107,6 +107,12 @@
         }
     }
 }
+- (IBAction)searchAgain:(id)sender {
+    
+    self.searchBar.text = @"";
+    [self searchBar:self.searchBar textDidChange:@""];
+    [self.searchBar becomeFirstResponder];
+}
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {

@@ -1141,7 +1141,7 @@
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = SS99NH97T4;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					F7B2EBBA1E4BEE6200955EE6 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -1538,8 +1538,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: LUIS F BUSTOS FIERRO (SS99NH97T4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = SS99NH97T4;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1561,8 +1561,8 @@
 				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_BUNDLE_IDENTIFIER = com.federicobf.glink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "124f95bc-63df-4514-ac76-6db13f71e3ac";
-				PROVISIONING_PROFILE_SPECIFIER = "Glink Distribution";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				RESOURCES_TARGETED_DEVICE_FAMILY = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "glink/glink-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

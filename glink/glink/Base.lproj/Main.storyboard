@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pl0-RN-jQg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -907,7 +907,7 @@ MES</string>
                                     <constraint firstAttribute="width" constant="74" id="I2K-mm-Zal"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="0Y9-kS-LlE" kind="presentation" id="a8j-RV-nMV"/>
+                                    <action selector="newItemAction:" destination="3q3-LO-2zR" eventType="touchUpInside" id="fR2-MD-vGM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9T-G3-Lqh">
@@ -965,6 +965,7 @@ MES</string>
                         <outlet property="mWeek" destination="Zvj-lv-Lqg" id="xRb-42-nj3"/>
                         <outlet property="segmentedControl" destination="bXc-m3-ebk" id="yoh-hi-J8D"/>
                         <outlet property="segmentedScrollView" destination="QUx-6W-V2P" id="BqU-Eh-ogP"/>
+                        <segue destination="0Y9-kS-LlE" kind="presentation" identifier="newItem" id="tTp-Bj-e5O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dd5-B9-HYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1725,7 +1726,7 @@ grasas</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AWs-rC-BiS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1916" y="1668"/>
+            <point key="canvasLocation" x="-1929" y="1678"/>
         </scene>
         <!--Categorias-->
         <scene sceneID="HmA-tk-mtH">
@@ -2124,6 +2125,9 @@ grasas</string>
                                                 <state key="normal" title="¿Quieres añadir un alimento?">
                                                     <color key="titleColor" red="0.0" green="0.60784313729999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="v7k-c1-tMo" kind="show" id="M1W-W5-0lv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2C-VE-34V">
                                                 <rect key="frame" x="30" y="142.5" width="240" height="47"/>
@@ -2136,6 +2140,7 @@ grasas</string>
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="searchAgain:" destination="Chg-sb-Kpm" eventType="touchUpInside" id="58f-Mr-Bm2"/>
                                                     <action selector="searchBack:" destination="Chg-sb-Kpm" eventType="touchUpInside" id="Knn-3d-95P"/>
                                                 </connections>
                                             </button>
@@ -3624,10 +3629,11 @@ Agregar Nuevo</string>
         <image name="whitebg" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0qA-19-CKc"/>
         <segue reference="UhU-YC-MNb"/>
+        <segue reference="fLW-1F-Dbk"/>
+        <segue reference="vws-1q-c5H"/>
         <segue reference="BIe-84-dRx"/>
         <segue reference="nRX-aR-mo7"/>
-        <segue reference="fLW-1F-Dbk"/>
+        <segue reference="M1W-W5-0lv"/>
     </inferredMetricsTieBreakers>
 </document>

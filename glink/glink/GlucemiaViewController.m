@@ -148,7 +148,7 @@
     CGFloat glucemiaValue = self.amountLabel.text.floatValue;
     
     //ERROR
-    if ((glucemiaValue < kMinGlucemia || glucemiaValue > kMaxGlucemia)&& [self checkEntryTimeAllowed]) {
+    if (glucemiaValue < kMinGlucemia || glucemiaValue > kMaxGlucemia) {
 
         
         ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Fuera del Límite" message:[NSString stringWithFormat:@"Usted ha ingresado un valor inválido para la utilización de esta app. \n Glucemia Mínimo: %.2f \n Glucemia Máximo: %.2f ", kMinGlucemia, kMaxGlucemia] closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
