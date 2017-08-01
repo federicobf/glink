@@ -45,6 +45,7 @@
 
     CGFloat firstStep = [[self.externalPoints firstObject] CGPointValue].y;
     CGFloat lastStep = [[self.externalPoints lastObject] CGPointValue].y;
+    CGFloat multiplier = [UIScreen mainScreen].scale;
     
     [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(0, -200)]];
     [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(-200, firstStep)]];
@@ -52,9 +53,9 @@
 
     [self.myPoints addObjectsFromArray:self.externalPoints];
     
-    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*2,lastStep)]];
-    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*2+200, lastStep)]];
-    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*2,-200)]];
+    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*multiplier,lastStep)]];
+    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*multiplier+200, lastStep)]];
+    [self.myPoints addObject:[NSValue valueWithCGPoint:CGPointMake(self.frame.size.width*multiplier,-200)]];
 
     
 #define SMOOTHNESS 20
@@ -91,10 +92,30 @@
         CGContextSetRGBStrokeColor (context, 0,0,0,1);
         CGContextSetLineWidth (context, 2);
         
-        CGContextSetStrokeColorWithColor(context, [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1].CGColor);
+        CGContextSetStrokeColorWithColor(context, [self strongColor].CGColor);
     }
 
     CGContextDrawPath(context, kCGPathFillStroke);
     CGContextRestoreGState(context);
 }
+
+- (UIColor *) strongColor
+{
+    CGFloat red = 0.0, green = 0.0, blue = 0.0, alpha = 0.0;
+    if (!self.internalColor) {
+        return [UIColor blackColor];
+    }
+    
+    if ([self.internalColor respondsToSelector:@selector(getRed:green:blue:alpha:)]) {
+        [self.internalColor getRed:&red green:&green blue:&blue alpha:&alpha];
+    } else {
+        const CGFloat *components = CGColorGetComponents(self.internalColor.CGColor);
+        red = components[0];
+        green = components[1];
+        blue = components[2];
+        alpha = components[3];
+    }
+    return [UIColor colorWithRed:red green:green blue:blue alpha:1];
+}
+
 @end

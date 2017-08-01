@@ -53,7 +53,9 @@ extern const float kMaxInsulina;
 - (NSMutableArray*) retrieveAllItems;
 - (NSMutableArray*) retrieveAllDayItems;
 - (CGFloat) timeSinceLastEntry;
+- (BOOL) deleteObject: (HealthDTO*) targetDto;
 
+@property float fakeGlucemia;
 @property float glucemia;
 @property float cantidadch;
 @property float relacionch;

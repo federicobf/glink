@@ -78,7 +78,7 @@
                   layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat halfWidth = [UIScreen mainScreen].bounds.size.width/2.f;
+    CGFloat halfWidth = [UIScreen mainScreen].bounds.size.width/2.f-10;
     return CGSizeMake(halfWidth, 149.f);
 }
 

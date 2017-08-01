@@ -10,11 +10,13 @@
 #import "PureLayout.h"
 #import "HealthManager.h"
 #import "CurveView.h"
+#import "glink-Swift.h"
 
 @implementation StatisticsTableViewCell {
     NSMutableArray* allDots;
     UIImageView * imageView;
     CurveView *curveView;
+    HealthDayDTO *healthDayDTO;
 }
 
 - (id) init {
@@ -25,6 +27,7 @@
         allDots = [NSMutableArray new];
         self.backgroundColor = [UIColor whiteColor];
         self.clipsToBounds = NO;
+        self.limitsOn = YES;
     }
     
     return self;
@@ -44,7 +47,8 @@
             
             if (currentView.tag == type) {
                 CGPoint point = currentView.center;
-                point = CGPointMake(point.x*2,280 - point.y*2);
+                CGFloat multiplier = [UIScreen mainScreen].scale;
+                point = CGPointMake(point.x*multiplier,140*multiplier - point.y*multiplier);
                 [points addObject:[NSValue valueWithCGPoint:point]];
                 
             }
@@ -58,21 +62,33 @@
             return pointA.x>pointB.x;
         }];
         
-        
-        curveView = [[CurveView alloc] initWithFrame:self.frame];
-        curveView.internalColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:.05f];
+        NSLog(@"frame?? %f, %f", self.frame.size.width, self.frame.size.height);
+        curveView = [[CurveView alloc] initForAutoLayout];
+        [self addSubview:curveView];
+        [curveView autoPinEdgesToSuperviewEdges];
+        curveView.internalColor = [self innerColor];
         curveView.externalPoints = [NSMutableArray arrayWithArray:sortedArray];
 
-        [self addSubview:curveView];
         [self sendSubviewToBack:curveView];
         
     });
     
 }
 
+- (UIColor *) innerColor
+{
+    return [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:.05f];
+}
+
+- (UIColor *) strongColor
+{
+    return [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+}
+
+
 - (void) configureWithHealthDay: (HealthDayDTO*) day {
 
-
+    healthDayDTO = day;
     [self createDrawPoints:day.healthItems withType: (int) self.type];
     
     imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"grid5"]];
@@ -82,6 +98,83 @@
     imageView.alpha = .2f;
     [self addHelpers];
     
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showHelp)];
+    [self addGestureRecognizer:gesture];
+    
+}
+
+- (void) showHelp
+{
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat: @"hh:mm"];
+    
+    NSString *description = @"Estos son los registros del dia:";
+    for (HealthDTO *item in healthDayDTO.healthItems) {
+        
+        NSString *hora = [formatter stringFromDate:item.date];
+        description = [NSString stringWithFormat:@"%@\n%@- G:%.0f - CH:%.0f - In:%.2f",description, hora, item.glucemia, item.carbohidratos, item.insulina];
+    }
+    
+    
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Registro diario" message:description alertType:AlertTypeMultipleChoice];
+    
+    [alert addButton:@"Continuar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert addButton:@"Borrar entrada" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+        [self deleteEntry];
+    }];
+    
+    [alert show];
+}
+
+- (void) deleteEntry
+{
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat: @"hh:mm"];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Borrar entrada" message:@"Selecciona la entrada que deseas borrar" alertType:AlertTypeMultipleChoice];
+    
+
+    for (HealthDTO *item in healthDayDTO.healthItems) {
+        NSString *hora = [formatter stringFromDate:item.date];
+        NSString *description = [NSString stringWithFormat:@"%@- G:%.0f - CH:%.0f - In:%.2f", hora, item.glucemia, item.carbohidratos, item.insulina];
+        [alert addButton:description color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+            BOOL success = [[HealthManager sharedInstance] deleteObject:item];
+            if (success) {
+                [self alertClearFinishWithTitle:@"Entrada borrada" message:description];
+            } else {
+                [self alertClearFinishWithTitle:@"Entrada no borrada" message:@"Algo falló borrando la entrada, intenta nuevamente más tarde."];
+            }
+        }];
+
+    }
+    
+    [alert addButton:@"Ninguna" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
+}
+
+- (void) alertClearFinishWithTitle: (NSString *) title message: (NSString *) message
+{
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:title message:message alertType:AlertTypeMultipleChoice];
+    [alert addButton:@"De acuerdo" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
+
 }
 
 - (void) addHelpers {
@@ -119,7 +212,7 @@
     }
     
     
-    NSArray* helpersX = @[@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm"];
+    NSArray* helpersX = [self helpersX];
     CGFloat count = 0;
     for (NSString* str in helpersX) {
 
@@ -216,6 +309,11 @@
 
 }
 
+- (NSArray *) helpersX
+{
+    return @[@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm"];
+}
+
 - (void) addTitleLabel: (HealthDayDTO*) day {
     
     NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:day.date];
@@ -256,7 +354,7 @@
         v.layer.cornerRadius = 6;
         whiteCenter.layer.cornerRadius = 3;
         v.tag = type;
-        v.backgroundColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+        v.backgroundColor = [self strongColor];
         
         if (!(type==0 && dto.glucemia == 0) && !(type==2 && dto.insulina == 0)) {
             
@@ -278,8 +376,10 @@
                 multiplierValue =  (dto.insulina - kMinInsulina) / (kMaxInsulina - kMinInsulina);
             }
             
-        if (multiplierValue<=0) {multiplierValue=0.01f;}
-        if (multiplierValue>=1) {multiplierValue=0.99f;}
+        if (self.limitsOn) {
+            if (multiplierValue<=0) {multiplierValue=0.01f;}
+            if (multiplierValue>=1) {multiplierValue=0.99f;}
+        }
             
         [self addConstraints:@[
                                     [NSLayoutConstraint constraintWithItem:v

@@ -92,6 +92,29 @@ const float kMaxInsulina    = 40.0f;
     
 }
 
+
+- (BOOL) deleteObject: (HealthDTO*) targetDto {
+    
+    NSMutableArray* currentItems = [[NSUserDefaults standardUserDefaults] objectForKey:@"HealthItems"];
+    NSMutableArray* mutableItems = [[NSMutableArray alloc]initWithArray:currentItems];
+    
+    NSData* foundObject;
+    for (NSData* itemData in currentItems) {
+        HealthDTO* dto = [NSKeyedUnarchiver unarchiveObjectWithData:itemData];
+        if (dto.glucemia == targetDto.glucemia && dto.carbohidratos == targetDto.carbohidratos && dto.insulina == targetDto.insulina && [dto.date isEqualToDate:targetDto.date]) {
+            foundObject = itemData;
+        }
+    }
+    
+    if (foundObject && [mutableItems containsObject:foundObject]) {
+        [mutableItems removeObject:foundObject];
+        [[NSUserDefaults standardUserDefaults] setObject:mutableItems.copy forKey:@"HealthItems"];
+        return YES;
+    }
+    
+    return NO;
+}
+
 - (CGFloat) timeSinceLastEntry {
 
     if ([self retrieveAllItems].count==0) {

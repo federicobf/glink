@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar View Controller-->
         <scene sceneID="gIN-UZ-s3P">
             <objects>
-                <tabBarController id="Nin-Ux-Ol7" sceneMemberID="viewController">
+                <tabBarController id="Nin-Ux-Ol7" customClass="CustomTabBarViewController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="fRK-bI-JMD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -22,9 +22,9 @@
                         <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="3q3-LO-2zR" kind="relationship" relationship="viewControllers" id="gSR-2f-Ijd"/>
                         <segue destination="Pfm-Hd-2Lg" kind="relationship" relationship="viewControllers" id="Wt1-1r-NSd"/>
                         <segue destination="ENi-Gj-t6h" kind="relationship" relationship="viewControllers" id="v2D-gK-Omi"/>
-                        <segue destination="3q3-LO-2zR" kind="relationship" relationship="viewControllers" id="gSR-2f-Ijd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MwU-oP-dJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -117,7 +117,9 @@
                                     <constraint firstAttribute="height" constant="40" id="Y0j-XN-Hym"/>
                                     <constraint firstAttribute="width" constant="266" id="cso-UT-rEN"/>
                                 </constraints>
-                                <state key="normal" title="Ver gráfico"/>
+                                <state key="normal" title="Ver gráfico">
+                                    <color key="titleColor" red="0.0" green="0.61960784310000006" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="seegraphic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c2g-6H-AHJ"/>
                                 </connections>
@@ -910,7 +912,9 @@ MES</string>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9T-G3-Lqh">
                                 <rect key="frame" x="16" y="35" width="69" height="30"/>
-                                <state key="normal" title="Compartir"/>
+                                <state key="normal" title="Compartir">
+                                    <color key="titleColor" red="0.0" green="0.61960784310000006" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="rh5-Cy-If6" kind="presentation" id="BXp-oR-9gR"/>
                                 </connections>
@@ -1015,7 +1019,7 @@ MES</string>
                                         <rect key="frame" x="0.0" y="28" width="343" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o5Z-Oz-Eed" id="UgI-Um-yer">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="74"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="73.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17q-VA-HhY">
@@ -1892,7 +1896,7 @@ grasas</string>
                                         <rect key="frame" x="0.0" y="1" width="375" height="103"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fje-8Q-zzS" id="wrU-eL-5IV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="102.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <userGuides>
                                                 <userLayoutGuide location="24" affinity="minY"/>
@@ -3620,8 +3624,8 @@ Agregar Nuevo</string>
         <image name="whitebg" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ypd-00-duY"/>
         <segue reference="0qA-19-CKc"/>
+        <segue reference="UhU-YC-MNb"/>
         <segue reference="BIe-84-dRx"/>
         <segue reference="nRX-aR-mo7"/>
         <segue reference="fLW-1F-Dbk"/>

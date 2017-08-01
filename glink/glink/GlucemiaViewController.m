@@ -194,7 +194,8 @@
 
 
 - (void) glucemiaActivaFlow {
-
+    
+    CGFloat glucemiaValue = self.amountLabel.text.floatValue;
     UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     UIColor *textColor = [UIColor whiteColor];
     
@@ -203,6 +204,7 @@
     [alert addButton:@"De acuerdo" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
         [alertview dismissAlertView];
         [HealthManager sharedInstance].glucemia = 0;
+        [HealthManager sharedInstance].fakeGlucemia = glucemiaValue;
         [self performSegueWithIdentifier:@"nextStep" sender:nil];
     }];
     

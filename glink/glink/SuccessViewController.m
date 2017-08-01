@@ -52,7 +52,7 @@
 }
 
 - (IBAction)seegraphic:(id)sender {
-    self.tabBarController.selectedIndex = 2;
+    self.tabBarController.selectedIndex = 0;
     [self.navigationController popToRootViewControllerAnimated:NO];
 }
 
@@ -60,6 +60,10 @@
     HealthDTO* dto = [HealthDTO new];
     dto.carbohidratos = [HealthManager sharedInstance].cantidadch;
     dto.glucemia = [HealthManager sharedInstance].glucemia;
+    if ([HealthManager sharedInstance].glucemia == 0 && [HealthManager sharedInstance].fakeGlucemia != 0) {
+        dto.glucemia = [HealthManager sharedInstance].fakeGlucemia;
+    }
+    
     dto.insulina = [[HealthManager sharedInstance] calculoFinalBolo];
     dto.date = [NSDate date];
     [[HealthManager sharedInstance] storeNewItem:dto];

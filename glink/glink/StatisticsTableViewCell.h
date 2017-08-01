@@ -13,5 +13,6 @@
 @property HealthDayDTO* day;
 @property NSMutableArray* drawPoints;
 @property NSInteger type;
+@property BOOL limitsOn;
 - (void) configureWithHealthDay: (HealthDayDTO*) day;
 @end
