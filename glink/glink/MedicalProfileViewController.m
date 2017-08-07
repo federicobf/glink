@@ -215,9 +215,9 @@
     }
     
     if (indexPath.row == 2) {
-        cell.cellLabel.text = @"Web";
+        cell.cellLabel.text = @"Peso";
         [cell.cellButton setTitle:@"" forState:UIControlStateNormal];
-        cell.cellTextField.keyboardType = UIKeyboardTypeURL;
+        cell.cellTextField.keyboardType = UIKeyboardTypeDecimalPad;
         cell.cellTextField.tag = 103;
     }
     

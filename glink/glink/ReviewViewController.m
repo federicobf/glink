@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *carbs;
 @property (weak, nonatomic) IBOutlet UILabel *glucemia;
 @property (weak, nonatomic) IBOutlet UISwitch *switchItem;
+@property (weak, nonatomic) IBOutlet UIScrollView *fullPageScroll;
 @property (weak, nonatomic) IBOutlet SegmentedScrollView *segmentedScrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *stepcounter;
 
@@ -50,6 +51,12 @@
     [super viewWillAppear:animated];
     [self preloadValues];
     [self stepCounterUpdate];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    CGPoint bottomOffset = CGPointMake(0, self.fullPageScroll.contentSize.height - self.fullPageScroll.bounds.size.height);
+    [self.fullPageScroll setContentOffset:bottomOffset animated:YES];
 }
 
 - (void) stepCounterUpdate

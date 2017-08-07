@@ -103,6 +103,7 @@
 - (void) checkFields
 {
     for (UILabel* lbl in [self labelsArray]) {
+        lbl.font = [UIFont systemFontOfSize:9];
         if ([lbl.text isEqualToString:@"nan"]) {
             lbl.text = @"-";
         }
@@ -113,63 +114,63 @@
 
 - (void) loadGlucemiaData {
     
-    self.gds.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForDesayuno:[self allWeekItems]]]];
-    self.gdm.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForDesayuno:[self allMonthItems]]]];
-    self.gdt.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForDesayuno:[self allTrimesterItems]]]];
+    self.gds.text    = [self sumUpGlucemia:[self filterItemsForDesayuno:[self allWeekItems]]];
+    self.gdm.text    = [self sumUpGlucemia:[self filterItemsForDesayuno:[self allMonthItems]]];
+    self.gdt.text    = [self sumUpGlucemia:[self filterItemsForDesayuno:[self allTrimesterItems]]];
     
-    self.gas.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allWeekItems]]]];
-    self.gam.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allMonthItems]]]];
-    self.gat.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allTrimesterItems]]]];
+    self.gas.text    = [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allWeekItems]]];
+    self.gam.text    = [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allMonthItems]]];
+    self.gat.text    = [self sumUpGlucemia:[self filterItemsForAlmuerzo:[self allTrimesterItems]]];
     
-    self.gms.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForMerienda:[self allWeekItems]]]];
-    self.gmm.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForMerienda:[self allMonthItems]]]];
-    self.gmt.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForMerienda:[self allTrimesterItems]]]];
+    self.gms.text    = [self sumUpGlucemia:[self filterItemsForMerienda:[self allWeekItems]]];
+    self.gmm.text    = [self sumUpGlucemia:[self filterItemsForMerienda:[self allMonthItems]]];
+    self.gmt.text    = [self sumUpGlucemia:[self filterItemsForMerienda:[self allTrimesterItems]]];
     
-    self.gcs.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForCena:[self allWeekItems]]]];
-    self.gcm.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForCena:[self allMonthItems]]]];
-    self.gct.text    = [NSString stringWithFormat:@"%.f", [self sumUpGlucemia:[self filterItemsForCena:[self allTrimesterItems]]]];
+    self.gcs.text    = [self sumUpGlucemia:[self filterItemsForCena:[self allWeekItems]]];
+    self.gcm.text    = [self sumUpGlucemia:[self filterItemsForCena:[self allMonthItems]]];
+    self.gct.text    = [self sumUpGlucemia:[self filterItemsForCena:[self allTrimesterItems]]];
     
     [self checkFields];
 }
 
 - (void) loadCarbsData {
     
-    self.cds.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allWeekItems]]]];
-    self.cdm.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allMonthItems]]]];
-    self.cdt.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allTrimesterItems]]]];
+    self.cds.text    = [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allWeekItems]]];
+    self.cdm.text    = [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allMonthItems]]];
+    self.cdt.text    = [self sumUpCarbohidratos:[self filterItemsForDesayuno:[self allTrimesterItems]]];
     
-    self.cas.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allWeekItems]]]];
-    self.cam.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allMonthItems]]]];
-    self.cat.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allTrimesterItems]]]];
+    self.cas.text    = [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allWeekItems]]];
+    self.cam.text    = [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allMonthItems]]];
+    self.cat.text    = [self sumUpCarbohidratos:[self filterItemsForAlmuerzo:[self allTrimesterItems]]];
     
-    self.cms.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allWeekItems]]]];
-    self.cmm.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allMonthItems]]]];
-    self.cmt.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allTrimesterItems]]]];
+    self.cms.text    = [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allWeekItems]]];
+    self.cmm.text    = [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allMonthItems]]];
+    self.cmt.text    = [self sumUpCarbohidratos:[self filterItemsForMerienda:[self allTrimesterItems]]];
     
-    self.ccs.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForCena:[self allWeekItems]]]];
-    self.ccm.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForCena:[self allMonthItems]]]];
-    self.cct.text    = [NSString stringWithFormat:@"%.f", [self sumUpCarbohidratos:[self filterItemsForCena:[self allTrimesterItems]]]];
+    self.ccs.text    = [self sumUpCarbohidratos:[self filterItemsForCena:[self allWeekItems]]];
+    self.ccm.text    = [self sumUpCarbohidratos:[self filterItemsForCena:[self allMonthItems]]];
+    self.cct.text    = [self sumUpCarbohidratos:[self filterItemsForCena:[self allTrimesterItems]]];
     
     [self checkFields];
 }
 
 - (void) loadInsulinaData {
     
-    self.ids.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForDesayuno:[self allWeekItems]]]];
-    self.idm.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForDesayuno:[self allMonthItems]]]];
-    self.idt.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForDesayuno:[self allTrimesterItems]]]];
+    self.ids.text    = [self sumUpInsulina:[self filterItemsForDesayuno:[self allWeekItems]]];
+    self.idm.text    = [self sumUpInsulina:[self filterItemsForDesayuno:[self allMonthItems]]];
+    self.idt.text    = [self sumUpInsulina:[self filterItemsForDesayuno:[self allTrimesterItems]]];
     
-    self.ias.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allWeekItems]]]];
-    self.iam.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allMonthItems]]]];
-    self.iat.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allTrimesterItems]]]];
+    self.ias.text    = [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allWeekItems]]];
+    self.iam.text    = [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allMonthItems]]];
+    self.iat.text    = [self sumUpInsulina:[self filterItemsForAlmuerzo:[self allTrimesterItems]]];
     
-    self.ims.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForMerienda:[self allWeekItems]]]];
-    self.imm.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForMerienda:[self allMonthItems]]]];
-    self.imt.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForMerienda:[self allTrimesterItems]]]];
+    self.ims.text    = [self sumUpInsulina:[self filterItemsForMerienda:[self allWeekItems]]];
+    self.imm.text    = [self sumUpInsulina:[self filterItemsForMerienda:[self allMonthItems]]];
+    self.imt.text    = [self sumUpInsulina:[self filterItemsForMerienda:[self allTrimesterItems]]];
     
-    self.ics.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForCena:[self allWeekItems]]]];
-    self.icm.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForCena:[self allMonthItems]]]];
-    self.ict.text    = [NSString stringWithFormat:@"%.2f", [self sumUpInsulina:[self filterItemsForCena:[self allTrimesterItems]]]];
+    self.ics.text    = [self sumUpInsulina:[self filterItemsForCena:[self allWeekItems]]];
+    self.icm.text    = [self sumUpInsulina:[self filterItemsForCena:[self allMonthItems]]];
+    self.ict.text    = [self sumUpInsulina:[self filterItemsForCena:[self allTrimesterItems]]];
     
     [self checkFields];
 }
@@ -179,39 +180,66 @@
 
 
 
-- (CGFloat) sumUpInsulina: (NSMutableArray*) items {
-    CGFloat sumup = 0;
-    NSInteger count = 0;
+- (NSString *) sumUpInsulina: (NSMutableArray*) items {
+    NSMutableArray *numberArray = [NSMutableArray new];
     for (HealthDTO* dto in items) {
-        if (dto.insulina != 0) {count++;}
-        sumup= sumup + dto.insulina;
+        if (dto.insulina != 0) {
+            [numberArray addObject:[NSNumber numberWithFloat:dto.insulina]];
+        }
+    }
+    NSArray *newArray = numberArray.copy;
+    if (newArray.count == 0){
+        return @"-";
     }
     
-    sumup = sumup / count;
-    
-    return sumup;
+    NSNumber *average = [self calculateStat:@"average" forArray:newArray];
+    NSNumber *stdev = [self calculateStat:@"stddev" forArray:newArray];
+    return [NSString stringWithFormat:@"%.2f±%.2f",average.floatValue, stdev.floatValue];
 }
 
-- (CGFloat) sumUpGlucemia: (NSMutableArray*) items {
-    CGFloat sumup = 0;
-    NSInteger count = 0;
+- (NSString *) sumUpGlucemia: (NSMutableArray*) items {
+    NSMutableArray *numberArray = [NSMutableArray new];
     for (HealthDTO* dto in items) {
-        if (dto.glucemia != 0) {count++;}
-        sumup= sumup + dto.glucemia;
+        if (dto.glucemia != 0) {
+            [numberArray addObject:[NSNumber numberWithFloat:dto.glucemia]];
+        }
+    }
+    NSArray *newArray = numberArray.copy;
+    if (newArray.count == 0){
+        return @"-";
     }
     
-    sumup = sumup / count;
-    
-    return sumup;
+    NSNumber *average = [self calculateStat:@"average" forArray:newArray];
+    NSNumber *stdev = [self calculateStat:@"stddev" forArray:newArray];
+    return [NSString stringWithFormat:@"%.1f±%.1f",average.floatValue, stdev.floatValue];
 }
 
-- (CGFloat) sumUpCarbohidratos: (NSMutableArray*) items {
-    CGFloat sumup = 0;
+- (NSString *) sumUpCarbohidratos: (NSMutableArray*) items {
+    NSMutableArray *numberArray = [NSMutableArray new];
     for (HealthDTO* dto in items) {
-        sumup= sumup + dto.carbohidratos;
+        if (dto.carbohidratos != 0) {
+            [numberArray addObject:[NSNumber numberWithFloat:dto.carbohidratos]];
+        }
     }
-    return sumup / items.count;
+    NSArray *newArray = numberArray.copy;
+    if (newArray.count == 0){
+        return @"-";
+    }
+    
+    NSNumber *average = [self calculateStat:@"average" forArray:newArray];
+    NSNumber *stdev = [self calculateStat:@"stddev" forArray:newArray];
+    return [NSString stringWithFormat:@"%.1f±%.1f",average.floatValue, stdev.floatValue];
 }
+
+
+- (NSNumber *)calculateStat:(NSString *)stat forArray: (NSArray *) array
+{
+    NSArray *args = @[[NSExpression expressionForConstantValue:array]];
+    NSString *statFormatted = [stat stringByAppendingString:@":"];
+    NSExpression *expression = [NSExpression expressionForFunction:statFormatted arguments:args];
+    return [expression expressionValueWithObject:nil context:nil];
+}
+
 
 - (NSMutableArray*) filterItemsForDesayuno: (NSMutableArray*) items {
     

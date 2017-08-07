@@ -56,6 +56,9 @@
 		981288D61EC81F360082D1A6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288D51EC81F360082D1A6 /* MBProgressHUD.m */; };
 		981288DB1EC839870082D1A6 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288DA1EC839870082D1A6 /* StartViewController.m */; };
 		981288E01EC8FC070082D1A6 /* TouchSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 981288DF1EC8FC070082D1A6 /* TouchSlider.m */; };
+		9817480C1F38581F007FE62E /* ZoomRotatePanImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817480B1F38581F007FE62E /* ZoomRotatePanImageView.m */; };
+		9817480F1F386C7A007FE62E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817480E1F386C7A007FE62E /* SettingsViewController.m */; };
+		981748121F387075007FE62E /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981748111F387075007FE62E /* SettingsTableViewController.m */; };
 		9818B0371EF76550008AB0F6 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818B0361EF76550008AB0F6 /* StatisticsViewController.m */; };
 		9818B03B1EFF8FA2008AB0F6 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818B03A1EFF8FA2008AB0F6 /* NewItemViewController.m */; };
 		9818B0411EFF9D70008AB0F6 /* StatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9818B03E1EFF9D70008AB0F6 /* StatisticsTableViewCell.m */; };
@@ -271,6 +274,12 @@
 		981288DA1EC839870082D1A6 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		981288DE1EC8FC070082D1A6 /* TouchSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSlider.h; sourceTree = "<group>"; };
 		981288DF1EC8FC070082D1A6 /* TouchSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchSlider.m; sourceTree = "<group>"; };
+		9817480A1F38581F007FE62E /* ZoomRotatePanImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomRotatePanImageView.h; sourceTree = "<group>"; };
+		9817480B1F38581F007FE62E /* ZoomRotatePanImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomRotatePanImageView.m; sourceTree = "<group>"; };
+		9817480D1F386C7A007FE62E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9817480E1F386C7A007FE62E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		981748101F387075007FE62E /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		981748111F387075007FE62E /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		9818B0351EF76550008AB0F6 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
 		9818B0361EF76550008AB0F6 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
 		9818B0391EFF8FA2008AB0F6 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
@@ -1007,10 +1016,16 @@
 				F7B2EBA91E4BEE6200955EE6 /* AppDelegate.m */,
 				981288D41EC81F360082D1A6 /* MBProgressHUD.h */,
 				981288D51EC81F360082D1A6 /* MBProgressHUD.m */,
+				9817480A1F38581F007FE62E /* ZoomRotatePanImageView.h */,
+				9817480B1F38581F007FE62E /* ZoomRotatePanImageView.m */,
 				98B5C9D71F094D9C00BC181E /* PresentiationViewController.h */,
 				98B5C9D81F094D9D00BC181E /* PresentiationViewController.m */,
 				98F5EADD1F30428B00F89868 /* CustomTabBarViewController.h */,
 				98F5EADE1F30428B00F89868 /* CustomTabBarViewController.m */,
+				9817480D1F386C7A007FE62E /* SettingsViewController.h */,
+				9817480E1F386C7A007FE62E /* SettingsViewController.m */,
+				981748101F387075007FE62E /* SettingsTableViewController.h */,
+				981748111F387075007FE62E /* SettingsTableViewController.m */,
 				98B5C9D21F09471A00BC181E /* PresentationView.h */,
 				98B5C9D31F09471A00BC181E /* PresentationView.m */,
 				98B5C9DD1F095B3100BC181E /* PresentationItem.h */,
@@ -1322,9 +1337,11 @@
 				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
 				980679F21F25AD09002A6F1A /* ZAlertView.swift in Sources */,
 				981288661EBFB2320082D1A6 /* HealthDTO.m in Sources */,
+				9817480F1F386C7A007FE62E /* SettingsViewController.m in Sources */,
 				981E90F51E902A6D003456AB /* NSLayoutConstraint+PureLayout.m in Sources */,
 				988AECF11EB5222800209343 /* FirstTimeUseViewController.m in Sources */,
 				9818B0421EFF9D70008AB0F6 /* CurveView.m in Sources */,
+				9817480C1F38581F007FE62E /* ZoomRotatePanImageView.m in Sources */,
 				981E90FF1E91A7D5003456AB /* SelectCategoryViewController.m in Sources */,
 				98B5C9D91F094D9D00BC181E /* PresentiationViewController.m in Sources */,
 				981288CA1EC8144C0082D1A6 /* README.md in Sources */,
@@ -1335,6 +1352,7 @@
 				9811EBAF1EB8AA41009F260E /* ReviewViewController.m in Sources */,
 				981E90F41E902A6D003456AB /* NSArray+PureLayout.m in Sources */,
 				981E90F31E902A6D003456AB /* ALView+PureLayout.m in Sources */,
+				981748121F387075007FE62E /* SettingsTableViewController.m in Sources */,
 				9818EF241EABD3250016DBAA /* FoodManager.m in Sources */,
 				9812886B1EC00D110082D1A6 /* CarbsViewController.m in Sources */,
 				F7B2EBAA1E4BEE6200955EE6 /* AppDelegate.m in Sources */,
