@@ -57,17 +57,28 @@
 }
 
 - (IBAction)sendMail:(id)sender {
-        
+    
+
+    
     MFMailComposeViewController *mail=[[MFMailComposeViewController alloc]init];
     mail.mailComposeDelegate=self;
     [mail setSubject:@"Reporte glink"];
     [mail addAttachmentData:self.pdfData mimeType:@"application/pdf" fileName:@"reporte_glink.pdf"];
     NSString * body = @"Reporte de salud actualizado de los ultimos meses";
     [mail setMessageBody:body isHTML:NO];
+    
+    NSString *tagString = [NSString stringWithFormat:@"%li", (long)201];
+    NSString *recipient =[[NSUserDefaults standardUserDefaults] objectForKey:tagString];
+    if (recipient) {
+        NSArray *toRecipents = [NSArray arrayWithObject:recipient];
+        [mail setToRecipients:toRecipents];
+    }
     if (mail) {
         [self presentViewController:mail animated:YES completion:nil];
     }
 }
+
+
 
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(nullable NSError *)error
 {
