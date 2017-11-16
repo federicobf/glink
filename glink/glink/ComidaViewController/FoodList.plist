@@ -35,7 +35,7 @@
 		<string>Verduras Feculentas en Conserva</string>
 		<string>Verduras Feculentas</string>
 	</array>
-	<key>Dulces</key>
+	<key>Accesorios</key>
 	<array>
 		<string>Aderezos</string>
 		<string>Alfajores</string>
@@ -121,7 +121,7 @@
 		<string>Lipidos</string>
 		<string>Lacteos</string>
 		<string>Vegetales</string>
-		<string>Dulces</string>
+		<string>Accesorios</string>
 		<string>Bebidas</string>
 	</array>
 </dict>

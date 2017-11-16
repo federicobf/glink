@@ -10,5 +10,6 @@
 
 @interface StartViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *untickImage;
+@property (weak, nonatomic) IBOutlet UIImageView *secondUntickImage;
 
 @end

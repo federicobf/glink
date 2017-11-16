@@ -12,29 +12,54 @@
 @interface StartViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property BOOL ticked;
+@property BOOL secondTicked;
 @end
 
 @implementation StartViewController
 
 
-- (IBAction)tickon:(id)sender
+- (IBAction)tickon2:(id)sender
 {
-    UIColor *lightBlue = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
-    UIColor *darkGray =[UIColor colorWithRed:142/255.f green:142/255.f blue:147/255.f alpha:1];
+
     if (self.ticked) {
         self.untickImage.image = [UIImage imageNamed:@"tickoff"];
-        self.startButton.backgroundColor = darkGray;
     } else {
         self.untickImage.image = [UIImage imageNamed:@"tickon"];
-        self.startButton.backgroundColor = lightBlue;
     }
     
     self.ticked = !self.ticked;
+    
+    [self updateButton];
+}
+- (IBAction)tickon:(id)sender
+{
+    if (self.secondTicked) {
+        self.secondUntickImage.image = [UIImage imageNamed:@"tickoff"];
+    } else {
+        self.secondUntickImage.image = [UIImage imageNamed:@"tickon"];
+    }
+    
+    
+    self.secondTicked = !self.secondTicked;
+    [self updateButton];
+}
+
+- (void) updateButton
+{
+    UIColor *lightBlue = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *darkGray =[UIColor colorWithRed:142/255.f green:142/255.f blue:147/255.f alpha:1];
+    if (self.ticked && self.secondTicked) {
+        self.startButton.backgroundColor = lightBlue;
+    } else {
+        self.startButton.backgroundColor = darkGray;
+    }
+    
+
 }
 
 - (IBAction)nextStep:(id)sender {
     
-    if (self.ticked) {
+    if (self.ticked && self.secondTicked) {
         [self performSegueWithIdentifier:@"nextStep"sender:nil];
         self.tabBarController.selectedIndex = 2;
     } else {

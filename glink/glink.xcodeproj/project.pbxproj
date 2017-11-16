@@ -165,6 +165,9 @@
 		98B5C9DC1F0957F200BC181E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B5C9DB1F0957F200BC181E /* MessageUI.framework */; };
 		98B5C9DF1F095B3100BC181E /* PresentationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B5C9DE1F095B3100BC181E /* PresentationItem.m */; };
 		98B5C9E11F096D9B00BC181E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B5C9E01F096D9B00BC181E /* MapKit.framework */; };
+		98E1EAE01FB934BA00A4D821 /* TermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E1EADF1FB934BA00A4D821 /* TermsViewController.m */; };
+		98E1EAE21FB941F600A4D821 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E1EAE11FB941F600A4D821 /* CustomSlider.swift */; };
+		98E1EAE61FB9498000A4D821 /* terms.html in Resources */ = {isa = PBXBuildFile; fileRef = 98E1EAE51FB9498000A4D821 /* terms.html */; };
 		98F5EADC1F30292E00F89868 /* FakeStatisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5EADB1F30292E00F89868 /* FakeStatisticCell.m */; };
 		98F5EADF1F30428B00F89868 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5EADE1F30428B00F89868 /* CustomTabBarViewController.m */; };
 		F79CCF1D1E663097008F9E3A /* MedicalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79CCF1C1E663097008F9E3A /* MedicalProfileViewController.m */; };
@@ -411,6 +414,10 @@
 		98B5C9DD1F095B3100BC181E /* PresentationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationItem.h; sourceTree = "<group>"; };
 		98B5C9DE1F095B3100BC181E /* PresentationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationItem.m; sourceTree = "<group>"; };
 		98B5C9E01F096D9B00BC181E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		98E1EADE1FB934BA00A4D821 /* TermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsViewController.h; sourceTree = "<group>"; };
+		98E1EADF1FB934BA00A4D821 /* TermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsViewController.m; sourceTree = "<group>"; };
+		98E1EAE11FB941F600A4D821 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		98E1EAE51FB9498000A4D821 /* terms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms.html; sourceTree = "<group>"; };
 		98F5EADA1F30292E00F89868 /* FakeStatisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeStatisticCell.h; sourceTree = "<group>"; };
 		98F5EADB1F30292E00F89868 /* FakeStatisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeStatisticCell.m; sourceTree = "<group>"; };
 		98F5EADD1F30428B00F89868 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
@@ -567,6 +574,7 @@
 				981288741EC7D8280082D1A6 /* TouchScrollView.m */,
 				981288DE1EC8FC070082D1A6 /* TouchSlider.h */,
 				981288DF1EC8FC070082D1A6 /* TouchSlider.m */,
+				98E1EAE11FB941F600A4D821 /* CustomSlider.swift */,
 			);
 			name = Sliders;
 			sourceTree = "<group>";
@@ -1032,6 +1040,9 @@
 				98B5C9DE1F095B3100BC181E /* PresentationItem.m */,
 				98F5EADA1F30292E00F89868 /* FakeStatisticCell.h */,
 				98F5EADB1F30292E00F89868 /* FakeStatisticCell.m */,
+				98E1EADE1FB934BA00A4D821 /* TermsViewController.h */,
+				98E1EADF1FB934BA00A4D821 /* TermsViewController.m */,
+				98E1EAE51FB9498000A4D821 /* terms.html */,
 				98B5C9D51F09475000BC181E /* PresentationView.xib */,
 				9818B03C1EFF8FA8008AB0F6 /* New item */,
 				9818B0381EF76572008AB0F6 /* Statistics */,
@@ -1291,6 +1302,7 @@
 				F7A33AF81ED2AB5400D6E0F3 /* Amargos.json in Resources */,
 				981E90991E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json in Resources */,
 				981E90BE1E902A66003456AB /* Premezclas.json in Resources */,
+				98E1EAE61FB9498000A4D821 /* terms.html in Resources */,
 				981E90B81E902A66003456AB /* Panes integrales.json in Resources */,
 				981E90CB1E902A66003456AB /* Cremas.json in Resources */,
 				981E90C71E902A66003456AB /* Verduras Feculentas en Conserva.json in Resources */,
@@ -1334,6 +1346,7 @@
 				981E90F81E9149D1003456AB /* SelectGroupViewController.m in Sources */,
 				981288751EC7D8280082D1A6 /* TouchScrollView.m in Sources */,
 				98F5EADC1F30292E00F89868 /* FakeStatisticCell.m in Sources */,
+				98E1EAE21FB941F600A4D821 /* CustomSlider.swift in Sources */,
 				981E90201E9029FE003456AB /* FoodItem.m in Sources */,
 				980679F21F25AD09002A6F1A /* ZAlertView.swift in Sources */,
 				981288661EBFB2320082D1A6 /* HealthDTO.m in Sources */,
@@ -1368,6 +1381,7 @@
 				984F97AE1EA4122900F6F52E /* StrippedView.m in Sources */,
 				F7E1E7D91EAD43780011911F /* AddFoodViewController.m in Sources */,
 				981288DB1EC839870082D1A6 /* StartViewController.m in Sources */,
+				98E1EAE01FB934BA00A4D821 /* TermsViewController.m in Sources */,
 				9818B0371EF76550008AB0F6 /* StatisticsViewController.m in Sources */,
 				F7E1E7DC1EAFE9D80011911F /* SuccessViewController.m in Sources */,
 				98F5EADF1F30428B00F89868 /* CustomTabBarViewController.m in Sources */,

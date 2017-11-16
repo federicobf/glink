@@ -24,12 +24,15 @@ extern const float kMinGlucemiaOK;
 extern const float kMaxGlucemiaOK;
 
 extern const float kMinRelacion;
+extern const float kDefRelacion;
 extern const float kMaxRelacion;
 
 extern const float kMinTarget;
+extern const float kDefTarget;
 extern const float kMaxTarget;
 
 extern const float kMinSensibilidad;
+extern const float kDefSensibilidad;
 extern const float kMaxSensibilidad;
 
 extern const float kMinInsulina;

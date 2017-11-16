@@ -23,11 +23,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 1) {
-        [self sendEmailTo:@"info@glink.com"];
+        [self sendEmailTo:@"info@glink.com.ar"];
     }
     
     if (indexPath.row == 2) {
         [self gotoReviews];
+    }
+    
+    if (indexPath.row == 3) {
+        [self performSegueWithIdentifier:@"terms" sender:nil];
     }
 }
 

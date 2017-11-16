@@ -67,7 +67,12 @@
 
 - (IBAction)continuar:(id)sender {
     
-    if (self.relSlider.value == 0 && self.objetivoSlider.value == 0 && self.sensibilidadSlider.value == 0) {
+    float relationValue = self.relSlider.value * (kMaxRelacion - kMinRelacion) + kMinRelacion;
+    float targetValue = self.objetivoSlider.value * (kMaxTarget - kMinTarget) + kMinTarget;
+    float sensibilidadvalue = self.sensibilidadSlider.value * (kMaxSensibilidad - kMinSensibilidad) + kMinSensibilidad;
+    if (fabs (relationValue - kDefRelacion) < .1f &&
+        fabs (targetValue - kDefTarget) < .1f &&
+        fabs (sensibilidadvalue - kDefSensibilidad) < .1f) {
         [self advertenciaStep];
     } else {
         [self continueStep];
@@ -84,7 +89,7 @@
     
     
     
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Advertencia" message:@"Usted no ha modificado los valores minimos preconfigurados. Recuerde que es importante que datermine estos valores con su medico para que los resultados del cálculo sean válidos." alertType:AlertTypeMultipleChoice];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Advertencia" message:@"Usted no ha modificado los valores preconfigurados. Recuerde que es importante que datermine estos valores con su medico para que los resultados del cálculo sean válidos." alertType:AlertTypeMultipleChoice];
     
     
     [alert addButton:@"He revisado este dato" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
@@ -257,17 +262,25 @@
 
 - (void) preloadMinimumValues
 {
-    NSString *relationText = [NSString stringWithFormat:@"%.0f", kMinRelacion];
+    NSString *relationText = [NSString stringWithFormat:@"%.0f", kDefRelacion];
     self.relLabel.text = relationText;
-    self.relSlider.value = 0;
     
-    NSString *targetText = [NSString stringWithFormat:@"%.0f", kMinTarget];
+    NSString *targetText = [NSString stringWithFormat:@"%.0f", kDefTarget];
     self.objetivoLabel.text = targetText;
-    self.objetivoSlider.value = 0;
+
     
-    NSString *sensibilidadText = [NSString stringWithFormat:@"%.0f", kMinSensibilidad];
+    NSString *sensibilidadText = [NSString stringWithFormat:@"%.0f", kDefSensibilidad];
     self.sensibilidadLabel.text = sensibilidadText;
-    self.sensibilidadSlider.value = 0;
+    
+    
+    float sliderValue = (kDefRelacion - kMinRelacion) / (kMaxRelacion - kMinRelacion);
+    self.relSlider.value = sliderValue;
+    
+    float slider2Value = (kDefTarget - kMinTarget) / (kMaxTarget - kMinTarget);
+    self.objetivoSlider.value = slider2Value;
+    
+    float slider3Value = (kDefSensibilidad - kMinSensibilidad) / (kMaxSensibilidad - kMinSensibilidad);
+    self.sensibilidadSlider.value = slider3Value;
 }
 
 @end

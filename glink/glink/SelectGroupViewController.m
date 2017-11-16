@@ -106,7 +106,7 @@
             return @"Carbohidratos";
             break;
         case 1:
-            return @"Dulces";
+            return @"Accesorios";
             break;
         case 2:
             return @"Lacteos";
@@ -137,7 +137,7 @@
             return @"Carbohidratos";
             break;
         case 1:
-            return @"Dulces";
+            return @"Accesorios";
             break;
         case 2:
             return @"Lacteos";
