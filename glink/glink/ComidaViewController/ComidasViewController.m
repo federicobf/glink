@@ -50,6 +50,7 @@
     self.segmentedScrollView.alpha = 0;
     [self.searchBar setBackgroundImage:[[UIImage alloc]init]];
     self.searchBar.delegate = self;
+    self.searchBar.tintColor = [UIColor blackColor];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.nextButton.layer.cornerRadius = 20;

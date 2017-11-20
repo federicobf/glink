@@ -9,10 +9,12 @@
 #import "GlucemiaViewController.h"
 #import "HealthManager.h"
 #import "glink-Swift.h"
+#import "CarbsViewController.h"
 
 @interface GlucemiaViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *stepcounter;
+@property (nonatomic) BOOL startWithZero;
 
 @end
 
@@ -20,12 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.startWithZero = YES;
     self.nextButton.layer.cornerRadius = 23;
     self.nextButton.layer.masksToBounds = YES;
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.delegate = self;
     self.scrollView.contentInset = UIEdgeInsetsMake(0, [UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2);
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"ftuSeen"];
+    self.firstUse = YES;
+    self.amountLabel.text = [NSString stringWithFormat:@"0"];
+    
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -34,6 +40,11 @@
     self.strippedView.alpha = 0;
     [self doTextColorCheck];
     [self stepCounterUpdate];
+    if (self.startWithZero) {
+        self.amountLabel.text = [NSString stringWithFormat:@"0"];
+    }
+    
+
 }
 
 - (void) stepCounterUpdate
@@ -49,11 +60,27 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
     [self.strippedView drawLines];
     self.strippedView.alpha = 0;
     [UIView animateWithDuration:.5f delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.strippedView.alpha = 1;
     } completion:nil];
+    
+    if (self.startWithZero) {
+        self.amountLabel.text = [NSString stringWithFormat:@"0"];
+        self.startWithZero = NO;
+    }
+    
+    if (self.firstUse && ![self isKindOfClass:[CarbsViewController class]])
+    {
+        CGFloat autovalue = 0;
+        self.amountLabel.text = [NSString stringWithFormat:@"%.0f", autovalue];
+        float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width;
+        CGRect size = CGRectMake(distanciaX, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
+        [self.scrollView scrollRectToVisible:size animated:NO];
+        self.firstUse = NO;
+    }
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
@@ -70,6 +97,9 @@
     }
     
     self.amountLabel.text = [NSString stringWithFormat:@"%.0f", glucemia];
+    if (self.startWithZero) {
+        self.amountLabel.text = [NSString stringWithFormat:@"0"];
+    }
     [self doTextColorCheck];
 }
 

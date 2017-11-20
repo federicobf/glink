@@ -15,5 +15,6 @@
 @property CGFloat initialValue;
 @property (weak, nonatomic) IBOutlet StrippedView *strippedView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (nonatomic) BOOL firstUse;
 
 @end

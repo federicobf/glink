@@ -35,6 +35,8 @@
 {
     [super viewWillAppear:animated];
     [self stepCounterUpdate];
+    if (self.firstUse)
+    self.amountLabel.text = [NSString stringWithFormat:@"0"];
 }
 
 - (void) stepCounterUpdate
@@ -50,13 +52,15 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    if (self.initialValue) {
-        self.amountLabel.text = [NSString stringWithFormat:@"%.0f", self.initialValue];
-        float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width;
-        CGRect size = CGRectMake(distanciaX, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
-        [self.scrollView scrollRectToVisible:size animated:YES];
-        [self performSelector:@selector(autoScroll) withObject:nil afterDelay:.2f];
-    }
+        if (self.firstUse) {
+    CGFloat autovalue = self.initialValue? : 0;
+    self.amountLabel.text = [NSString stringWithFormat:@"%.0f", autovalue];
+    float distanciaX =  self.initialValue*3.0f - [UIScreen mainScreen].bounds.size.width;
+    CGRect size = CGRectMake(distanciaX, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
+    [self.scrollView scrollRectToVisible:size animated:(autovalue != 0)];
+    [self performSelector:@selector(autoScroll) withObject:nil afterDelay:.2f];
+            self.firstUse = NO;
+        }
 }
 
 - (void) autoScroll
