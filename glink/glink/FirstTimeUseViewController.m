@@ -123,20 +123,20 @@
     
     switch (page) {
         case 0:
-            titleString = @"Calcula tu medida de bolo";
-            descriptionString = @"Calcula la cantidad de bolo que necesites suministrarte para tu comida diaria.";
+            titleString = @"Calcule su medida de bolo";
+            descriptionString = @"Calcule la cantidad de bolo que necesita suministrarse para su comida diaria.";
             break;
         case 1:
-            titleString = @"Busca entre un completo listado de alimentos";
-            descriptionString = @"Un listado de alimentos con información nutricional para saber qué vas a ingerir.";
+            titleString = @"Busque entre un completo listado de alimentos";
+            descriptionString = @"Un listado de alimentos con información nutricional para saber qué va a ingerir.";
             break;
         case 2:
-            titleString = @"Mantén un seguimiento de tu salud";
-            descriptionString = @"Los gráficos y las estadísticas te permiten a tí y tu médico personal hacer un seguimiento de tu salud.";
+            titleString = @"Manténga un seguimiento de tu salud";
+            descriptionString = @"Los gráficos y las estadísticas le permiten a usted y a su médico personal hacer un seguimiento de su salud.";
             break;
         case 3:
-            titleString = @"Envía a tu médico un informe completo";
-            descriptionString = @"Rápidamente y en formato PDF puedes enviar a tu médico personal las últimas mediciones y estadísticas de tu diabetes.";
+            titleString = @"Envíe a su médico un informe completo";
+            descriptionString = @"Rápidamente y en formato PDF puede enviar a su médico personal las últimas mediciones y estadísticas de su diabetes.";
             break;
         default:
             break;

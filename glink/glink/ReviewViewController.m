@@ -173,7 +173,7 @@
     UIColor *textColor = [UIColor whiteColor];
     ZAlertView.buttonHeight = 20;
     
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Dosis Parcial" message:@"Si tienes pensado realizar ejercicio debes aplicarte una dosis parcial acorde al porcentaje (%) de reducción recomendado por tu médico." alertType:AlertTypeMultipleChoice];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Dosis Parcial" message:@"Si tiene pensado realizar ejercicio debe aplicarse una dosis parcial acorde al porcentaje (%) de reducción recomendado por su médico." alertType:AlertTypeMultipleChoice];
     
     for (NSNumber *value in @[@10,@20,@30,@40,@50,@60,@70,@80,@90]) {
         float alpha = ( 200.f - value.floatValue) / 200.f;

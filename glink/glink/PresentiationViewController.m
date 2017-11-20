@@ -92,7 +92,7 @@
     {
         case MFMailComposeResultCancelled:
         {
-            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail cancelado" message:@"Tu reporte se canceló correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail cancelado" message:@"Su reporte se canceló correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
                 [alertview dismissAlertView];
             }];
             [alert show];
@@ -100,7 +100,7 @@
             break;
         case MFMailComposeResultSaved:
         {
-            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail guardado" message:@"Tu reporte se guardó correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail guardado" message:@"Su reporte se guardó correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
                 [alertview dismissAlertView];
             }];
             [alert show];
@@ -108,7 +108,7 @@
             break;
         case MFMailComposeResultSent:
         {
-            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail enviado" message:@"Tu reporte se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Mail enviado" message:@"Su reporte se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
                 [alertview dismissAlertView];
             }];
             [alert show];
@@ -118,7 +118,7 @@
         case MFMailComposeResultFailed:
             NSLog(@"Mail sent failure: %@", [error localizedDescription]);
         {
-            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Tu reporte no se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+            ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Su reporte no se envió correctamente" closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
                 [alertview dismissAlertView];
             }];
             [alert show];

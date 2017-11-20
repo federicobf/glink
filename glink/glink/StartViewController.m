@@ -64,7 +64,7 @@
         self.tabBarController.selectedIndex = 2;
     } else {
         
-        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Terminos y condiciones" message:@"Por favor acepta los terminos y condiciones de la app antes de empezar a utilizarla." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Términos y condiciones" message:@"Por favor acepte los términos y condiciones de la app antes de empezar a utilizarla." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
             [alertview dismissAlertView];
         }];
         [alert show];

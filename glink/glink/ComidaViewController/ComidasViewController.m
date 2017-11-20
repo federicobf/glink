@@ -522,7 +522,7 @@ self.segmentedConstraint.constant = 60;
     }
     
     if ([FoodManager sharedInstance].selectionsDictionary.allKeys.count == 0) {
-        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Por favor agrega al menos una porción en alguno de los items disponibles para poder continuar." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Por favor agregue al menos una porción en alguno de los items disponibles para poder continuar." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
             [alertview dismissAlertView];
         }];
         [alert show];

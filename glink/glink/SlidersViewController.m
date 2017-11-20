@@ -160,7 +160,7 @@
     UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     UIColor *textColor = [UIColor whiteColor];
     
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Guardar valores" message:@"Elige cual es la comida en la que quieres que se carguen automáticamente estos datos:" alertType:AlertTypeMultipleChoice];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Guardar valores" message:@"Elija cual es la comida en la que quiere que se carguen automáticamente estos datos:" alertType:AlertTypeMultipleChoice];
     
     
     [alert addButton:@"Desayuno" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {

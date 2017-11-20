@@ -50,7 +50,7 @@
 - (void) checkAndSend
 {
     if (self.nameTextfield.text.length == 0) {
-        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Completa el campo de sugerencias." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
+        ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Error" message:@"Complete el campo de sugerencias." closeButtonText:@"De acuerdo" closeButtonHandler:^(ZAlertView * _Nonnull alertview) {
             [alertview dismissAlertView];
         }];
         [alert show];

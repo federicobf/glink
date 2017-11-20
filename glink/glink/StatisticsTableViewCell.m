@@ -138,7 +138,7 @@
     UIColor *textColor = [UIColor whiteColor];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat: @"hh:mm"];
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Borrar entrada" message:@"Selecciona la entrada que deseas borrar" alertType:AlertTypeMultipleChoice];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Borrar entrada" message:@"Seleccione la entrada que deseas borrar" alertType:AlertTypeMultipleChoice];
     
 
     for (HealthDTO *item in healthDayDTO.healthItems) {
@@ -150,7 +150,7 @@
             if (success) {
                 [self alertClearFinishWithTitle:@"Entrada borrada" message:description];
             } else {
-                [self alertClearFinishWithTitle:@"Entrada no borrada" message:@"Algo falló borrando la entrada, intenta nuevamente más tarde."];
+                [self alertClearFinishWithTitle:@"Entrada no borrada" message:@"Algo falló borrando la entrada, intente nuevamente más tarde."];
             }
         }];
 
