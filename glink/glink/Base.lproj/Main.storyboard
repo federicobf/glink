@@ -258,7 +258,17 @@ la revisión de su médico personal.</string>
                                     <constraint firstAttribute="width" constant="240" id="52X-f6-d3p"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Al comenzar la aplicación a usar declaro que soy mayor de edad y acepto los ">
+                                    <fragment content="Al comenzar a usar">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" la aplicación">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" declaro que soy mayor de edad y acepto los ">
                                         <attributes>
                                             <font key="NSFont" metaFont="smallSystem"/>
                                         </attributes>
@@ -3964,7 +3974,7 @@ Agregar Nuevo</string>
         <image name="whitebg" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ypd-00-duY"/>
+        <segue reference="UhU-YC-MNb"/>
         <segue reference="iou-q5-Bdg"/>
         <segue reference="PH7-x8-cKg"/>
         <segue reference="vws-1q-c5H"/>
