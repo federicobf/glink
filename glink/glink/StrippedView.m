@@ -44,11 +44,11 @@
         }
         
         UIView *line = [UIView new];
-        float posx = -300 + 15 * x -1.f;
+        float posx = -300 + 60 * x -1.f;
         line.frame = CGRectMake(posx, position , widht, height);
 
         
-        float numeroActual = posx / 3;
+        float numeroActual = posx / 12;
         
         if (numeroActual < [self minRed] || numeroActual > [self maxRed]) {
             line.backgroundColor = [UIColor colorWithRed:1 green:.2f blue:.2f alpha:.3f];

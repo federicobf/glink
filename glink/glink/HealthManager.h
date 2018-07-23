@@ -13,10 +13,12 @@
 
 extern const float kMinCH;
 extern const float kMaxCH;
+extern const float kMaxStatCH;
 extern const float kWarnCH;
 
 extern const float kMinGlucemia;
 extern const float kMaxGlucemia;
+extern const float kMaxStatGlucemia;
 extern const float kHipoGlucemia;
 extern const float kHiperGlucemia;
 
@@ -36,6 +38,7 @@ extern const float kDefSensibilidad;
 extern const float kMaxSensibilidad;
 
 extern const float kMinInsulina;
+extern const float kMaxStatInsulina;
 extern const float kMaxInsulina;
 
 #define kHelpCarbohidratos @"Este valor debe ser completado con la cantidad de carbohidratos que usted va a ingerir en la comida próxima";

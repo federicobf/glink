@@ -36,7 +36,7 @@
 
 - (NSArray *) helpersX
 {
-    return @[@"Desayuno",@" ",@"Almuerzo",@" ",@"Merienda",@" ",@"Cena"];
+    return @[];
 }
 
 @end

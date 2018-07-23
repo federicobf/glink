@@ -86,7 +86,7 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     float distanciaX = scrollView.contentOffset.x + [UIScreen mainScreen].bounds.size.width/2;
-    float glucemia = distanciaX / 3.f;
+    float glucemia = distanciaX / 12.f;
     
     if (glucemia < 0) {
         glucemia = 0;

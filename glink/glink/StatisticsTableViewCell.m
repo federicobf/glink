@@ -108,13 +108,13 @@
     UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     UIColor *textColor = [UIColor whiteColor];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat: @"hh:mm"];
+    [formatter setDateFormat: @"hh:mm a"];
     
     NSString *description = @"Estos son los registros del dia:";
     for (HealthDTO *item in healthDayDTO.healthItems) {
         
         NSString *hora = [formatter stringFromDate:item.date];
-        description = [NSString stringWithFormat:@"%@\n%@- G:%.0f - CH:%.0f - In:%.2f",description, hora, item.glucemia, item.carbohidratos, item.insulina];
+        description = [NSString stringWithFormat:@"%@\n%@: G:%.0f - CH:%.0f - In:%.2f",description, hora, item.glucemia, item.carbohidratos, item.insulina];
     }
     
     
@@ -137,13 +137,13 @@
     UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
     UIColor *textColor = [UIColor whiteColor];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat: @"hh:mm"];
+    [formatter setDateFormat: @"hh:mm a"];
     ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Borrar entrada" message:@"Seleccione la entrada que deseas borrar" alertType:AlertTypeMultipleChoice];
     
 
     for (HealthDTO *item in healthDayDTO.healthItems) {
         NSString *hora = [formatter stringFromDate:item.date];
-        NSString *description = [NSString stringWithFormat:@"%@- G:%.0f - CH:%.0f - In:%.2f", hora, item.glucemia, item.carbohidratos, item.insulina];
+        NSString *description = [NSString stringWithFormat:@"%@", hora];
         [alert addButton:description color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
             [alertview dismissAlertView];
             BOOL success = [[HealthManager sharedInstance] deleteObject:item];
@@ -188,8 +188,8 @@
         [glucemiaOk autoPinEdge:ALEdgeRight toEdge:ALEdgeRight ofView:self];
         glucemiaOk.backgroundColor = [UIColor colorWithRed:.8f green:.8f blue:.8f alpha:.1f];
         
-        CGFloat centerGlucemia = ((kMinGlucemiaOK - kMinGlucemia) + ((kMaxGlucemiaOK - kMinGlucemiaOK) / 2)) / (kMaxGlucemia - kMinGlucemia);
-        CGFloat heightRatioGlucemia = (kMaxGlucemiaOK - kMinGlucemiaOK) / (kMaxGlucemia - kMinGlucemia);
+        CGFloat centerGlucemia = ((kMinGlucemiaOK - kMinGlucemia) + ((kMaxGlucemiaOK - kMinGlucemiaOK) / 2)) / (kMaxStatGlucemia - kMinGlucemia);
+        CGFloat heightRatioGlucemia = (kMaxGlucemiaOK - kMinGlucemiaOK) / (kMaxStatGlucemia - kMinGlucemia);
         
         [self addConstraints:@[
                                [NSLayoutConstraint constraintWithItem:glucemiaOk
@@ -211,6 +211,15 @@
         
     }
     
+    UIView *inferiorBorder = [[UIView alloc] initForAutoLayout];
+    inferiorBorder.backgroundColor = [UIColor whiteColor];
+    inferiorBorder.alpha = .5f;
+    [self addSubview:inferiorBorder];
+    [inferiorBorder autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self];
+    [inferiorBorder autoAlignAxisToSuperviewAxis:ALAxisVertical];
+    [inferiorBorder autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
+    [inferiorBorder autoSetDimension:ALDimensionHeight toSize:16.0f];
+    
     
     NSArray* helpersX = [self helpersX];
     CGFloat count = 0;
@@ -218,26 +227,16 @@
 
         count++;
         
-        CGFloat multiplier = 2*(count/(helpersX.count+1));
-        
+        CGFloat multiplier = (count/(helpersX.count-1));
+        multiplier = 0.25f/(helpersX.count-1) + 5.0f/6.0f * multiplier;
         UILabel* label = [[UILabel alloc] initForAutoLayout];
         [self addSubview:label];
         label.text = str;
         label.textColor = [UIColor grayColor];
+        label.textAlignment = NSTextAlignmentCenter;
         [label autoPinEdge:ALEdgeBottom toEdge:ALEdgeBottom ofView:self];
         [label setFont:[UIFont systemFontOfSize:10]];
-        
-        [self addConstraints:@[
-                               [NSLayoutConstraint constraintWithItem:label
-                                                            attribute:NSLayoutAttributeCenterX
-                                                            relatedBy:NSLayoutRelationEqual
-                                                               toItem:self
-                                                            attribute:NSLayoutAttributeCenterX
-                                                           multiplier: multiplier
-                                                             constant:0]
-                               ]
-         ];
-        
+        [label autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:[UIScreen mainScreen].bounds.size.width * multiplier];
     }
     
     NSMutableArray* helpersY = [NSMutableArray new];
@@ -246,7 +245,7 @@
     
         for (int x = 0; x < 6; x++) {
            
-            CGFloat currentValue = ((kMaxGlucemia - kMinGlucemia)* x/5.0f)+kMinGlucemia;
+            CGFloat currentValue = ((kMaxStatGlucemia - kMinGlucemia)* x/5.0f)+kMinGlucemia;
             [helpersY addObject:[NSString stringWithFormat:@"%i", (int) currentValue]];
             
         }
@@ -257,7 +256,7 @@
         
         for (int x = 0; x < 6; x++) {
             
-            CGFloat currentValue = ((kMaxCH - kMinCH)* x/5.0f)+kMinCH;
+            CGFloat currentValue = ((kMaxStatCH - kMinCH)* x/5.0f)+kMinCH;
             [helpersY addObject:[NSString stringWithFormat:@"%i", (int) currentValue]];
             
         }
@@ -268,13 +267,21 @@
         
         for (int x = 0; x < 6; x++) {
             
-            CGFloat currentValue = ((kMaxInsulina - kMinInsulina)* x/5.0f)+kMinInsulina;
+            CGFloat currentValue = ((kMaxStatInsulina - kMinInsulina)* x/5.0f)+kMinInsulina;
             [helpersY addObject:[NSString stringWithFormat:@"%i", (int) currentValue]];
             
         }
         
     }
 
+    UIView *whiteBorder = [[UIView alloc] initForAutoLayout];
+    whiteBorder.backgroundColor = [UIColor whiteColor];
+    [self addSubview:whiteBorder];
+    [whiteBorder autoMatchDimension:ALDimensionHeight toDimension:ALDimensionHeight ofView:self];
+    [whiteBorder autoAlignAxisToSuperviewAxis:ALAxisHorizontal];
+    [whiteBorder autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:0];
+    [whiteBorder autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self withMultiplier:1.0f/12.0f];
+    
     CGFloat count2 = 0;
     for (NSString* str in helpersY) {
         
@@ -311,7 +318,7 @@
 
 - (NSArray *) helpersX
 {
-    return @[@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm"];
+    return @[@"12am",@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm",@"12am"];
 }
 
 - (void) addTitleLabel: (HealthDayDTO*) day {
@@ -366,19 +373,20 @@
             [whiteCenter autoCenterInSuperview];
             
         CGFloat multiplierDate = (dto.date.timeIntervalSince1970 - [dto getSimpleDate].timeIntervalSince1970)/ 60/60/24;
+            multiplierDate = 1.0f/6.0f + 5.0f/6.0f * multiplierDate;
         CGFloat multiplierValue;
             
             if (type==0) {
-                multiplierValue = (dto.glucemia - kMinGlucemia) / (kMaxGlucemia - kMinGlucemia);
+                multiplierValue = (dto.glucemia - kMinGlucemia) / (kMaxStatGlucemia - kMinGlucemia);
             } else if (type==1) {
-                multiplierValue =  (dto.carbohidratos - kMinCH) / (kMaxCH - kMinCH);
+                multiplierValue =  (dto.carbohidratos - kMinCH) / (kMaxStatCH - kMinCH);
             } else {
-                multiplierValue =  (dto.insulina - kMinInsulina) / (kMaxInsulina - kMinInsulina);
+                multiplierValue =  (dto.insulina - kMinInsulina) / (kMaxStatInsulina - kMinInsulina);
             }
             
         if (self.limitsOn) {
-            if (multiplierValue<=0) {multiplierValue=0.01f;}
-            if (multiplierValue>=1) {multiplierValue=0.99f;}
+            if (multiplierValue<=0) {multiplierValue=0.05f;}
+            if (multiplierValue>=1) {multiplierValue=0.95f;}
         }
             
         [self addConstraints:@[

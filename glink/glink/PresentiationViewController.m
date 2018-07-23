@@ -62,15 +62,40 @@
     [self.presentationView removeFromSuperview];
 }
 
+
+
 - (IBAction)sendMail:(id)sender {
     
-
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Enviar informe" message:@"¿Qué medio deseas utilizar para enviar este archivo?" alertType:AlertTypeMultipleChoice];
     
+    [alert addButton:@"Mail" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [self sendByMail];
+        [alertview dismissAlertView];
+    }];
+    
+    [alert addButton:@"Compartir" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [self sendByShare];
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
+    
+}
+
+
+- (void)sendByShare {
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[@"Reporte de salud actualizado de los últimos meses", self.pdfData] applicationActivities:nil];
+    [self presentViewController:activityViewController animated:YES completion:nil];
+}
+
+- (void) sendByMail {
     MFMailComposeViewController *mail=[[MFMailComposeViewController alloc]init];
     mail.mailComposeDelegate=self;
     [mail setSubject:@"Reporte glink"];
     [mail addAttachmentData:self.pdfData mimeType:@"application/pdf" fileName:@"reporte_glink.pdf"];
-    NSString * body = @"Reporte de salud actualizado de los ultimos meses";
+    NSString * body = @"Reporte de salud actualizado de los últimos meses";
     [mail setMessageBody:body isHTML:NO];
     
     NSString *tagString = [NSString stringWithFormat:@"%li", (long)201];

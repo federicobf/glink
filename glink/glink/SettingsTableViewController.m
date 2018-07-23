@@ -8,6 +8,7 @@
 
 #import "SettingsTableViewController.h"
 #import <MessageUI/MessageUI.h>
+#import "glink-Swift.h"
 
 @interface SettingsTableViewController ()<UITableViewDelegate, MFMailComposeViewControllerDelegate>
 @end
@@ -33,6 +34,34 @@
     if (indexPath.row == 3) {
         [self performSegueWithIdentifier:@"terms" sender:nil];
     }
+    
+    if (indexPath.row == 4) {
+        [self askToErase];
+    }
+}
+
+- (void) askToErase {
+    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
+    UIColor *textColor = [UIColor whiteColor];
+    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Borrar registro" message:@"¿Estás seguro de que deseas borrar todo tu historial de registros de la aplicación?" alertType:AlertTypeMultipleChoice];
+    
+    [alert addButton:@"Borrar ítems" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [self eraseAllData];
+        [alertview dismissAlertView];
+    }];
+    
+    [alert addButton:@"Cancelar" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+        [alertview dismissAlertView];
+    }];
+    
+    [alert show];
+    
+}
+
+- (void) eraseAllData
+{
+    NSMutableArray* items = [NSMutableArray new];
+    [[NSUserDefaults standardUserDefaults] setObject:items forKey:@"HealthItems"];
 }
 
 - (IBAction)gotoReviews

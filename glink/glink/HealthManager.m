@@ -11,12 +11,14 @@
 
 const float kMinCH              = 0.0f;
 const float kMaxCH              = 300.0f;
+const float kMaxStatCH          = 180.0f;
 const float kWarnCH             = 150.0f;
 
 
 const float kMinGlucemia        = 20.0f;
 const float kHipoGlucemia       = 70.0f;
 const float kHiperGlucemia      = 200.0f;
+const float kMaxStatGlucemia    = 300.0f;
 const float kMaxGlucemia        = 500.0f;
 
 const float kMinGlucemiaOK      = 70.0f;
@@ -28,14 +30,15 @@ const float kMaxRelacion        = 40.0f;
 
 const float kMinTarget          = 70.0f;
 const float kDefTarget          = 150.0f;
-const float kMaxTarget          = 300.0f;
+const float kMaxTarget          = 200.0f;
 
 const float kMinSensibilidad    = 5.0f;
 const float kDefSensibilidad    = 50.0f;
 const float kMaxSensibilidad    = 100.0f;
 
-const float kMinInsulina   = 0.0f;
-const float kMaxInsulina    = 20.0f;
+const float kMinInsulina     = 0.0f;
+const float kMaxStatInsulina = 15.0f;
+const float kMaxInsulina     = 20.0f;
 
 @implementation HealthManager
 

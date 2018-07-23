@@ -58,7 +58,7 @@
     [innerCell autoPinEdgesToSuperviewEdges];
     innerCell.type = type;
     innerCell.fillColor = fillColor;
-    innerCell.limitsOn = NO;
+    innerCell.limitsOn = YES;
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     HealthDayDTO* newDay = [HealthDayDTO new];
     [formatter setDateFormat: @"HH:mm"];
@@ -81,7 +81,7 @@
     newDay.date = [NSDate date];
     
     [innerCell configureWithHealthDay:newDay];
-    innerCell.clipsToBounds = YES;
+    innerCell.clipsToBounds = NO;
     innerCell.backgroundColor = [UIColor clearColor];
 }
 
