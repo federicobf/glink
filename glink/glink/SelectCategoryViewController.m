@@ -76,7 +76,12 @@
     
     NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"FoodList" ofType:@"plist"];
     NSDictionary* root = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-    return [root [key] copy];
+    NSArray * array = [root [key] copy];
+    NSComparator comparator = ^NSComparisonResult(id oneString, id anotherString) {
+        return [oneString localizedCaseInsensitiveCompare: anotherString];
+    };
+    NSArray *sortedArray = [array sortedArrayUsingComparator:comparator];
+    return sortedArray;
 }
 
 

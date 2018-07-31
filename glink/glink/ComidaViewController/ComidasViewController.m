@@ -395,7 +395,10 @@ self.segmentedConstraint.constant = 60;
         
         //Sorting of the Array
         NSComparator comparator = ^NSComparisonResult(id aDictionary, id anotherDictionary) {
-            return [[aDictionary objectForKey:@"Comida"] localizedCaseInsensitiveCompare:[anotherDictionary objectForKey:@"Comida"]];
+            NSString *oneString = [aDictionary objectForKey:@"Comida"];
+            NSString *anotherString = [anotherDictionary objectForKey:@"Comida"];
+            
+            return [oneString localizedCaseInsensitiveCompare: anotherString];
         };
         NSArray *sortedArray = [fullOptions sortedArrayUsingComparator:comparator];
         _fullOptions = [NSArray arrayWithArray:sortedArray];
@@ -407,23 +410,30 @@ self.segmentedConstraint.constant = 60;
 - (NSMutableArray *) searchResultForString: (NSString*) string
 {
     NSMutableArray* selectedItems = [NSMutableArray new];
-    NSMutableArray* allFoods = [NSMutableArray new];
-    for (NSDictionary* item in self.fullOptions) {
-        [allFoods addObject:item[@"Comida"]];
-    }
-    
-    NSPredicate* predicate = [NSPredicate predicateWithFormat:@"SELF contains[c] %@", string];
-    NSArray* filteredFoodArray = [allFoods filteredArrayUsingPredicate:predicate];
-    
     for (NSDictionary* item in [self fullOptions]) {
-        for (NSString* food in filteredFoodArray) {
-            if ([item[@"Comida"] isEqualToString:food]) {
+        NSString *comida = item[@"Comida"];
+        if ([comida containsString:string]) {
                 [selectedItems addObject:item];
-            }
         }
     }
-    
-    return selectedItems;
+
+    //Sorting of the Array
+    NSComparator comparator = ^NSComparisonResult(id aDictionary, id anotherDictionary) {
+        NSString *firstString = [aDictionary objectForKey:@"Comida"];
+        NSString *secondString = [anotherDictionary objectForKey:@"Comida"];
+        
+        NSRange range1 = [firstString rangeOfString:string];
+        NSRange range2 = [secondString rangeOfString:string];
+        
+        if (range1.location == range2.location) {
+            return [firstString localizedCaseInsensitiveCompare: secondString];
+        } else {
+            return range1.location > range2.location;
+        }
+
+    };
+    NSArray *sortedArray = [selectedItems sortedArrayUsingComparator:comparator];
+    return sortedArray;
 }
 
 - (void) scrollToItem: (NSString*) item {
@@ -478,8 +488,7 @@ self.segmentedConstraint.constant = 60;
     self.totValue = valorTotal;
     if (valorTotal==-1) {
         return;
-    }    
-    [FoodManager sharedInstance].selectionsDictionary = [NSMutableDictionary new];
+    }
     [self.tableView reloadData];
     [self performSegueWithIdentifier:@"carbsFlow" sender:nil];
     

@@ -9,8 +9,9 @@
 #import "SettingsTableViewController.h"
 #import <MessageUI/MessageUI.h>
 #import "glink-Swift.h"
+#import <StoreKit/StoreKit.h>
 
-@interface SettingsTableViewController ()<UITableViewDelegate, MFMailComposeViewControllerDelegate>
+@interface SettingsTableViewController ()<UITableViewDelegate, MFMailComposeViewControllerDelegate, SKStoreProductViewControllerDelegate>
 @end
 
 @implementation SettingsTableViewController
@@ -65,15 +66,18 @@
 }
 
 - (IBAction)gotoReviews
-{
-    NSString *str = @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa";
-    str = [NSString stringWithFormat:@"%@/wa/viewContentsUserReviews?", str];
-    str = [NSString stringWithFormat:@"%@type=Purple+Software&id=", str];
-    
-    // Here is the app id from itunesconnect
-    str = [NSString stringWithFormat:@"%@1315509045", str];
-    
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+{   
+    if ([SKStoreProductViewController class] != nil) {
+        SKStoreProductViewController* skpvc = [SKStoreProductViewController new];
+        skpvc.delegate = self;
+        NSDictionary* dict = [NSDictionary dictionaryWithObject: @"1315509045" forKey: SKStoreProductParameterITunesItemIdentifier];
+        [skpvc loadProductWithParameters: dict completionBlock: nil];
+        [self presentViewController: skpvc animated: YES completion: nil];
+    }
+}
+
+- (void)productViewControllerDidFinish:(SKStoreProductViewController *)viewController {
+    [viewController dismissViewControllerAnimated: YES completion: nil];
 }
 
 - (void) sendEmailTo: (NSString *) recipient

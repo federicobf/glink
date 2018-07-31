@@ -213,7 +213,7 @@
     
     UIView *inferiorBorder = [[UIView alloc] initForAutoLayout];
     inferiorBorder.backgroundColor = [UIColor whiteColor];
-    inferiorBorder.alpha = .5f;
+    inferiorBorder.alpha = .85f;
     [self addSubview:inferiorBorder];
     [inferiorBorder autoMatchDimension:ALDimensionWidth toDimension:ALDimensionWidth ofView:self];
     [inferiorBorder autoAlignAxisToSuperviewAxis:ALAxisVertical];
@@ -288,8 +288,9 @@
 
         
         CGFloat multiplier = 2 - 2*(count2/(helpersY.count-1));
+        
         if (multiplier==0) {multiplier=.1f;}
-        if (multiplier==2) {multiplier=1.9f;}
+        multiplier = 5.0f/6.0f * multiplier;
         count2++;
         
         UILabel* label = [[UILabel alloc] initForAutoLayout];
@@ -318,7 +319,7 @@
 
 - (NSArray *) helpersX
 {
-    return @[@"12am",@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm",@"12am"];
+    return @[@"12am",@"3am",@"6am",@"9am",@"12pm",@"3pm",@"6pm",@"9pm",@"12  "];
 }
 
 - (void) addTitleLabel: (HealthDayDTO*) day {
@@ -383,6 +384,8 @@
             } else {
                 multiplierValue =  (dto.insulina - kMinInsulina) / (kMaxStatInsulina - kMinInsulina);
             }
+            
+        multiplierValue = 1.0f/6.0f + 5.0f/6.0f * multiplierValue;
             
         if (self.limitsOn) {
             if (multiplierValue<=0) {multiplierValue=0.05f;}

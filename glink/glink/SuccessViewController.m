@@ -9,7 +9,7 @@
 #import "SuccessViewController.h"
 #import "MBProgressHUD.h"
 #import "HealthManager.h"
-
+#import "FoodManager.h"
 @interface SuccessViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *value;
 @property (nonatomic, strong) UIWindow *window;
@@ -45,6 +45,7 @@
     self.value.text = [NSString stringWithFormat:@"%.2f", [[HealthManager sharedInstance] calculoFinalBolo]];
     [MBProgressHUD hideHUDForView:self.window animated:YES];
     [self saveValue];
+    [FoodManager sharedInstance].selectionsDictionary = [NSMutableDictionary new];
 }
 
 - (IBAction)finalize:(id)sender {

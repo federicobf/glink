@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63ECFA7C210EB84900F125A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ECFA7B210EB84900F125A1 /* StoreKit.framework */; };
 		980679F21F25AD09002A6F1A /* ZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980679F11F25AD09002A6F1A /* ZAlertView.swift */; };
 		980679F51F25AD1B002A6F1A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980679F31F25AD1B002A6F1A /* UIColor.swift */; };
 		980679F61F25AD1B002A6F1A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980679F41F25AD1B002A6F1A /* UIImage.swift */; };
@@ -215,6 +216,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63ECFA7B210EB84900F125A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		980679E11F25AA3F002A6F1A /* glink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glink-Bridging-Header.h"; sourceTree = "<group>"; };
 		980679F11F25AD09002A6F1A /* ZAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZAlertView.swift; sourceTree = "<group>"; };
 		980679F31F25AD1B002A6F1A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -465,6 +467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ECFA7C210EB84900F125A1 /* StoreKit.framework in Frameworks */,
 				98B5C9E11F096D9B00BC181E /* MapKit.framework in Frameworks */,
 				98B5C9DC1F0957F200BC181E /* MessageUI.framework in Frameworks */,
 				981288AC1EC8144C0082D1A6 /* FirebaseAnalytics.framework in Frameworks */,
@@ -970,6 +973,7 @@
 		98B5C9DA1F0957F200BC181E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63ECFA7B210EB84900F125A1 /* StoreKit.framework */,
 				98B5C9E01F096D9B00BC181E /* MapKit.framework */,
 				98B5C9DB1F0957F200BC181E /* MessageUI.framework */,
 			);

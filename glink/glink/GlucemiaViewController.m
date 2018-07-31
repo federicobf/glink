@@ -10,6 +10,7 @@
 #import "HealthManager.h"
 #import "glink-Swift.h"
 #import "CarbsViewController.h"
+#import "FoodManager.h"
 
 @interface GlucemiaViewController ()
 
@@ -31,7 +32,6 @@
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"ftuSeen"];
     self.firstUse = YES;
     self.amountLabel.text = [NSString stringWithFormat:@"0"];
-    
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -218,7 +218,7 @@
     }
     
     [HealthManager sharedInstance].glucemia = glucemiaValue;
-    
+    [FoodManager sharedInstance].selectionsDictionary = [NSMutableDictionary new];
     [self performSegueWithIdentifier:@"nextStep" sender:nil];
 }
 
@@ -235,6 +235,7 @@
         [alertview dismissAlertView];
         [HealthManager sharedInstance].glucemia = 0;
         [HealthManager sharedInstance].fakeGlucemia = glucemiaValue;
+        [FoodManager sharedInstance].selectionsDictionary = [NSMutableDictionary new];
         [self performSegueWithIdentifier:@"nextStep" sender:nil];
     }];
     

@@ -65,28 +65,24 @@
 
 
 - (IBAction)sendMail:(id)sender {
-    
-    UIColor *bgColor = [UIColor colorWithRed:0/255.f green:155/255.f blue:238/255.f alpha:1];
-    UIColor *textColor = [UIColor whiteColor];
-    ZAlertView *alert = [[ZAlertView alloc] initWithTitle:@"Enviar informe" message:@"¿Qué medio deseas utilizar para enviar este archivo?" alertType:AlertTypeMultipleChoice];
-    
-    [alert addButton:@"Mail" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
-        [self sendByMail];
-        [alertview dismissAlertView];
-    }];
-    
-    [alert addButton:@"Compartir" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
         [self sendByShare];
-        [alertview dismissAlertView];
-    }];
-    
-    [alert show];
-    
 }
 
 
 - (void)sendByShare {
-    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[@"Reporte de salud actualizado de los últimos meses", self.pdfData] applicationActivities:nil];
+    // create url
+    NSURL *url = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingString:@"Reporte de salud - Glink.pdf"]];
+    [self.pdfData writeToURL:url atomically:NO];
+    
+    // create activity view controller
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:@[url] applicationActivities:nil];
+    [activityViewController setCompletionWithItemsHandler:^(NSString *activityType, BOOL completed, NSArray *returnedItems, NSError *activityError) {
+        //Delete file
+        NSError *errorBlock;
+        if([[NSFileManager defaultManager] removeItemAtURL:url error:&errorBlock] == NO) {
+            return;
+        }
+    }];
     [self presentViewController:activityViewController animated:YES completion:nil];
 }
 

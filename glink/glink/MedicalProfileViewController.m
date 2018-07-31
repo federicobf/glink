@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *profilePhoto;
 @property (strong, nonatomic) IBOutlet UIImage *userPhoto;
 @property (strong, nonatomic) IBOutlet UIImage *doctorPhoto;
+@property (weak, nonatomic) IBOutlet UIButton *keyboardDismisserButton;
 
 @end
 
@@ -31,7 +32,7 @@
     [super viewDidLoad];
     [self createFakeTextfield];
     [self setUpScrollView];
-
+    self.keyboardDismisserButton.hidden = YES;
     
     self.roundContainerView.layer.cornerRadius = self.roundContainerView.bounds.size.width/2;
     self.tableView.separatorColor = [UIColor clearColor];
@@ -261,21 +262,29 @@
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
     if (textField == self.fakeTitleTextfield && self.segmentedControl.selectedSegmentIndex == 0) {
+        textField.text = [textField.text stringByReplacingOccurrencesOfString:@"|" withString:@""];
+        self.titleLabel.text = textField.text;
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Paciente-Title"];
         return;
     }
     
     if (textField == self.fakeTitleTextfield && self.segmentedControl.selectedSegmentIndex == 1) {
+        textField.text = [textField.text stringByReplacingOccurrencesOfString:@"|" withString:@""];
+        self.titleLabel.text = textField.text;
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Medico-Title"];
         return;
     }
     
     if (textField == self.fakeSubtitleTextfield && self.segmentedControl.selectedSegmentIndex == 0) {
+        textField.text = [textField.text stringByReplacingOccurrencesOfString:@"|" withString:@""];
+        self.subtitleLabel.text = textField.text;
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Paciente-Subtitle"];
         return;
     }
     
     if (textField == self.fakeSubtitleTextfield && self.segmentedControl.selectedSegmentIndex == 1) {
+        textField.text = [textField.text stringByReplacingOccurrencesOfString:@"|" withString:@""];
+        self.subtitleLabel.text = textField.text;
         [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"Medico-Subtitle"];
         return;
     }
@@ -298,6 +307,9 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
+    
+    self.keyboardDismisserButton.hidden = NO;
+    
     if (textField.tag == 0) {
         return;
     }
@@ -314,7 +326,14 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
+    self.keyboardDismisserButton.hidden = YES;
     return YES;
+}
+
+- (IBAction)dismissKeyboard:(id)sender {
+    
+    self.keyboardDismisserButton.hidden = YES;
+    [self.view endEditing:YES];
 }
 
 //metodos de texto magico de arriba
@@ -333,13 +352,13 @@
 
 - (IBAction)editLabelName:(id)sender
 {
-    self.titleLabel.text = @"";
+    self.titleLabel.text = @"|";
     self.fakeTitleTextfield.text = self.titleLabel.text;
     [self.fakeTitleTextfield becomeFirstResponder];
 }
 - (IBAction)editLabelMail:(id)sender
 {
-    self.subtitleLabel.text = @"";
+    self.subtitleLabel.text = @"|";
     self.fakeSubtitleTextfield.text = self.subtitleLabel.text;
     [self.fakeSubtitleTextfield becomeFirstResponder];
 }
@@ -347,6 +366,8 @@
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     NSString *newText = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    newText = [newText stringByReplacingOccurrencesOfString:@"|" withString:@""];
+    newText = [NSString stringWithFormat:@"%@|",newText];
     
     if (textField == self.fakeTitleTextfield) {
         self.titleLabel.text = newText;
