@@ -16,10 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"terms" ofType:@"html"];
-    NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
-    [self.webView loadHTMLString:htmlString baseURL: [[NSBundle mainBundle] bundleURL]];
-
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"terms" ofType:@"pdf"];
+    NSURL *targetURL = [NSURL fileURLWithPath:path];
+    NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
+    [self.webView loadRequest:request];
+    self.webView.scalesPageToFit=YES;
 }
 
 - (IBAction)popvc:(id)sender {

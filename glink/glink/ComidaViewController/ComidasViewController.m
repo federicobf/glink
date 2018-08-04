@@ -372,7 +372,12 @@ self.segmentedConstraint.constant = 60;
     
     FoodItem* item = cell.foodItem;
     NSInteger value = [cell.amountTextfield.text integerValue];
-    [[FoodManager sharedInstance].selectionsDictionary setObject:[NSNumber numberWithInteger:value] forKey:item.identificationKey];
+    if (value == 0) {
+        [[FoodManager sharedInstance].selectionsDictionary removeObjectForKey:item.identificationKey];
+    } else {
+        [[FoodManager sharedInstance].selectionsDictionary setObject:[NSNumber numberWithInteger:value] forKey:item.identificationKey];
+    }
+    
 }
 
 - (NSArray *) fullOptions

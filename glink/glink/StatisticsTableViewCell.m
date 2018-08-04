@@ -111,10 +111,13 @@
     [formatter setDateFormat: @"hh:mm a"];
     
     NSString *description = @"Estos son los registros del dia:";
-    for (HealthDTO *item in healthDayDTO.healthItems) {
-        
-        NSString *hora = [formatter stringFromDate:item.date];
-        description = [NSString stringWithFormat:@"%@\n%@: G:%.0f - CH:%.0f - In:%.2f",description, hora, item.glucemia, item.carbohidratos, item.insulina];
+    if (healthDayDTO.healthItems.count > 0) {
+        for (HealthDTO *item in healthDayDTO.healthItems) {
+            NSString *hora = [formatter stringFromDate:item.date];
+            description = [NSString stringWithFormat:@"%@\n%@",description, hora];
+        }
+    } else {
+        description = @"No hay registros disponibles para este día";
     }
     
     
@@ -124,11 +127,12 @@
         [alertview dismissAlertView];
     }];
     
-    [alert addButton:@"Borrar entrada" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
-        [alertview dismissAlertView];
-        [self deleteEntry];
-    }];
-    
+    if (healthDayDTO.healthItems.count > 0) {
+        [alert addButton:@"Borrar entrada" color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
+            [alertview dismissAlertView];
+            [self deleteEntry];
+        }];
+    }
     [alert show];
 }
 
@@ -147,6 +151,9 @@
         [alert addButton:description color:bgColor titleColor:textColor touchHandler:^(ZAlertView * _Nonnull alertview) {
             [alertview dismissAlertView];
             BOOL success = [[HealthManager sharedInstance] deleteObject:item];
+            [[NSNotificationCenter defaultCenter]
+             postNotificationName:@"refreshStatistics"
+             object:self];
             if (success) {
                 [self alertClearFinishWithTitle:@"Entrada borrada" message:description];
             } else {

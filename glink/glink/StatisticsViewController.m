@@ -44,10 +44,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpScrollView];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(refreshInformation)
+                                                 name:@"refreshStatistics"
+                                               object:nil];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [self refreshInformation];
+}
+
+- (void) refreshInformation {
     [self loadGlucemiaData];
     
     self.healthDays =  [[HealthManager sharedInstance].retrieveAllDayItems sortedArrayUsingComparator:^NSComparisonResult(HealthDayDTO* a, HealthDayDTO* b) {
@@ -58,6 +66,7 @@
     }];
     
     NSMutableArray *segmentedDays = [NSMutableArray new];
+    self.lastHealthDay = nil;
     for (HealthDayDTO *day in self.healthDays) {
         [segmentedDays addObject:[day dateKey]];
         self.lastHealthDay = day;

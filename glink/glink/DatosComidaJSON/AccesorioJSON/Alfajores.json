@@ -1,234 +1,282 @@
 [
-  {
-    "Comida":"Bebidas destiladas, promedio de 42º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":116,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Bebidas destiladas, promedio de 45º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":125,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Bebidas destiladas, promedio de 47º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":132,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Bebidas destiladas, promedio de 50º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":138,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Bebidas destiladas, promedio de 53º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":148,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza",
-    "Porcion":"354cc",
-    "Calorias":138,
-    "CH":11,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza light",
-    "Porcion":"354cc",
-    "Calorias":138,
-    "CH":10,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza light, BUDWEISER",
-    "Porcion":"354cc",
-    "Calorias":110,
-    "CH":7,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza Negra",
-    "Porcion":"354cc",
-    "Calorias":131,
-    "CH":10,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza Pilsen",
-    "Porcion":"354cc",
-    "Calorias":149,
-    "CH":11,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza Rubia",
-    "Porcion":"354cc",
-    "Calorias":135,
-    "CH":11,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Cerveza, BUDWEISER",
-    "Porcion":"354cc",
-    "Calorias":145,
-    "CH":11,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Daiquiri",
-    "Porcion":"200cc",
-    "Calorias":372,
-    "CH":14,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Gin, 47º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":132,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Licor de café con crema, 19º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":164,
-    "CH":10,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Licor de café, 34º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":168,
-    "CH":23,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Martini",
-    "Porcion":"200cc",
-    "Calorias":486,
-    "CH":4,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Piña colada",
-    "Porcion":"200cc",
-    "Calorias":348,
-    "CH":45,
-    "Fibras":"1",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Ron, 42º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":116,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Sake",
-    "Porcion":"50cc",
-    "Calorias":67,
-    "CH":3,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Sidra",
-    "Porcion":"150cc",
-    "Calorias":68,
-    "CH":4,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vino Blanco de calidad media",
-    "Porcion":"150cc",
-    "Calorias":107,
-    "CH":4,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vino de postre, dulce",
-    "Porcion":"150cc",
-    "Calorias":240,
-    "CH":21,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vino de postre, seco",
-    "Porcion":"150cc",
-    "Calorias":228,
-    "CH":18,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vino Tinto \"denso\"",
-    "Porcion":"150cc",
-    "Calorias":120,
-    "CH":4,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vino Tinto \"liviano\"",
-    "Porcion":"150cc",
-    "Calorias":101,
-    "CH":4,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Vodka, 42º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":116,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Whisky",
-    "Porcion":"50cc",
-    "Calorias":124,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  },
-  {
-    "Comida":"Whisky, 45º de alcohol",
-    "Porcion":"50cc",
-    "Calorias":125,
-    "CH":0,
-    "Fibras":"0",
-    "FIELD6":""
-  }
+    {
+        "Comida": "Bagley",
+        "Porcion": "1 unidad = 47g",
+        "Calorias": 191,
+        "CH": 28,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Bagley Blanco",
+        "Porcion": "1 unidad = 74g",
+        "Calorias": 303,
+        "CH": 45,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Bagley Negro",
+        "Porcion": "1 unidad = 50g",
+        "Calorias": 203,
+        "CH": 30,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Blanco Tatin",
+        "Porcion": "1 unidad = 33g",
+        "Calorias": 140,
+        "CH": 21,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Bon O Bon Blanco",
+        "Porcion": "1 unidad = 40g",
+        "Calorias": 207,
+        "CH": 23,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Bon O Bon Leche",
+        "Porcion": "1 unidad = 40g",
+        "Calorias": 206,
+        "CH": 23,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Cabsha Blanco",
+        "Porcion": "1 unidad = 47g",
+        "Calorias": 220,
+        "CH": 33,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Cabsha Leche",
+        "Porcion": "1 unidad = 47g",
+        "Calorias": 220,
+        "CH": 33,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Chocoarroz de limón",
+        "Porcion": "1 unidad = 24 g",
+        "Calorias": 118,
+        "CH": 15,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Chocoarroz dulce de leche",
+        "Porcion": "1 unidad = 26 g",
+        "Calorias": 74,
+        "CH": 11,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Chocoarroz Marroc",
+        "Porcion": "1 unidad = 22 g",
+        "Calorias": 108,
+        "CH": 14,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Chocoarroz rellene de Mousse Cachafaz",
+        "Porcion": "1 unidad = 28g",
+        "Calorias": 139,
+        "CH": 17,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Cofler Block",
+        "Porcion": "1 unidad = 47g",
+        "Calorias": 191,
+        "CH": 28,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De d de leche cubierto con baño de repostería",
+        "Porcion": "1 unidad = 55g",
+        "Calorias": 232,
+        "CH": 36,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De chocolate Havanna",
+        "Porcion": "1 unidad = 50g",
+        "Calorias": 200,
+        "CH": 28,
+        "Fibras": 2
+    },
+    {
+        "Comida": "De chocolate Tía Maruca",
+        "Porcion": "1 unidad = 60g",
+        "Calorias": 259,
+        "CH": 39,
+        "Fibras": 0
+    },
+    {
+        "Comida": "De dulce de leche con baño de repostería Havanna",
+        "Porcion": "1 unidad = 50g",
+        "Calorias": 171,
+        "CH": 27,
+        "Fibras": 2
+    },
+    {
+        "Comida": "De dulce de leche cubierto con baño de chocolate Cachafaz",
+        "Porcion": "1 unidad = 60g",
+        "Calorias": 244,
+        "CH": 38,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De dulce de leche cubierto con baño de repostería Grandote 2",
+        "Porcion": "1 unidad = 38g",
+        "Calorias": 171,
+        "CH": 25,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De dulce de leche cubierto con chocolate Cachafaz",
+        "Porcion": "1 unidad = 60g",
+        "Calorias": 244,
+        "CH": 38,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De dulce de leche cubierto en baño azucarado Grandote 2",
+        "Porcion": "1 unidad = 38g",
+        "Calorias": 158,
+        "CH": 29,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De dulce de leche decorado con coco rallado Cachafaz",
+        "Porcion": "1 unidad = 76g",
+        "Calorias": 303,
+        "CH": 52,
+        "Fibras": 1
+    },
+    {
+        "Comida": "De maicena Cachafaz",
+        "Porcion": "1 unidad = 70g",
+        "Calorias": 303,
+        "CH": 52,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Light Cormillot",
+        "Porcion": "1 unidad de 42g",
+        "Calorias": 150,
+        "CH": 26,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Milka Mousse",
+        "Porcion": "1 unidad = 40g",
+        "Calorias": 205,
+        "CH": 24,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Milka Triple Almendras",
+        "Porcion": "1 unidad = 55g",
+        "Calorias": 243,
+        "CH": 32,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Milka Triple Dulce de leche",
+        "Porcion": "1 unidad = 70g",
+        "Calorias": 265,
+        "CH": 42,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Milka Triple Mousse",
+        "Porcion": "1 unidad = 58g",
+        "Calorias": 278,
+        "CH": 33,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Minitorta Águila Brownie",
+        "Porcion": "1 unidad = 74g",
+        "Calorias": 323,
+        "CH": 43,
+        "Fibras": 2
+    },
+    {
+        "Comida": "Minitorta Águila coco",
+        "Porcion": "1 unidad = 73g",
+        "Calorias": 331,
+        "CH": 40,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Negro Tatin",
+        "Porcion": "1 unidad = 33g",
+        "Calorias": 140,
+        "CH": 21,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Oreo",
+        "Porcion": "1 unidad = 55g",
+        "Calorias": 269,
+        "CH": 30,
+        "Fibras": 2
+    },
+    {
+        "Comida": "Pepitos triple",
+        "Porcion": "1 unidad = 57g",
+        "Calorias": 290,
+        "CH": 33,
+        "Fibras": 2
+    },
+    {
+        "Comida": "Regional La Quinta",
+        "Porcion": "1 unidad = 50g",
+        "Calorias": 152,
+        "CH": 22,
+        "Fibras": 0
+    },
+    {
+        "Comida": "Ser",
+        "Porcion": "1 unidad = 48g",
+        "Calorias": 180,
+        "CH": 32,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Terrabusi simple clásico",
+        "Porcion": "1 unidad = 48g",
+        "Calorias": 191,
+        "CH": 29,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Terrabusi simple glaseado",
+        "Porcion": "1 unidad = 48g",
+        "Calorias": 187,
+        "CH": 36,
+        "Fibras": "*"
+    },
+    {
+        "Comida": "Terrabusi Triple",
+        "Porcion": "1 unidad = 70g",
+        "Calorias": 270,
+        "CH": 41,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Tita",
+        "Porcion": "1 unidad = 36g",
+        "Calorias": 184,
+        "CH": 23,
+        "Fibras": 1
+    },
+    {
+        "Comida": "Trishot",
+        "Porcion": "1 unidad = 60g",
+        "Calorias": 308,
+        "CH": 35,
+        "Fibras": 1
+    }
 ]

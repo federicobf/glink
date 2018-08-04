@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63CF51FD2116194100240BFA /* terms.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63CF51FC2116194000240BFA /* terms.pdf */; };
 		63ECFA7C210EB84900F125A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ECFA7B210EB84900F125A1 /* StoreKit.framework */; };
 		980679F21F25AD09002A6F1A /* ZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980679F11F25AD09002A6F1A /* ZAlertView.swift */; };
 		980679F51F25AD1B002A6F1A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980679F31F25AD1B002A6F1A /* UIColor.swift */; };
@@ -216,6 +217,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63CF51FC2116194000240BFA /* terms.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = terms.pdf; sourceTree = "<group>"; };
 		63ECFA7B210EB84900F125A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		980679E11F25AA3F002A6F1A /* glink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glink-Bridging-Header.h"; sourceTree = "<group>"; };
 		980679F11F25AD09002A6F1A /* ZAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZAlertView.swift; sourceTree = "<group>"; };
@@ -1047,6 +1049,7 @@
 				98E1EADE1FB934BA00A4D821 /* TermsViewController.h */,
 				98E1EADF1FB934BA00A4D821 /* TermsViewController.m */,
 				98E1EAE51FB9498000A4D821 /* terms.html */,
+				63CF51FC2116194000240BFA /* terms.pdf */,
 				98B5C9D51F09475000BC181E /* PresentationView.xib */,
 				9818B03C1EFF8FA8008AB0F6 /* New item */,
 				9818B0381EF76572008AB0F6 /* Statistics */,
@@ -1306,6 +1309,7 @@
 				F7A33AF81ED2AB5400D6E0F3 /* Amargos.json in Resources */,
 				981E90991E902A66003456AB /* Dulces Mermeladas Jaleas y Miel.json in Resources */,
 				981E90BE1E902A66003456AB /* Premezclas.json in Resources */,
+				63CF51FD2116194100240BFA /* terms.pdf in Resources */,
 				98E1EAE61FB9498000A4D821 /* terms.html in Resources */,
 				981E90B81E902A66003456AB /* Panes integrales.json in Resources */,
 				981E90CB1E902A66003456AB /* Cremas.json in Resources */,
